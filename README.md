@@ -18,6 +18,8 @@ were either replaced by Modrinth alternatives or removed entirely. Some new mods
 
 - Tinker's Construct
 - Farmer's Delight
+- Iron Chests
+- Iron Furnaces
 
 #### World Generation
 
