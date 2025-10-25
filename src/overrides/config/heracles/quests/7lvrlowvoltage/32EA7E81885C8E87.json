@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4B979482EF026BFF",
+    "5A8F0124E07D5025"
+  ],
+  "tasks": {
+    "2B5BF6F3ED693B9E": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_wiremill"
+    }
+  },
+  "rewards": {
+    "2B736C4992CDC8D1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:copper_single_wire",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Basic Wiremill",
+    "description": [
+      "<subtitle id=\"32EA7E81885C8E87\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2B5BF6F3ED693B9E\" quest=\"32EA7E81885C8E87\"/>",
+      "<hr/>",
+      "You could make any other &&7LV&&r Machine, but it would be easiest to start with the most useful one. We know, we know... you wanna make some of the crazier stuff first, but trust us, this is the best starting point.",
+      "<br/>",
+      "The Wiremill lets you make &&6two Wires from one Ingot&&r. That should be three times cheaper than what you were doing up until now! &&8&&oPlus, aren't you sick of crafting Wire Cutters?&&r",
+      "<br/>",
+      "To the right of this Quest, you'll find some important machines which will grant you cheaper intermediates.",
+      "<br/>",
+      "&&9Note:&&r Recipes inside &&3LV Machines&&r go up to a maximum usage of &&a32 EU/t (LV)&&r. Anything higher than that and you will need a &&bMV&&r (or better) Machine. Needless to say, we aren't quite there yet.",
+      "<br/>",
+      "You will need a &&dProgrammed Circuit&&r for certain recipes. We're sure you don't want to spend a precious Circuit to craft one, so &&6read the dedicated quest for important details&&r.",
+      "<br/>",
+      "With this machine safely crafted - welcome to the age of all things electric!",
+      "<hr/>",
+      "<reward reward=\"2B736C4992CDC8D1\" quest=\"32EA7E81885C8E87\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_wiremill"
+    },
+    "subtitle": {
+      "text": "No more painful wires!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          72,
+          36
+        ]
+      }
+    }
+  }
+}

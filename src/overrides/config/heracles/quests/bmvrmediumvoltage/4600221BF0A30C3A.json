@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4353AB0E20601AEC",
+    "10FB27DD3C7BEC2F"
+  ],
+  "tasks": {
+    "68B5E2667EDAE895": {
+      "type": "heracles:item",
+      "item": "gtceu:plastic_circuit_board"
+    },
+    "46496E3B65CFFFF3": {
+      "type": "heracles:item",
+      "item": "gtceu:plastic_printed_circuit_board"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Plastic Boards",
+    "description": [
+      "<subtitle id=\"4600221BF0A30C3A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"68B5E2667EDAE895\" quest=\"4600221BF0A30C3A\"/>",
+      "<task task=\"46496E3B65CFFFF3\" quest=\"4600221BF0A30C3A\"/>",
+      "<hr/>",
+      "At this point, you have all the tools available to start making Plastic Boards. Higher-tier polymers in future will increase your PCB yields substantially.",
+      "<br/>",
+      "The recipe chains are starting to get pretty long, so we recommend processing large batches in two dedicated &&3Chemical Reactors&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:plastic_printed_circuit_board"
+    },
+    "subtitle": {
+      "text": "It's a Casio on a Plastic Board"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          252,
+          -60
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0009F48B6E385A47"
+  ],
+  "tasks": {
+    "392079FDF410B9FD": {
+      "type": "heracles:item",
+      "item": "ae2:creative_energy_cell"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Creative ME Energy",
+    "description": [
+      "<subtitle id=\"428C62749A1A1BAB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"392079FDF410B9FD\" quest=\"428C62749A1A1BAB\"/>",
+      "<hr/>",
+      "The &&aCreative Energy Cell&&r is one of the few craftable creative items. It provides infinite energy to your AE system, so you don't have to worry about blackouts or power anymore."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:creative_energy_cell"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Ok, maybe there are Creative items."
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          252,
+          -60
+        ]
+      }
+    }
+  }
+}

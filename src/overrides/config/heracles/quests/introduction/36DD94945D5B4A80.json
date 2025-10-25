@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EAF2C5B5EB755C5"
+  ],
+  "tasks": {
+    "3DF01E4FACBB1D53": {
+      "title": "We demand more logs.",
+      "type": "heracles:item",
+      "amount": 48,
+      "item": "#minecraft:logs"
+    }
+  },
+  "rewards": {
+    "5408859E43668198": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Charcoal?",
+    "description": [
+      "<subtitle id=\"36DD94945D5B4A80\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3DF01E4FACBB1D53\" quest=\"36DD94945D5B4A80\"/>",
+      "<hr/>",
+      "Okay, we were generous enough to leave Wood-to-Plank-ratios &&cuntouched&&r, but this is GregTech - charcoal smelting is &&4&&lnot possible&&r in a Furnace. You'll need to make a &&d&&lCoke Oven&&r to get your grubby hands on some &&6charcoal&&r.",
+      "<br/>",
+      "Wooden planks are still pretty good as &&6furnace fuel&&r, especially since you get &&l&&3four&&r from one log.",
+      "<br/>",
+      "If this displeases you - normally you'd be able to &&brevert this back&&r to vanilla behaviour in the &&aGTCEu&&r configs, but the configuration option is bugged. To &&erevert&&r the nerf, you can delete the \"charcoal.js\" script in &&bkubejs/server_scripts&&r!",
+      "<hr/>",
+      "<reward reward=\"5408859E43668198\" quest=\"36DD94945D5B4A80\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:charcoal"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Not here!"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          24,
+          -48
+        ]
+      }
+    }
+  }
+}

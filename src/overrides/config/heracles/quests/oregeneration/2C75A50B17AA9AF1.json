@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "10FC904696261AF3": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_grossular"
+    },
+    "2AB5A89CE949A602": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_spessartine"
+    },
+    "6119F8F02D09746A": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pyrolusite"
+    },
+    "3C4F10C849D57CEE": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_tantalite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Pyrolusite",
+    "description": [
+      "<subtitle id=\"2C75A50B17AA9AF1\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10FC904696261AF3\" quest=\"2C75A50B17AA9AF1\"/>",
+      "<task task=\"2AB5A89CE949A602\" quest=\"2C75A50B17AA9AF1\"/>",
+      "<task task=\"6119F8F02D09746A\" quest=\"2C75A50B17AA9AF1\"/>",
+      "<task task=\"3C4F10C849D57CEE\" quest=\"2C75A50B17AA9AF1\"/>",
+      "<hr/>",
+      "Pyrolusite is what most people are here for. It smelts directly into Manganese, which you'll be needing in bulk for &&6HV&&r.",
+      "<br/>",
+      "Tantalite will eventually become extremely valuable, thanks to its Niobium byproducts, and its utility when crafting &&bSMD Components&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:pyrolusite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Manganese"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          -48,
+          0
+        ]
+      }
+    }
+  }
+}

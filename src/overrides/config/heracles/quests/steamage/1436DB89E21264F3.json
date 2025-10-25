@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "249374557D095913"
+  ],
+  "tasks": {
+    "12A46916B1BC17EC": {
+      "type": "heracles:item",
+      "item": "gtceu:hp_steam_extractor"
+    }
+  },
+  "rewards": {
+    "4B856E1E30618E4D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:sticky_resin",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Extractor",
+    "description": [
+      "<subtitle id=\"1436DB89E21264F3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"12A46916B1BC17EC\" quest=\"1436DB89E21264F3\"/>",
+      "<hr/>",
+      "Not many items are made in the &&3Extractor&&r during the &&6Steam Age&&r, but it's used to make &&9Rubber&&r, which you'll need after Steel.",
+      "<br/>",
+      "You can also process Dirt in the Extractor for &&aBones&&r, which makes getting &&aBone Meal&&r a lot easier for Peaceful players.",
+      "<hr/>",
+      "<reward reward=\"4B856E1E30618E4D\" quest=\"1436DB89E21264F3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hp_steam_extractor"
+    },
+    "subtitle": {
+      "text": "The Steam Extractor extracts..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          180,
+          -12
+        ]
+      }
+    }
+  }
+}

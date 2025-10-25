@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1C55AE6AD5BDE304",
+    "6958029B5514D4EC",
+    "1CBA5477CB7C45E7"
+  ],
+  "tasks": {
+    "2DCD235EC79F582C": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:nichrome_coil_block"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Nichrome Coils",
+    "description": [
+      "<subtitle id=\"6B08799BCFD01D3D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2DCD235EC79F582C\" quest=\"6B08799BCFD01D3D\"/>",
+      "<hr/>",
+      "&&3Nichrome Heating Coils&&r increase the temperature of your &&3Blast Furnace&&r to &&d3,600K&&r.",
+      "<br/>",
+      "Despite not being required &&oyet&&r, it's still a good idea to upgrade your primary &&3EBF&&r for those sweet, sweet &&6Coil bonuses&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In the original GregTech 5, there were only three types of coils. This was the last tier."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nichrome_coil_block"
+    },
+    "subtitle": {
+      "text": "A long way to go before we beat the Sun"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          216,
+          -204
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55D8E30978CBBC0D",
+    "26394C1290D70AB6",
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "6F2F8349BF8AF29C": {
+      "type": "heracles:item",
+      "item": "minecraft:basalt"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:basalt",
+    "description": [
+      "<subtitle id=\"1937057C27596942\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6F2F8349BF8AF29C\" quest=\"1937057C27596942\"/>",
+      "<hr/>",
+      "Basalt Dust centrifuges into Olivine, a material which can be used to substitute Emerald in a small handful of recipes - for example, when making Engraved Crystal Chips.",
+      "<br/>",
+      "You also get a pittance of Dark Ash."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:basalt"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Olivine, Dark Ashes..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          106,
+          -32
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "30C94122AD446D9B": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_autoclave"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Autoclave",
+    "description": [
+      "<subtitle id=\"22A1A629AF754066\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"30C94122AD446D9B\" quest=\"22A1A629AF754066\"/>",
+      "<hr/>",
+      "The Autoclave is typically the last step of Gem Processing. It is used turn a select few &&aGem Dusts&&r back into regular Gems.",
+      "<br/>",
+      "It's veeeery slow - thus, it is generally not advised to crush gem ores at all, as the recovery process is too expensive.",
+      "<br/>",
+      "&&9Note:&&r In this modpack, the Autoclave is required to make &&5Fluix Crystals&&r if you're to progress in Applied Energistics. Sorry."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_autoclave"
+    },
+    "subtitle": {
+      "text": "\"Oops, I turned my Diamonds into dust\""
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -36,
+          132
+        ]
+      }
+    }
+  }
+}

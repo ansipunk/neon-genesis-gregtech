@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0C690272ED4FB1C3"
+  ],
+  "tasks": {
+    "502C58F19FF7DE24": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ore Generation",
+    "description": [
+      "<subtitle id=\"41730E340B3D8EDA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"502C58F19FF7DE24\" quest=\"41730E340B3D8EDA\"/>",
+      "<hr/>",
+      "Some of the details are repeated from the introduction quest, but we feel like we needed to expand on the explanation if you want to know all the details!",
+      "<br/>",
+      "Ready for some \"light\" reading?",
+      "<br/>",
+      "Each vein can contain up to four different ores.",
+      "<br/>",
+      "Ore veins generate in a &&4Grid&&r. Every vein is spaced by 3 chunks from one to another in a cardinal direction. Each vein generates in an individual \"pattern\" - some are &&6round&&r, some are &&asnakey&&r, and others you'll discover for yourself.",
+      "<br/>",
+      "They spawn at the &&4Center&&r of the Chunks which have both their X and Z coordinates be at &&b1 plus a multiple of 3&&r (-8, -5, -2, 1, 4, 7, ...). You will typically find two veins in the selected chunk - one will be in the Stone layer, and the other vein lays deeper in the Deepslate layer.",
+      "<br/>",
+      "However, Ore veins may be deleted by caves, Oil deposits, or from trying to generate above the ground.",
+      "<br/>",
+      "It's a good practice to make &&dWaypoints&&r to every vein you find, and to label their type. You may want to come back to it several times.",
+      "<br/>",
+      "A classic Ore vein is &&d7 blocks&&r tall, and ores generate in 4 different patterns:",
+      "- The &&9Top Ore&&r generates in the higher 4 layers of the vein.",
+      "- The &&9Bottom Ore&&r generates in the lower 3 layers of the vein.",
+      "- The &&9Between Ore&&r generates in the middle 3 layers of the vein.",
+      "- The &&9Sporadic Ore&&r generates anywhere in the vein. There will be the least amount of this ore in a vein.",
+      "<br/>",
+      "The same ore type can be in 2 different generation patterns, such as in Cassiterite veins."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cobalt_ore"
+    },
+    "subtitle": {
+      "text": "You'll be an expert by the time you finish reading this!"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

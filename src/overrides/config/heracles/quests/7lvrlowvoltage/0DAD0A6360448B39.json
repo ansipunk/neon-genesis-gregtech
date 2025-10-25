@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A8D7FC6F316C38C"
+  ],
+  "tasks": {
+    "65100C599DB0F30C": {
+      "type": "heracles:item",
+      "item": "buildinggadgets2:gadget_building"
+    }
+  },
+  "rewards": {
+    "754F6E206D20BC31": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bricks",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: buildinggadgets2:gadget_building",
+    "description": [
+      "<subtitle id=\"0DAD0A6360448B39\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"65100C599DB0F30C\" quest=\"0DAD0A6360448B39\"/>",
+      "<hr/>",
+      "A fancy tool to help with base building. The gadget has different modes that you can view by holding the relevant hotkey - it defaults to &&eG&&r.",
+      "<br/>",
+      "Be sure to check out the &&3Destruction Gadget&&r and the &&3Copy Paste Gadget&&r.",
+      "<br/>",
+      "You &&6should&&r be able to charge this in the charger slot of any &&bGregTech machine&&r, but unfortunately, this is currently &&cbugged&&r. Have a look at the &&dTurbo Charger&&r quest in the top-right of this page if you want to charge this.",
+      "<hr/>",
+      "<reward reward=\"754F6E206D20BC31\" quest=\"0DAD0A6360448B39\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "buildinggadgets2:gadget_building"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "A familiar face in the land of Greg"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          53,
+          192
+        ]
+      }
+    }
+  }
+}

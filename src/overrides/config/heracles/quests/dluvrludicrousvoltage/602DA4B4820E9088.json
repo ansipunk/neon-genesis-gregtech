@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0"
+  ],
+  "tasks": {
+    "280DF4E4A7E5FC2A": {
+      "type": "heracles:item",
+      "item": "ae2wtlib:quantum_bridge_card"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Infinite Wireless Range",
+    "description": [
+      "<subtitle id=\"602DA4B4820E9088\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"280DF4E4A7E5FC2A\" quest=\"602DA4B4820E9088\"/>",
+      "<hr/>",
+      "The &&aQuantum Bridge Card&&r is an upgrade to the &&9Quantum Link Tunnel&&r, which gives &&9Wireless Terminals&&r access to your AE system with unlimited range, and from any dimension."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2wtlib:quantum_bridge_card"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Bridge over Troubled Water"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          116,
+          169
+        ]
+      }
+    }
+  }
+}

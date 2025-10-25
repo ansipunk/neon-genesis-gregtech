@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "478A7F7565AFC8A8"
+  ],
+  "tasks": {
+    "28C312E791DF4125": {
+      "title": "Sifting through so much rubbish...",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sifting",
+    "description": [
+      "<subtitle id=\"1069BF4C1771A4F6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"28C312E791DF4125\" quest=\"1069BF4C1771A4F6\"/>",
+      "<hr/>",
+      "Gemstones deserve to be sifted. In &&2earlier stages&&r of the game, this is slow and has poor yields, but when overclocked, sifting quickly becomes a great way to &&dmaximise&&r your gemstone yield."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_sifter"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Great Grey Wolf Sif-ting"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          48,
+          176
+        ]
+      }
+    }
+  }
+}

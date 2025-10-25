@@ -1,0 +1,80 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "431D533510584687": {
+      "amount": 1,
+      "tasks": {
+        "eda7520b-39db-480a-a092-53162c2c3713": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_miner",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "f4bd70aa-09fa-4e61-855a-d4ada45cb58a": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_miner",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "0cfb3abc-6135-453f-821f-ffa240406aba": {
+          "type": "heracles:item",
+          "item": "gtceu:hv_miner",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "2C877DA425BBFC5D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:wooden_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 58
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Digital Miner",
+    "description": [
+      "<task task=\"431D533510584687\" quest=\"5C94CF50090D7DA0\"/>",
+      "<hr/>",
+      "This kind soul&&r will mine ores for you when placed above a vein.",
+      "<br/>",
+      "Vertical range is unlimited below the miner. Horizontal range is displayed in the tooltip.",
+      "<br/>",
+      "The &&bMV&&r variant may not have the range to mine a full vein, but the &&6HV&&r variant does, so you may wish hold off for now. Get &&eeither&&r to complete this Quest.",
+      "<br/>",
+      "You will need &&9Power&&r. &&aCharged Batteries&&r may work, but they tend to run out of power, which is a bit inconvenient.",
+      "<br/>",
+      "Our top suggestion is to use a filled &&3Drum&&r of some kind of fuel &&7(if you're using Steam, no dice!)&&r and a &&3Generator&&r. ",
+      "<br/>",
+      "Place the Drum above your Generator and right-click it with a &&5Screwdriver&&r to auto-output into the Generator.",
+      "<br/>",
+      "&&cNote: &&rDo not forget to &&dchunkload&&r all 9 chunks of the ore vein with Odyssey Claims &&7(open the map by pressing F6, claim the chunks with left-click, and enable force loading with shift-left-click)&&r.",
+      "<br/>",
+      "&&9Tip:&&r You can either use an &&3ME Chest&&r or a &&32x2 Drawer&&r as the output inventory to make transporting the ores back home a simple task. The &&3ME Chest&&r can be powered with EU directly.",
+      "<hr/>",
+      "<reward reward=\"2C877DA425BBFC5D\" quest=\"5C94CF50090D7DA0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_miner"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -108,
+          48
+        ]
+      }
+    }
+  }
+}

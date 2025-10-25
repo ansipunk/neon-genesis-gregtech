@@ -1,0 +1,30 @@
+{
+  "settings": {},
+  "dependencies": [
+    "196FC518F744B983",
+    "5063FDFFBE3E4855",
+    "26394C1290D70AB6"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§6HV§r Circuits",
+    "description": [
+      "Circuits along this line are &&6HV&&r, and are interchangeable in recipes.",
+      "<br/>",
+      "The pattern stays the same: the rightmost circuit comes in &&dlarger quantities&&r and is overall &&aeasier&&r to produce."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          64
+        ]
+      }
+    }
+  }
+}

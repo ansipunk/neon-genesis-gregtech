@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6238B2A7ED1BE5A1",
+    "3E2E161F8CE35138"
+  ],
+  "tasks": {
+    "022324F9630960C6": {
+      "type": "heracles:item",
+      "item": "gtceu:liquid_fuel_jetpack"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "I Believe I Can Fly",
+    "description": [
+      "<subtitle id=\"6FA956DAA72D6139\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"022324F9630960C6\" quest=\"6FA956DAA72D6139\"/>",
+      "<hr/>",
+      "This Jetpack takes most &&aCombustion Fuels&&r (excluding oils) to enable a primitive form of flight.",
+      "<br/>",
+      "Fill it like you would fill a Drum, or with a &&3Canning Machine&&r.",
+      "<br/>",
+      "Press &&4H&&r (default) to enable Hover Mode."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:liquid_fuel_jetpack"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "...well, almost Fly"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -108,
+          -114
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "528CE69DA4358B2E"
+  ],
+  "tasks": {
+    "2358A62B80B56238": {
+      "type": "heracles:item",
+      "item": "gtceu:laminated_glass"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Laminated Glass",
+    "description": [
+      "<subtitle id=\"12B4423F055BFBF5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2358A62B80B56238\" quest=\"12B4423F055BFBF5\"/>",
+      "<hr/>",
+      "&&aLaminated Glass&&r is the shiny new tier of Glass for &&9IV&&r and above. It's made in the &&3Forming Press&&r using a polymer you won't be familiar with: &&dPolyvinyl Butyral&&r.",
+      "<br/>",
+      "None of the steps should be particularly difficult if you already have the &&3Distillation Tower&&r for Cracked Fuels, and you have also automated Epoxy.",
+      "<br/>",
+      "If you don't already have both set up, you know what to do!",
+      "<br/>",
+      "&&9Note:&&r &&dPolyvinyl Acetate&&r (required for the Glass) can also be used for &&aGlue&&r!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:laminated_glass"
+    },
+    "subtitle": {
+      "text": "Another Polymer Rises From The Darkness"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          84,
+          156
+        ]
+      }
+    }
+  }
+}

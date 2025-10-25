@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0338C9219DC2F819"
+  ],
+  "tasks": {
+    "4EB5F93570DAE79B": {
+      "type": "heracles:item",
+      "item": "gtceu:fiber_reinforced_printed_circuit_board"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Extreme Circuit Boards",
+    "description": [
+      "<task task=\"4EB5F93570DAE79B\" quest=\"0988B5FB795FF7DA\"/>",
+      "<hr/>",
+      "The next Board for the &&1Quantum&&r Circuit line.",
+      "<br/>",
+      "&&9Tips:&&r For efficient and fast board production, you should use two &&3Large Chemical Reactors&&r, both supplied with &&6HV&&r power or higher (make them both share the same &&3Energy Hatch&&r):",
+      "<br/>",
+      "&&9-&&r One &&3LCR&&r should be dedicated to &&aIron III Chloride&&r. The &&dHydrogen&&r is loopable, so reproduce &&dHydrochloric Acid&&r locally - that way, you'd only need to passively input &&aIron Dusts&&r and &&aChlorine&&r.",
+      "<br/>",
+      "&&9-&&r One &&3LCR&&r should be making both the &&acoated Boards&&r and the &&aempty Circuit Boards&&r to make future &&ecrafting requests&&r with AE2 extremely easy. Keeping an Input Hatch full of Sulfuric Acid shouldn't be a problem, either."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:fiber_reinforced_printed_circuit_board"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          228,
+          84
+        ]
+      }
+    }
+  }
+}

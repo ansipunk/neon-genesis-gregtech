@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C7C0F6A6598BC24"
+  ],
+  "tasks": {
+    "5688605649CC30C3": {
+      "type": "heracles:item",
+      "item": "gtceu:uranium_rhodium_dinaquadide_single_wire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "ZPM Superconductors",
+    "description": [
+      "<subtitle id=\"2587BFD0D9F3FF4A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5688605649CC30C3\" quest=\"2587BFD0D9F3FF4A\"/>",
+      "<hr/>",
+      "&&aZPM Superconductors&&r are a major gate between you and a &&9Fusion Reactor Mk2&&r, which uses copious amounts for its structure blocks.",
+      "<br/>",
+      "You can also use them to make &&9Superconducting Coils&&r for cheaper."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uranium_rhodium_dinaquadide_single_wire"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Getting tired of all these pitch-black ingots yet?"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -156,
+          36
+        ]
+      }
+    }
+  }
+}

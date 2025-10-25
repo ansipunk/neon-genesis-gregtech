@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "03DBF1961AE21C76"
+  ],
+  "tasks": {
+    "6DFD6AC8CF31305C": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_macerator"
+    }
+  },
+  "rewards": {
+    "26175A33C13BBF0C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:clay_dust",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Macerator",
+    "description": [
+      "<subtitle id=\"1C50A758A1DE25CB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6DFD6AC8CF31305C\" quest=\"1C50A758A1DE25CB\"/>",
+      "<hr/>",
+      "The &&bMacerator&&r frees you from the painful process of &&egrinding stuff into dust&&r with a &&3Mortar&&r, but at the steep cost of time. Processing a single piece of Iron Ore in this machine will take &&ctwenty seconds&&r - twice the time it takes to smelt an ingot in a furnace!",
+      "<br/>",
+      "The Macerator also marks the advent of &&eOre Processing&&r, but that's a scary topic that we'll dip our toes into in the next quest.",
+      "<br/>",
+      "The macerator will output only the first item shown in recipes from EMI. The other slots are locked until you make a &&6HV&&r Macerator. How unfortunate...",
+      "<br/>",
+      "Our (&&oimportant!&&r) advice: it's actually better to keep directly smelting for now! The efficiency loss is made up with faster mining. Use the Macerator to make things like &&aClay Dust&&r instead!",
+      "<hr/>",
+      "<reward reward=\"26175A33C13BBF0C\" quest=\"1C50A758A1DE25CB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_macerator"
+    },
+    "subtitle": {
+      "text": "The Macerator macerates..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          36,
+          60
+        ]
+      }
+    }
+  }
+}

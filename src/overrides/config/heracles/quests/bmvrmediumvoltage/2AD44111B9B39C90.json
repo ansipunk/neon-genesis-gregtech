@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "75F38905DEA60F15",
+    "16A1EF8B80A96633"
+  ],
+  "tasks": {
+    "1C69557EB4F9E50F": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_energy_input_hatch"
+    }
+  },
+  "rewards": {
+    "42B5E0E29F987E16": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:annealed_copper_single_wire",
+        "count": 24
+      }
+    }
+  },
+  "display": {
+    "title": "Upgrade your EBF!",
+    "description": [
+      "<subtitle id=\"2AD44111B9B39C90\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1C69557EB4F9E50F\" quest=\"2AD44111B9B39C90\"/>",
+      "<hr/>",
+      "A &&7LV&&r Battery Buffer and two &&7LV&&r Energy Hatches likely won't cut it anymore. Let's remedy that!",
+      "<br/>",
+      "Upgrade your Electric Blast Furnace with a &&3MV Energy Hatch&&r. Now, you can run it with &&bMV&&r Generators without having to mess around with &&3Transformers&&r.",
+      "<hr/>",
+      "<reward reward=\"42B5E0E29F987E16\" quest=\"2AD44111B9B39C90\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_energy_input_hatch"
+    },
+    "subtitle": {
+      "text": "LV is so old-school!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          108,
+          -24
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5DD49D500327A0E2"
+  ],
+  "tasks": {
+    "03501AB173BA60EE": {
+      "type": "heracles:item",
+      "item": "gtceu:primitive_pump"
+    }
+  },
+  "rewards": {
+    "027EB8CF05AAACF8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:wood_normal_fluid_pipe",
+        "count": 18
+      }
+    }
+  },
+  "display": {
+    "title": "Primitive Water Pump",
+    "description": [
+      "<subtitle id=\"13901DA3D4F5C5A6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"03501AB173BA60EE\" quest=\"13901DA3D4F5C5A6\"/>",
+      "<hr/>",
+      "The &&bPrimitive Water Pump&&r is an easy way to automatically generate water for your boilers. It doesn't physically pump water from the world, instead generating it &&einternally&&r. Therefore, you don't need access to a &&3body of water&&r to make use of it. However, the humidity of the biome does apply a negligible bonus to its water production.",
+      "<br/>",
+      "It's a multiblock, so &&5consult EMI&&r for the structure. Multiblocks can be previewed in-world if you sneak right-click the \"&&a&&ocontroller&&r\" block with an empty hand (in this case, the controller block is the &&bPrimitive Water Pump&&r itself).",
+      "<br/>",
+      "&&6Small tip for you:&&r no need to worry about your base's biome for now, as your boilers will need very little water to keep up.",
+      "<br/>",
+      "The &&cOutput Hatch&&r is where water will be generated. You can make it face up or down to auto-output water into your pipes, which can go &&ethrough&&r the Treated Wood Frames - just place the pipe before you encase it in the frames. ",
+      "<br/>",
+      "Later you can use a &&8ULV&&r or &&7LV&&r Output Hatch to further boost the Pump's output.",
+      "<br/>",
+      "&&2Reminder:&&r Use a Wrench to rotate GregTech blocks (sneak right-click).",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This Multiblock was ported from GT IMPACT, a classic 1.7.10 GregTech modpack.",
+      "<hr/>",
+      "<reward reward=\"027EB8CF05AAACF8\" quest=\"13901DA3D4F5C5A6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:primitive_pump"
+    },
+    "subtitle": {
+      "text": "There's no such thing as \"free\" water"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          0,
+          -12
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "730043448A9ADBB6"
+  ],
+  "tasks": {
+    "67AB1263C1AA0EB2": {
+      "title": "Yes, I understand!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Applied Energistics 2",
+    "description": [
+      "<subtitle id=\"3CCD98E7139BA564\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"67AB1263C1AA0EB2\" quest=\"3CCD98E7139BA564\"/>",
+      "<hr/>",
+      "Whilst the majority &&7(if not all)&&r of the listed steps can be automated &&3using GregTech alone&&r, savvy players may wish to use &&dAE2&&r for all their logistics needs. Here, we'll cover some methods you may not be aware of to help you elevate your &&aOre Processing&&r to the next level."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:controller"
+    },
+    "subtitle": {
+      "text": "Let's look at what AE2 can do for you!"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          -48,
+          -64
+        ]
+      }
+    }
+  }
+}

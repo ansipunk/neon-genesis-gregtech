@@ -1,0 +1,106 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "07BF7F14849A3027": {
+      "amount": 1,
+      "tasks": {
+        "c8f06b19-6008-4c72-b378-1466ea5bc667": {
+          "type": "heracles:item",
+          "item": "gtceu:ulv_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "c0b4230e-5ec0-496e-87eb-36558d1f48e2": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "d42470a6-cec5-464d-b5c9-09ad932995bd": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "8843bb35-0317-4500-ba60-9ef49ef3954c": {
+          "type": "heracles:item",
+          "item": "gtceu:hv_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "57385499-2957-4984-b172-f431bb729685": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "694181bb-4e53-4adf-bd2c-5263034f0d87": {
+          "type": "heracles:item",
+          "item": "gtceu:iv_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "94b67f45-b318-4d80-99bf-8c62cc06ef6f": {
+          "type": "heracles:item",
+          "item": "gtceu:luv_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "986715ef-096d-441c-92df-3a665a6bc8e3": {
+          "type": "heracles:item",
+          "item": "gtceu:zpm_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "8d56fb5e-c2a0-4c2f-8e92-5148ead55614": {
+          "type": "heracles:item",
+          "item": "gtceu:uv_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "57644e33-9646-4d4c-860a-bd46e1edb621": {
+          "type": "heracles:item",
+          "item": "gtceu:uhv_charger_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Turbo Charger",
+    "description": [
+      "<subtitle id=\"2DB259568F347C0E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"07BF7F14849A3027\" quest=\"2DB259568F347C0E\"/>",
+      "<hr/>",
+      "&&o&&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&&r",
+      "<br/>",
+      "The &&3Turbo Charger&&r charges &&6RF and EU&&r items such as &&9Drills&&r extremely quickly.",
+      "It accepts up to 4 Amps for every item it charges, making it &&6twice as fast&&r as the &&3Battery Buffer&&r. It cannot discharge, though.",
+      "<br/>",
+      "&&eAny&&r Charger will complete this Quest."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_charger_4x"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "100% Battery"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          169,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EFEE489906256AA"
+  ],
+  "tasks": {
+    "0BE33D992F7761EA": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "gtceu:sodium_dust"
+    },
+    "3C7B4B2F850620FB": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "gtceu:lithium_dust"
+    },
+    "531FE43ADBEE689B": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "gtceu:aluminium_dust"
+    },
+    "0048C85BB03C4811": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "gtceu:silicon_dust"
+    }
+  },
+  "rewards": {
+    "52A043C0F3795CC8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:mv_battery_hull",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "A Balanced Quest",
+    "description": [
+      "<subtitle id=\"2273DD7E5CD49017\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0BE33D992F7761EA\" quest=\"2273DD7E5CD49017\"/>",
+      "<task task=\"3C7B4B2F850620FB\" quest=\"2273DD7E5CD49017\"/>",
+      "<task task=\"531FE43ADBEE689B\" quest=\"2273DD7E5CD49017\"/>",
+      "<task task=\"0048C85BB03C4811\" quest=\"2273DD7E5CD49017\"/>",
+      "<hr/>",
+      "All four output Dusts obtained from Clay electrolysis are immensely useful.",
+      "<br/>",
+      "We'll ask you to give us a total of &&a416 Clay Dust&&r for this quest. You may also want to look into other sources of similar materials, such as &&aSodalite&&r. Check EMI for some ideas.",
+      "<br/>",
+      "You should use the Sodium and/or Lithium to make some &&6MV Batteries&&r.",
+      "<br/>",
+      "Grr, all this useless &&dWater&&r you're getting keeps clogging the machine! Maybe you should deal with it by using a &&3Voiding Cover&&r.",
+      "<hr/>",
+      "<reward reward=\"52A043C0F3795CC8\" quest=\"2273DD7E5CD49017\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:clay_ball"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Clay is an extremely §mbalanced§r useful material for electrolysis"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -72,
+          48
+        ]
+      }
+    }
+  }
+}

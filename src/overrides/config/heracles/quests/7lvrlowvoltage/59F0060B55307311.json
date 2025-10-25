@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "32EA7E81885C8E87",
+    "10ECB471A77F5136"
+  ],
+  "tasks": {
+    "7C04F3247B0C0BCB": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Programmed Circuits",
+    "description": [
+      "<subtitle id=\"59F0060B55307311\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7C04F3247B0C0BCB\" quest=\"59F0060B55307311\"/>",
+      "<hr/>",
+      "By clicking the &&6Circuit Configuration Slot&&r in machines, you can create a &&bghost Programmed Circuit&&r. ",
+      "<br/>",
+      "This is a \"&&7fake circuit&&r\" that allows you to select a configuration for recipes. There's no need to spend your circuits crafting &&bProgrammed Circuits&&r anymore.",
+      "<br/>",
+      "The purpose of this ghost circuit is to prevent &&drecipe clashes&&r - for example, the same Wiremill can produce wires of different thicknesses, with the same material!",
+      "<br/>",
+      "&&dElectric Machines&&r and &&dItem Input Buses&&r will have a Ghost Circuit Slot.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This feature is originally from GTNH."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:programmed_circuit"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Don't want to spend your circuits to select recipes?"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          108,
+          63
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3B49BD004F38E1A2",
+    "2F2F82D9DE3C798C",
+    "762C48F0C2EA6B81"
+  ],
+  "tasks": {
+    "571672CEA7362C63": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_fusion_reactor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fusion Reactor III",
+    "description": [
+      "<subtitle id=\"023FF9633765A0EB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"571672CEA7362C63\" quest=\"023FF9633765A0EB\"/>",
+      "<hr/>",
+      "Build the structure displayed with Fusion Glass in &&aEMI&&r.",
+      "<br/>",
+      "To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure).",
+      "<br/>",
+      "The &&aFusion Reactor Mk3&&r is even more expensive than the Mk2! The key difference is that it has a higher &&6Energy To Start&&r than the Mk2, allowing you to run new recipes.",
+      "<br/>",
+      "It can also overclock lower voltage recipes, such as those in the Mk1 or Mk2 reactor. See the Mk1's quest for how these mechanics work."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_fusion_reactor"
+    },
+    "subtitle": {
+      "text": "The most expensive form of Fusion"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          144,
+          -24
+        ]
+      }
+    }
+  }
+}

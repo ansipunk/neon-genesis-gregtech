@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63CD0236B337EAAD",
+    "0EAC071414AEC07E"
+  ],
+  "tasks": {
+    "2DE7B75F25A4AB9E": {
+      "type": "heracles:item",
+      "item": "gtceu:phenolic_printed_circuit_board"
+    }
+  },
+  "rewards": {
+    "2B815290D1F7D038": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:resin_printed_circuit_board"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:phenolic_printed_circuit_board",
+    "description": [
+      "<subtitle id=\"3647B1B964A15E4E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2DE7B75F25A4AB9E\" quest=\"3647B1B964A15E4E\"/>",
+      "<hr/>",
+      "This Circuit Board is used to create &&dMV Circuits&&r!",
+      "<br/>",
+      "&&9Note:&&r You have &&ltwo&&r options when making the Phenolic Printed Circuit Board. If you use &&aSodium Persulfate&&r or &&aIron III Chloride&&r, making boards takes &&6only a quarter of the Silver&&r as opposed to the crafting recipe.",
+      "<br/>",
+      "&&lHowever&&r, given how painful it may be for you to obtain these chemicals &&oright now&&r, you can simply use more Silver by mining most of a Galena Vein...",
+      "<br/>",
+      "The quest for &&aSodium Persulfate&&r is in the &&bMV&&r chapter, if you're down for some light reading.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Back in GTCEu 1.12.2, these circuit boards were called \"&&2Good Circuit Boards&&f\". Not exactly a fitting name, as they're &&4rather evil&&f to craft.",
+      "<hr/>",
+      "<reward reward=\"2B815290D1F7D038\" quest=\"3647B1B964A15E4E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:phenolic_printed_circuit_board"
+    },
+    "subtitle": {
+      "text": "A Good Board"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          108,
+          288
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A55CC71442CC854"
+  ],
+  "tasks": {
+    "2475364829C80B50": {
+      "type": "heracles:item",
+      "item": "gtceu:mpic_chip"
+    },
+    "1225B9C57910A98A": {
+      "type": "heracles:item",
+      "item": "gtceu:brown_glass_lens"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Power Integrated Circuit",
+    "description": [
+      "<subtitle id=\"35E7E45987D9B1F6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2475364829C80B50\" quest=\"35E7E45987D9B1F6\"/>",
+      "<task task=\"1225B9C57910A98A\" quest=\"35E7E45987D9B1F6\"/>",
+      "<hr/>",
+      "So, what's on the agenda today?",
+      "<br/>",
+      "New Cutting Machine? &&a✓&&r",
+      "<br/>",
+      "New Lens? &&a✓&&r",
+      "<br/>",
+      "New Power Circuit? &&a✓&&r",
+      "<br/>",
+      "New EBF Metal required? &&a✓&&r",
+      "<br/>",
+      "New Coil for Energy Hatch? &&a✓&&r",
+      "<br/>",
+      "&&9Note:&&r If you haven't found a Jungle yet, you can &&acentrifuge Stone Dust&&r for &&dMetal Mixture Dust&&r. This doubles as a Brown Dye."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mpic_chip"
+    },
+    "subtitle": {
+      "text": "No one machine should have all this power!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          108,
+          72
+        ]
+      }
+    }
+  }
+}

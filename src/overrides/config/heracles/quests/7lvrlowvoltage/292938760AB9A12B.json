@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "10ECB471A77F5136"
+  ],
+  "tasks": {
+    "48507FA04651418B": {
+      "type": "heracles:item",
+      "item": "gtceu:fluid_cell"
+    },
+    "012C90A73EC79E11": {
+      "type": "heracles:item",
+      "item": "gtceu:universal_fluid_cell"
+    }
+  },
+  "rewards": {
+    "7CF6A679E3781C09": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:universal_fluid_cell",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Dead Cells",
+    "description": [
+      "<subtitle id=\"292938760AB9A12B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"48507FA04651418B\" quest=\"292938760AB9A12B\"/>",
+      "<task task=\"012C90A73EC79E11\" quest=\"292938760AB9A12B\"/>",
+      "<hr/>",
+      "Cells are an alternative form of Fluid storage. All Cell types with the same type and amount of Fluid inside them &&6stack&&r. They can be automatically filled with a &&3Canning Machine&&r.",
+      "<br/>",
+      "Cells hold &&done bucket&&r of Fluid.",
+      "<br/>",
+      "Universal Cells hold up to &&done bucket&&r, but also can store &&9fractions&&r of Buckets. They're particularly ideal if you want to store leftover Fluid without crafting a whole Drum. ",
+      "<br/>",
+      "Cells made from higher tier materials can hold even more fluid, but &&9Drums&&r and &&9Super Tanks&&r will hold more by then.",
+      "<br/>",
+      "Like Drums, Cells can be placed into a crafting grid to clear their contents.",
+      "<hr/>",
+      "<reward reward=\"7CF6A679E3781C09\" quest=\"292938760AB9A12B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:fluid_cell"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "GTCE killed cell chemistry... GTCE killed Cells!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          144,
+          180
+        ]
+      }
+    }
+  }
+}

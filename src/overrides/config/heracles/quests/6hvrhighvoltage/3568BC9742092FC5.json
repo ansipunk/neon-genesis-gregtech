@@ -1,0 +1,77 @@
+{
+  "settings": {},
+  "dependencies": [
+    "10FB27DD3C7BEC2F",
+    "0DE5C3FBC9A6A690"
+  ],
+  "tasks": {
+    "563BFE52E8A51D9F": {
+      "type": "heracles:item",
+      "item": "gtceu:cleanroom"
+    },
+    "6D0AC939EC8971BC": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "gtceu:filter_casing"
+    },
+    "73EB2C49B40116E2": {
+      "amount": 1,
+      "tasks": {
+        "4a5d1d62-80a9-43ed-bd89-c23acb5fcb4c": {
+          "type": "heracles:item",
+          "item": "gtceu:cleanroom_glass",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "4d133d96-e63d-42f7-a329-077dfbf77f4d": {
+          "type": "heracles:item",
+          "item": "gtceu:plascrete",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Cleanroom",
+    "description": [
+      "<subtitle id=\"3568BC9742092FC5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"563BFE52E8A51D9F\" quest=\"3568BC9742092FC5\"/>",
+      "<task task=\"6D0AC939EC8971BC\" quest=\"3568BC9742092FC5\"/>",
+      "<task task=\"73EB2C49B40116E2\" quest=\"3568BC9742092FC5\"/>",
+      "<hr/>",
+      "The &&3Cleanroom&&r is a hollow multiblock free of contaminants. Going forward, most new &&acircuit-related recipes&&r, as well as some unique blocks like &&3Fusion Casings&&r, will need to be run in machines inside a Cleanroom.",
+      "<br/>",
+      "Creating it will put your &&aPolyethylene&&r automation to the test for all the &&dPlascrete&&r and/or &&dCleanroom Glass&&r you will make.",
+      "<br/>",
+      "We'll start you off with a 5x5x5 Cleanroom, but you should upgrade its size when you start feeling cramped.",
+      "<br/>",
+      "&&6This quest unlocks a new tutorial on the Cleanroom in the &&lTips and Tricks&&r&&6 tab - check it out to learn more!&&r",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The Cleanroom comes from GregTech 5, but as is often the case, the GT5 implementation is much more punishing. The recipes would run without regard to cleanliness, but had a % chance of completion equal to the cleanliness of the Cleanroom. This caused a lot of accidental voiding.",
+      "<br/>",
+      "&&oFurthermore, if the Cleanroom had a maintenance issue, the cleanliness would cap out at 90%, which means 10% of items would be voided.",
+      "<br/>",
+      "&&oThe GTCEu Cleanroom will &&6never void&&f recipe outputs."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cleanroom"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "They put me in a room... a clean room"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          216,
+          -96
+        ]
+      }
+    }
+  }
+}

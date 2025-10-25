@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A1E3C3A2D699C5B",
+    "7CFC112B8F460549"
+  ],
+  "tasks": {
+    "25B01725B3E33952": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_smd_transistor"
+    },
+    "5BA971DE64CA560F": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_smd_resistor"
+    },
+    "1ED6BE67774595EA": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_smd_capacitor"
+    },
+    "027CA58B4F5D5F99": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_smd_diode"
+    },
+    "3D7DE6355D703AFB": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_smd_inductor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Advanced SMDs",
+    "description": [
+      "<task task=\"25B01725B3E33952\" quest=\"195E5BFDE4C5A0DE\"/>",
+      "<task task=\"5BA971DE64CA560F\" quest=\"195E5BFDE4C5A0DE\"/>",
+      "<task task=\"1ED6BE67774595EA\" quest=\"195E5BFDE4C5A0DE\"/>",
+      "<task task=\"027CA58B4F5D5F99\" quest=\"195E5BFDE4C5A0DE\"/>",
+      "<task task=\"3D7DE6355D703AFB\" quest=\"195E5BFDE4C5A0DE\"/>",
+      "<hr/>",
+      "Better &&aSMDs&&r? SMDs that'll unlock far cheaper &&7- &&8and faster &&7-&&r Circuit recipes? We're sold!",
+      "<br/>",
+      "These'll require Alloys that you haven't made yet, most of which will be commonly used in &&dLuV&&r and onwards. Get on it!",
+      "<br/>",
+      "Whilst you don't need these right now, &&aAdvanced SMDs&&r will become a hard requirement for the &&dCrystal&&r Circuit line. Note that using these in your current circuits will &&2halve&&r the recipe duration."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_smd_transistor"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          -24,
+          84
+        ]
+      }
+    }
+  }
+}

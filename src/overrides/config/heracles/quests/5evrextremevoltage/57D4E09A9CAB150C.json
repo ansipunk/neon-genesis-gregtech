@@ -1,0 +1,105 @@
+{
+  "settings": {},
+  "dependencies": [
+    "64CACABB48635904",
+    "5BACED5AE350EAB1"
+  ],
+  "tasks": {
+    "7A55DBCFDA2131AD": {
+      "type": "heracles:item",
+      "item": "gtceu:platinum_group_sludge_dust"
+    }
+  },
+  "rewards": {
+    "766886CFFF5CDC23": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "766886CFFF5CDC23_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:purified_chalcopyrite_ore",
+            "count": 20
+          }
+        },
+        "766886CFFF5CDC23_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:purified_tetrahedrite_ore",
+            "count": 20
+          }
+        },
+        "766886CFFF5CDC23_2": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:purified_chalcocite_ore",
+            "count": 20
+          }
+        },
+        "766886CFFF5CDC23_3": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:purified_bornite_ore",
+            "count": 20
+          }
+        },
+        "766886CFFF5CDC23_4": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:purified_pentlandite_ore",
+            "count": 20
+          }
+        },
+        "766886CFFF5CDC23_5": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:purified_cooperite_ore",
+            "count": 10
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Platinum Group Processing",
+    "description": [
+      "<subtitle id=\"57D4E09A9CAB150C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7A55DBCFDA2131AD\" quest=\"57D4E09A9CAB150C\"/>",
+      "<hr/>",
+      "The &&aPlatinum Group Metals&&r are six rare metals with useful catalytic properties. In no particular order, they are &&3Ruthenium&&r, &&dRhodium&&r, &&7Palladium&&r, &&9Osmium&&r, &&bIridium&&r, and &&ePlatinum&&r.",
+      "<br/>",
+      "You will need to &&4automate&&r their processing lines, as every single one of these metals will be used extensively in the late game.",
+      "<br/>",
+      "To begin, treat various PGM-bearing &&aPurified Crushed Ores&&r with &&dNitric Acid&&r to produce &&aPlatinum Group Sludge&&r.",
+      "<br/>",
+      "Then, centrifuge it with &&dAqua Regia&&r to produce the various PGM salts.",
+      "<br/>",
+      "&&dChlorine&&r can be perfectly recycled from the &&eRaw Platinum Powder&&r.",
+      "<br/>",
+      "&&dNitric Acid&&r is &&osort of&&r recycled from &&7Raw Palladium Powder&&r through &&dAmmonia&&r, though we'd recommend keeping the excess Ammonia for other uses (Rocket Fuel and PBI).",
+      "<br/>",
+      "The other PGM salts have their own special mini-chain associated to them - more on this in the next quests.",
+      "<br/>",
+      "&&9Note:&&r &&ePlatinum&&r and &&7Palladium&&r can also be obtained from The End or through normal Ore Processing.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Heard of the infamous \"Platline\" from either Gregicality or GregTech: New Horizons? The extremely daunting chain was added in GT:NH through Bartworks. The concept is amazing, but we had to tune it down significantly to make entering late game in GTCEu much smoother.",
+      "<hr/>",
+      "<reward reward=\"766886CFFF5CDC23\" quest=\"57D4E09A9CAB150C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:platinum_group_sludge_dust"
+    },
+    "subtitle": {
+      "text": "Platline in 50 hours"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          144,
+          36
+        ]
+      }
+    }
+  }
+}

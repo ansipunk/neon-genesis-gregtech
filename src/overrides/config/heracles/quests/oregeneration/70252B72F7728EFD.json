@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "1091719F41C151CE": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_apatite"
+    },
+    "469D723F9710A9C1": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_tricalcium_phosphate"
+    },
+    "03E0E4E97A8DF31E": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pyrochlore"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Apatite",
+    "description": [
+      "<subtitle id=\"70252B72F7728EFD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1091719F41C151CE\" quest=\"70252B72F7728EFD\"/>",
+      "<task task=\"469D723F9710A9C1\" quest=\"70252B72F7728EFD\"/>",
+      "<task task=\"03E0E4E97A8DF31E\" quest=\"70252B72F7728EFD\"/>",
+      "<hr/>",
+      "Hey, anyone remember Forestry?",
+      "<br/>",
+      "This is pretty much the one vein you want to tap in for Phosphorus - which requires quite a few steps of processing to obtain.",
+      "<br/>",
+      "Pyrochlore will eventually become extremely valuable, as it's a good source of Niobium."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:apatite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Calcium, Phosphorus, Niobium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          80,
+          112
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35E7E45987D9B1F6"
+  ],
+  "tasks": {
+    "1696F760B75B3544": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_energy_input_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Upgrading your EBF III",
+    "description": [
+      "<subtitle id=\"7820DF52516344F4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1696F760B75B3544\" quest=\"7820DF52516344F4\"/>",
+      "<hr/>",
+      "Starting from here, you can now craft &&dEV&&r &&3Energy&&r and &&3Dynamo Hatches&&r! In &&dEV&&r, Energy Hatches now come with 4A, 16A, 32A or even 64A variants!",
+      "<br/>",
+      "This is extremely useful for Multiblock generators, or boosting your GCYM machinery."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_energy_input_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Perfectly regular progression"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          72
+        ]
+      }
+    }
+  }
+}

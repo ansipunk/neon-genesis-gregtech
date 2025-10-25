@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "173C1FA72301B5E7"
+  ],
+  "tasks": {
+    "13230F892A8F6FA1": {
+      "type": "heracles:item",
+      "item": "gtceu:plasma_large_turbine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Large Plasma Turbine",
+    "description": [
+      "<subtitle id=\"4E9DED9569AA17F5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"13230F892A8F6FA1\" quest=\"4E9DED9569AA17F5\"/>",
+      "<hr/>",
+      "Use this turbine to extract very large amounts of power from plasma!",
+      "<br/>",
+      "&&aHelium Plasma&&r is the best fuel for its cost.",
+      "<br/>",
+      "If you're the type to question how realistic Plasma Turbines are... look up Magnetohydrodynamic Generators if you want something that bends fact into fiction."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:plasma_large_turbine"
+    },
+    "subtitle": {
+      "text": "Plasma? Turbine?! How?"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          216,
+          36
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35F13B6D60361904",
+    "3568BC9742092FC5"
+  ],
+  "tasks": {
+    "6A4C78385FF8019A": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "gtceu:sterilizing_filter_casing"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sterilized Cleanroom",
+    "description": [
+      "<subtitle id=\"690E013DFCB060ED\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6A4C78385FF8019A\" quest=\"690E013DFCB060ED\"/>",
+      "<hr/>",
+      "The &&aSterilized Cleanroom&&r is required to produce the next tier of circuits. Nearly every step must be performed inside of one. Good luck fitting everything into such a tight space!",
+      "<br/>",
+      "If you only have one &&3Cleanroom&&r, you'll need another for &&aSterilized&&r recipes.",
+      "<br/>",
+      "&&eNote&&r: Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can't just \"upgrade\" your old Cleanrooms."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:sterilizing_filter_casing"
+    },
+    "subtitle": {
+      "text": "Comes with disinfectant!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -12,
+          72
+        ]
+      }
+    }
+  }
+}

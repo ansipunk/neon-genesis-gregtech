@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4AFD3073C731A1E4",
+    "6B1595678ECB7AC8"
+  ],
+  "tasks": {
+    "71E3128BA0CAC113": {
+      "type": "heracles:item",
+      "item": "gtceu:micro_processor_mainframe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mainframes - first IV Circuits!",
+    "description": [
+      "<subtitle id=\"14D277A164202FF8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"71E3128BA0CAC113\" quest=\"14D277A164202FF8\"/>",
+      "<hr/>",
+      "The first &&1IV&&r circuit. Congratulations on making it this far!",
+      "<br/>",
+      "This will be used when you get to &&5EV&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The original texture for the Mainframes was taken from an image of an IBM zEnterprise mainframe."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:micro_processor_mainframe"
+    },
+    "subtitle": {
+      "text": "Whoah, what a unique... texture"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          288,
+          -132
+        ]
+      }
+    }
+  }
+}

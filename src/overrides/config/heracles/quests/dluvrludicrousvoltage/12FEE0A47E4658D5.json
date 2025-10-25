@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0425179329ED1B72"
+  ],
+  "tasks": {
+    "4CAD2BE5558D7501": {
+      "type": "heracles:item",
+      "item": "gtceu:polyphenylene_sulfide_foil"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Polyphenylene Sulfide",
+    "description": [
+      "<subtitle id=\"12FEE0A47E4658D5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4CAD2BE5558D7501\" quest=\"12FEE0A47E4658D5\"/>",
+      "<hr/>",
+      "A requirement for &&dLuV&&r+ cables."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:polyphenylene_sulfide_foil"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Cables need better coating now"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          0,
+          144
+        ]
+      }
+    }
+  }
+}

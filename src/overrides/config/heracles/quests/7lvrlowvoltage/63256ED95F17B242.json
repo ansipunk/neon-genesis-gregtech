@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1A77CA35F054F988"
+  ],
+  "tasks": {
+    "2374C06C5E1EFC24": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_arc_furnace"
+    }
+  },
+  "rewards": {
+    "2DF03194A80B3F4B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:oxygen_bucket"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:lv_arc_furnace",
+    "description": [
+      "<subtitle id=\"63256ED95F17B242\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2374C06C5E1EFC24\" quest=\"63256ED95F17B242\"/>",
+      "<hr/>",
+      "The &&3Arc Furnace&&r uses a lil' bit of &&9Oxygen&&r to smelt items in a different fashion than Furnaces.",
+      "<br/>",
+      "You can use it to make easier &&aWrought Iron&&r, double your &&aGlass&&r, and gain access to &&aAnnealed Copper&&r.",
+      "<br/>",
+      "It can also recycle various components and machines back to their original material.",
+      "<br/>",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Previous versions had both the Arc Furnace and the &&bPlasma Arc Furnace&&f. In that case, why not use one machine for both? Well, that's exactly what we thought - but we ultimately decided to remove one of the two &&bplasma&&f recipes. And then the other &&bplasma&&f recipe. ",
+      "<br/>",
+      "&&oIn short, the &&bPlasma Arc Furnace&&f is &&4gone&&f. RIP.",
+      "<hr/>",
+      "<reward reward=\"2DF03194A80B3F4B\" quest=\"63256ED95F17B242\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_arc_furnace"
+    },
+    "subtitle": {
+      "text": "Here lies Plasma Furnace"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -108,
+          216
+        ]
+      }
+    }
+  }
+}

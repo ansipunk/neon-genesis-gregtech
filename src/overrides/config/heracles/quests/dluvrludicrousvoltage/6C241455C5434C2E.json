@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0338C9219DC2F819"
+  ],
+  "tasks": {
+    "5B8C1C15E5413CEC": {
+      "type": "heracles:item",
+      "item": "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Multi-Layer Fiber-Reinforced Printed Circuit Boards",
+    "description": [
+      "<subtitle id=\"6C241455C5434C2E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5B8C1C15E5413CEC\" quest=\"6C241455C5434C2E\"/>",
+      "<hr/>",
+      "If you say the name 3 times in front of a mirror, you summon a CEu dev.",
+      "<br/>",
+      "&&aMulti-Layer Fiber-Reinforced Printed Circuit Boards&&r are the next step in your circuit journey. They're not particularly interesting compared to the previous boards: just two of the previous stuck together.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In Gregicality Legacy, these circuit boards were much more complicated. They required Kapton, a dual polymer material. It was a challenge to say the least. In the future, the GTCEu team might make these boards somewhat more involved to produce."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+    },
+    "subtitle": {
+      "text": "M-L F-R PCB"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          288,
+          108
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "1318A25CD8DF8CC8": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_almandine"
+    },
+    "4621A5772F8A1346": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pyrope"
+    },
+    "74E7B27F19B5BB90": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_sapphire"
+    },
+    "597389A21B4802B9": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_green_sapphire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sapphire",
+    "description": [
+      "<subtitle id=\"6EFE154D32A2155E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1318A25CD8DF8CC8\" quest=\"6EFE154D32A2155E\"/>",
+      "<task task=\"4621A5772F8A1346\" quest=\"6EFE154D32A2155E\"/>",
+      "<task task=\"74E7B27F19B5BB90\" quest=\"6EFE154D32A2155E\"/>",
+      "<task task=\"597389A21B4802B9\" quest=\"6EFE154D32A2155E\"/>",
+      "<hr/>",
+      "Both Sapphire variants serve as your primary source of Aluminium until you can unlock other electrolysis recipes in &&bMV&&r.",
+      "<br/>",
+      "The other two gems are mediocre at best."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:sapphire_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Aluminium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          16,
+          112
+        ]
+      }
+    }
+  }
+}

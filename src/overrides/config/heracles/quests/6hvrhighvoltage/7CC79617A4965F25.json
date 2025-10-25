@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "390E59F05132FCB8",
+    "42FB276AB16258D9"
+  ],
+  "tasks": {
+    "24886FDFB1DE74E0": {
+      "type": "heracles:item",
+      "item": "gtceu:hydrofluoric_acid_bucket"
+    },
+    "690DEB428063A459": {
+      "type": "heracles:item",
+      "item": "gtceu:chloroform_bucket"
+    },
+    "3B4E4FCF434149E8": {
+      "type": "heracles:item",
+      "item": "gtceu:polytetrafluoroethylene_plate"
+    }
+  },
+  "rewards": {
+    "314C46623E72CFA4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:netherrack_topaz_ore",
+        "count": 24
+      }
+    }
+  },
+  "display": {
+    "title": "Polytetrafluoroethylene",
+    "description": [
+      "<subtitle id=\"7CC79617A4965F25\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"24886FDFB1DE74E0\" quest=\"7CC79617A4965F25\"/>",
+      "<task task=\"690DEB428063A459\" quest=\"7CC79617A4965F25\"/>",
+      "<task task=\"3B4E4FCF434149E8\" quest=\"7CC79617A4965F25\"/>",
+      "<hr/>",
+      "&&aPolytetrafluoroethylene (PTFE)&&r is a &&7Carbon&&r-&&bFluorine&&r polymer. Similarly to PVC, PTFE can be used to increase the yield of Plastic Circuit Boards and other crafts. Presently, it is used to make the walls of &&3Large Chemical Reactors&&r.",
+      "<br/>",
+      "&&3Chlorine&&r is required in the process, which is fully recycled if you electrolyze the &&aHydrochloric Acid&&r waste.",
+      "<br/>",
+      "&&bFluorine&&r will also be used in the &&aUranium&&r and &&7Naquadah&&r refinement processes.",
+      "<br/>",
+      "&&9Tip:&&r From this point onwards, you should be solidifying Polymers as &&dBar&&r (Ingot) form, as they can easily be shaped to whichever form you will need using the &&3Extruder&&r.",
+      "<hr/>",
+      "<reward reward=\"314C46623E72CFA4\" quest=\"7CC79617A4965F25\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:polytetrafluoroethylene_plate"
+    },
+    "subtitle": {
+      "text": "A.K.A - Teflon"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          180,
+          12
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2FC7B1E867E4194E"
+  ],
+  "tasks": {
+    "1E55AB139D9E3539": {
+      "title": "Checkmark",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Troubleshooting Multiblocks",
+    "description": [
+      "<subtitle id=\"331F2C12C652D268\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1E55AB139D9E3539\" quest=\"331F2C12C652D268\"/>",
+      "<hr/>",
+      "&&9-&&r If the recipe isn't happening, check if the Multiblock is properly plugged in (we all make these mistakes!).",
+      "<br/>",
+      "&&9-&&r Remember to always perform the initial Maintenance \"routine\" at the appropriate hatch.",
+      "<br/>",
+      "&&9-&&r Verify the recipe's EU/t usage - the max EU/t provided to the multiblock has to be greater than that of the recipe.",
+      "<br/>",
+      "&&9- &&rCheck the special requirements the recipe may have (EMI always has some kind of indication if this is the case). Do you need to be in a Cleanroom, for example?",
+      "<br/>",
+      "&&9-&&r Make sure the correct items are input into the buses/hatches. This is less obvious than in a regular machine, because you have to juggle between the Input Bus and Input Hatch.",
+      "<br/>",
+      "&&9-&&r Make sure there is space for an output. Maybe the multiblock formed, but you forgot a Hatch. The other biggest offender is the Output Hatches being too low tier and thus having too little capacity - this trips people up with the Greenhouse!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:robust_machine_casing"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "It's not forming? We've all been there before."
+    },
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          32,
+          32
+        ]
+      }
+    }
+  }
+}

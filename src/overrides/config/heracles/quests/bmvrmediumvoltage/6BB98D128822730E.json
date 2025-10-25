@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3E2E161F8CE35138",
+    "5D9D01EF219A31C5",
+    "316FF60D6FFE97CE"
+  ],
+  "tasks": {
+    "29191DABA0ACE155": {
+      "type": "heracles:item",
+      "item": "gtceu:ethylene_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ethylene",
+    "description": [
+      "<subtitle id=\"6BB98D128822730E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"29191DABA0ACE155\" quest=\"6BB98D128822730E\"/>",
+      "<hr/>",
+      "Our warmest congratulations on making it here.",
+      "<br/>",
+      "The way you should obtain &&aEthylene&&r was described in the previous Quest, depending on the route you chose.",
+      "<br/>",
+      "&&aEthylene&&r will shortly be used in polymer production. It's also useful in a few other reactions."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ethylene_bucket"
+    },
+    "subtitle": {
+      "text": "One of many hydrocarbons"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          180,
+          -132
+        ]
+      }
+    }
+  }
+}

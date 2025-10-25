@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "23C471A620644954": {
+      "title": "One small step for Ore...",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Start here!",
+    "description": [
+      "<subtitle id=\"730043448A9ADBB6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"23C471A620644954\" quest=\"730043448A9ADBB6\"/>",
+      "<hr/>",
+      "Hello! You're probably looking to set up &&abasic ore processing&&r. This quest line will try to guide you through the necessary motions. As always, it's &&6important&&r to make the disclaimer that this isn't the only &&o\"meta\"&&r way to process your ores - a strong ore processing facility will treat each ore depending on the demands of your &&bGregTech&&r factory. We emphasise that you shouldn't take this guide as gospel.",
+      "<br/>",
+      "Ready to get &&2into the weeds&&r?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:gold_ore"
+    },
+    "subtitle": {
+      "text": "From one Ore, a great many dusts shall flow..."
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    }
+  }
+}

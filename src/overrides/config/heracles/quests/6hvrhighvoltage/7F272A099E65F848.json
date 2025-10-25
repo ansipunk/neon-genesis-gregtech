@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4C3805F75C9EE3DD"
+  ],
+  "tasks": {
+    "75955EC3248DEA7A": {
+      "type": "heracles:item",
+      "item": "gtceu:smd_diode"
+    },
+    "46FD3F3FEFBF7ECD": {
+      "type": "heracles:item",
+      "item": "gtceu:smd_inductor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More SMD Components",
+    "description": [
+      "<task task=\"75955EC3248DEA7A\" quest=\"7F272A099E65F848\"/>",
+      "<task task=\"46FD3F3FEFBF7ECD\" quest=\"7F272A099E65F848\"/>",
+      "<hr/>",
+      "&&aPlatinum&&r (needed for SMD Diodes) has its own dedicated Quest in the &&5EV&&r tab.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The SMD Inductors make an appearance in GTCEu for the first time. It's more consistent and convenient to have all Circuit components receive an SMD counterpart."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:smd_diode"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          72,
+          48
+        ]
+      }
+    }
+  }
+}

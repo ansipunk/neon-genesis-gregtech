@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3144DC68B266730C",
+    "1C50A758A1DE25CB"
+  ],
+  "tasks": {
+    "3704C06203B7485A": {
+      "title": "Wood Plates",
+      "type": "heracles:item",
+      "item": "#forge:plates/wood"
+    },
+    "131521889242DDB8": {
+      "type": "heracles:item",
+      "item": "gtceu:resin_printed_circuit_board"
+    }
+  },
+  "rewards": {
+    "2A1EAEB72424AFB9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:wood_plate",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Electronics #2: Circuit Boards",
+    "description": [
+      "<subtitle id=\"4ED5A9AEF7B928BA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3704C06203B7485A\" quest=\"4ED5A9AEF7B928BA\"/>",
+      "<task task=\"131521889242DDB8\" quest=\"4ED5A9AEF7B928BA\"/>",
+      "<hr/>",
+      "Macerate Wood into Wood Pulp, then compress it into Wood Plates. Combine it with Resin to make an empty board.",
+      "<br/>",
+      "Stick in some expensive Copper Wires (these'll get cheaper in &&7LV&&r) and you've got the base for your first &&aCircuit&&r.",
+      "<br/>",
+      "Almost there!",
+      "<hr/>",
+      "<reward reward=\"2A1EAEB72424AFB9\" quest=\"4ED5A9AEF7B928BA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:resin_printed_circuit_board"
+    },
+    "subtitle": {
+      "text": "The circuit-er part of circuits..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          216,
+          60
+        ]
+      }
+    }
+  }
+}

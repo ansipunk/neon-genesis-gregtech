@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6EB68C28BEE24DEF",
+    "6A304E453D74C57C"
+  ],
+  "tasks": {
+    "6D7350EA7AB6CF25": {
+      "type": "heracles:item",
+      "item": "gtceu:ethanol_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ethanol",
+    "description": [
+      "<subtitle id=\"5D9D01EF219A31C5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6D7350EA7AB6CF25\" quest=\"5D9D01EF219A31C5\"/>",
+      "<hr/>",
+      "Put your previously made &&aBiomass&&r into a &&3MV Distillery&&r to make &&aEthanol&&r.",
+      "<br/>",
+      "You will need this for &&dEthylene&&r by reacting it with &&aSulfuric Acid&&r in a &&3MV Chemical Reactor&&r... unless you chose to go down the Oil path.",
+      "<br/>",
+      "Once you have a hefty starting stock of Ethanol, consider making and distilling &&9Fermented Biomass&&r in a &&3Distillation Tower&&r (when you get there!) for extra chemicals.",
+      "<br/>",
+      "&&cDo not try&&r to use Ethanol as a Power source... it's quite possibly its worst use. If it's organic &&9Power&&r that you want, we suggest taking a look at &&dBenzene&&r instead!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ethanol_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Yo, wait - that's alcohol!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          0,
+          -116
+        ]
+      }
+    }
+  }
+}

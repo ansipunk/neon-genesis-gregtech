@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "678CABA03E17516A"
+  ],
+  "tasks": {
+    "06AE61C5F174F4E7": {
+      "type": "heracles:item",
+      "item": "gtceu:neuro_processing_unit"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "It's Alive!",
+    "description": [
+      "<subtitle id=\"3BD68E5909A97532\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"06AE61C5F174F4E7\" quest=\"3BD68E5909A97532\"/>",
+      "<hr/>",
+      "The &&aNeuro Processing Unit&&r serves as the CPU for &&4Wetware&&r. It also takes a circuit board in its recipe, but don't let that scare you."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:neuro_processing_unit"
+    },
+    "subtitle": {
+      "text": "Neurons for computation"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          24,
+          -36
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6DBF61D4F94BC851"
+  ],
+  "tasks": {
+    "74712C8E9A6561A0": {
+      "type": "heracles:item",
+      "item": "gtceu:neutronium_boule"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Neutronium-doped Silicon Boule",
+    "description": [
+      "<subtitle id=\"3F058322E1A8D5EC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"74712C8E9A6561A0\" quest=\"3F058322E1A8D5EC\"/>",
+      "<hr/>",
+      "This is the &&afinal silicon boule&&r, which will allow you to produce a ton of wafers.",
+      "<br/>",
+      "It also unlocks the recipe for the &&aHighly Advanced SoC&&r, which is used to make cheaper &&4wetware circuits&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:neutronium_boule"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Neutron -> Electron Holes"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          216,
+          -24
+        ]
+      }
+    }
+  }
+}

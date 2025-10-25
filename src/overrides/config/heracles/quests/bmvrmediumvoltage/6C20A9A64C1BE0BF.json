@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "6C36867EB98E772D": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_transformer_1a"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Transformers",
+    "description": [
+      "<subtitle id=\"6C20A9A64C1BE0BF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6C36867EB98E772D\" quest=\"6C20A9A64C1BE0BF\"/>",
+      "<hr/>",
+      "&&3Transformers&&r allow you to step up and down safely between Voltage tiers. They convert the power they receive into an equivalent amount of power 1 voltage tier above or below the input voltage.",
+      "<br/>",
+      "Apart from running machines on different voltage tiers, Transformers come in handy for transporting power across longer distances, as cable loss has less of an effect at higher voltages. Just like real life!",
+      "<br/>",
+      "Transformers have 5 low voltage sides, and 1 high voltage side.",
+      "<br/>",
+      "The &&9normal&&r Transformer can only do 1A <-> 4A conversion, but &&9Adjustable&&r Transformers can be changed between 1A <-> 4A, 2A <-> 8A, 4A <-> 16A, and 16A <-> 64A conversions. ",
+      "<br/>",
+      "Use a &&aSoft Hammer&&r to change between transforming up and down, and a &&aScrewdriver&&r on Adjustable Transformers to change the amperage.",
+      "<br/>",
+      "Higher tier Transformers will require &&9Coils&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_transformer_1a"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "LV In Disguise"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          36,
+          78
+        ]
+      }
+    }
+  }
+}

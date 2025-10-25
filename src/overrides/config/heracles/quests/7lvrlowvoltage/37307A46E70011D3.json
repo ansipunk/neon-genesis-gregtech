@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "5521E4E26119E152": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_canner"
+    }
+  },
+  "rewards": {
+    "25A57A151B7E8FEB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:lithium_dust",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Basic Canner",
+    "description": [
+      "<subtitle id=\"37307A46E70011D3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5521E4E26119E152\" quest=\"37307A46E70011D3\"/>",
+      "<hr/>",
+      "Make this machine when you feel like it's time you invested into Batteries.",
+      "<br/>",
+      "It'll also be required if you want to make Storage Disks from &&bApplied Energistics 2&&r.",
+      "<hr/>",
+      "<reward reward=\"25A57A151B7E8FEB\" quest=\"37307A46E70011D3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_canner"
+    },
+    "subtitle": {
+      "text": "This machine does nothing exciting"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          108,
+          108
+        ]
+      }
+    }
+  }
+}

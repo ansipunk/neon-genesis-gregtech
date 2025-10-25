@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "315DBB3B23F95E0D"
+  ],
+  "tasks": {
+    "0F864E85D4956919": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_solid_boiler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Pressure Cookin'",
+    "description": [
+      "<subtitle id=\"5DD49D500327A0E2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0F864E85D4956919\" quest=\"5DD49D500327A0E2\"/>",
+      "<hr/>",
+      "The &&dSolid Boiler&&r is the only available Boiler for now, as the &&aGlass&&r needed for the others is not available just yet. You can get by with only one, but we would recommend making at least two.",
+      "<br/>",
+      "Important: Boilers can explode! This still catches out &&eexperienced GT players&&r, so keep this warning in mind when setting your Boiler up.",
+      "<br/>",
+      "Water does not gel well with &&6high temperatures&&r, and a &&cSteam Explosion&&r &&7(Launch!)&&r may occur under the following conditions:",
+      "<br/>",
+      "- The Boiler is &&4overheating.&&r Its temperature is indicated by the &&cred bar&&r in the GUI.",
+      "...and...",
+      "- The Boiler does not have any &&bwater&&r. This is signified by the absence of a &&bblue bar&&r in the GUI.",
+      "...AND...",
+      "- The Boiler receives water whilst &&6both&&r conditions are &&2true&&r.",
+      "<br/>",
+      "You can avert catastrophe by filling the boiler with water before heating it up, and making sure the water supply is constant. The drain is slow - &&b1 mB&&r of Water boils into &&7160 mB&&r of Steam - so you shouldn't have to worry about running out.",
+      "<br/>",
+      "The Boiler can auto eject steam on all its faces except the bottom. For automated Water input, use the bottom face.",
+      "<br/>",
+      "&&3Note:&&r In this modpack, explosions are configured to &&cnot&&r damage any block or entity, but you'll &&dstill lose&&r your machine."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_solid_boiler"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Putting the Steam in Steam Age"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          0,
+          24
+        ]
+      }
+    }
+  }
+}

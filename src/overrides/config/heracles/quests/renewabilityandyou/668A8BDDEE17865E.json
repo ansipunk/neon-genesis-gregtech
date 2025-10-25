@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54D73D049F8CD9FE"
+  ],
+  "tasks": {
+    "3C1B921715553377": {
+      "type": "heracles:item",
+      "item": "gtceu:stone_dust"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: gtceu:stone_dust",
+    "description": [
+      "<subtitle id=\"668A8BDDEE17865E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3C1B921715553377\" quest=\"668A8BDDEE17865E\"/>",
+      "<hr/>",
+      "&&6Stone Dust&&r can be centrifuged in &&bMV&&r for a wide range of miscellaneous materials. It's a slow and expensive process, but you may wish to check it out.",
+      "<br/>",
+      "Obviously, Quartzite is Quartzite. Did you know that you could extract any excess Quartzite into &&eLiquid Glass&&r?",
+      "<br/>",
+      "&&aPotassium Feldspar&&r electrolyses into some incredibly useful resources.",
+      "<br/>",
+      "You also have a (low) chance for &&dBiotite&&r, which notably electrolyses for a very slow source of &&bFluorine&&r.",
+      "<br/>",
+      "Finally, &&aMetal Mixture dust&&r is useless until you can centrifuge it at &&5EV&&r. Pretty much all of its outputs when centrifuged are very useful."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:stone_dust"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Small Stone, Big Byproducts"
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          -11,
+          -53
+        ]
+      }
+    }
+  }
+}

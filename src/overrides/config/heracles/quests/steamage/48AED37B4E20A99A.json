@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "03DBF1961AE21C76"
+  ],
+  "tasks": {
+    "2F3B195A110E41C2": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_alloy_smelter"
+    }
+  },
+  "rewards": {
+    "241026922AD16AB3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:bronze_plate",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Alloy Smelter",
+    "description": [
+      "<subtitle id=\"48AED37B4E20A99A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2F3B195A110E41C2\" quest=\"48AED37B4E20A99A\"/>",
+      "<hr/>",
+      "The &&bAlloy Smelter&&r is used for, well, alloys. You'll want it for the efficient &&6Bronze&&r recipe, and for &&4Red Alloy&&r in the near future.",
+      "<br/>",
+      "Out of all the &&6Steam Age&&r machines, this is the most steam-hungry. If you ever find yourself running out of steam, give your machine a &&alove-tap&&r with &&dany Soft Mallet&&r to momentarily pause it.",
+      "<hr/>",
+      "<reward reward=\"241026922AD16AB3\" quest=\"48AED37B4E20A99A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_alloy_smelter"
+    },
+    "subtitle": {
+      "text": "The Alloy Smelter makes alloys..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          72,
+          24
+        ]
+      }
+    }
+  }
+}

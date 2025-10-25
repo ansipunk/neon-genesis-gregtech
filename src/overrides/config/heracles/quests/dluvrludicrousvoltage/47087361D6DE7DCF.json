@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "42CD789B8C40E424"
+  ],
+  "tasks": {
+    "3CF7F369F390A3E5": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_processor_assembly"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Even more LuV Circuits",
+    "description": [
+      "<subtitle id=\"47087361D6DE7DCF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3CF7F369F390A3E5\" quest=\"47087361D6DE7DCF\"/>",
+      "<hr/>",
+      "Cheaper &&dLuV&&r circuits! These'll take some of the edge out of those brutal Robot Arm recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_processor_assembly"
+    },
+    "subtitle": {
+      "text": "Yup... another circuit upgrade"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          252,
+          144
+        ]
+      }
+    }
+  }
+}

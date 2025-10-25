@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "382A7CC243D7042E": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_wulfenite"
+    },
+    "5C1C4E3F40124FC4": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_molybdenite"
+    },
+    "38AF18FEEE493EB7": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_molybdenum"
+    },
+    "774C2E5939FE97B9": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_powellite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Molybdenum",
+    "description": [
+      "<subtitle id=\"63CB3C9F5A61E0C4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"382A7CC243D7042E\" quest=\"63CB3C9F5A61E0C4\"/>",
+      "<task task=\"5C1C4E3F40124FC4\" quest=\"63CB3C9F5A61E0C4\"/>",
+      "<task task=\"38AF18FEEE493EB7\" quest=\"63CB3C9F5A61E0C4\"/>",
+      "<task task=\"774C2E5939FE97B9\" quest=\"63CB3C9F5A61E0C4\"/>",
+      "<hr/>",
+      "This vein is very rare! Congratulations on stumbling upon one.",
+      "<br/>",
+      "&&8(Or at least... it should be rare.)&&r",
+      "<br/>",
+      "View the contents of this vein as \"&&7&&obasically Molybdenum, and some other stuff&&r\". Yeah, Molybdenum is what's important here."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_molybdenum_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Molybdenum"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          304,
+          -128
+        ]
+      }
+    }
+  }
+}

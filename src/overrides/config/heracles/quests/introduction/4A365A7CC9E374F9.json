@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2001CB4968D3E0A2"
+  ],
+  "tasks": {
+    "4F372C393ADC6CE2": {
+      "title": "Any Mining Hammer will do.",
+      "icon": {
+        "type": "heracles:item",
+        "item": "gtceu:steel_mining_hammer"
+      },
+      "type": "heracles:item",
+      "item": "#forge:tools/mining_hammers"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Hammer down!",
+    "description": [
+      "<subtitle id=\"4A365A7CC9E374F9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4F372C393ADC6CE2\" quest=\"4A365A7CC9E374F9\"/>",
+      "<hr/>",
+      "This hammer isn't quite like the ones you'll use for crafting. It actually works as a &&d3x3 pickaxe&&r!",
+      "<br/>",
+      "If you're familiar with &&a&&lTinker's Construct&&r, it behaves &&esimilarly&&r to hammers from that mod.",
+      "<br/>",
+      "Shift-right-click with a mining hammer in your hand to adjust the area of effect.",
+      "<br/>",
+      "Make &&bgood use&&r of these hammers! They'll help you to clear out an entire vein in &&6record time&&r.",
+      "<br/>",
+      "&&eNote:&&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_mining_hammer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Mining just became efficient"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          72,
+          -144
+        ]
+      }
+    }
+  }
+}

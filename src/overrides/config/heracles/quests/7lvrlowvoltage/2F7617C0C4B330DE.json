@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5A8F0124E07D5025"
+  ],
+  "tasks": {
+    "7A37B370D2D40E6A": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electric_pump"
+    }
+  },
+  "rewards": {
+    "204B2C6507063DF7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:lv_electric_motor"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:lv_electric_pump",
+    "description": [
+      "<subtitle id=\"2F7617C0C4B330DE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7A37B370D2D40E6A\" quest=\"2F7617C0C4B330DE\"/>",
+      "<hr/>",
+      "When placed on a machine, pumps will transfer fluid. You can configure them to import or export.",
+      "<br/>",
+      "It can accept a &&9Fluid Filter&&r.",
+      "<hr/>",
+      "<reward reward=\"204B2C6507063DF7\" quest=\"2F7617C0C4B330DE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electric_pump"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "A crafting component, but also a cover!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -36,
+          0
+        ]
+      }
+    }
+  }
+}

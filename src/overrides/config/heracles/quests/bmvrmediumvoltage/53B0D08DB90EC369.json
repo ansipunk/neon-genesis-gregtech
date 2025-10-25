@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "22B5AD670496C02D"
+  ],
+  "tasks": {
+    "105EA8621A99C1EC": {
+      "type": "heracles:item",
+      "item": "gtceu:aluminium_fluid_cell"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Large Cells",
+    "description": [
+      "<subtitle id=\"53B0D08DB90EC369\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"105EA8621A99C1EC\" quest=\"53B0D08DB90EC369\"/>",
+      "<hr/>",
+      "Aluminium Cells are a big upgrade over the Steel Cells or Universal Fluid Cells.",
+      "<br/>",
+      "They can hold any fraction of Fluid - up to &&d32 buckets&&r!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:aluminium_fluid_cell"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Like cells... only larger!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          72,
+          12
+        ]
+      }
+    }
+  }
+}

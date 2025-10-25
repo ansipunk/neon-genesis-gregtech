@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "370FC1CDF5F9A9CC"
+  ],
+  "tasks": {
+    "5F54BE8467A5C882": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_processor_computer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best UV Circuits!",
+    "description": [
+      "<subtitle id=\"359121584E056022\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5F54BE8467A5C882\" quest=\"359121584E056022\"/>",
+      "<hr/>",
+      "The third circuit of the &&4wetware&&r line. Get some &&bEuropium&&r to make these.",
+      "<br/>",
+      "This is also the best &&3UV&&r circuit!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_processor_computer"
+    },
+    "subtitle": {
+      "text": "Sentience in circuit form"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          24,
+          72
+        ]
+      }
+    }
+  }
+}

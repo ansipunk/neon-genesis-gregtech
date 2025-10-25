@@ -1,0 +1,30 @@
+{
+  "settings": {},
+  "dependencies": [
+    "49C1D61741AA288E",
+    "4AFD3073C731A1E4",
+    "0017FFFAD7CD2EFE"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§5EV§r Circuits",
+    "description": [
+      "Circuits along this line are &&5EV&&r, and are interchangeable in recipes.",
+      "<br/>",
+      "The pattern stays the same: the rightmost circuit comes in &&dlarger quantities&&r and is overall &&aeasier&&r to produce."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7813F183681E0342"
+  ],
+  "tasks": {
+    "26D2F1DD581B726D": {
+      "type": "heracles:item",
+      "item": "gtceu:crushed_redstone_ore"
+    },
+    "48BC67DA4DD081A6": {
+      "type": "heracles:item",
+      "item": "gtceu:pure_redstone_dust"
+    }
+  },
+  "rewards": {
+    "6B12F2544F281A32": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:iron_ore",
+        "count": 16
+      }
+    },
+    "00CB754FC48F6203": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:chalcopyrite_ore",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Beginner Ore Processing",
+    "description": [
+      "<task task=\"26D2F1DD581B726D\" quest=\"189612F2C7C60E81\"/>",
+      "<task task=\"48BC67DA4DD081A6\" quest=\"189612F2C7C60E81\"/>",
+      "<hr/>",
+      "&&lWhy process ore?",
+      "<br/>",
+      "The main purpose of GregTech Ore Processing is to provide &&abyproducts&&r on top of the initial outcome. At Steam Age, none of the byproducts are obtainable, but this will become relevant soon.",
+      "<br/>",
+      "&&lHow should I start?",
+      "<br/>",
+      "The steps available in the Steam Age go as follows:",
+      "<br/>",
+      "One Ore (block) &&9->&&r Two Crushed Ores (Macerator)",
+      "<br/>",
+      "One Crushed Ore &&9->&&r One Impure Dust (Hammer)",
+      "<br/>",
+      "One Impure Dust &&9->&&r One Dust (In world crafting)",
+      "<br/>",
+      "One Dust &&9->&&r One Ingot (Furnace, you should know this one)",
+      "<br/>",
+      "A pickaxe or mining hammer enchanted with Hammering, or a GregTech Hammer directly, gives Crushed Ores from breaking Ore blocks, but only at a 1:1 ratio.",
+      "<br/>",
+      "Silk Touch is essential to obtain an ore block - this pack includes a recipe for the book.",
+      "<br/>",
+      "The rule bends for ores giving more than two dusts (such as &&cRedstone&&r), and for dusts that cannot be smelted (&&cRedstone&&r... again!).",
+      "<br/>",
+      "However, you can still smelt the ore directly to get &&9half the amount&&r you would from the full processing.",
+      "<br/>",
+      "&&dEMI does not indicate Impure Dust to Clean Dust conversion&&r, so keep that in mind that you can &&athrow them into filled cauldrons&&r.",
+      "<br/>",
+      "Take this reward for listening to us waffle on WITHOUT nodding off!",
+      "<hr/>",
+      "<reward reward=\"6B12F2544F281A32\" quest=\"189612F2C7C60E81\"/>",
+      "<reward reward=\"00CB754FC48F6203\" quest=\"189612F2C7C60E81\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:crushed_redstone_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          158,
+          0
+        ]
+      }
+    }
+  }
+}

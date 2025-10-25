@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0"
+  ],
+  "tasks": {
+    "3DFCDF1B24506A8A": {
+      "title": "Wahey!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "PackagedWho?",
+    "description": [
+      "<task task=\"3DFCDF1B24506A8A\" quest=\"79192BA29BE69170\"/>",
+      "<hr/>",
+      "If recipe sizes are starting to worry you, don't worry - &&2AE2&&r now allows you to place an unlimited amount of items into a processing pattern.",
+      "<br/>",
+      "Thanks to this innovation, you can automate all the &&3Assembly Line&&r recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "expatternprovider:ex_interface"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          106,
+          148
+        ]
+      }
+    }
+  }
+}

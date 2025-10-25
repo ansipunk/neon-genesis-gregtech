@@ -1,0 +1,86 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0774EC59CD3DD7A5",
+    "575B07D390D9D079",
+    "05ADBAE5B6F38956",
+    "37AAB88A9EDCC862",
+    "6EB68C28BEE24DEF"
+  ],
+  "tasks": {
+    "685043442271A0D0": {
+      "amount": 1,
+      "tasks": {
+        "d0af40aa-ad52-4ab7-ab3f-6ab0d1c125f1": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_distillery",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "0af50cfe-25f3-4245-9cab-8d03518358e2": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_distillery",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "3F6532E5CE210907": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:basic_electronic_circuit"
+      }
+    }
+  },
+  "display": {
+    "title": "Distillery",
+    "description": [
+      "<subtitle id=\"6A304E453D74C57C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"685043442271A0D0\" quest=\"6A304E453D74C57C\"/>",
+      "<hr/>",
+      "Before we start, here's some important information if you're aiming to make Ethylene:",
+      "<br/>",
+      "Taking the &&aOil&&r route will require &&oat least&&r a &&3LV Distillery&&r.",
+      "<br/>",
+      "With the &&aBiomass&&r route, you will &&lneed&&r a &&3MV Distillery&&r.",
+      "<br/>",
+      "Get &&eeither&&r to complete this quest.",
+      "<br/>",
+      "Got all that? &&6Alright&&r! Let's discuss a complex topic: &&9Distillation&&r. We'll try to help you understand how and why the &&aEMI&&r recipes are the way they are, so stick with us.",
+      "<br/>",
+      "Nearly all the &&3Distillery&&r recipes are duplicates from the &&3Distillation Tower&&r, except that they only have one Fluid output, and void everything else.",
+      "<br/>",
+      "In other words, you could argue the &&3Distillery&&r is an &&dinferior&&r &&3Distillation Tower&&r.",
+      "<br/>",
+      "This doesn't mean that the &&3Distillery&&r is the worse of the two. It is unlocked earlier, and it is &&dsmaller&&r, &&dcheaper&&r, and &&dmore energy efficient&&r per recipe.",
+      "<br/>",
+      "Hell, in many cases, you won't even mind losing the other Fluids.",
+      "<br/>",
+      "&&3Distilleries&&r are an essential component for power generation, whether you pick &&aDiesel&&r or &&aBenzene&&r.",
+      "<br/>",
+      "You'll probably want many of them at as low-tier as possible to avoid the energy losses from Overclocking.",
+      "<hr/>",
+      "<reward reward=\"3F6532E5CE210907\" quest=\"6A304E453D74C57C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_distillery"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "The Illusion of Free Choice"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -108,
+          -60
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "74B037D7031F4A78",
+    "0DC999F79A685194",
+    "2FCBA0D780DBDA9E"
+  ],
+  "tasks": {
+    "11CD2F83031C6706": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:trinium_coil_block"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Trinium Coils",
+    "description": [
+      "<subtitle id=\"4C7C0F6A6598BC24\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"11CD2F83031C6706\" quest=\"4C7C0F6A6598BC24\"/>",
+      "<hr/>",
+      "&&aTrinium Coils&&r bring up the Heat Capacity to &&d9,001K&&r.",
+      "<br/>",
+      "These coils are required for progressing to the second half of &&cZPM&&r, and beyond."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:trinium_coil_block"
+    },
+    "subtitle": {
+      "text": "IT'S OVER 9000!!!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -156,
+          0
+        ]
+      }
+    }
+  }
+}

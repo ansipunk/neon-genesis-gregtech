@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2F9D9AAB27E6534D",
+    "0B25A282F677744B"
+  ],
+  "tasks": {
+    "76DE4924186D83C2": {
+      "type": "heracles:item",
+      "item": "gtceu:rtm_alloy_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: gtceu:rtm_alloy_ingot",
+    "description": [
+      "<subtitle id=\"3856DBCCAA6D2A58\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"76DE4924186D83C2\" quest=\"3856DBCCAA6D2A58\"/>",
+      "<hr/>",
+      "You're gonna need to start on your &&dPlatinum&&r processing, or \"&&bPlatline&&r\", if you want to get your hands on these."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:rtm_alloy_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Tungstensteel is dead, long live RTM"
+    },
+    "groups": {
+      "Heating Coils": {
+        "position": [
+          64,
+          -208
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "36D03210534D3226": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:sulfur_dust"
+    }
+  },
+  "rewards": {
+    "20B864DFB8F05D94": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "minecraft:long_fire_resistance"
+        }
+      }
+    },
+    "37C361DDB9A55FF2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:potion",
+        "count": 1,
+        "nbt": {
+          "Potion": "minecraft:long_fire_resistance"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "S is for Sulfur",
+    "description": [
+      "<subtitle id=\"236C886D50A99785\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"36D03210534D3226\" quest=\"236C886D50A99785\"/>",
+      "<hr/>",
+      "Mine some &&dSulfur&&r from the Nether.",
+      "<br/>",
+      "If Lava is \"too hot to handle\", we've included a &&6direct crafting recipe&&r for &&aPotions of Fire Resistance&&r. EMI might look a little confusing, but don't worry - you can use &&bWater Bottles&&r in the potion recipe.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o With the existence of &&6Small Sulfur Ores&&f scattered in GregTech 5 ore veins, you could mine enough Sulfur in the Overworld to skip having to visit the Nether. Sounds broken, but it was still as much of a grind as Nether travel!",
+      "<hr/>",
+      "<reward reward=\"20B864DFB8F05D94\" quest=\"236C886D50A99785\"/>",
+      "<reward reward=\"37C361DDB9A55FF2\" quest=\"236C886D50A99785\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:sulfur_dust"
+    },
+    "subtitle": {
+      "text": "A little bit of exploring never hurt anyone"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          180,
+          -48
+        ]
+      }
+    }
+  }
+}

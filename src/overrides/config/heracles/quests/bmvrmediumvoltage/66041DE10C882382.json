@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1FFD2242B94A7378"
+  ],
+  "tasks": {
+    "2620FA131244B3DA": {
+      "amount": 1,
+      "tasks": {
+        "780c4f2c-833b-49b6-a00c-72f8c9aa1e3c": {
+          "type": "heracles:item",
+          "item": "gtceu:potin_quadruple_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "b6d5ca65-a5fb-4be9-91cb-550793ed6714": {
+          "type": "heracles:item",
+          "item": "gtceu:potin_nonuple_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Multiple Channel Pipes",
+    "description": [
+      "<subtitle id=\"66041DE10C882382\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2620FA131244B3DA\" quest=\"66041DE10C882382\"/>",
+      "<hr/>",
+      "Regular &&o&&dGregTech&&r Fluid Pipes can only transport one fluid type at a time.",
+      "<br/>",
+      "&&3Quadruple Fluid Pipes&&r can transfer four different types of fluids. &&3Nonuple Fluid Pipes&&r can transfer nine different types! Useful for compact setups.",
+      "<br/>",
+      "&&3Nonuple Fluid Pipes&&r will be useful in &&5EV&&r for handling the many outputs of the &&3Distillation Tower&&r.",
+      "<br/>",
+      "Get &&eeither&&r to finish this quest."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_steel_quadruple_fluid_pipe"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "\"I thought channels were disabled!\""
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          72,
+          -60
+        ]
+      }
+    }
+  }
+}

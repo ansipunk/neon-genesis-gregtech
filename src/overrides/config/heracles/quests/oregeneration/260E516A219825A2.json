@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "2814C224F95FA845": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_magnetite"
+    },
+    "2E5F8E8AC59E87CF": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_vanadium_magnetite"
+    },
+    "15315A8A2513F7E4": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_gold"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Magnetite",
+    "description": [
+      "<subtitle id=\"260E516A219825A2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2814C224F95FA845\" quest=\"260E516A219825A2\"/>",
+      "<task task=\"2E5F8E8AC59E87CF\" quest=\"260E516A219825A2\"/>",
+      "<task task=\"15315A8A2513F7E4\" quest=\"260E516A219825A2\"/>",
+      "<hr/>",
+      "This vein is namely one of the few direct sources of Gold in the overworld.",
+      "<br/>",
+      "There are many other sources of Gold in GregTech, but you will likely see better yields of Gold if you obtain it by processing other resources.",
+      "<br/>",
+      "Vanadium Magnetite becomes more useful in &&bMV&&r, when you will centrifuge out the Vanadium within for Vanadium Steel."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:magnetite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Iron, Gold, Vanadium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          80,
+          -112
+        ]
+      }
+    }
+  }
+}

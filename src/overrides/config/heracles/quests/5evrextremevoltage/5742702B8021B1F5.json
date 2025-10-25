@@ -1,0 +1,81 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48141DBA683F6B5A"
+  ],
+  "tasks": {
+    "50A51E293CF77CDC": {
+      "type": "heracles:item",
+      "item": "gtceu:phenol_bucket"
+    },
+    "1A3F5CC1F2AE86D7": {
+      "type": "heracles:item",
+      "item": "gtceu:benzene_bucket"
+    },
+    "69FFE6E6FD6E2198": {
+      "type": "heracles:item",
+      "item": "gtceu:toluene_bucket"
+    },
+    "4CEA0DC5DED2BC42": {
+      "type": "heracles:item",
+      "item": "gtceu:dimethylbenzene_bucket"
+    },
+    "6649B70C143E163A": {
+      "type": "heracles:item",
+      "item": "gtceu:acetic_acid_bucket"
+    },
+    "73AEFD316B4C5605": {
+      "type": "heracles:item",
+      "item": "gtceu:methanol_bucket"
+    },
+    "50ACCD4B9ACD8C13": {
+      "type": "heracles:item",
+      "item": "gtceu:acetone_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "True Distillation: Organic",
+    "description": [
+      "<task task=\"50A51E293CF77CDC\" quest=\"5742702B8021B1F5\"/>",
+      "<task task=\"1A3F5CC1F2AE86D7\" quest=\"5742702B8021B1F5\"/>",
+      "<task task=\"69FFE6E6FD6E2198\" quest=\"5742702B8021B1F5\"/>",
+      "<task task=\"4CEA0DC5DED2BC42\" quest=\"5742702B8021B1F5\"/>",
+      "<task task=\"6649B70C143E163A\" quest=\"5742702B8021B1F5\"/>",
+      "<task task=\"73AEFD316B4C5605\" quest=\"5742702B8021B1F5\"/>",
+      "<task task=\"50ACCD4B9ACD8C13\" quest=\"5742702B8021B1F5\"/>",
+      "<hr/>",
+      "This Quest requires the &&3Pyrolyse Oven&&r and is &&doptional&&r, yet convenient.",
+      "<br/>",
+      "The first four fluids are the important products of &&aWood Tar&&r Distillation:",
+      "&&9-&&r Phenol: useful for Epoxy and PBI",
+      "&&9-&&r Benzene: an important hydrocarbon",
+      "&&9-&&r Toluene: useful for TNT",
+      "&&9-&&r Dimethylbenzene: useful for PBI",
+      "<br/>",
+      "Unlike Oil, putting &&aWood Tar&&r in the &&3Distillation Tower&&r for the byproducts, and using &&dNitrobenzene&&r for power is arguably worth it.",
+      "<br/>",
+      "The bottom three are the important products from &&aWood Vinegar&&r Distillation:",
+      "&&9-&&r Acetic Acid: useful to make more Acetone",
+      "&&9-&&r Methanol: a moderately important hydrocarbon",
+      "&&9-&&r Acetone: useful for Epoxy and Gasoline",
+      "<br/>",
+      "It's also possible to use a \"full combo\" of 4 &&3DTs&&r -  input &&aCharcoal Byproducts&&r into a first tower, splitting into &&aWood Tar&&r, &&aWood Gas&&r and &&aWood Vinegar&&r.",
+      "<br/>",
+      "This isn't the most efficient cost-to-production ratio, but the option is there if you get bored."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:seed_oil_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          36,
+          360
+        ]
+      }
+    }
+  }
+}

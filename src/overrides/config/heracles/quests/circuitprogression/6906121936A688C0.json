@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "42CD789B8C40E424",
+    "79E4E53E9DF45549",
+    "47087361D6DE7DCF",
+    "7AE681E2AB31EA0D"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "Craftable in §dLuV§r",
+    "description": [
+      "<subtitle id=\"6906121936A688C0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "This is the &&9Crystal&&r Circuit line.",
+      "<br/>",
+      "It's locked behind &&3Fusion&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_machine_hull"
+    },
+    "subtitle": {
+      "text": "Crystallisation"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          160,
+          -64
+        ]
+      }
+    }
+  }
+}

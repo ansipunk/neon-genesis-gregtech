@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "26394C1290D70AB6",
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "51F819B8083DC13A": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_autoclave"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "HV Autoclave",
+    "description": [
+      "<subtitle id=\"0021051273D48936\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"51F819B8083DC13A\" quest=\"0021051273D48936\"/>",
+      "<hr/>",
+      "The &&3HV Autoclave&&r - despite being optional - is a machine you'll definitively want to grab.",
+      "<br/>",
+      "This unlocks unique Batteries that are &&6far superior&&r to their standard counterparts."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_autoclave"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "The Road To Power Storage"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          72,
+          -96
+        ]
+      }
+    }
+  }
+}

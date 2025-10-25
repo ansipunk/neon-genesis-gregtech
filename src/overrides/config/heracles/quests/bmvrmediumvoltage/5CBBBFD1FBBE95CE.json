@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "682C26579EDDCA76"
+  ],
+  "tasks": {
+    "2AFB7F9BD4D82974": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_cutter"
+    }
+  },
+  "rewards": {
+    "6FD8201A5A3EF40C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:universal_fluid_cell",
+        "count": 1,
+        "nbt": {
+          "Fluid": {
+            "Amount": 1000,
+            "FluidName": "gtceu:lubricant"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Advanced Cutter",
+    "description": [
+      "<subtitle id=\"5CBBBFD1FBBE95CE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2AFB7F9BD4D82974\" quest=\"5CBBBFD1FBBE95CE\"/>",
+      "<hr/>",
+      "The &&3MV Cutter&&r is required to cut &&7Silicon Boules&&r to prepare them for &&aLaser Engraving&&r.",
+      "<br/>",
+      "We recommend you supply this machine with a steady stream of &&dLubricant&&r to cut down on the processing time.",
+      "<br/>",
+      "Lubricant can be &&3brewed&&r from &&eOil&&r and &&aTalc&&r, &&2Soapstone&&r or &&cRedstone&&r.",
+      "<hr/>",
+      "<reward reward=\"6FD8201A5A3EF40C\" quest=\"5CBBBFD1FBBE95CE\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_cutter"
+    },
+    "subtitle": {
+      "text": "Upgrades, people, upgrades!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          108,
+          120
+        ]
+      }
+    }
+  }
+}

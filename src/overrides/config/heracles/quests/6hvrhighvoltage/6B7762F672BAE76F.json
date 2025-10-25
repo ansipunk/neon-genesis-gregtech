@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "26394C1290D70AB6",
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "76DAF1C1B90EFE87": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_macerator"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Universal Macerator",
+    "description": [
+      "<subtitle id=\"6B7762F672BAE76F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"76DAF1C1B90EFE87\" quest=\"6B7762F672BAE76F\"/>",
+      "<hr/>",
+      "The &&3HV Macerator&&r finally unlocks more of the slots shown in EMI. With this, the first &&9three&&r slots are now available. This allows you to receive the &&6unique ore Byproduct&&r from macerating &&dThermal &&dCentrifuged Ore&&r.",
+      "<br/>",
+      "Macerating Ores costs &&a32 EU/t&&r with &&5two overclocks&&r, which makes this machine able to fit in &&7LV&&r lines - very, very convenient.",
+      "<br/>",
+      "Despite the signicant improvements this machine provides, it still isn't completely worth it to set up advanced processing for every single ore. Energy and time are still things to consider, so only process the ores that produce &&6Byproducts&&r you care for.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GregTech 5u, the &&6HV&&r&&o Macerator only gave two slots. Urgh... we weren't planning on using that Stone Dust, anyway..."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_macerator"
+    },
+    "subtitle": {
+      "text": "Shredding your Ores with byproducts"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          0,
+          -60
+        ]
+      }
+    }
+  }
+}

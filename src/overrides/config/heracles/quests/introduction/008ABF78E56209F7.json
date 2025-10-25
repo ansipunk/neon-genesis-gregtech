@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "tasks": {
+    "382566FB9E8CFE29": {
+      "title": "Alright, I get it, I get it",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tutorialised",
+    "description": [
+      "<subtitle id=\"008ABF78E56209F7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"382566FB9E8CFE29\" quest=\"008ABF78E56209F7\"/>",
+      "<hr/>",
+      "New to this updated pack is a &&dGuides + More&&r section. The information inside is available to view at any time, but whenever it becomes relevant, you will be &&6directed towards it&&r for some light reading.",
+      "<br/>",
+      "The information found inside may interest you if you would like &&amore of an insight&&r into some of &&bGTCEu's mechanics&&r - and in some cases, is absolutely indispensable.",
+      "<br/>",
+      "Quests that unlock a tutorial node will have an &&6orange-ish descriptor&&r at the bottom of the quest description.",
+      "<br/>",
+      "Get reading!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:lectern"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Tips and tricks to help you prosper"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          -24,
+          0
+        ]
+      }
+    }
+  }
+}

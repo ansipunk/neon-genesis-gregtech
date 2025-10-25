@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "478A7F7565AFC8A8",
+    "0F192D1F44B9B599"
+  ],
+  "tasks": {
+    "22926D3453E03389": {
+      "title": "I won't get too attached to my Indium setup.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Indium Processing",
+    "description": [
+      "<subtitle id=\"38D1336DC84E03FE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"22926D3453E03389\" quest=\"38D1336DC84E03FE\"/>",
+      "<hr/>",
+      "As mentioned in the main sections of this quest book, this &&5Indium setup&&r has a limited lifetime, so don't stress over optimising every last detail.",
+      "<br/>",
+      "Simply mix &&dPurified Galena&&r and &&eSphalerite&&r together with some &&aSulfuric Acid&&r to obtain &&9Indium Concentrate&&r, then combine with Aluminium Dust in a Chemical Reactor for your prize!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:indium_dust"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Getting your first Indium has never been so fun."
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          64,
+          128
+        ]
+      }
+    }
+  }
+}

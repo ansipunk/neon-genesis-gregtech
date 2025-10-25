@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1E9BE8D3F8A602DC",
+    "45B71324028F6E68"
+  ],
+  "tasks": {
+    "161B5813936E5E42": {
+      "type": "heracles:item",
+      "item": "gtceu:aluminium_ingot"
+    }
+  },
+  "rewards": {
+    "19987707822BC176": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:aluminium_dust",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:aluminium_ingot",
+    "description": [
+      "<subtitle id=\"7567E885B7166603\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"161B5813936E5E42\" quest=\"7567E885B7166603\"/>",
+      "<hr/>",
+      "Well... can you show us an &&bMV&&r Circuit as well?",
+      "<br/>",
+      "&&aAluminium&&r is the main ingredient for &&bMV&&r machinery. Check &&8aa&&7aa&&raall the way to the other side for the &&2Sapphire Quest&&r if you haven't acquired any &&aAluminium Dust&&r yet.",
+      "<br/>",
+      "Once you setup an &&3MV Electrolyzer&&r, you can get &&aAluminium&&r through many other ores. All of this quest's rewards bear &&aAluminium&&r, so keep an eye out for them when mining.",
+      "<br/>",
+      "The process of smelting Aluminium can be cut down by about a third with &&9Nitrogen&&r, which is obtained by centrifuging &&9Air&&r from a &&3Gas Collector&&r.",
+      "<br/>",
+      "&&6You will still need MV Circuits in order to make MV machines!&&r",
+      "<hr/>",
+      "<reward reward=\"19987707822BC176\" quest=\"7567E885B7166603\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:aluminium_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "We're basically in MV now, right?"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          301,
+          108
+        ]
+      }
+    }
+  }
+}

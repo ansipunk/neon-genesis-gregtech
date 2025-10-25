@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "012BF60FBD5D41AC",
+    "4353AB0E20601AEC"
+  ],
+  "tasks": {
+    "04D48CBAD6DA788D": {
+      "title": "Sodium Persulfate goes hard!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Washing with Sodium Persulfate",
+    "description": [
+      "<subtitle id=\"5AB202F6C0B34BF3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"04D48CBAD6DA788D\" quest=\"5AB202F6C0B34BF3\"/>",
+      "<hr/>",
+      "Sodium Persulfate isn't as simple to obtain as Mercury, but you'll probably find yourself making some when crafting Circuit Boards. Set up a &&6Chemical Reactor&&r/&&bElectrolyser&&r combo with a Level Emitter attached if you want to keep some in stock, and then you can wash any Crushed Ore with a &&aChemical Bath&&r.",
+      "<br/>",
+      "You'll want to use &&3Sodium Persulfate&&r when processing:",
+      "<br/>",
+      "- Tin Ore",
+      "- Aluminium Ore",
+      "- Cobalt Ore",
+      "- Cobaltite Ore",
+      "- Bauxite Ore",
+      "- Tetrahedrite Ore",
+      "- Pentlandite Ore",
+      "- Sphalerite Ore",
+      "- Stibnite Ore",
+      "- Yellow Limonite Ore",
+      "- Malachite Ore",
+      "- Iron Ore",
+      "<br/>",
+      "Enjoy your byproducts!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:sodium_persulfate_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Sulfium Persodate"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          -64,
+          64
+        ]
+      }
+    }
+  }
+}

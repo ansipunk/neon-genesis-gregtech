@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "45E300FD7CD05A37",
+    "359121584E056022"
+  ],
+  "tasks": {
+    "433027F7B7C732A1": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_processor_mainframe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Wetware Mainframe - The UHV Circuit",
+    "description": [
+      "<subtitle id=\"3B49BD004F38E1A2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"433027F7B7C732A1\" quest=\"3B49BD004F38E1A2\"/>",
+      "<hr/>",
+      "This is a huge accomplishment, nice job!",
+      "<br/>",
+      "The only ingredient that should be new to you are the &&4Tritanium Frames&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_processor_mainframe"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "The §6final§r circuit"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          108,
+          -24
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54D73D049F8CD9FE"
+  ],
+  "tasks": {
+    "3850F80F95B8E520": {
+      "type": "heracles:item",
+      "item": "minecraft:gravel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:gravel",
+    "description": [
+      "<subtitle id=\"52868F643F0A1007\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3850F80F95B8E520\" quest=\"52868F643F0A1007\"/>",
+      "<hr/>",
+      "Just Forge Hammer that Cobblestone and you'll get some &&dGravel&&r.",
+      "<br/>",
+      "Gravel macerates into &&6Stone Dust&&r, but with a low chance of Flint when the recipe is performed in a &&6HV Macerator&&r or above. You probably want to sift for Flint, anyway!",
+      "<br/>",
+      "Flint Dust centrifuges into &&aSilicon Dioxide&&r, which is then electrolysed for Silicon and Oxygen."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:gravel"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "cp_gravelpit"
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          0,
+          -74
+        ]
+      }
+    }
+  }
+}

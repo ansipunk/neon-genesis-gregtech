@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "26394C1290D70AB6"
+  ],
+  "tasks": {
+    "3872B1D118426B33": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_large_boiler"
+    },
+    "5665BED547B49DAB": {
+      "title": "I am sane.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "One Hundred Million Pressure Cookers",
+    "description": [
+      "<subtitle id=\"1BB40CCF17D00719\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3872B1D118426B33\" quest=\"1BB40CCF17D00719\"/>",
+      "<task task=\"5665BED547B49DAB\" quest=\"1BB40CCF17D00719\"/>",
+      "<hr/>",
+      "If you're &&lstill&&r running off the &&3Large Bronze Boiler&&r, you may &&o(read: may not)&&r want to upgrade to the &&3Large Steel Boiler&&r.",
+      "<br/>",
+      "It's slightly more efficient than the &&3LBB&&r, and produces &&d900 EU/t worth of Steam&&r...",
+      "<br/>",
+      "We'd politely recommend that you try other power options at this point.",
+      "<br/>",
+      "Anyway, here's a checkmark to skip the quest."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_large_boiler"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Steam isn't the only answer, but we won't stop you"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          0,
+          -24
+        ]
+      }
+    }
+  }
+}

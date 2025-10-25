@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D6CC3C7F6BE4055"
+  ],
+  "tasks": {
+    "0EC657B81458D697": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_data_access_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Advanced Data Access Hatch",
+    "description": [
+      "<subtitle id=\"72740001958E929A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0EC657B81458D697\" quest=\"72740001958E929A\"/>",
+      "<hr/>",
+      "This hatch allows you to store more &&aData Storage Items&&r than the basic one.",
+      "<br/>",
+      "Don't forget that this hatch requires a &&9Data Orb&&r for research."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_data_access_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Increased storage density!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -84,
+          36
+        ]
+      }
+    }
+  }
+}

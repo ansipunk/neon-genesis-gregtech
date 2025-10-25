@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4AFD3073C731A1E4"
+  ],
+  "tasks": {
+    "074BEBAAF5C3FF1F": {
+      "amount": 1,
+      "tasks": {
+        "db22358b-cb49-42d0-b8e5-c05603d1fc78": {
+          "type": "heracles:item",
+          "item": "mae2:4x_crafting_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "5c217304-2776-4194-872f-ee1bf1bdfda0": {
+          "type": "heracles:item",
+          "item": "mae2:16x_crafting_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "a1743bc3-c1eb-44f6-b254-2e1c70b48552": {
+          "type": "heracles:item",
+          "item": "mae2:64x_crafting_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "7409278c-5117-40db-b6ff-5b6dddb49df6": {
+          "type": "heracles:item",
+          "item": "mae2:256x_crafting_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Dense Coprocessors",
+    "description": [
+      "<subtitle id=\"1D8170A19E54C5B9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"074BEBAAF5C3FF1F\" quest=\"1D8170A19E54C5B9\"/>",
+      "<hr/>",
+      "With &&5EV Circuits&&r, you can compress your Coprocessors into &&3Dense&&r variants to get more value-for-money. ",
+      "<br/>",
+      "The crafting ratio is in your favour, so you'll likely have more &&eparallel autocrafting power&&r than you'd need to finish the pack."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mae2:4x_crafting_accelerator"
+    },
+    "subtitle": {
+      "text": "Who are you calling Dense?"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          288,
+          -168
+        ]
+      }
+    }
+  }
+}

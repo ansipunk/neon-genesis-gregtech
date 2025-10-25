@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "7296DE6280CBC6A1": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_kyanite"
+    },
+    "74D148653E7A1B25": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_mica"
+    },
+    "6173C7077E889C16": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_bauxite"
+    },
+    "0091A8A8857BFCA3": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pollucite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mica",
+    "description": [
+      "<subtitle id=\"0B4BA438FE7F3640\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7296DE6280CBC6A1\" quest=\"0B4BA438FE7F3640\"/>",
+      "<task task=\"74D148653E7A1B25\" quest=\"0B4BA438FE7F3640\"/>",
+      "<task task=\"6173C7077E889C16\" quest=\"0B4BA438FE7F3640\"/>",
+      "<task task=\"0091A8A8857BFCA3\" quest=\"0B4BA438FE7F3640\"/>",
+      "<hr/>",
+      "A source of Bauxite for your first ever Titanium.",
+      "<br/>",
+      "Kyanite and Mica decompose into some desirable products if you electrolyze them, but there are definitely better options, so you shouldn't hunt them down if you want their byproducts.",
+      "<br/>",
+      "&&8(This vein probably irks your average GTNH player...)&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mica_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Aluminium, Fluorine, Titanium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          -16,
+          -96
+        ]
+      }
+    }
+  }
+}

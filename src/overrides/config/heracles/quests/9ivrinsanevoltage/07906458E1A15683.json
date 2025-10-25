@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "216E5A3574AC08BF"
+  ],
+  "tasks": {
+    "7E67EFBB59C847D7": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_large_miner"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Multiblock Miner II",
+    "description": [
+      "<task task=\"7E67EFBB59C847D7\" quest=\"07906458E1A15683\"/>",
+      "<hr/>",
+      "This Large Miner is nearly identical to the regular one, except it has a wider range and uses more drilling fluid.",
+      "<br/>",
+      "It's an optional upgrade - one you might not even need!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_large_miner"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          188,
+          17
+        ]
+      }
+    }
+  }
+}

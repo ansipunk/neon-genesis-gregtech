@@ -1,0 +1,102 @@
+{
+  "settings": {},
+  "dependencies": [
+    "46AD7A6F3B6775F5"
+  ],
+  "tasks": {
+    "5924F0A33AD22EC9": {
+      "amount": 1,
+      "tasks": {
+        "faf3e8d7-7110-4d94-be2f-a883818ff2d8": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_world_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "5a3546ca-19d1-47e5-ab14-8b670a7186dc": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_world_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "e272017e-452d-41a3-bc74-96b1a38d32dc": {
+          "type": "heracles:item",
+          "item": "gtceu:hv_world_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "7872e500-b640-446c-95c0-45ca6390a277": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_world_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "9c349b55-fc10-4262-b90c-37a89f6feda6": {
+          "type": "heracles:item",
+          "item": "gtceu:iv_world_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "351b6218-e6c7-4eff-b32b-78276c34c9db": {
+          "type": "heracles:item",
+          "item": "gtceu:luv_world_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "471d91d5-771e-43a9-9e50-9ef4f4e6bb8e": {
+          "type": "heracles:item",
+          "item": "gtceu:zpm_world_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "0ac5e765-5cde-481c-ace0-64cbf7271c47": {
+          "type": "heracles:item",
+          "item": "gtceu:uv_world_accelerator",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "1237B670A2484C9A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:clock"
+      }
+    }
+  },
+  "display": {
+    "title": "At The Speed Of Light",
+    "description": [
+      "<subtitle id=\"113F3D2E48F62CBB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5924F0A33AD22EC9\" quest=\"113F3D2E48F62CBB\"/>",
+      "<hr/>",
+      "&&o&&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&&r",
+      "<br/>",
+      "The &&3World Accelerator&&r... well, accelerates the world. Placing it down and powering it will cause it to tick-accelerate any Tile Entities around it. Using a Screwdriver, you can also toggle it to tick-accelerate random blocks in its area, such as farmland. ",
+      "<br/>",
+      "Keep in mind that GregTech machines are blacklisted from tick acceleration - this is for the better, as tick-accelerating a GregTech machine can lead to it consuming many Amps at once and nuking your power system.",
+      "<hr/>",
+      "<reward reward=\"1237B670A2484C9A\" quest=\"113F3D2E48F62CBB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_world_accelerator"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "I Have Become Chronos"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          252,
+          36
+        ]
+      }
+    }
+  }
+}

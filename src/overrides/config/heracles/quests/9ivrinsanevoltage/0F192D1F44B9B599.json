@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7D15EEE81B1A3100"
+  ],
+  "tasks": {
+    "1BC2B3ED9FD76DA2": {
+      "type": "heracles:item",
+      "item": "gtceu:indium_dust"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Indium",
+    "description": [
+      "<subtitle id=\"0F192D1F44B9B599\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1BC2B3ED9FD76DA2\" quest=\"0F192D1F44B9B599\"/>",
+      "<hr/>",
+      "Getting &&aIndium&&r requires a lot of &&dSulfuric Acid&&r, and two different ores: Galena and Sphalerite.",
+      "<br/>",
+      "&&dSulfuric Acid&&r can be produced in large scale in the &&3Large Chemical Reactor&&r, or obtained as a waste from the &&9Platinum Group Sludge&&r process.",
+      "<br/>",
+      "In &&dLuV&&r, the mandatory &&9Naquadah chain&&r will grant &&aIndium&&r too, which means this setup will have a limited life.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This is another small chain inherited from GregTech 5. However, this used to yield one tiny Dust instead, which was... interesting."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:indium_dust"
+    },
+    "subtitle": {
+      "text": "Superconductor Supreme"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          84,
+          84
+        ]
+      }
+    }
+  }
+}

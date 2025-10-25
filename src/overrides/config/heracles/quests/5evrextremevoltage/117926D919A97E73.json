@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3398FC108D9DCB46"
+  ],
+  "tasks": {
+    "211321BEC7585909": {
+      "type": "heracles:item",
+      "item": "gtceu:reservoir_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Reservoir Hatch",
+    "description": [
+      "<subtitle id=\"117926D919A97E73\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"211321BEC7585909\" quest=\"117926D919A97E73\"/>",
+      "<hr/>",
+      "This hatch acts like an infinite water source for multiblocks! It can make some setups much more convenient, and also has effectively infinite throughput, so it doesn't have the limitations of the &&9Infinite Water Source Cover&&r not being fast enough."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:reservoir_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Water, water, everywhere!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          122,
+          149
+        ]
+      }
+    }
+  }
+}

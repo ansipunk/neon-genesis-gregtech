@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1B520580219AFAE9",
+    "216E5A3574AC08BF"
+  ],
+  "tasks": {
+    "71D5FE3076C1F56C": {
+      "type": "heracles:item",
+      "item": "gtceu:nether_star_dust"
+    },
+    "08814DD921835365": {
+      "title": "Nether Star",
+      "type": "heracles:item",
+      "item": "#forge:gems/nether_star"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Nether Stars",
+    "description": [
+      "<subtitle id=\"6B128610C7D2825D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"71D5FE3076C1F56C\" quest=\"6B128610C7D2825D\"/>",
+      "<task task=\"08814DD921835365\" quest=\"6B128610C7D2825D\"/>",
+      "<hr/>",
+      "&&aNether Stars&&r are used for high tier &&dSensors&&r, &&dEmitters&&r and &&dField Generators&&r.",
+      "<br/>",
+      "You can also use them for &&dBeacons&&r if you desire the permanent potion effects. Finally, a vanilla multiblock!",
+      "<br/>",
+      "We've added a recipe for Nether Star Dust in this pack. &&7(Yes - without any tweaks, GTCEu expects you to farm Withers ad nauseam.)",
+      "&&r",
+      "On the topic of the &&aNether Air&&r which is required in the recipe: take a look at &&9Liquid Nether Air&&r distillation at your own leisure. It's quite rewarding.",
+      "<br/>",
+      "&&o&&8Did you know the vanilla Nether Star texture isn't centred? :)"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_star"
+    },
+    "subtitle": {
+      "text": "Jump Up, Superstar"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          156,
+          120
+        ]
+      }
+    }
+  }
+}

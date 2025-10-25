@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "35CFA225ADAD5D06": {
+      "type": "heracles:item",
+      "item": "gtceu:greenhouse"
+    }
+  },
+  "rewards": {
+    "7DCCFC3ADD071D57": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:ulv_machine_casing",
+        "count": 10
+      }
+    }
+  },
+  "display": {
+    "title": "Greenhouse",
+    "description": [
+      "<subtitle id=\"2655B72C9FF3B372\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"35CFA225ADAD5D06\" quest=\"2655B72C9FF3B372\"/>",
+      "<hr/>",
+      "GregTech doesn't provide ways to farm plants or trees, so we made a custom multiblock for the modpack!",
+      "<br/>",
+      "The multiblock &&3Greenhouse&&r will be your source of &&aWood&&r and other plants if you wish.",
+      "<br/>",
+      "Its &&aWood&&r production should be enough to run &&32 Pyrolyse Ovens&&r at their lowest Power.",
+      "<br/>",
+      "You can also use this for automated &&aResin&&r. The yields are kept low to incentivize other rubber sources later in the game.",
+      "<br/>",
+      "&&9Note: &&rWith &&d40 EU/t&&r recipes, it needs either 1 &&bMV&&r energy hatch or 2 &&7LV&&r energy hatches. Multiblocks will &&cnot&&r use 2A of one tier to reach the next one for recipe voltage minimums. ",
+      "<br/>",
+      "In other words, the controller needs to say at least \"&&bMV&&r\" in the GUI to run recipes which say \"&&bMV&&r\" in EMI, even if they can draw enough EU/t with a lower tier hatch configuration.",
+      "<br/>",
+      "&&9Note:&&r The structure requires a lot of &&9Wrought Iron&&r. Make sure you have an &&3Arc Furnace&&r for that.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o We originally implemented a Chemical Reactor recipe for wood in the modpack to solve the tree problem. Our implementation turned out to be completely busted, so we decided that a rebalance was due. Hopefully, the Greenhouse is a happy middle ground.",
+      "<hr/>",
+      "<reward reward=\"7DCCFC3ADD071D57\" quest=\"2655B72C9FF3B372\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_sapling"
+    },
+    "subtitle": {
+      "text": "The power of KubeJS"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -36,
+          12
+        ]
+      }
+    }
+  }
+}

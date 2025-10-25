@@ -1,0 +1,30 @@
+{
+  "settings": {},
+  "dependencies": [
+    "60D7F6C1EE918B66",
+    "38DE506FF5B32031",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§bMV§r Circuits",
+    "description": [
+      "Circuits along this line are &&bMV&&r, and are interchangeable in recipes.",
+      "<br/>",
+      "The pattern stays the same: the rightmost circuit comes in &&dlarger quantities&&r and is overall &&aeasier&&r to produce."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          32
+        ]
+      }
+    }
+  }
+}

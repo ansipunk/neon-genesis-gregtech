@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55D8E30978CBBC0D"
+  ],
+  "tasks": {
+    "72A52930F1754ABF": {
+      "title": "Cobblestone",
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Joy of Cobblestone",
+    "description": [
+      "<subtitle id=\"54D73D049F8CD9FE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"72A52930F1754ABF\" quest=\"54D73D049F8CD9FE\"/>",
+      "<hr/>",
+      "Cobblestone is just the start of things. Let's make a Cobbleworks!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:cobblestone"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Oh, we're only just getting started."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          11,
+          -53
+        ]
+      }
+    }
+  }
+}

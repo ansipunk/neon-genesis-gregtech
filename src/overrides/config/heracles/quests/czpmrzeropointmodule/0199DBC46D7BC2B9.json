@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "79E4E53E9DF45549"
+  ],
+  "tasks": {
+    "761AFCD5742F9A03": {
+      "type": "heracles:item",
+      "item": "gtceu:hpca_advanced_computation_component"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Advanced HPCA Components",
+    "description": [
+      "<subtitle id=\"0199DBC46D7BC2B9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"761AFCD5742F9A03\" quest=\"0199DBC46D7BC2B9\"/>",
+      "<hr/>",
+      "&&3Advanced HPCA Components&&r are improved versions of their regular counterparts, and allow for increasing the computation you can produce from an HPCA.",
+      "<br/>",
+      "The &&3HPCA Advanced Computation Component&&r produces &&a4x&&r the computation for only &&a2x&&r the Cooling!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hpca_advanced_computation_component"
+    },
+    "subtitle": {
+      "text": "Time for some computational advancement!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -156,
+          108
+        ]
+      }
+    }
+  }
+}

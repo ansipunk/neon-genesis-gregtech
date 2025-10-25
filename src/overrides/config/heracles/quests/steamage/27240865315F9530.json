@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1FFD2242B94A7378",
+    "539CF1B85725786D"
+  ],
+  "tasks": {
+    "431894F9877BC900": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_frame"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Aesthetic Ultra",
+    "description": [
+      "<subtitle id=\"27240865315F9530\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"431894F9877BC900\" quest=\"27240865315F9530\"/>",
+      "<hr/>",
+      "Ever wanted your pipes to look &&leven&&r cooler? Now you can!",
+      "<br/>",
+      "Fluid and Item Pipes can be placed inside of Frameboxes, giving your base an &&6unparalleled level of beauty&&r!",
+      "<br/>",
+      "All you - dear player - need to do is right-click a frame onto a pipe &&7(or a pipe onto a frame)&&r, and you're done.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This is a GTCEu-original mechanic."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_frame"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Spaghetti has never looked so swanky!"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          -72,
+          60
+        ]
+      }
+    }
+  }
+}

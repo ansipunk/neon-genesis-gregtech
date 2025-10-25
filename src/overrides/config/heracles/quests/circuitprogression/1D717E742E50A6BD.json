@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "15EC934CE8F4DC86",
+    "38DE506FF5B32031",
+    "5063FDFFBE3E4855",
+    "14D277A164202FF8",
+    "4AFD3073C731A1E4",
+    "5E76D4C24026157D"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "Craftable in §bMV§r and §6HV§r",
+    "description": [
+      "<subtitle id=\"1D717E742E50A6BD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "&&eMicro&&r Circuits are where the &&3Cleanroom&&r becomes a requirement to progress.",
+      "<br/>",
+      "Don't get caught out by the &&aMainframe&&r - it requires a &&3HV Circuit Assembler&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_machine_hull"
+    },
+    "subtitle": {
+      "text": "Micro Miners"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          64,
+          -64
+        ]
+      }
+    }
+  }
+}

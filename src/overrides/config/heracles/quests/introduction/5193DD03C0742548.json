@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EAF2C5B5EB755C5"
+  ],
+  "tasks": {
+    "76851CD51E99CA38": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "gtceu:rubber_sapling"
+    }
+  },
+  "rewards": {
+    "4D70B6467A188FDD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:sticky_resin"
+      }
+    }
+  },
+  "display": {
+    "title": "Gettin' Shaded under a Rubber Tree",
+    "description": [
+      "<subtitle id=\"5193DD03C0742548\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"76851CD51E99CA38\" quest=\"5193DD03C0742548\"/>",
+      "<hr/>",
+      "Rubber Trees can be found in &&aForest&&r, &&2Jungle&&r or &&aSwamp&&r biomes.",
+      "<br/>",
+      "Breaking Rubber Logs will yield &&6Sticky Resin&&r, which will be important moving forwards.",
+      "<br/>",
+      "The logs also offer &&duseful resources&&r when processed in future.",
+      "<hr/>",
+      "<reward reward=\"4D70B6467A188FDD\" quest=\"5193DD03C0742548\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:rubber_sapling"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "No, this isn't IC2"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          24,
+          -144
+        ]
+      }
+    }
+  }
+}

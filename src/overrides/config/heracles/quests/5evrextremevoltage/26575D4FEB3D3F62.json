@@ -1,0 +1,76 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40408FFD02134148",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "0D12376158C00640": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_electric_motor"
+    },
+    "322D14ACA96F5AB0": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_electric_piston"
+    },
+    "0B69C2C121FE94F4": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_electric_pump"
+    },
+    "32CCFFF3D3AA039F": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_conveyor_module"
+    },
+    "717A861CDCAE51E1": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_robot_arm"
+    },
+    "751105214D8D6343": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_emitter"
+    },
+    "152B7CB2E3FA07E9": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_sensor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The \"Fun\" will never stop",
+    "description": [
+      "<subtitle id=\"26575D4FEB3D3F62\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0D12376158C00640\" quest=\"26575D4FEB3D3F62\"/>",
+      "<task task=\"322D14ACA96F5AB0\" quest=\"26575D4FEB3D3F62\"/>",
+      "<task task=\"0B69C2C121FE94F4\" quest=\"26575D4FEB3D3F62\"/>",
+      "<task task=\"32CCFFF3D3AA039F\" quest=\"26575D4FEB3D3F62\"/>",
+      "<task task=\"717A861CDCAE51E1\" quest=\"26575D4FEB3D3F62\"/>",
+      "<task task=\"751105214D8D6343\" quest=\"26575D4FEB3D3F62\"/>",
+      "<task task=\"152B7CB2E3FA07E9\" quest=\"26575D4FEB3D3F62\"/>",
+      "<hr/>",
+      "A lot of &&dKanthal&&r will be required for the &&aEV Motors&&r. This may feel painful when you're on the edge of &&5EV&&r, but it won't be a problem later - trust us.",
+      "<br/>",
+      "&&dNeodymium&&r is the metal used for &&aMagnetic Rods&&r.",
+      "<br/>",
+      "&&aAluminium Cables&&r require &&dPVC&&r to be insulated.",
+      "<br/>",
+      "Lastly, you will need &&4Radon&&r for the &&dQuantum Eyes&&r in the &&aEmitter&&r recipe."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_electric_motor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Wait, no, don't leave!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          108,
+          216
+        ]
+      }
+    }
+  }
+}

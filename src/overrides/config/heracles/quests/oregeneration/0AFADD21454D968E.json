@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "0C549A9F07E02FA6": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_yellow_limonite"
+    },
+    "0EDAF96D2A679486": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_iron"
+    },
+    "673D33A59E428107": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_gold"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Limonite",
+    "description": [
+      "<subtitle id=\"0AFADD21454D968E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0C549A9F07E02FA6\" quest=\"0AFADD21454D968E\"/>",
+      "<task task=\"0EDAF96D2A679486\" quest=\"0AFADD21454D968E\"/>",
+      "<task task=\"673D33A59E428107\" quest=\"0AFADD21454D968E\"/>",
+      "<hr/>",
+      "This Nether Limonite vein variant isn't to be slept on.",
+      "<br/>",
+      "Thanks to the &&adoubled yield&&r of Nether ores, this is an excellent source of Iron and Gold."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_yellow_limonite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Iron, Gold"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          272,
+          0
+        ]
+      }
+    }
+  }
+}

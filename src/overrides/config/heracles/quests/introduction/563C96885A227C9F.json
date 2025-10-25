@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "36DD94945D5B4A80"
+  ],
+  "tasks": {
+    "3DAB1D757B3B049D": {
+      "title": "Wrought Iron Ingot",
+      "type": "heracles:item",
+      "item": "#forge:ingots/wrought_iron"
+    }
+  },
+  "rewards": {
+    "3CDB383AFEBDB519": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:wrought_iron_ingot",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Better Than Iron",
+    "description": [
+      "<subtitle id=\"563C96885A227C9F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3DAB1D757B3B049D\" quest=\"563C96885A227C9F\"/>",
+      "<hr/>",
+      "Wrought Iron has a very low carbon content, but that's enough to make it &&btougher&&r than regular Iron.",
+      "<br/>",
+      "&&aGregTech&&r tools made of Wrought Iron are &&650% more durable&&r than their Iron cousins. You might want to consider using Wrought Iron until you unlock &&2something better&&r.",
+      "<br/>",
+      "To obtain Wrought Iron, you can &&6smelt&&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two &&4&&laren't&&r interchangeable.",
+      "<br/>",
+      "This may be time-consuming, but rest assured, you'll unlock a &&ebetter way&&r to produce Wrought Iron before long.",
+      "<hr/>",
+      "<reward reward=\"3CDB383AFEBDB519\" quest=\"563C96885A227C9F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:wrought_iron_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Murder, she Wrought"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          24,
+          0
+        ]
+      }
+    }
+  }
+}

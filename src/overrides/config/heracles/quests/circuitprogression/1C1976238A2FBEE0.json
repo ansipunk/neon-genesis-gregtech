@@ -1,0 +1,27 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3CF550B81716B8B9",
+    "15EC934CE8F4DC86"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§8ULV§r Circuits",
+    "description": [
+      "On this line you can see the Steam, or &&8&&8ULV&&r, equivalents."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ulv_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          -32
+        ]
+      }
+    }
+  }
+}

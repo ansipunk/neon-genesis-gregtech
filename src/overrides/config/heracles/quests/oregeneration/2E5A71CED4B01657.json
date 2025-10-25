@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "2CE255679DBEF5D8": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_redstone"
+    },
+    "0E2985CCA3ADC16D": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_ruby"
+    },
+    "086C90A681E3DAC8": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_cinnabar"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Redstone",
+    "description": [
+      "<subtitle id=\"2E5A71CED4B01657\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2CE255679DBEF5D8\" quest=\"2E5A71CED4B01657\"/>",
+      "<task task=\"0E2985CCA3ADC16D\" quest=\"2E5A71CED4B01657\"/>",
+      "<task task=\"086C90A681E3DAC8\" quest=\"2E5A71CED4B01657\"/>",
+      "<hr/>",
+      "Your classic Redstone vein.",
+      "<br/>",
+      "Ruby is very important for the Chromium it contains. You'll quickly discover that you can never have too much Chromium!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Redstone, Ruby, Chromium, Mercury"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          48,
+          112
+        ]
+      }
+    }
+  }
+}

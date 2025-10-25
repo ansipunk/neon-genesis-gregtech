@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A74F692F14F0FF8",
+    "24F0454B9A090C44"
+  ],
+  "tasks": {
+    "17E45B64101F2249": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_electric_motor"
+    },
+    "4EDD7EE060B4895B": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_electric_piston"
+    },
+    "61AAFDF548821774": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_electric_pump"
+    },
+    "4EEAD829002AD3FE": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_conveyor_module"
+    },
+    "2AFFFD27485AD039": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_robot_arm"
+    },
+    "68A105502E49FEDC": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_sensor"
+    },
+    "555A9F017694B184": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_emitter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Absolute Elation",
+    "description": [
+      "<subtitle id=\"5BBFE222190891DE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"17E45B64101F2249\" quest=\"5BBFE222190891DE\"/>",
+      "<task task=\"4EDD7EE060B4895B\" quest=\"5BBFE222190891DE\"/>",
+      "<task task=\"61AAFDF548821774\" quest=\"5BBFE222190891DE\"/>",
+      "<task task=\"4EEAD829002AD3FE\" quest=\"5BBFE222190891DE\"/>",
+      "<task task=\"2AFFFD27485AD039\" quest=\"5BBFE222190891DE\"/>",
+      "<task task=\"68A105502E49FEDC\" quest=\"5BBFE222190891DE\"/>",
+      "<task task=\"555A9F017694B184\" quest=\"5BBFE222190891DE\"/>",
+      "<hr/>",
+      "&&cZPM&&r Components thankfully aren't too much harder than &&dLuV&&r. ",
+      "<br/>",
+      "They use lots of &&9Osmiridium&&r, so make sure your platinum refining process is up to the task."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_electric_motor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Prepare your platline!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -192,
+          36
+        ]
+      }
+    }
+  }
+}

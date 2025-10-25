@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "37307A46E70011D3",
+    "6D9D54FAB21EC086"
+  ],
+  "tasks": {
+    "47D0D12A26963702": {
+      "title": "Any LV Battery",
+      "icon": {
+        "type": "heracles:item",
+        "item": "gtceu:lv_sodium_battery"
+      },
+      "type": "heracles:item",
+      "item": "#gtceu:batteries/lv"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Batteries!",
+    "description": [
+      "<subtitle id=\"3E6DC423FE4A99F7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"47D0D12A26963702\" quest=\"3E6DC423FE4A99F7\"/>",
+      "<hr/>",
+      "&&aBatteries&&r can be put into the energy slot at the bottom middle of machine GUIs, or in a &&3Battery Buffer&&r.",
+      "<br/>",
+      "When inside your inventory, they can be sneak-right-clicked to allow the batteries to &&dcharge&&r your EU items.",
+      "<br/>",
+      "&&7LV&&r, &&bMV&&r, and &&6HV&&r Batteries come in three forms, allowing you to pick the one you find the best depending on materials you have. &&dLithium&&r has the best capacity, followed by &&dCadmium&&r, then &&dSodium&&r.",
+      "<br/>",
+      "Our recommendation? Find a Salt vein, and either &&aelectrolyze Salt&&r for &&dSodium&&r, or &&awash crushed Lepidolite&&r for &&dLithium&&r.",
+      "<br/>",
+      "Get &&eany&&r &&aBattery&&r to complete this quest."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_sodium_battery"
+    },
+    "subtitle": {
+      "text": "Batteries for storing energy!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          156,
+          108
+        ]
+      }
+    }
+  }
+}

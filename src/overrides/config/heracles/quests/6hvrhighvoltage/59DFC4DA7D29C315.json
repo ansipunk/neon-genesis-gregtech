@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EFEE489906256AA"
+  ],
+  "tasks": {
+    "7046AD026C55153C": {
+      "type": "heracles:item",
+      "amount": 15,
+      "item": "gtceu:bauxite_dust"
+    },
+    "5593109F3592A432": {
+      "type": "heracles:item",
+      "item": "gtceu:rutile_dust"
+    }
+  },
+  "rewards": {
+    "6752E5675B45883A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:bauxite_ore",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Almost Titanium",
+    "description": [
+      "<subtitle id=\"59DFC4DA7D29C315\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7046AD026C55153C\" quest=\"59DFC4DA7D29C315\"/>",
+      "<task task=\"5593109F3592A432\" quest=\"59DFC4DA7D29C315\"/>",
+      "<hr/>",
+      "Titanium requires a slightly more &&binvolved&&r process than the previous materials to process. To get started, you'll need &&aRutile&&r, which can be obtained by processing &&aBauxite&&r.",
+      "<br/>",
+      "Once you've gotten enough &&5Rutile&&r, your journey to &&6Titanium&&r continues in the next quest. There's no need to rush things.",
+      "<br/>",
+      "You may have already noticed that Bauxite is also an &&6excellent source of Aluminium&&r.",
+      "<br/>",
+      "Visiting &&dThe End&&r allows you to access a richer Bauxite vein, as well as &&9Ilmenite&&r - an even better source of Rutile.",
+      "<br/>",
+      "&&9Tip:&&r Ore processing for &&aBauxite&&r is ridiculously good! Including the &&3Thermal Centrifuge&&r step easily &&6triples&&r your &&aRutile&&r yield.",
+      "<br/>",
+      "&&9Bonus Tip:&&r There is also an alternate route you can process &&aPurified Bauxite&&r in a &&3Mixer&&r and process into a greater return of &&aRutile&&r, however this is much harder to initally batch so it is more ideal to use when you set up a dedicated Titanium processing line.",
+      "<hr/>",
+      "<reward reward=\"6752E5675B45883A\" quest=\"59DFC4DA7D29C315\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:rutile_dust"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "...means it WASN'T Titanium!"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          180,
+          -96
+        ]
+      }
+    }
+  }
+}

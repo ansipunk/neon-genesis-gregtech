@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5C17BF90DA2AAEEE"
+  ],
+  "tasks": {
+    "0622E51767B0AB58": {
+      "type": "heracles:item",
+      "item": "gtceu:good_integrated_circuit"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More MV Circuits",
+    "description": [
+      "<subtitle id=\"60D7F6C1EE918B66\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0622E51767B0AB58\" quest=\"60D7F6C1EE918B66\"/>",
+      "<hr/>",
+      "The &&bMV&&r Circuit for the Integrated Tier."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:good_integrated_circuit"
+    },
+    "subtitle": {
+      "text": "More... I demand more!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          216,
+          48
+        ]
+      }
+    }
+  }
+}

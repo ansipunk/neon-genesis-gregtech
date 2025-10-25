@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00E2BAEDB8199E4E"
+  ],
+  "tasks": {
+    "5C03BCF778B6293A": {
+      "type": "heracles:item",
+      "item": "gtceu:high_octane_gasoline_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "High Octane Gasoline",
+    "description": [
+      "<subtitle id=\"046B4A0B2639B16A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5C03BCF778B6293A\" quest=\"046B4A0B2639B16A\"/>",
+      "<hr/>",
+      "&&6Multiply the energy density by 2&&r and you have &&aHigh Octane Gasoline&&r.",
+      "<br/>",
+      "&&9Note:&&r Automating this requires a lot of &&3Distillation Towers&&r! A huge portion of your base would be dedicated to producing this constantly without anything bottlenecking.",
+      "<br/>",
+      "If you have a base successfully running on &&aHOG&&r, feel free to brag and share some screenshots on our &&8Discord&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:high_octane_gasoline_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Fetch me my Draconium!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          0,
+          288
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48AED37B4E20A99A"
+  ],
+  "tasks": {
+    "4D3C4CF6577957A1": {
+      "type": "heracles:item",
+      "item": "gtceu:red_alloy_ingot"
+    }
+  },
+  "rewards": {
+    "0D64AF2E29B7F41A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Red Alloy",
+    "description": [
+      "<subtitle id=\"54AF8696674766B4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4D3C4CF6577957A1\" quest=\"54AF8696674766B4\"/>",
+      "<hr/>",
+      "&&4Red Alloy&&r is an alloy of Copper and Redstone, prized in the GregTech universe for its conductivity.",
+      "<br/>",
+      "You will need some for &&9Electronic Circuits&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This material originally comes from RedPower - what a throwback!",
+      "<hr/>",
+      "<reward reward=\"0D64AF2E29B7F41A\" quest=\"54AF8696674766B4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:red_alloy_ingot"
+    },
+    "subtitle": {
+      "text": "A completely fictional alloy"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          132,
+          24
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "33A1FF5C31EAF716"
+  ],
+  "tasks": {
+    "0097D7805D82EDEC": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_printed_circuit_board"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Wetware Printed Circuit Board",
+    "description": [
+      "<subtitle id=\"678CABA03E17516A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0097D7805D82EDEC\" quest=\"678CABA03E17516A\"/>",
+      "<hr/>",
+      "The final circuit board - it's been a long time coming! As you can see, this board is &&cmuch&&r more expensive than the other ones, but you should be alright. You're a pro now!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GTNH, these circuit boards require LuV Sensors, instead of IV. This means that Wetware LuV circuits, needed other (crystal) LuV circuits!",
+      "<br/>",
+      "Additionally, because Wetware was so expensive, using Crystal was preferred unless UHV wetware circuits were needed. Thankfully, CEu does not have this problem, and LuV Wetware Circuits are worth making."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_printed_circuit_board"
+    },
+    "subtitle": {
+      "text": "The board of life itself"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -12,
+          -36
+        ]
+      }
+    }
+  }
+}

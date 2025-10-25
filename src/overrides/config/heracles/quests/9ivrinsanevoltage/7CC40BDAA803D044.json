@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "12B4423F055BFBF5"
+  ],
+  "tasks": {
+    "5365FC750B24814B": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_cutter"
+    },
+    "749F36AC9B4B92B1": {
+      "type": "heracles:item",
+      "item": "gtceu:large_cutter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "IV Cutting Machine",
+    "description": [
+      "<task task=\"5365FC750B24814B\" quest=\"7CC40BDAA803D044\"/>",
+      "<task task=\"749F36AC9B4B92B1\" quest=\"7CC40BDAA803D044\"/>",
+      "<hr/>",
+      "The &&3IV Cutting Machine&&r is required to unlock &&3IV Energy and Dynamo Hatches&&r.",
+      "<br/>",
+      "Upgrading this to its &&2GCYM&&r variant isn't a bad idea."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_cutter"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          48,
+          120
+        ]
+      }
+    }
+  }
+}

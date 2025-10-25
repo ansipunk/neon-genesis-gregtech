@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "25289F9E8AE01C29"
+  ],
+  "tasks": {
+    "34F2867EAF0914BF": {
+      "title": "Any Logs",
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "#minecraft:logs"
+    },
+    "22B6D3C1033D47DA": {
+      "type": "heracles:item",
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Beginning of it All",
+    "description": [
+      "<subtitle id=\"0EAF2C5B5EB755C5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"34F2867EAF0914BF\" quest=\"0EAF2C5B5EB755C5\"/>",
+      "<task task=\"22B6D3C1033D47DA\" quest=\"0EAF2C5B5EB755C5\"/>",
+      "<hr/>",
+      "If you're familiar with GregTech, you may be aware of its &&cmany nerfs&&r to vanilla recipes. &&bGTCEu&&r doesn't go easy on you - take a look at the crafting recipes for &&eBuckets&&r or &&ePaper&&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &&aRejoice!&&r",
+      "<br/>",
+      "&&o&&8\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_log"
+    },
+    "subtitle": {
+      "text": "Begin your playthrough as before"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          -24,
+          -96
+        ]
+      }
+    }
+  }
+}

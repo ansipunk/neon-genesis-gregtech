@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3B2D2C47BEBCFFA7"
+  ],
+  "tasks": {
+    "7E9FB8A674944C72": {
+      "title": "Gregicality Multiblocks",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Gregicality Multiblocks",
+    "description": [
+      "<task task=\"7E9FB8A674944C72\" quest=\"57DE7059D524FAE9\"/>",
+      "<hr/>",
+      "Simply put, Gregicality Multiblocks are larger versions of the GregTech machines you might be familiar with. The obvious increase in resource cost is worth your time, as they can be upgraded to gain the ability to process recipes in parallel.",
+      "<br/>",
+      "They also introduce Machine Modes - depending on the configured machine mode, the Multiblock will use a different recipe type when processing materials. You can change this from the machine GUI by clicking on the Robot Arm button.",
+      "<br/>",
+      "By including Parallel Control Hatches in your Gregicality Multiblocks, you can grant them parallel processing capability. There are 4 tiers of hatch, each further increasing parallel capability by an factor of 4.",
+      "<br/>",
+      "Batch mode can be enabled on a multiblock to merge together an amount of one recipe together into one recipe up to 5 seconds. This does not change the overall speed of one recipe like overclocking, but is useful to stop machine flickering.",
+      "This is not strictly gated by Gregicality Multiblocks, but is extremely useful with them. "
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mega_blast_furnace"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          158,
+          63
+        ]
+      }
+    }
+  }
+}

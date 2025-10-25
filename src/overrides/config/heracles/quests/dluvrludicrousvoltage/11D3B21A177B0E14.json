@@ -1,0 +1,79 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35D4F93EFB6EACB6",
+    "300348B1238BCB9A",
+    "1A4AD56965407DC5",
+    "12FEE0A47E4658D5",
+    "4F6E351C5F676618",
+    "77070668969E31BF",
+    "3A7491323AC5C70C"
+  ],
+  "tasks": {
+    "0BA1015B5C7A0BD5": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_electric_motor"
+    },
+    "70CFEBF19D3187E4": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_electric_piston"
+    },
+    "03F3F0C59537103D": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_electric_pump"
+    },
+    "682AD49DA21B55C7": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_conveyor_module"
+    },
+    "6A9298CBB8CF2A60": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_robot_arm"
+    },
+    "31BB271A1E939852": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_emitter"
+    },
+    "57609974EC62C885": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_sensor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Pure Joy",
+    "description": [
+      "<subtitle id=\"11D3B21A177B0E14\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0BA1015B5C7A0BD5\" quest=\"11D3B21A177B0E14\"/>",
+      "<task task=\"70CFEBF19D3187E4\" quest=\"11D3B21A177B0E14\"/>",
+      "<task task=\"03F3F0C59537103D\" quest=\"11D3B21A177B0E14\"/>",
+      "<task task=\"682AD49DA21B55C7\" quest=\"11D3B21A177B0E14\"/>",
+      "<task task=\"6A9298CBB8CF2A60\" quest=\"11D3B21A177B0E14\"/>",
+      "<task task=\"31BB271A1E939852\" quest=\"11D3B21A177B0E14\"/>",
+      "<task task=\"57609974EC62C885\" quest=\"11D3B21A177B0E14\"/>",
+      "<hr/>",
+      "&&dLuV&&r Components are significantly more difficult to produce than their predecessors. They require an &&9Assembly Line&&r, many different forms of materials, and lots of fluids too!",
+      "<br/>",
+      "You will notice that &&9Samarium&&r is required for &&aLuV+ Motors&&r. Samarium by itself isn't very difficult to obtain, but smelting it is slightly more involved. It requires &&9Liquid Helium&&r in the Freezer. If you made &&9IV Superconductors&&r, you've likely seen this already.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In the original GregTech 5, these components were unobtainable! You'd be free from GT if you were at this point! How times change."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_electric_motor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Fun levels - critical"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          36,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "dependencies": [
+    "0EAF2C5B5EB755C5"
+  ],
+  "tasks": {
+    "0F60FE32A8F7720E": {
+      "type": "heracles:item",
+      "item": "#minecraft:sand",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "title": "Acquire: Sand"
+    },
+    "00328CEF98F57407": {
+      "type": "heracles:item",
+      "item": "gtceu:rubber_sapling",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "1C05A84175DBD3A9": {
+      "type": "heracles:item",
+      "item": "minecraft:furnace",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    },
+    "37DD7A28A3A7CB26": {
+      "type": "heracles:item",
+      "item": "minecraft:sugar_cane",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "23A44568A9FAACA2": {
+      "type": "heracles:item",
+      "item": "minecraft:clay_ball",
+      "amount": 32,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2D2C971E9E651C2C": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 24
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Gather some resources!"
+    },
+    "description": [
+      "<subtitle id=\"0436F7B60BDEB091\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"37DD7A28A3A7CB26\" quest=\"0436F7B60BDEB091\"/>",
+      "<task task=\"0F60FE32A8F7720E\" quest=\"0436F7B60BDEB091\"/>",
+      "<task task=\"23A44568A9FAACA2\" quest=\"0436F7B60BDEB091\"/>",
+      "<task task=\"00328CEF98F57407\" quest=\"0436F7B60BDEB091\"/>",
+      "<task task=\"1C05A84175DBD3A9\" quest=\"0436F7B60BDEB091\"/>",
+      "<hr/>",
+      "Here's a &&6nifty&&r list of some resources that you'll need in bulk for early-game. Collect more than we're asking for in this quest - you'll end up running out before you know it, and it's always a good habit to gather more than you need in &&aGregTech&&r.",
+      "<br/>",
+      "We'd actually advise that you &&etackle this quest first&&r, so that you can claim its &&breward&&r. That way, you can do a little bit of main (read: &&ointeresting&&r) progression &&4&&lBEFORE&&r you're forced to go mining.",
+      "<br/>",
+      "Eight furnaces might seem &&cexcessive&&r if you're new to &&aGregTech,&&r but trust us... you can never have too many.",
+      "<hr/>",
+      "<reward reward=\"2D2C971E9E651C2C\" quest=\"0436F7B60BDEB091\"/>"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -24,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:sugar_cane",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "text": "What do I need to progress?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "678CABA03E17516A",
+    "690A51204DF5D469",
+    "762C48F0C2EA6B81"
+  ],
+  "tasks": {
+    "3A3B82E7FEE173C3": {
+      "type": "heracles:item",
+      "item": "gtceu:energy_cluster"
+    },
+    "57D8084A5AA960F8": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_lapotronic_battery"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ultimate Battery?",
+    "description": [
+      "<subtitle id=\"3D9D27F29D9D12F6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3A3B82E7FEE173C3\" quest=\"3D9D27F29D9D12F6\"/>",
+      "<task task=\"57D8084A5AA960F8\" quest=\"3D9D27F29D9D12F6\"/>",
+      "<hr/>",
+      "The &&aUV Lapotronic Orb&&r is even better than the &&cZPM&&r one! It of course comes at a price...",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Imagine making 512 &&1IV&&f Orbs, or 64 &&dLuV&&f Orbs... or 8 &&cZPM&&f Orbs.... for just one of these! See the Lore for the LuV orb for details."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:energy_cluster"
+    },
+    "subtitle": {
+      "text": "It holds way too much power!"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          252,
+          84
+        ]
+      }
+    }
+  }
+}

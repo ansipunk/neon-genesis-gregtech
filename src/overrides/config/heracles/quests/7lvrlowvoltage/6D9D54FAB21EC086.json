@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4B979482EF026BFF"
+  ],
+  "tasks": {
+    "02A2F0C2179EB4E3": {
+      "title": "Any #forge:ingots/battery_alloy",
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "#forge:ingots/battery_alloy"
+    },
+    "7B4585B39907E2EA": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_battery_hull"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Battery Preparations!",
+    "description": [
+      "<subtitle id=\"6D9D54FAB21EC086\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"02A2F0C2179EB4E3\" quest=\"6D9D54FAB21EC086\"/>",
+      "<task task=\"7B4585B39907E2EA\" quest=\"6D9D54FAB21EC086\"/>",
+      "<hr/>",
+      "Make some Battery Alloy, used for Battery Hulls.",
+      "<br/>",
+      "Antimony is found in the &&cNether&&r, so don't forget to check its Ore Tab.",
+      "<br/>",
+      "&&9Note:&&r This quest does &&lnot&&r contain functional Batteries - head downwards for that."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:battery_alloy_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Batteries are great!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          127,
+          84
+        ]
+      }
+    }
+  }
+}

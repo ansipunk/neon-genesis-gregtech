@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1646BF9194100E57",
+    "6431381FBE07D6EF"
+  ],
+  "tasks": {
+    "10F6305A7E5D186D": {
+      "type": "heracles:item",
+      "item": "gtceu:electric_blast_furnace"
+    }
+  },
+  "rewards": {
+    "0DBE03823EE6616B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:invar_ingot",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:electric_blast_furnace",
+    "description": [
+      "<subtitle id=\"1E9BE8D3F8A602DC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10F6305A7E5D186D\" quest=\"1E9BE8D3F8A602DC\"/>",
+      "<hr/>",
+      "This Quest explains the core mechanic of the &&3Electric Blast Furnace&&r, whilst the quest below will explore the mechanics of the Multiblock Parts that you'll also need. Be sure to refer to them.",
+      "<br/>",
+      "Anyway, the &&3EBF&&r is your &&efirst electric multiblock&&r! Congrats. It's used to process materials at high temperatures.",
+      "<br/>",
+      "You'll become familiar with the EBF to make &&aAluminium&&r and progress to &&d&&bMV Age&&r. It can also make &&7Steel&&r faster than a PBF.",
+      "<br/>",
+      "It's important to keep in mind that the EBF is a beefy boy. The minimum power cost to run a recipe is &&9120 EU/t&&r! That's slightly under 4 &&7LV&&r Generators. This is why it was locked behind the Battery Quest. You may wish to consider building a separate power line, with separate Generators and Battery Buffer to run this.",
+      "<hr/>",
+      "<reward reward=\"0DBE03823EE6616B\" quest=\"1E9BE8D3F8A602DC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:electric_blast_furnace"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "A big milestone!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          252,
+          108
+        ]
+      }
+    }
+  }
+}

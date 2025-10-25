@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "3A7506F2C9145157": {
+      "title": "I agree to lose my sanity",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "What is this Mess?: Part Two",
+    "description": [
+      "<subtitle id=\"701BCADAE5CF6CA5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3A7506F2C9145157\" quest=\"701BCADAE5CF6CA5\"/>",
+      "<hr/>",
+      "This quest is a light look over the &&dfull scale of regular Ore Processing&&r. Why \"regular\"? Some ores require special treatment, but that's a topic for much later. Oh no, we're already getting carried away!",
+      "<br/>",
+      "Each quest surrounding this one gives a different machine that has some involvement in Ore Processing.",
+      "<br/>",
+      "&&cNote:&&r Don't get too preoccupied with Ore Processing! It's very slow at this point, and somewhat power hungry. Around 90% of ores are not important enough to warrant going out of your way to obtain their byproducts. &&7That's a legitimate stat, by the way.&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:crushed_sulfur_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "You can't escape Greg..."
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          0,
+          144
+        ]
+      }
+    }
+  }
+}

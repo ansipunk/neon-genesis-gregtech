@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4024C831C77101CA",
+    "16B735F9C391D260"
+  ],
+  "tasks": {
+    "063E326F5BEA79A5": {
+      "amount": 1,
+      "tasks": {
+        "a25dfc97-525b-4255-86b9-46d884f64d9c": {
+          "type": "heracles:item",
+          "item": "gtceu:ender_fluid_link_cover",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "f969c5ff-79d7-4905-8d34-124d0b3577ef": {
+          "type": "heracles:item",
+          "item": "gtceu:ender_item_link_cover",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ender Fluid Linking",
+    "description": [
+      "<subtitle id=\"23A7E6D95549B1F8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"063E326F5BEA79A5\" quest=\"23A7E6D95549B1F8\"/>",
+      "<hr/>",
+      "&&aEnder Fluid Link Covers&&r are &&dGregTech&&r's &&r&&3Ender Tanks&&r. Each Cover sends fluids through a frequency defined by an &&68-digit hexadecimal number&&r (0-9, then A-F for each digit). That gives you &&64.29 billion&&r channels to work with! Ender fluid Link Covers work as long as their chunk is loaded - regardless of distance or dimension.",
+      "<br/>",
+      "Setting the mode to Import will &&o&&c&&opull&&r fluids from the world location it is attached to, while Export will &&o&&9&&opush&&r fluids to the world. Each channel has a buffer of &&d64 buckets&&r.",
+      "<br/>",
+      "You can also make similar &&3Ender Item Link Covers&&r to transport items, these have the same mechanics as the fluid ones. Craft any of them to complete this quest",
+      "<br/>",
+      "Lastly, clicking on the &&eLock&&r in the ui lock the cover to your own &&dprivate channel&&r, which is helpful if you're playing on a server.",
+      "<br/>",
+      "You can assign a description to each channel in the cover, and list all of them. I recommend you set up a system to organise all those channels. I would also advise against using the default channel (FFFFFFFF) in all cases.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Before these were added to GTm, we had &&dEnder Storage&&r&&o in the pack. If you are still using them we &&lhighly&&r&&o recommend changing them over to the &&aGregTech covers&&r&&o, which can be done in a crafting table."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ender_fluid_link_cover"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Ender? I ha- Ok, this joke is old"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          216,
+          288
+        ]
+      }
+    }
+  }
+}

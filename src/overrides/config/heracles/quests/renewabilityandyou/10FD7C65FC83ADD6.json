@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "52868F643F0A1007"
+  ],
+  "tasks": {
+    "6724DCD56A7592FF": {
+      "type": "heracles:item",
+      "item": "minecraft:sand"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:sand",
+    "description": [
+      "<subtitle id=\"10FD7C65FC83ADD6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6724DCD56A7592FF\" quest=\"10FD7C65FC83ADD6\"/>",
+      "<hr/>",
+      "Yet another &&bForge Hammer&&r step, but you'll be making &&dSand&&r renewably. With renewable Sand comes renewable Glass (remember to try using an &&9Arc Furnace&&r for that sweet &&adoubled&&r yield!).",
+      "<br/>",
+      "Quartz Sand Dust centrifuges into a chanced output of &&3Certus Quartz&&r Dust."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:sand"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Two vast and trunkless legs of stone..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          0,
+          -95
+        ]
+      }
+    }
+  }
+}

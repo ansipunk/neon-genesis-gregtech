@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1E9BE8D3F8A602DC"
+  ],
+  "tasks": {
+    "2AA5580CDD655FBC": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Multiblock Techniques",
+    "description": [
+      "<subtitle id=\"2FC7B1E867E4194E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2AA5580CDD655FBC\" quest=\"2FC7B1E867E4194E\"/>",
+      "<hr/>",
+      "Multiblocks bear a large variety of interesting mechanics that might seem daunting, but don't worry - we've written a guide to help you learn.",
+      "<br/>",
+      "&&6This quest unlocks a bunch of tutorials on Multiblocks in the &&lTips and Tricks&&r&&6 tab - check them out to learn more!&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:heatproof_machine_casing"
+    },
+    "subtitle": {
+      "text": "By the end of this, you'll be an expert"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          252,
+          144
+        ]
+      }
+    }
+  }
+}

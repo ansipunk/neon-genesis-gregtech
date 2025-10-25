@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3398FC108D9DCB46",
+    "55552589C581EE9E",
+    "14D277A164202FF8",
+    "124B32A0583A636A"
+  ],
+  "tasks": {
+    "3D2600C788928F76": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_nanomuscle_chestplate"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Better Flight!",
+    "description": [
+      "<subtitle id=\"2423918C4C6A18A5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3D2600C788928F76\" quest=\"2423918C4C6A18A5\"/>",
+      "<hr/>",
+      "The Advanced Nano Chestplate combines protection, a personal battery and an &&6enhanced Jetpack&&r, all in one.",
+      "<br/>",
+      "To &&denable charging&&r, sneak right-click with it in your hand, then equip it (There may be an occasional bug where it refuses to charge, but you'll forgive us, right?).",
+      "<br/>",
+      "Note that this stores &&oa lot&&r of energy, and uses it fairly fast. You may want to invest in a &&3HV Turbo Charger&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_nanomuscle_chestplate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Quite the microcrafting project... but worth it"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          104,
+          131
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "124B32A0583A636A"
+  ],
+  "tasks": {
+    "73A16ED7BA7D64E8": {
+      "title": "Any #forge:lenses",
+      "type": "heracles:item",
+      "amount": 20,
+      "item": "#forge:lenses"
+    },
+    "1BBF0F8C4715A902": {
+      "type": "heracles:item",
+      "item": "gtceu:simple_soc"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "I see the world in colour",
+    "description": [
+      "<subtitle id=\"6975F16F5B50F17F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"73A16ED7BA7D64E8\" quest=\"6975F16F5B50F17F\"/>",
+      "<task task=\"1BBF0F8C4715A902\" quest=\"6975F16F5B50F17F\"/>",
+      "<hr/>",
+      "The &&aSimple System on Chip&&r will be used for the best &&dULV Circuit&&r recipe.",
+      "<br/>",
+      "We'd also recommend going out of your way to make all the other useful colored Lenses ahead of time. They are listed here in an &&eoptional&&r task."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cyan_glass_lens"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "...and it's beautiful"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          144,
+          12
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6A304E453D74C57C"
+  ],
+  "tasks": {
+    "3F4C5D4741ABEE3C": {
+      "type": "heracles:item",
+      "item": "gtceu:hydrogen_bucket"
+    }
+  },
+  "rewards": {
+    "7252A11E3828603C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:fluid_filter"
+      }
+    }
+  },
+  "display": {
+    "title": "Desulfurization",
+    "description": [
+      "<subtitle id=\"5898743D8D6C2690\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3F4C5D4741ABEE3C\" quest=\"5898743D8D6C2690\"/>",
+      "<hr/>",
+      "If you've tried to distill an Oil into &&eLight Fuel, Heavy Fuel&&r, etc., you might've realised that you can't. Instead, you've gotten this &&6sulfurized&&r version of it. How dreadful!",
+      "<br/>",
+      "To fix this, we'll need to &&6desulfurize&&r it. Combine whatever you'd like to desulfurize with &&9Hydrogen Gas&&r in a &&3Chemical Reactor&&r to produce the pure product, along with a byproduct of &&aHydrogen Sulfide&&r. What now?",
+      "<br/>",
+      "<br/>",
+      "Luckily, &&aHydrogen Sulfide&&r is perfectly &&drecycled&&r in an &&3Electrolyzer&&r.",
+      "<br/>",
+      "To automate this process, simply place your &&3Chemical Reactor&&r and your &&3Electrolyzer&&r next to each other. Be sure to &&cenable input from the output side&&r. We've graciously provided a &&3Fluid Filter&&r so that your desulfurized prize doesn't go into your Electrolyzer too - remember to set it to filter both input/extract so that the right fluids can flow both ways!",
+      "<br/>",
+      "<br/>",
+      "But now, how do we get our refined goodies out of our &&3Chemical Reactor&&r? This is where the Electric Pump comes in - use it on a different face of the Chemical Reactor and extract your prize!",
+      "<br/>",
+      "&&l&&bTip&&r&&r: You only need two buckets of &&9Hydrogen Gas&&r. The easiest way of obtaining it is by electrolyzing water. You don't need to mass-produce Hydrogen (yet), don't worry!",
+      "<hr/>",
+      "<reward reward=\"7252A11E3828603C\" quest=\"5898743D8D6C2690\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:sulfur_dust"
+    },
+    "subtitle": {
+      "text": "Waiter! Why is there Sulfur in my soup?"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -144,
+          -60
+        ]
+      }
+    }
+  }
+}

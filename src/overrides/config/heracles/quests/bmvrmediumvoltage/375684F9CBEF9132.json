@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "10FB27DD3C7BEC2F",
+    "1C55AE6AD5BDE304"
+  ],
+  "tasks": {
+    "240735279EBC0193": {
+      "type": "heracles:item",
+      "item": "gtceu:transistor"
+    }
+  },
+  "rewards": {
+    "3107038561B0F74E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:silicon_dust"
+      }
+    }
+  },
+  "display": {
+    "title": "Moore's Law",
+    "description": [
+      "<task task=\"240735279EBC0193\" quest=\"375684F9CBEF9132\"/>",
+      "<hr/>",
+      "A circuit component that you can now produce thanks to the &&3MV Assembler&&r and your shiny new &&3Kanthal EBF&&r.",
+      "<hr/>",
+      "<reward reward=\"3107038561B0F74E\" quest=\"375684F9CBEF9132\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:transistor"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          216,
+          -24
+        ]
+      }
+    }
+  }
+}

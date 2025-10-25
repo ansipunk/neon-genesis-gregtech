@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41D32C5178760F47"
+  ],
+  "tasks": {
+    "165615C81FEAE3C3": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_bauxite"
+    },
+    "733D9A9B816EFA73": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_ilmenite"
+    },
+    "62761B7C37615A6D": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_aluminium"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Bauxite",
+    "description": [
+      "<subtitle id=\"40B40DF0D1295A90\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"165615C81FEAE3C3\" quest=\"40B40DF0D1295A90\"/>",
+      "<task task=\"733D9A9B816EFA73\" quest=\"40B40DF0D1295A90\"/>",
+      "<task task=\"62761B7C37615A6D\" quest=\"40B40DF0D1295A90\"/>",
+      "<hr/>",
+      "The vein to mine for &&bAluminium&&r and &&dTitanium&&r if you're a well-adjusted person.",
+      "<br/>",
+      "Ditch those Mica veins - Bauxite is the future!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:endstone_bauxite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Aluminium, Titanium, Gallium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          224,
+          96
+        ]
+      }
+    }
+  }
+}

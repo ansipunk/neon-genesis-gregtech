@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55D8E30978CBBC0D",
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "74AEE715BE76C0CF": {
+      "type": "heracles:item",
+      "item": "minecraft:andesite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:andesite",
+    "description": [
+      "<subtitle id=\"3BCA8923DF575D5D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"74AEE715BE76C0CF\" quest=\"3BCA8923DF575D5D\"/>",
+      "<hr/>",
+      "Andesite Dust will get you some delicious Asbestos Dust, and some Saltpeter Dust to boot.",
+      "<br/>",
+      "Asbestos is a slow source of Magnesium, and Saltpeter has a variety of uses in chemistry."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:andesite"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Asbestos, Saltpeter... (No Create)"
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          95,
+          -74
+        ]
+      }
+    }
+  }
+}

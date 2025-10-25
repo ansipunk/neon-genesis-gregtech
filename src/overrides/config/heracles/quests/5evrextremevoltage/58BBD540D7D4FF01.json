@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5CC9B0E832545569"
+  ],
+  "tasks": {
+    "40A35927E6D7848D": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_processor_mainframe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "First LuV Circuits!",
+    "description": [
+      "<subtitle id=\"58BBD540D7D4FF01\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"40A35927E6D7848D\" quest=\"58BBD540D7D4FF01\"/>",
+      "<hr/>",
+      "Save two of these for the &&3IV Circuit Assembler&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_processor_mainframe"
+    },
+    "subtitle": {
+      "text": "I LuV GregTech"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          252,
+          360
+        ]
+      }
+    }
+  }
+}

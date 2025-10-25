@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "10AB20A316EA688F": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_thermal_centrifuge"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Thermal Centrifuge",
+    "description": [
+      "<subtitle id=\"772F7CD63D31966A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10AB20A316EA688F\" quest=\"772F7CD63D31966A\"/>",
+      "<hr/>",
+      "The &&3Thermal Centrifuge&&r is the most energy hungry out of the Ore Processing machines. It takes &&aCrushed Ore&&r or &&aPurified Ore&&r to give a different &&6Byproduct&&r from the &&3Ore Washer&&r, but at the same rate.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The GT5 Thermal Centrifuge required 48 EU/t to run. Yes, this may be above 32 EU/t, but GT5 had &&dspecial mechanics&&f where certain machines such as this one could accept more than 1 Amp.",
+      "<br/>",
+      "&&oIn GTCE, the Thermal Centrifuge was changed to only work at &&bMV&&f with 60EU/t recipes. Let's be completely honest with you... what a &&4complete waste of time&&f! Never worth it. Thankfully, we've buffed the machine to be much more relevant."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_thermal_centrifuge"
+    },
+    "subtitle": {
+      "text": "No, not THAT kind of Thermal"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -12,
+          108
+        ]
+      }
+    }
+  }
+}

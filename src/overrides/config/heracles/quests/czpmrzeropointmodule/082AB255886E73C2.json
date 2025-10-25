@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3BD68E5909A97532"
+  ],
+  "tasks": {
+    "0B12A1F63822CF8A": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_processor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best LuV Circuits!",
+    "description": [
+      "<subtitle id=\"082AB255886E73C2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0B12A1F63822CF8A\" quest=\"082AB255886E73C2\"/>",
+      "<hr/>",
+      "The first Circuit of the &&4Wetware&&r line.",
+      "<br/>",
+      "&&6Congrats&&r!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_processor"
+    },
+    "subtitle": {
+      "text": "Eek, it's alive!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          24,
+          0
+        ]
+      }
+    }
+  }
+}

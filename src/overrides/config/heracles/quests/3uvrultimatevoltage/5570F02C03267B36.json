@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "616DB394EB7D81D6"
+  ],
+  "tasks": {
+    "4DF40C8FF003DDC6": {
+      "type": "heracles:item",
+      "item": "gtceu:uhv_energy_input_hatch"
+    },
+    "6E49D6D700F92C39": {
+      "type": "heracles:item",
+      "item": "gtceu:uhv_energy_output_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Upgrading your Assembly Line for the Last Time",
+    "description": [
+      "<task task=\"4DF40C8FF003DDC6\" quest=\"5570F02C03267B36\"/>",
+      "<task task=\"6E49D6D700F92C39\" quest=\"5570F02C03267B36\"/>",
+      "<hr/>",
+      "This Quest will be completed with &&eeither&&r a &&3UHV Energy Hatch&&r&&r... or a &&3UHV Dynamo Hatch&&r for your Multiblock Generators.",
+      "<br/>",
+      "These are the final energy hatches in GTCEu. It's been a pleasure upgrading our multiblocks together o7",
+      "<br/>",
+      "Don't forget about the &&d16 amp&&r versions!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uhv_energy_input_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          216,
+          -60
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "315169840E06110F"
+  ],
+  "tasks": {
+    "295D2CE93D4CE067": {
+      "type": "heracles:item",
+      "item": "gtceu:ruby_lens"
+    },
+    "675EBF60F3465538": {
+      "type": "heracles:item",
+      "item": "gtceu:ilc_wafer"
+    },
+    "560E69502E1A2458": {
+      "type": "heracles:item",
+      "item": "gtceu:ilc_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "IC Chips",
+    "description": [
+      "<subtitle id=\"6F6D2829FC42F21C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"295D2CE93D4CE067\" quest=\"6F6D2829FC42F21C\"/>",
+      "<task task=\"675EBF60F3465538\" quest=\"6F6D2829FC42F21C\"/>",
+      "<task task=\"560E69502E1A2458\" quest=\"6F6D2829FC42F21C\"/>",
+      "<hr/>",
+      "Using a Ruby Lens, engrave a Silicon Wafer into an ILC Wafer.",
+      "<br/>",
+      "This can be processed in a Cutter for IC Chips, which are important components that will be precious when improving upon your circuit crafting capabilities."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ilc_chip"
+    },
+    "subtitle": {
+      "text": "I C U"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          180,
+          84
+        ]
+      }
+    }
+  }
+}

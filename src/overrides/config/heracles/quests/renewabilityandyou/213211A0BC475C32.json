@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24A90D07C3A35370",
+    "2AD44111B9B39C90",
+    "6958029B5514D4EC"
+  ],
+  "tasks": {
+    "3964A8A27402A11B": {
+      "title": "I promise I won't sell my air as a commodity!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Liquid Air",
+    "description": [
+      "<subtitle id=\"213211A0BC475C32\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3964A8A27402A11B\" quest=\"213211A0BC475C32\"/>",
+      "<hr/>",
+      "This was touched upon in the &&5EV&&r chapter, but we'll focus on what this distillation gets you here.",
+      "<br/>",
+      "The Nitrogen output is &&bsubstantial&&r, and can help you keep any &&ePyrolyse Ovens&&r running. You should buffer some of the Nitrogen so you can &&aboost your EBFs&&r - faster recipe times save your sanity and energy in equal measures.",
+      "<br/>",
+      "Helium and Argon yields are low, but ideally you can run the Air Distillation as a &&dpassive process&&r every so often to keep your supplies topped up. Both are used to &&aboost EBF speeds&&r.",
+      "<br/>",
+      "&&bCrushed Ice&&r is... well, &&bCrushed Ice&&r. Maybe you could open a cocktail bar?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:liquid_air_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Nitrogen, Helium, Argon...."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          -37,
+          -22
+        ]
+      }
+    }
+  }
+}

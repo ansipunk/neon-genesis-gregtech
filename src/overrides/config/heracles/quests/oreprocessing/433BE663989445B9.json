@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "797EB7DF0C07F327"
+  ],
+  "tasks": {
+    "7433795785B315B3": {
+      "title": "Call me Amazon delivery driver the way I be packaging",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Do we need to package?",
+    "description": [
+      "<subtitle id=\"433BE663989445B9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7433795785B315B3\" quest=\"433BE663989445B9\"/>",
+      "<hr/>",
+      "Some stages listed on this page output Small/Tiny Dusts, or Nuggets. These have little use in such a form, so it's never a bad idea to route these into a &&dPacker&&r to \"&&7compress&&r\" them into their full forms.",
+      "<br/>",
+      "If you're having problems with the Packer filling up with too few Nuggets and clogging your buffer, then you may want to consider using a &&6GregTech Robot Arm&&r set to \"Supply Exact\". Send your Nuggets in 9 at a time, and you can consider this a problem solved!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_packer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "With our powers combined..."
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          28,
+          319
+        ]
+      }
+    }
+  }
+}

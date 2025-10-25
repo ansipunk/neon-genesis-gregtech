@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5401AB5E399E7BEA",
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "37ED5227CCC0FE20": {
+      "type": "heracles:item",
+      "item": "ae2:molecular_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Autocrafting",
+    "description": [
+      "<subtitle id=\"0A1165C6D1F62C2B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"37ED5227CCC0FE20\" quest=\"0A1165C6D1F62C2B\"/>",
+      "<hr/>",
+      "&&3Molecular Assemblers&&r can be used to automate Crafting Table recipes, which means you can automate just about anything now.",
+      "<br/>",
+      "To maximise the number of recipes a single Molecular Assembler can do, make a 3D matrix of Molecular Assemblers and ME Interfaces - where each component is surrounded on 6 sides by the other.",
+      "<br/>",
+      "Using higher-tier materials in crafting will yield more Molecular Assemblers.",
+      "<br/>",
+      "&&cWarning:&&r Try to avoid using GT tools in AE2 autocrafting! It causes AE2 to freak out... you may or may not destroy the TPS, or even worse, end up having thousands of tools being crafted as soon as one of them breaks.",
+      "<br/>",
+      "If you're stubborn enough to &&oreally&&r want to use GT tools in AE2 autocrafting, prioritise encoding recipes that use tools with high durability, but &&4do not&&r setup autocrafting for the tools themselves. Instead, use the alternate &&3Assembling Machine&&r recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:molecular_assembler"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Autocrafting at last!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          108,
+          48
+        ]
+      }
+    }
+  }
+}

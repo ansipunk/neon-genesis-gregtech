@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0"
+  ],
+  "tasks": {
+    "5904009DC40731D6": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_fluid_drilling_rig"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ludicrous Fluid Drilling",
+    "description": [
+      "<subtitle id=\"4AEAC79007790BD8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5904009DC40731D6\" quest=\"4AEAC79007790BD8\"/>",
+      "<hr/>",
+      "At the cost of 16x the drilling Power, the &&3Advanced Fluid Drilling Rig II&&r will be gaining &&664x the output&&r in Fluid.",
+      "The depletion of veins is also slashed to an eighth of what it was before. This means you will get a total of &&6128x&&r as much Oil (or whatever fluid) as the regular rig from a bedrock fluid vein until depletion!",
+      "<br/>",
+      "Even when depleted, you can safely use this and be very much power positive.",
+      "<br/>",
+      "One single &&3Advanced Fluid Drilling Rig II&&r should be enough to last you until the end of the game, for whatever fluid you drill."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_fluid_drilling_rig"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "This thing is completely ludicrous!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          180,
+          148
+        ]
+      }
+    }
+  }
+}

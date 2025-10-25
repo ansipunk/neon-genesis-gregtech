@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "52D952ADBEB67454"
+  ],
+  "tasks": {
+    "350AC6FA06CC04AC": {
+      "type": "heracles:item",
+      "item": "gtceu:quarktech_helmet"
+    },
+    "19D648FBB2D2332B": {
+      "type": "heracles:item",
+      "item": "gtceu:quarktech_chestplate"
+    },
+    "140838049DC2105A": {
+      "type": "heracles:item",
+      "item": "gtceu:quarktech_leggings"
+    },
+    "31D91C3755CF96AE": {
+      "type": "heracles:item",
+      "item": "gtceu:quarktech_boots"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "QuarkTech",
+    "description": [
+      "<subtitle id=\"2EFC07A4615B8B12\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"350AC6FA06CC04AC\" quest=\"2EFC07A4615B8B12\"/>",
+      "<task task=\"19D648FBB2D2332B\" quest=\"2EFC07A4615B8B12\"/>",
+      "<task task=\"140838049DC2105A\" quest=\"2EFC07A4615B8B12\"/>",
+      "<task task=\"31D91C3755CF96AE\" quest=\"2EFC07A4615B8B12\"/>",
+      "<hr/>",
+      "This armor provides more QoL compared to the Nano suit.",
+      "<br/>",
+      "&&9Helmet:&&r Provides &&dNight vision&&r (default keybind &&4M&&r but check for conflicts), prevents harmful potion effects, and automatically eats for you!",
+      "<br/>",
+      "&&9Chestplate:&&r Nullifies burning, but can be further upgraded into the &&aAdvanced&&r version at the very end of &&dLuV&&r. Note that this does NOT include a jetpack without the advanced upgrade.",
+      "<br/>",
+      "&&9Leggings:&&r Provides the speed boost which the Nano leggings did not.",
+      "<br/>",
+      "&&9Boots:&&r Provides &&dStep Assist&&r, nullifies fall damage, and increases jump height!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:quarktech_chestplate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "No, we didn't trademark this one"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          -24,
+          12
+        ]
+      }
+    }
+  }
+}

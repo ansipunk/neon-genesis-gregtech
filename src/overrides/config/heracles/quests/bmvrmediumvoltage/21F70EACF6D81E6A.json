@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "75F38905DEA60F15"
+  ],
+  "tasks": {
+    "1940421A45E45E25": {
+      "type": "heracles:item",
+      "item": "gtceu:electric_jetpack"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "I Believe I Can Fly II",
+    "description": [
+      "<subtitle id=\"21F70EACF6D81E6A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1940421A45E45E25\" quest=\"21F70EACF6D81E6A\"/>",
+      "<hr/>",
+      "This jetpack enables flight, and requires energy.",
+      "<br/>",
+      "Charge it like you would charge a Battery.",
+      "<br/>",
+      "Press &&4H&&r (default) to enable Hover Mode.",
+      "<br/>",
+      "&&o&&8(Yeah, yeah, a jetpack is supposed to work off \"propellants\". Y'all are always here to nitpick.)&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:electric_jetpack"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "...still not quite there."
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          57,
+          -6
+        ]
+      }
+    }
+  }
+}

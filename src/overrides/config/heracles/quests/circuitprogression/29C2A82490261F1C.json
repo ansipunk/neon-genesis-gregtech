@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "196FC518F744B983",
+    "5CC9B0E832545569",
+    "0017FFFAD7CD2EFE",
+    "58BBD540D7D4FF01"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "Craftable in §5EV§r",
+    "description": [
+      "<subtitle id=\"29C2A82490261F1C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "This is the &&9Nano&&r Circuit line.",
+      "<br/>",
+      "Starting from here, circuit progression will follow a pattern:",
+      "<br/>",
+      "&&9-&&r Processor",
+      "&&9-&&r Assembly",
+      "&&9-&&r Supercomputer",
+      "&&9-&&r Mainframe"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_machine_hull"
+    },
+    "subtitle": {
+      "text": "Nano Age"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          96,
+          -64
+        ]
+      }
+    }
+  }
+}

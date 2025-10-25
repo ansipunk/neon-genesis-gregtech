@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4D7A771B67DAFC6F",
+    "1F2359106FC95603"
+  ],
+  "tasks": {
+    "21A653703F408934": {
+      "title": "Rock Breaking",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Rock Breaking",
+    "description": [
+      "<subtitle id=\"55D8E30978CBBC0D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"21A653703F408934\" quest=\"55D8E30978CBBC0D\"/>",
+      "<hr/>",
+      "Ah, the Rock Crusher - such an unassuming machine that initially appears to only really be a builder's best friend. Who could look past infinite Cobblestone, Deepslate, or Obsidian?",
+      "<br/>",
+      "Don't be fooled, though, as this little machine might just shock you with the array of materials it makes renewable when you macerate its rocks down to dust form. The surrounding quests will clue you in."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_rock_crusher"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "More like game breaking, am I right?"
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          64,
+          -48
+        ]
+      }
+    }
+  }
+}

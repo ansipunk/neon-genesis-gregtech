@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "390E59F05132FCB8"
+  ],
+  "tasks": {
+    "7D952AF37FC51956": {
+      "type": "heracles:item",
+      "item": "gtceu:styrene_butadiene_rubber_plate"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Styrene-Butadiene Rubber",
+    "description": [
+      "<subtitle id=\"77070668969E31BF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7D952AF37FC51956\" quest=\"77070668969E31BF\"/>",
+      "<hr/>",
+      "&&7Styrene-Butadiene Rubber (SBR)&&r is an enhanced type of Rubber.",
+      "<br/>",
+      "It can be used in place of Rubber in most recipes, and is &&6four times more efficient&&r at &&ainsulating Cables&&r. It is also strictly required for certain higher-tier recipes.",
+      "<br/>",
+      "This isn't exactly worth making until you get the &&3Distillation Tower&&r, but it eventually becomes easier with &&dFuel Cracking&&r.",
+      "<br/>",
+      "&&9Note:&&r Rubber will eventually be usurped by either &&aSilicone Rubber&&r or &&aStyrene-Butadienne Rubber&&r for &&1IV&&r Cables.",
+      "<br/>",
+      "Both these rubbers will be required once you make it to &&dLuV&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:styrene_butadiene_rubber_plate"
+    },
+    "subtitle": {
+      "text": "Steel Ball Run"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          0,
+          252
+        ]
+      }
+    }
+  }
+}

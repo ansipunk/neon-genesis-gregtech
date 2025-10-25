@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "017019EB38F7A18C"
+  ],
+  "tasks": {
+    "6D561B2E5375B013": {
+      "type": "heracles:item",
+      "item": "gtceu:nor_memory_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "NOR Gates",
+    "description": [
+      "<task task=\"6D561B2E5375B013\" quest=\"2D5BECC0AC0E316B\"/>",
+      "<hr/>",
+      "A NOR gate takes two input signals, and outputs a high signal only if both input signals are low.",
+      "<br/>",
+      "This doesn't matter for now though, and it's simply a more complex wafer.",
+      "It is used for the &&aData Orb&&r (a key component for when you get into &&3Research&&r), and in &&5Nano&&r Circuit production."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nor_memory_chip"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          216,
+          324
+        ]
+      }
+    }
+  }
+}

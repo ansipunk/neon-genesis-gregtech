@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40018C0546454CD9",
+    "48141DBA683F6B5A"
+  ],
+  "tasks": {
+    "2D073A538A19BCDD": {
+      "type": "heracles:item",
+      "item": "gtceu:gasoline_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Gasoline",
+    "description": [
+      "<task task=\"2D073A538A19BCDD\" quest=\"00E2BAEDB8199E4E\"/>",
+      "<hr/>",
+      "&&aGasoline&&r is an extremely powerful Combustion Fuel. It's over &&63 times&&r as energy dense as &&dDiesel&&r!",
+      "<br/>",
+      "&&9Note:&&r This Combustion Fuel exists solely as a &&echallenge&&r for you to overcome if you desire to take on it.",
+      "<br/>",
+      "It's completely &&doptional&&r, so we'll let you figure out how to obtain it, without any further tips."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:gasoline_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          36,
+          288
+        ]
+      }
+    }
+  }
+}

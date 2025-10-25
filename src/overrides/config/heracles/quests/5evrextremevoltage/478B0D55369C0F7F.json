@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "271CE5C2B78A1EDC"
+  ],
+  "tasks": {
+    "0E0232ACC9B93FE4": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_mixer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Extreme Mixing",
+    "description": [
+      "<subtitle id=\"478B0D55369C0F7F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0E0232ACC9B93FE4\" quest=\"478B0D55369C0F7F\"/>",
+      "<hr/>",
+      "The &&3EV Mixer&&r is required for more alloys.",
+      "<br/>",
+      "This is important if you want to get your hands on some &&dTungstensteel&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_mixer"
+    },
+    "subtitle": {
+      "text": "Beginning to notice a pattern?"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          180,
+          72
+        ]
+      }
+    }
+  }
+}

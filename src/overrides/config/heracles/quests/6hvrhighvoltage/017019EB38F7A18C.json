@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3568BC9742092FC5"
+  ],
+  "tasks": {
+    "28C8A90D0F999573": {
+      "type": "heracles:item",
+      "item": "gtceu:phosphorus_boule"
+    },
+    "2CD60F6FFD4C1DFF": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_laser_engraver"
+    }
+  },
+  "rewards": {
+    "69C519E1CE7B94F0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:hv_lithium_battery"
+      }
+    }
+  },
+  "display": {
+    "title": "Phosphorus Boules",
+    "description": [
+      "<subtitle id=\"017019EB38F7A18C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"28C8A90D0F999573\" quest=\"017019EB38F7A18C\"/>",
+      "<task task=\"2CD60F6FFD4C1DFF\" quest=\"017019EB38F7A18C\"/>",
+      "<hr/>",
+      "Doping is the process of intentionally introducing impurities into semiconductors to alter their properties.",
+      "<br/>",
+      "&&7Silicon&&r can be doped with small amounts of &&ePhosphorus&&r to make a better &&eSilicon Boule&&r.",
+      "<br/>",
+      "Phosphorus-doped Silicon Boules typically yield &&68 times&&r more wafers than their non-doped counterparts. However, they are not strictly needed until &&5EV&&r, where they'll be used in more complex wafers.",
+      "<br/>",
+      "&&9Note&&r: All processing of Phosphorus Boules and Wafers will require a &&dCleanroom&&r.",
+      "<hr/>",
+      "<reward reward=\"69C519E1CE7B94F0\" quest=\"017019EB38F7A18C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:phosphorus_boule"
+    },
+    "subtitle": {
+      "text": "That's dope, bro!"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          288,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24366846FDA52CE3"
+  ],
+  "tasks": {
+    "798EFE8E18E79C0C": {
+      "type": "heracles:item",
+      "item": "gtceu:darmstadtium_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Darmstadtium",
+    "description": [
+      "<subtitle id=\"6988AE94BE7B461F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"798EFE8E18E79C0C\" quest=\"6988AE94BE7B461F\"/>",
+      "<hr/>",
+      "Remember &&aDarmstadtium&&r tools from &&3GTCE&&r? Well then... guess who's back?",
+      "<br/>",
+      "&&aDarmstadtium&&r is the main material for &&3UV&&r hulls. It is yet again made with Fusion.",
+      "<br/>",
+      "&&bFun Fact&&r: Arsenic does not exist as a liquid at standard conditions. It sublimates directly into a gas! \"Realism\", my ass."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:darmstadtium_ingot"
+    },
+    "subtitle": {
+      "text": "I want my particle accelerator back..."
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -84,
+          144
+        ]
+      }
+    }
+  }
+}

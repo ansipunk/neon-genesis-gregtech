@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "536874A8C35E1C86": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electrolyzer"
+    }
+  },
+  "rewards": {
+    "63E578C8E82CB9DC": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:lv_electric_motor",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Basic Electrolyzer",
+    "description": [
+      "<subtitle id=\"32B08E6F414A00C0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"536874A8C35E1C86\" quest=\"32B08E6F414A00C0\"/>",
+      "<hr/>",
+      "&&lOutside of Ore Processing:&&r",
+      "<br/>",
+      "Similar to the Centrifuge, this machine does a lot of things - we can't hope to list them all! Fortunately, it's one of the cheapest &&7LV&&r machines, so grab it as soon as it becomes necessary.",
+      "<br/>",
+      "&&lFor Ore Processing:&&r",
+      "<br/>",
+      "Okay, we lied. It's not &&oexactly&&r used for Ore Processing, it's actually used in the &&adecomposition of Dusts&&r. However, most of the useful electrolysis recipes are locked at &&bMV&&r. You can peep at the &&emolecular formula&&r in a dust's tooltip to see what you can get from electrolysis.",
+      "<br/>",
+      "&&cTake caution!&&r Due to how ores work, directly smelting dusts into Ingots can give higher metal yields than electrolysis. However, it means you lose the other products in the dust. You will have to decide whether you want to prioritise direct value, or byproduct count.",
+      "<hr/>",
+      "<reward reward=\"63E578C8E82CB9DC\" quest=\"32B08E6F414A00C0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electrolyzer"
+    },
+    "subtitle": {
+      "text": "Separating anything you can think of"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -36,
+          180
+        ]
+      }
+    }
+  }
+}

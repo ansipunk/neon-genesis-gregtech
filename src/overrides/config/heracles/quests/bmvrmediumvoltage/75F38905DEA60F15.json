@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "2396FECF2A11AA8E": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Advanced Assembler",
+    "description": [
+      "<subtitle id=\"75F38905DEA60F15\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2396FECF2A11AA8E\" quest=\"75F38905DEA60F15\"/>",
+      "<hr/>",
+      "The &&3Assembler&&r is a staple for every Tier; an important goal to unlock more recipes and progress further into the Age. Many in the community see crafting a voltage tier's Assembler as a sign of &&oproperly&&r reaching said voltage.",
+      "<br/>",
+      "That being said, welcome to &&bMV&&r!",
+      "<br/>",
+      "The &&bMV &&3Assembler&&r unlocks &&eTransistors&&r, &&eCapacitors&&r and &&eInductors&&r, used for the next tiers of Circuits."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_assembler"
+    },
+    "subtitle": {
+      "text": "Assengers, Avemble"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          36,
+          -24
+        ]
+      }
+    }
+  }
+}

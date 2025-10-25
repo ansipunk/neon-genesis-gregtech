@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3647B1B964A15E4E",
+    "7BE7DE4C0109D788",
+    "4B979482EF026BFF"
+  ],
+  "tasks": {
+    "70313E1917121E14": {
+      "type": "heracles:item",
+      "item": "gtceu:good_electronic_circuit"
+    }
+  },
+  "rewards": {
+    "052E7DFC7E0B9EEF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:basic_electronic_circuit",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "First MV Circuit!",
+    "description": [
+      "<subtitle id=\"0DBC148D92A9F69F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"70313E1917121E14\" quest=\"0DBC148D92A9F69F\"/>",
+      "<hr/>",
+      "Well... gotten any Aluminium Ingots yet?",
+      "<br/>",
+      "Each Electric Age has Circuits corresponding to its tier. The Good Electronic Circuit is the &&dfirst MV Circuit&&r you can make out of the three tiers of &&bMV&&r Circuitry.",
+      "<br/>",
+      "Always be on the lookout for a cheaper way to make your circuits - new sets of recipes become available each time you make a new tier of &&2Circuit Assembler&&r. Conveniently, this tier of Circuit unlocks one now! Its recipes are far, far cheaper than hand-crafting Circuits.",
+      "<br/>",
+      "&&6Having this and Aluminium will grant access to MV Machines.&&r",
+      "<hr/>",
+      "<reward reward=\"052E7DFC7E0B9EEF\" quest=\"0DBC148D92A9F69F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:good_electronic_circuit"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Does that mean we're at MV yet?"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          144,
+          288
+        ]
+      }
+    }
+  }
+}

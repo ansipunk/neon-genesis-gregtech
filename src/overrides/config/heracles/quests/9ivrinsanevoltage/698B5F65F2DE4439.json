@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "49C1D61741AA288E"
+  ],
+  "tasks": {
+    "3B46E4592A6AC60E": {
+      "type": "heracles:item",
+      "item": "gtceu:quantum_processor_assembly"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Even more IV Circuits",
+    "description": [
+      "<subtitle id=\"698B5F65F2DE4439\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3B46E4592A6AC60E\" quest=\"698B5F65F2DE4439\"/>",
+      "<hr/>",
+      "Better &&9IV&&r Circuits. ",
+      "<br/>",
+      "Your march through &&9IV&&r continues. Stay strong, soldier."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:quantum_processor_assembly"
+    },
+    "subtitle": {
+      "text": "IV, but it's green now"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          264,
+          108
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0DBC148D92A9F69F",
+    "5B2696206205CB2E"
+  ],
+  "tasks": {
+    "6287E8A7C254ECA7": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_circuit_assembler"
+    }
+  },
+  "rewards": {
+    "0418E257FEDA52B7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:good_electronic_circuit"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:lv_circuit_assembler",
+    "description": [
+      "<subtitle id=\"199361B5FEC959EA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6287E8A7C254ECA7\" quest=\"199361B5FEC959EA\"/>",
+      "<hr/>",
+      "From now on, all Circuits should be made in a &&3Circuit Assembler&&r. Use it now to enjoy &&6far cheaper LV and MV circuits&&r.",
+      "<br/>",
+      "Each time you upgrade to a new tier of &&3Circuit Assembler&&r, you will be able to craft more &&dadvanced themes&&r of circuit. These will use &&ccomplex&&r and &&m&&7sometimes&&r unfamiliar ingredients, but will be more efficient to craft overall.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The Circuit Assembler has made appearances in and out of GregTech versions. GT5 did not have it, and it was reimplemented in GT5 Unofficial. GTCE decided not to port it, and the tug-of-war continues with its inclusion in GTCEu.",
+      "<hr/>",
+      "<reward reward=\"0418E257FEDA52B7\" quest=\"199361B5FEC959EA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_circuit_assembler"
+    },
+    "subtitle": {
+      "text": "Hopefully, your first MV Circuit expense"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          180,
+          252
+        ]
+      }
+    }
+  }
+}

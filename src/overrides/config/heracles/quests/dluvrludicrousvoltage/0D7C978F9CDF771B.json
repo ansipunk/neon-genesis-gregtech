@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A74F692F14F0FF8",
+    "195E5BFDE4C5A0DE",
+    "5B07279B08BF8DDE"
+  ],
+  "tasks": {
+    "6D1376BF3CEA87A7": {
+      "type": "heracles:item",
+      "item": "gtceu:lapotronic_energy_orb_cluster"
+    },
+    "66D5D76676D27388": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_lapotronic_battery"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ludicrous Batteries",
+    "description": [
+      "<subtitle id=\"0D7C978F9CDF771B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6D1376BF3CEA87A7\" quest=\"0D7C978F9CDF771B\"/>",
+      "<task task=\"66D5D76676D27388\" quest=\"0D7C978F9CDF771B\"/>",
+      "<hr/>",
+      "The &&aLuV Lapotronic Orb&&r is even better than the &&1IV&&r one! Of course, such power comes at a steep cost...",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In older versions of GT, such as GTNH in the past or in GCYL, these orbs were ludicrously expensive! They required 8 orbs of the previous tier! Thankfully, those days are long past."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lapotronic_energy_orb_cluster"
+    },
+    "subtitle": {
+      "text": "Even more power!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          216,
+          144
+        ]
+      }
+    }
+  }
+}

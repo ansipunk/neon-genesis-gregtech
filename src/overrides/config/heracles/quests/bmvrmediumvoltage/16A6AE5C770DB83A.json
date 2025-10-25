@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2AD44111B9B39C90"
+  ],
+  "tasks": {
+    "3192FF80FBDC7A28": {
+      "type": "heracles:item",
+      "item": "gtceu:stainless_steel_ingot"
+    }
+  },
+  "rewards": {
+    "3973B757526393F6": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "3973B757526393F6_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:chromium_dust",
+            "count": 24
+          }
+        },
+        "3973B757526393F6_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:manganese_dust",
+            "count": 24
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Stainless Steel",
+    "description": [
+      "<subtitle id=\"16A6AE5C770DB83A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3192FF80FBDC7A28\" quest=\"16A6AE5C770DB83A\"/>",
+      "<hr/>",
+      "Any Steel you encounter in day-to-day life is most likely &&7Stainless Steel&&r. It is extremely resilient against corrosion.&&r",
+      "<br/>",
+      "Stainless Steel is the material for &&6HV&&r components, like Aluminium for &&bMV&&r and Steel for &&7LV&&r. It is also used in high quantities for the &&3Distillation Tower&&r.",
+      "<br/>",
+      "It requires &&cChromium&&r, obtained mainly from &&cRuby&&r, and &&2Manganese&&r, obtained from &&2Pyrolusite&&r and others in its vein.",
+      "<br/>",
+      "Smelting Stainless Steel requires &&dHV Power&&r, which you likely do not have at this point. Scaling Power Production is crucial.",
+      "<br/>",
+      "If you &&9haven't already&&r, it would be a good idea to get a second EBF going. They can share blocks, so that means your second EBF only requires &&a10 Cupronickel Coils&&r instead of 16.",
+      "<br/>",
+      "Have one EBF run off &&bMV&&r for Aluminium and any other recipes requiring &&bMV&&r Power, and one running off &&6HV&&r with &&32 MV Energy Hatches&&r.",
+      "<hr/>",
+      "<reward reward=\"3973B757526393F6\" quest=\"16A6AE5C770DB83A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:stainless_steel_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "HV is in your grasp"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          108,
+          12
+        ]
+      }
+    }
+  }
+}

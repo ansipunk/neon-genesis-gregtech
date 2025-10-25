@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2D01E80DE837F6A6",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "4BCA4F8ED0041BF6": {
+      "amount": 1,
+      "tasks": {
+        "288bfd4f-e489-4593-b1f2-608f1f78b15d": {
+          "type": "heracles:item",
+          "item": "gtceu:hv_diode",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "6c7f460f-5ab3-490a-9120-85577a539450": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_diode",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "22ad92b0-21b0-4d43-8195-cf21615af0a0": {
+          "type": "heracles:item",
+          "item": "gtceu:iv_diode",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Diode",
+    "description": [
+      "<task task=\"4BCA4F8ED0041BF6\" quest=\"4B8D66A65F102D7E\"/>",
+      "<hr/>",
+      "The &&3Diode&&r (the block, not the component) accepts energy inputs from 5 sides, but only outputs through a single side.",
+      "<br/>",
+      "Its main purpose is to &&dlimit Amperage&&r. It'll help you regulate any centralised power generation, so you can distribute your power everywhere without having to math out what cable size is safe depending on consumers...",
+      "<br/>",
+      "They can also be used as an electric equivalent to Repeaters when the voltage loss from Cables (or GTEU P2P tunnels - more on that later!) gets too high.",
+      "<br/>",
+      "You can use a &&5Soft Hammer&&r to change the Amperage limit of the output.",
+      "<br/>",
+      "&&eAny&&r of the listed Diodes will complete this Quest."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_diode"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          180
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D98819A799D2E64",
+    "1A77CA35F054F988"
+  ],
+  "tasks": {
+    "06B5F04DEFC12458": {
+      "type": "heracles:item",
+      "item": "gtceu:sulfuric_acid_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sulfuric Acid",
+    "description": [
+      "<subtitle id=\"316FF60D6FFE97CE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"06B5F04DEFC12458\" quest=\"316FF60D6FFE97CE\"/>",
+      "<hr/>",
+      "EMI might look a little overwhelming here, so we'll go through the best path for Sulfuric Acid here.",
+      "<br/>",
+      "Making &&eSulfuric Acid&&r is a three step process. It is used in many important reactions, so you should automate its production ASAP.",
+      "<br/>",
+      "To automate it, you will need &&3three LV Chemical Reactors&&r. We would recommend building a dedicated setup somewhere with &&3a single LV Generator&&r to power all three machines. You can then spaghetti your pipes to handle input and output &&m...or simply use AE2&&r.",
+      "<br/>",
+      "&&9-&&r Step 1: React &&aSulfur&&r with &&bOxygen&&r to form &&aSulfur Dioxide&&r.",
+      "&&9-&&r Step 2: React &&aSulfur Dioxide&&r with more &&bOxygen&&r to form &&aSulfur Trioxide&&r.",
+      "&&9-&&r Step 3: React &&aSulfur Trioxide&&r with &&bWater&&r to form &&eSulfuric Acid&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o GregTech 5's Chemical Reactor only had one Fluid slot. To circumvent that, they would do &&dcell chemistry&&f. The way you would automate Sulfuric Acid was by having one cell travel from machine to machine and then loop back to its starting position. A somewhat fun and interesting automation challenge, but also a chore!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:sulfuric_acid_bucket"
+    },
+    "subtitle": {
+      "text": "\"...what he thought was H2O was H2SO4!\""
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          144,
+          -96
+        ]
+      }
+    }
+  }
+}

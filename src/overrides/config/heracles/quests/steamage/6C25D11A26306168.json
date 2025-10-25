@@ -1,0 +1,82 @@
+{
+  "settings": {},
+  "dependencies": [
+    "76F61E499780C30B"
+  ],
+  "tasks": {
+    "0EA421E6E53FA6A8": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_oven"
+    },
+    "0516BE263B5E27D4": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_hatch"
+    },
+    "772885C6A810E804": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_bus"
+    },
+    "3C3A4803A6F267F3": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_output_bus"
+    },
+    "427EA1F4AE420C1F": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "gtceu:steam_machine_casing"
+    },
+    "50AD2CBE77234D06": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "gtceu:bronze_firebox_casing"
+    }
+  },
+  "rewards": {
+    "72D375E16194CAE2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:bronze_ingot",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Oven",
+    "description": [
+      "<subtitle id=\"6C25D11A26306168\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0EA421E6E53FA6A8\" quest=\"6C25D11A26306168\"/>",
+      "<task task=\"0516BE263B5E27D4\" quest=\"6C25D11A26306168\"/>",
+      "<task task=\"772885C6A810E804\" quest=\"6C25D11A26306168\"/>",
+      "<task task=\"3C3A4803A6F267F3\" quest=\"6C25D11A26306168\"/>",
+      "<task task=\"427EA1F4AE420C1F\" quest=\"6C25D11A26306168\"/>",
+      "<task task=\"50AD2CBE77234D06\" quest=\"6C25D11A26306168\"/>",
+      "<hr/>",
+      "&&o...or little brother. Don't let him know!&&r",
+      "<br/>",
+      "The &&3Steam Oven&&r is a great multiblock option if you need &&6effortlessly smelt large quantities of items.&&r No more lines of furnaces that you have to manually empty and refuel!",
+      "<br/>",
+      "It effectively behaves as a parallel furnace, smelting up to 8 items at a time for a low cost of Steam.",
+      "<br/>",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This Multiblock - despite being very similar to its brother, the Steam Grinder - isn't ported from a GregTech version or addon. Its actual progenitor is the Steam Oven from Railcraft, which dates back to 1.4.7!",
+      "<hr/>",
+      "<reward reward=\"72D375E16194CAE2\" quest=\"6C25D11A26306168\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_oven"
+    },
+    "subtitle": {
+      "text": "The Steam Grinder's big brother"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          72,
+          96
+        ]
+      }
+    }
+  }
+}

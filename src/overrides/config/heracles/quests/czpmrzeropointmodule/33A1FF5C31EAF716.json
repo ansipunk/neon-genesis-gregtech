@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6AFDA523304711DB"
+  ],
+  "tasks": {
+    "1E31342D5310ED6D": {
+      "type": "heracles:item",
+      "item": "gtceu:stem_cells"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Stem Cells",
+    "description": [
+      "<subtitle id=\"33A1FF5C31EAF716\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1E31342D5310ED6D\" quest=\"33A1FF5C31EAF716\"/>",
+      "<hr/>",
+      "&&aStem Cells&&r are a major component of &&4Wetware Circuits&&r. Just don't question why these use Osmiridium."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:stem_cells"
+    },
+    "subtitle": {
+      "text": "This texture used to be really ugly..."
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -12,
+          0
+        ]
+      }
+    }
+  }
+}

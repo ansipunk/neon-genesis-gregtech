@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "151788F66BAD5F97": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_electrolyzer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Advanced Electrolyser",
+    "description": [
+      "<subtitle id=\"0EFEE489906256AA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"151788F66BAD5F97\" quest=\"0EFEE489906256AA\"/>",
+      "<hr/>",
+      "The Advanced Electrolyzer allows you to decompose &&6far more&&r Dusts. This will make getting materials such as &&aAluminium&&r&&o a lot&&r easier!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_electrolyzer"
+    },
+    "subtitle": {
+      "text": "We made it to MV, and, well..."
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -36,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "5483A769AEEA0FA0": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_saltpeter"
+    },
+    "516DBCF047AE54F5": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_diatomite"
+    },
+    "0D26545E6CC6046C": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_electrotine"
+    },
+    "35EEFC7F426C571D": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_alunite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Saltpeter",
+    "description": [
+      "<subtitle id=\"1F572D638AAACA21\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5483A769AEEA0FA0\" quest=\"1F572D638AAACA21\"/>",
+      "<task task=\"516DBCF047AE54F5\" quest=\"1F572D638AAACA21\"/>",
+      "<task task=\"0D26545E6CC6046C\" quest=\"1F572D638AAACA21\"/>",
+      "<task task=\"35EEFC7F426C571D\" quest=\"1F572D638AAACA21\"/>",
+      "<hr/>",
+      "Electrotine is important for progression in &&6HV&&r. It centrifuges into Electrum (a source of Gold and Silver), and Redstone.",
+      "<br/>",
+      "Saltpeter is used in a few reactions, and... the other two ores here are pretty average.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Does the word \"Nikolite\" ring a bell? It's pretty much Electrotine's great-ancestor, hailing from RedPower."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_saltpeter_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Potassium, Electrum"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          352,
+          -64
+        ]
+      }
+    }
+  }
+}

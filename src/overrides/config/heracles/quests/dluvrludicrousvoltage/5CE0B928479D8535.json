@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0"
+  ],
+  "tasks": {
+    "77D0C17BBE681C85": {
+      "type": "heracles:item",
+      "item": "expatternprovider:pattern_modifier"
+    }
+  },
+  "rewards": {
+    "597FE2E43C76B1E0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ae2:blank_pattern",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Pattern Modifier",
+    "description": [
+      "<subtitle id=\"5CE0B928479D8535\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"77D0C17BBE681C85\" quest=\"5CE0B928479D8535\"/>",
+      "<hr/>",
+      "Let's go over some uses!",
+      "<br/>",
+      "&&2Blank Pattern Storage:&&r",
+      "<br/>",
+      "Right-clicking with the tool in your hand will open a GUI where you can insert &&9Blank Patterns&&r. There's a considerable amount of storage space for transport of Patterns!",
+      "<br/>",
+      "&&2Bulk Pattern Modification:&&r",
+      "<br/>",
+      "Inserting &&9Encoded Patterns&&r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery.",
+      "<br/>",
+      "Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution.",
+      "<br/>",
+      "&&2Item Search and Replace:&&r",
+      "<br/>",
+      "Right-clicking the tool and clicking the &&aChange Mode button&&r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the &&9Encoded Patterns&&r stored within the tool.",
+      "<br/>",
+      "This is particularly useful for &&eupgrading GT circuits&&r, such as transitioning from Nano to Quantum &&5EV&&r circuits.",
+      "<br/>",
+      "&&2Easy Pattern Transfer:&&r",
+      "<br/>",
+      "Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory.",
+      "<br/>",
+      "&&bLore&&r: Neeve, the author of the NAE2 mod suggested tiering this item at &&eUXV&&r tier, because it \"gives the player way too much power.\" For reference, &&eUXV&&r is 4 tiers past &&3UV&&r tier - two tiers before &&c&&lMAX&&r voltage.",
+      "<hr/>",
+      "<reward reward=\"597FE2E43C76B1E0\" quest=\"5CE0B928479D8535\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "expatternprovider:pattern_modifier"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "The §aPattern Modifier§r does A LOT!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          158,
+          190
+        ]
+      }
+    }
+  }
+}

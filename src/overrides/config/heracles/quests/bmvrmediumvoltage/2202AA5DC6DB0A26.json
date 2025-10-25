@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63CD0236B337EAAD",
+    "6D9D54FAB21EC086"
+  ],
+  "tasks": {
+    "5FEE671A75766B78": {
+      "title": "Any MV Battery",
+      "type": "heracles:item",
+      "item": "#gtceu:batteries/mv"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Better Batteries",
+    "description": [
+      "<subtitle id=\"2202AA5DC6DB0A26\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5FEE671A75766B78\" quest=\"2202AA5DC6DB0A26\"/>",
+      "<hr/>",
+      "&&bMV&&r Batteries will appeal to you if you want to buffer Energy, just like &&7LV&&r.",
+      "<br/>",
+      "The cost in &&aSodium&&r, &&aLithium&&r or &&aCadmium&&r jumps up to 8 dusts, so you should use whatever you have the most of. The difference in capacity isn't &&7THAT&&r huge, after all!",
+      "<br/>",
+      "Get &&eeither&&r Battery to complete the Quest."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_battery_hull"
+    },
+    "subtitle": {
+      "text": "Baby Got Battery"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          144,
+          -60
+        ]
+      }
+    }
+  }
+}

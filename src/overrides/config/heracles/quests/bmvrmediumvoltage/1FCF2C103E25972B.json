@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "15C7369398FAB8DB": {
+      "type": "heracles:item",
+      "item": "gtceu:blue_alloy_ingot"
+    }
+  },
+  "rewards": {
+    "61F22179773C70D6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:electrotine_dust"
+      }
+    }
+  },
+  "display": {
+    "title": "Blue Alloy",
+    "description": [
+      "<subtitle id=\"1FCF2C103E25972B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"15C7369398FAB8DB\" quest=\"1FCF2C103E25972B\"/>",
+      "<hr/>",
+      "&&aBlue Alloy&&r is an excellent Cable material for &&6HV&&r power.",
+      "<br/>",
+      "Nothing is preventing you from using it for &&bMV&&r power too! Make sure that you don't overvolt your machines, though.",
+      "<br/>",
+      "Superconductors for both &&bMV&&r and &&6HV&&r are unlocked... later.",
+      "<br/>",
+      "&&aElectrotine&&r is obtained from the &&cNether&&r, so don't craft it in the Mixer!",
+      "<br/>",
+      "Furthermore, &&aElectrotine&&r can be separated for &&dElectrum&&r and &&dRedstone&&r.",
+      "<hr/>",
+      "<reward reward=\"61F22179773C70D6\" quest=\"1FCF2C103E25972B\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:blue_alloy_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "You're blue now... that's my alloy"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          360,
+          -60
+        ]
+      }
+    }
+  }
+}

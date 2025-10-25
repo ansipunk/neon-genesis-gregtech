@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2FC7B1E867E4194E"
+  ],
+  "tasks": {
+    "692DAFF49E94F293": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "gtceu:lv_energy_input_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Powering Multiblocks",
+    "description": [
+      "<task task=\"692DAFF49E94F293\" quest=\"5F320AFEF6F41AAF\"/>",
+      "<hr/>",
+      "Multiblocks do not look at the voltage of recipes when trying to craft. Instead, they simply check if they are being provided with enough Power.",
+      "<br/>",
+      "&&9Note:&&r Be wary of Cable &&closses&&r bringing the actual power input below the recipe requirement! We &&lhighly&&r recommend either placing your &&3Battery Buffer&&r next to the &&3Energy Hatches&&r for the minimum cable length, or looking around this questbook to see if there are better alternatives to Cables.",
+      "<br/>",
+      "The EBF needs a minimum of &&4120EU/t&&r power input to run its recipes. This can be achieved with &&3two LV Energy Hatches&&r. Each one takes 2 Amps of LV, so that's 4 Amps of LV for 128EU/t maximum power."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_energy_input_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          160,
+          32
+        ]
+      }
+    }
+  }
+}

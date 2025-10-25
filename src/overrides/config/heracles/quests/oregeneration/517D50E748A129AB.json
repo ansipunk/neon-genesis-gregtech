@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "753C65ED1CA407C7": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_quartzite"
+    },
+    "67D3F0CB9F86C4B1": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_certus_quartz"
+    },
+    "5E2B885CEDBB3612": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_barite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Certus Quartz",
+    "description": [
+      "<subtitle id=\"517D50E748A129AB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"753C65ED1CA407C7\" quest=\"517D50E748A129AB\"/>",
+      "<task task=\"67D3F0CB9F86C4B1\" quest=\"517D50E748A129AB\"/>",
+      "<task task=\"5E2B885CEDBB3612\" quest=\"517D50E748A129AB\"/>",
+      "<hr/>",
+      "Your ticket into &&bApplied Energistics 2&&r is nestled deep within a Certus Quartz vein.",
+      "<br/>",
+      "Alongside this, note that Barite electrolyses into Barium, which you will eventually need to make some higher tier Superconductors."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_certus_quartz_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of AE2, Barium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          336,
+          -96
+        ]
+      }
+    }
+  }
+}

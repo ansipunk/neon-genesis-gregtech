@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5263F866638D875C",
+    "257DB4B39B2A928E",
+    "772F7CD63D31966A"
+  ],
+  "tasks": {
+    "0FDC60275B1959C3": {
+      "type": "heracles:item",
+      "item": "gtceu:gallium_arsenide_dust"
+    }
+  },
+  "rewards": {
+    "57A62DC036C223CF": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "57A62DC036C223CF_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:gallium_dust",
+            "count": 4
+          }
+        },
+        "57A62DC036C223CF_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:arsenic_dust",
+            "count": 4
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Gallium Arsenide",
+    "description": [
+      "<subtitle id=\"4073577B7EF9B593\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0FDC60275B1959C3\" quest=\"4073577B7EF9B593\"/>",
+      "<hr/>",
+      "Many materials going forward cannot be smelted directly from any Ores! They are instead obtained as byproducts from processing of other ores. Gallium and Arsenic are &&4among&&r these materials.",
+      "<br/>",
+      "For &&dGallium&&r, you may, ranged from worst to best (compromising difficulty and yields):",
+      "<br/>",
+      "&&9- &&3Electrolyze &&aSphalerite&&r for a low chance of dust. Note that you lose out on direct smelting value.",
+      "<br/>",
+      "&&9-&&r Put &&aCrushed Bauxite&&r in the &&3Chemical Bath&&r. Note that this requires &&9Sodium Persulfate&&r.",
+      "<br/>",
+      "&&9-&&r Obtain it as a Byproduct of &&aSphalerite&&r Ore Processing in the &&3Thermal Centrifuge&&r or &&3Centrifuge&&r.",
+      "<br/>",
+      "For &&dArsenic&&r, you will have to mine and &&3centrifuge&&r &&aRealgar&&r.",
+      "<hr/>",
+      "<reward reward=\"57A62DC036C223CF\" quest=\"4073577B7EF9B593\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:gallium_arsenide_dust"
+    },
+    "subtitle": {
+      "text": "I hate byproducts, they're awesome"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          36,
+          252
+        ]
+      }
+    }
+  }
+}

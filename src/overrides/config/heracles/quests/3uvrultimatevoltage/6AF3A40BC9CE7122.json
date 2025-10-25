@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "762C48F0C2EA6B81",
+    "4C7C0F6A6598BC24",
+    "35F13B6D60361904"
+  ],
+  "tasks": {
+    "43CE7370C6D03DFD": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:tritanium_coil_block"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tritanium Coils",
+    "description": [
+      "<subtitle id=\"6AF3A40BC9CE7122\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"43CE7370C6D03DFD\" quest=\"6AF3A40BC9CE7122\"/>",
+      "<hr/>",
+      "&&aTritanium Coils&&r bring the Heat Capacity to &&d10,800K&&r.",
+      "<br/>",
+      "These coils aren't needed for much, but they'll provide another perfect overclock for most recipes!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tritanium_coil_block"
+    },
+    "subtitle": {
+      "text": "Why would you even need something this hot?!"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          144,
+          48
+        ]
+      }
+    }
+  }
+}

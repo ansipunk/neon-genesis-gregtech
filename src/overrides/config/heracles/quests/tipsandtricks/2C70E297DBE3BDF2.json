@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0"
+  ],
+  "tasks": {
+    "0CC1BD3E61E14F18": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Understanding the Assembly Line",
+    "description": [
+      "<task task=\"0CC1BD3E61E14F18\" quest=\"2C70E297DBE3BDF2\"/>",
+      "<hr/>",
+      "There are many ways to automate Ordered Items: GT item pipes, Redstone, other mods, you name it! This quest will attempt to guide you through a setup using &&3AE2&&r.",
+      "<br/>",
+      "Have the Pattern Provider face an &&3Item P2P&&r. Set two output P2Ps: one into the first &&3Input Bus&&r, and the other into &&3Item Pipes&&r. Make your Item Pipes connect to all Input Buses including the first. Don't forget &&dBlocking Mode&&r! ",
+      "<br/>",
+      "With this setup, assembly items should be fully automated!",
+      "<br/>",
+      "Whilst item automation was relatively simple, fluid automation is slightly harder.",
+      "<br/>",
+      "Fluid Pipes behave differently compared to Item Pipes, so you &&4won't&&r be able to use the same solution as above. ",
+      "<br/>",
+      "This quest won't explain how to do this entirely &&7(due to it being off by default)&&r, so the full solution is left as an exercise to the reader."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:assembly_line"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          32,
+          63
+        ]
+      }
+    }
+  }
+}

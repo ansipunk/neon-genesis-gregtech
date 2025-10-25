@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3B2D2C47BEBCFFA7"
+  ],
+  "tasks": {
+    "71990F9CE8E29F73": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Parallelisation",
+    "description": [
+      "<task task=\"71990F9CE8E29F73\" quest=\"255929EB845E200D\"/>",
+      "<hr/>",
+      "&&lWhy go parallel?",
+      "<br/>",
+      "&&9-&&r &&4Parallelization is superior&&r to overclocking! Take advantage of this for your passive setups such as Ore Processing or Oil Distilling.",
+      "<br/>",
+      "&&9-&&r &&6Distinct buses&&r: &&3GCYM Machinery&&r can accept multiple &&3Input Buses&&r. Use it for your pattern automation with &&3Extruder&&r, &&3Engraver&&r, and many other.",
+      "<br/>",
+      "Power cost is based on the current recipe being run, times the number of &&4parallel&&r being performed."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_parallel_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          190,
+          63
+        ]
+      }
+    }
+  }
+}

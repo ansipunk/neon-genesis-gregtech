@@ -1,0 +1,55 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "774FD60E5F9C5225": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_graphite"
+    },
+    "2B74642C6B76656E": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_diamond"
+    },
+    "00FC22EEB40F9783": {
+      "type": "heracles:item",
+      "item": "minecraft:coal"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Graphite",
+    "description": [
+      "<subtitle id=\"1B45DB5C85B68182\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"774FD60E5F9C5225\" quest=\"1B45DB5C85B68182\"/>",
+      "<task task=\"2B74642C6B76656E\" quest=\"1B45DB5C85B68182\"/>",
+      "<task task=\"00FC22EEB40F9783\" quest=\"1B45DB5C85B68182\"/>",
+      "<hr/>",
+      "Your only source of Diamond!",
+      "<br/>",
+      "Diamond has &&6five times more durability&&r than Iron for tools. The catch is that you'll need Diamond Plates for some tools, which is gated behind the Cutting Machine.",
+      "<br/>",
+      "Diamond and Graphite both electrolyze into a ton of Carbon. Hint, hint..?",
+      "<br/>",
+      "&&cNote:&&r Avoid macerating Diamonds in the early game. Recovering gem dusts into the actual gem cannot be done for a while - and even then, the process is slow and time-consuming..."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:graphite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Diamond, Carbon"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          176,
+          32
+        ]
+      }
+    }
+  }
+}

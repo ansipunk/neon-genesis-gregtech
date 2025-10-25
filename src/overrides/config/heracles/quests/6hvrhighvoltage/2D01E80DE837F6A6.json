@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "09C7FB07CF7A1B49": {
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "gtceu:hv_machine_hull"
+    }
+  },
+  "rewards": {
+    "4D352625AE6D5757": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:advanced_integrated_circuit",
+        "count": 6
+      }
+    }
+  },
+  "display": {
+    "title": "High Voltage Machines",
+    "description": [
+      "<task task=\"09C7FB07CF7A1B49\" quest=\"2D01E80DE837F6A6\"/>",
+      "<hr/>",
+      "When your power generation allows for it, &&3HV machines&&r are well worth using for on-demand processing. The quadrupled energy cost compared to their &&7LV&&r counterparts shouldn't bother you too much.",
+      "<br/>",
+      "&&9Note:&&r Crafting Hulls in the &&3Assembler&&r is slightly more efficient. Prioritise this recipe!",
+      "<hr/>",
+      "<reward reward=\"4D352625AE6D5757\" quest=\"2D01E80DE837F6A6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_machine_casing"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          36,
+          -60
+        ]
+      }
+    }
+  }
+}

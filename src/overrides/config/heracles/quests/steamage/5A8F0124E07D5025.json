@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77EA56D16A9B3BFC"
+  ],
+  "tasks": {
+    "6F01622979E6F332": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "gtceu:lv_electric_motor"
+      },
+      "type": "heracles:item",
+      "amount": 6,
+      "item": "gtceu:lv_electric_motor"
+    }
+  },
+  "rewards": {
+    "405DCE51B96EB09A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:steel_block"
+      }
+    }
+  },
+  "display": {
+    "title": "The First of Many Motors",
+    "description": [
+      "<subtitle id=\"5A8F0124E07D5025\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6F01622979E6F332\" quest=\"5A8F0124E07D5025\"/>",
+      "<hr/>",
+      "Good news - we're going to start to cut down on the amount of components you'll need to submit for quests as you progress further into the modpack. Remember that &&2EMI is your true mentor&&r if recipes are getting overwhelming.",
+      "<br/>",
+      "Getting back on topic, set yourself up for &&7LV&&r by crafting six &&aLV Electric Motors&&r! This may seem like a lot, but that's the bare minimum required to get to the good stuff in &&7LV&&r.",
+      "<br/>",
+      "&&6Once you complete this Quest and the Electronic Circuit Quest, you are ready to move on to the LV Age.&&r",
+      "<hr/>",
+      "<reward reward=\"405DCE51B96EB09A\" quest=\"5A8F0124E07D5025\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electric_motor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Low Voltage beckons..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          252,
+          -48
+        ]
+      }
+    }
+  }
+}

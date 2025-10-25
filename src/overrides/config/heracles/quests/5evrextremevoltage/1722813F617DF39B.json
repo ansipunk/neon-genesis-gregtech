@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "39E7997F3080250A"
+  ],
+  "tasks": {
+    "40B572EB6B1D083E": {
+      "type": "heracles:item",
+      "item": "mae2:pattern_p2p_tunnel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Pattern P2P Tunnels",
+    "description": [
+      "<subtitle id=\"1722813F617DF39B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"40B572EB6B1D083E\" quest=\"1722813F617DF39B\"/>",
+      "<hr/>",
+      "The &&aPattern P2P Tunnel&&r is an upgraded version of &&9Item/Fluid P2P Tunnels&&r.",
+      "<br/>",
+      "The input side is placed on an Pattern Provider containing patterns. It can have multiple outputs, which should connect to inventories.",
+      "<br/>",
+      "When multiple crafts of a single pattern are requested, the P2P Tunnel will evenly distribute the crafts between all of the connected outputs.",
+      "<br/>",
+      "The Pattern P2P Tunnel also respects &&eBlocking Mode&&r, which is set in the interface containing the patterns."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mae2:pattern_p2p_tunnel"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Pattern 2 Pattern"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          270,
+          134
+        ]
+      }
+    }
+  }
+}

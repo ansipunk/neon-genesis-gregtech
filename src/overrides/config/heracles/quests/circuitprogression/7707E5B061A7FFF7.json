@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5C17BF90DA2AAEEE",
+    "4B979482EF026BFF",
+    "5E76D4C24026157D"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§7LV§r Circuits",
+    "description": [
+      "Circuits along this line are &&7LV&&r, and are interchangeable in recipes.",
+      "<br/>",
+      "&&cElectronic Circuits&&r are the \"worst\" in terms of cost and effort required to produce, but you have to start somewhere.",
+      "<br/>",
+      "&&eBasic Integrated Processors&&r act as a middle layer between &&cElectronic Circuits&&r and &&2Microchip Processors.&&r",
+      "<br/>",
+      "Finally, &&2Microchip Processors&&r will be the best option for the rest of the playthrough."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          0
+        ]
+      }
+    }
+  }
+}

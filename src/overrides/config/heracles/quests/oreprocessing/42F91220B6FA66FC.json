@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "730043448A9ADBB6"
+  ],
+  "tasks": {
+    "7C4D7E44B6CDFBAC": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "How would I boost my processing power?",
+    "description": [
+      "<task task=\"7C4D7E44B6CDFBAC\" quest=\"42F91220B6FA66FC\"/>",
+      "<hr/>",
+      "Multiple &&don-tier machines&&r are never a bad idea, but you should definitely consider using the Large multiblock variants of the singleblock machines from &&aGregicality Multiblocks&&r. They're significantly easier to upgrade as you progress through the later tiers of the mod (would you rather make a &&616A LuV Energy Hatch&&r, or &&b16 LuV Macerators&&r?!), and plus... they look rad as hell."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:large_maceration_tower"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          48,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7B0FF43022F6C2EC"
+  ],
+  "tasks": {
+    "7D5CFA20478CB9C8": {
+      "title": "Amperage",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Amperage",
+    "description": [
+      "<task task=\"7D5CFA20478CB9C8\" quest=\"2BE355672E638CF2\"/>",
+      "<hr/>",
+      "The quantity of 1 packet per tick is known as an Amp (1A for short).",
+      "<br/>",
+      "Each single-block Generator in GregTech is configured to produce &&91A&&r of its voltage tier. For &&7LV&&r, that results in &&232EU/t&&r.",
+      "<br/>",
+      "If a machine requires 16EU/t, one \"packet\" of 32EU is sent &&6every other tick&&r (assuming no cable loss) - no more, no less.",
+      "<br/>",
+      "A Battery Buffer with &&94&&r Batteries can produce up to &&94 Amps&&r for &&2128EU/t&&r as &&7LV&&r power, which is important for the &&3Electric Blast Furnace&&r - or to run multiple machines simultaneously.",
+      "<br/>",
+      "Generic machines are configured to draw up to &&92 Amps&&r to account for cable loss. Other machines have specific &&9Amps IN&&r, which is described in their tooltip.",
+      "<br/>",
+      "The most critical thing to know is that &&acables&&r have an &&9Amperage &&climit&&r. Attempting to transport more Amps than this limit will &&4burn your cable up&&r.",
+      "<br/>",
+      "&&9Amps&&r are drawn &&oonly&&r through the &&aCables&&r connecting the Producers and Consumers directly, and only drawn if the Consumers are active.",
+      "<br/>",
+      "This means you can safely step down your Cables in certain places - feel free to experiment!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ulv_transformer_2a"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          95,
+          0
+        ]
+      }
+    }
+  }
+}

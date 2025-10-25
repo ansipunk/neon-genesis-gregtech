@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55D8E30978CBBC0D",
+    "4AFD3073C731A1E4",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "64EF28C6902C7083": {
+      "type": "heracles:item",
+      "item": "minecraft:deepslate"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:deepslate",
+    "description": [
+      "<subtitle id=\"3B436487305AEE38\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"64EF28C6902C7083\" quest=\"3B436487305AEE38\"/>",
+      "<hr/>",
+      "Deepslate centrifuges into... you guessed it... Silicon Dioxide! You may want to set this up for the guaranteed Biotite output, as Biotite electrolyses into Fluorine.",
+      "<br/>",
+      "This is obviously a far better source of Biotite than Stone Dust. Hopefully, you didn't waste your time setting that up!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:deepslate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Silicon Dioxide, Fluorine..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          74,
+          -84
+        ]
+      }
+    }
+  }
+}

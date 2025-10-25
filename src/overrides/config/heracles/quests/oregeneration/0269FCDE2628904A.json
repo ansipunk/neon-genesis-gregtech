@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "3ABB4181FEA31D22": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_nether_quartz"
+    },
+    "152834A4F7A00AEC": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_quartzite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Quartz",
+    "description": [
+      "<subtitle id=\"0269FCDE2628904A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3ABB4181FEA31D22\" quest=\"0269FCDE2628904A\"/>",
+      "<task task=\"152834A4F7A00AEC\" quest=\"0269FCDE2628904A\"/>",
+      "<hr/>",
+      "Your classic Nether Quartz vein.",
+      "<br/>",
+      "Silicon isn't too difficult to come by, but Quartzite isn't a bad source."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_nether_quartz_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Nether Quartz, Silicon"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          224,
+          -64
+        ]
+      }
+    }
+  }
+}

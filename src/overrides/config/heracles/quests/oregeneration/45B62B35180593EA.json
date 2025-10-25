@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "65BB3345F5602A55": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_tetrahedrite"
+    },
+    "4253F5C16717E664": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_copper"
+    },
+    "30CFBE92202683E8": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_stibnite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tetrahedrite",
+    "description": [
+      "<subtitle id=\"45B62B35180593EA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"65BB3345F5602A55\" quest=\"45B62B35180593EA\"/>",
+      "<task task=\"4253F5C16717E664\" quest=\"45B62B35180593EA\"/>",
+      "<task task=\"30CFBE92202683E8\" quest=\"45B62B35180593EA\"/>",
+      "<hr/>",
+      "Almost a pure Copper vein. Damn you, Stibnite, ruining our purity!",
+      "<br/>",
+      "You can hardly complain about its presence, though - Stibnite smelts directly into Antimony, which you will want in &&7LV&&r for your Batteries."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_tetrahedrite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Copper, Antimony"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          304,
+          0
+        ]
+      }
+    }
+  }
+}

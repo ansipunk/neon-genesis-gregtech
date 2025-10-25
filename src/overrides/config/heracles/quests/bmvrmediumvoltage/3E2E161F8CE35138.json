@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6238B2A7ED1BE5A1",
+    "035CF39E6CC98B77"
+  ],
+  "tasks": {
+    "5687D81E6BFDC7E0": {
+      "type": "heracles:item",
+      "item": "gtceu:severely_steam_cracked_naphtha_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fuel Cracking",
+    "description": [
+      "<subtitle id=\"3E2E161F8CE35138\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5687D81E6BFDC7E0\" quest=\"3E2E161F8CE35138\"/>",
+      "<hr/>",
+      "Don't panic! We'll mostly be doing this to get hydrocarbons.",
+      "<br/>",
+      "There are many ways to acquire &&dEthylene&&r from Oil processing. It's easy to get lost in all the options and recipes!",
+      "<br/>",
+      "The best way is to steam-crack &&aNaphtha&&r in a &&3Chemical Reactor&&r. Be sure to make the &&aSeverely Steam-Cracked&&r version for a higher yield of Ethylene.",
+      "<br/>",
+      "Once in &&6HV&&r, you'll have the option to do this recipe in the &&3Cracking Unit&&r at 100% efficiency. Unfortunately, the recipes you are doing with the Chemical Reactor have a loss of &&450%&&r.",
+      "<br/>",
+      "&&9Note:&&r All of this looks and feels terribly inefficient - we hope that's strong motivation to tier up! The &&3Distillation Tower&&r will be a huge upgrade for petrochem, but you're not quite there... yet. Right now, you'll have to use a &&3Distillery&&r to get &&dEthylene&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:severely_steam_cracked_naphtha_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Fuel and oil cracking can get complicated..."
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -144,
+          -132
+        ]
+      }
+    }
+  }
+}

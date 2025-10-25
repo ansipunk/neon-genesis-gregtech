@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "52D00CD3E8D1E293",
+    "35549F0404C87BCA",
+    "5ED7707B0ECF2207"
+  ],
+  "tasks": {
+    "39CDBE6B4B973868": {
+      "type": "heracles:item",
+      "item": "gtceu:active_transformer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Active Transformer",
+    "description": [
+      "<subtitle id=\"1AD003487B4EC2EF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"39CDBE6B4B973868\" quest=\"1AD003487B4EC2EF\"/>",
+      "<hr/>",
+      "The &&3Active Transformer&&r is a multiblock used to transform energy on a much larger scale. For example, you can convert &&6HV&&r to &&7LV&&r power directly by using the apropriate energy hatches.",
+      "<br/>",
+      "It also has a second function, detailed in the above quest.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This is yet another feature from TecTech, which also required these cables to be painted. They do look fantastic if you paint them, but it's optional in CEu."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:active_transformer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "More than a large transformer"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          108,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6958029B5514D4EC",
+    "727075AAF9F91FAE"
+  ],
+  "tasks": {
+    "6D3E269567F419DE": {
+      "type": "heracles:item",
+      "item": "gtceu:titanium_ingot"
+    }
+  },
+  "rewards": {
+    "106D8C718FA5E22C": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "106D8C718FA5E22C_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:endstone_bauxite_ore",
+            "count": 12
+          }
+        },
+        "106D8C718FA5E22C_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:endstone_ilmenite_ore",
+            "count": 12
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Titanium",
+    "description": [
+      "<subtitle id=\"7FA0ACB7F161F378\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6D3E269567F419DE\" quest=\"7FA0ACB7F161F378\"/>",
+      "<hr/>",
+      "&&aTitanium&&r has the highest corrosion resistance and strength-to-density ratio of any metallic element, so it's only natural that we'll be using it as the main material in our &&5EV&&r machinery.",
+      "<br/>",
+      "Confirm that your closed loop for &&aRutile&&r is up to standard, and prepare to run a dedicated &&3EBF&&r for hours.",
+      "<br/>",
+      "A quick aside - now we're at &&5EV&&r, single block generators are about to fall out of style! You'll need to run several &&3HV Generators&&r to keep up - later, upgrades to Multiblock Generators will be required.",
+      "<br/>",
+      "Whilst Multiblock generators are much more expensive, you'll find them to be much more energy efficient!",
+      "<hr/>",
+      "<reward reward=\"106D8C718FA5E22C\" quest=\"7FA0ACB7F161F378\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:titanium_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Titanite Slab"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          180,
+          -168
+        ]
+      }
+    }
+  }
+}

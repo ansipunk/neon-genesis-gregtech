@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EAF2C5B5EB755C5"
+  ],
+  "tasks": {
+    "3FA401CACE8BBE5D": {
+      "title": "Woah, ores sure sound exciting.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ore Generation",
+    "description": [
+      "<subtitle id=\"0C690272ED4FB1C3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3FA401CACE8BBE5D\" quest=\"0C690272ED4FB1C3\"/>",
+      "<hr/>",
+      "The ore generation in &&2GregTech&&r is very different to vanilla or normal modded Minecraft. All ores generate in &&6huge veins&&r, which can contain &&dhundreds&&o&&r of ore blocks.",
+      "<br/>",
+      "GTCEu now features the functionality of &&dVisual Prospecting&&r natively, which will mark discovered veins on your map. &&9Right Click&&r an ore block in the vein, or a surface rock to add it to the map. You can toggle the ore vein view in the lower left corner of the fullscreen map.",
+      "<br/>",
+      "The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:",
+      "<br/>",
+      "&&9-&&r Ore veins generate in a &&4Grid&&r. Every vein is &&9spaced by (approximately) 3 chunks&&r from one to another in a cardinal direction.",
+      "<br/>",
+      "&&9-&&r It's a good practice to make &&dWaypoints&&r (default &&4N&&r) for every vein you've found and and to label their type. You may want to come back to the vein several times."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cobaltite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "More like SNORE generation!"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          -72,
+          -96
+        ]
+      }
+    }
+  }
+}

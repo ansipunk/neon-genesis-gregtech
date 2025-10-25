@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CC79617A4965F25",
+    "30A6EDDF25A5E5F8",
+    "14D277A164202FF8"
+  ],
+  "tasks": {
+    "4043CFB3C4E0DB90": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_macerator"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Shredding your Ores with further more Byproducts",
+    "description": [
+      "<subtitle id=\"05003665368F5A57\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4043CFB3C4E0DB90\" quest=\"05003665368F5A57\"/>",
+      "<hr/>",
+      "Better Ore Processing for &&6chanced Byproducts&&r, only at the cost of this &&3Macerator&&r! A must have.",
+      "<br/>",
+      "And now, it's finally time for mass ore processing automation.",
+      "<br/>",
+      "The next Quest will kick things off!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_macerator"
+    },
+    "subtitle": {
+      "text": "No more being Ore-poor!"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          48,
+          156
+        ]
+      }
+    }
+  }
+}

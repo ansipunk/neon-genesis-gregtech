@@ -1,0 +1,124 @@
+{
+  "settings": {},
+  "dependencies": [
+    "45969FFBF88F4FBB"
+  ],
+  "tasks": {
+    "37A7D2DE2F82E529": {
+      "type": "heracles:item",
+      "amount": 64,
+      "item": "minecraft:redstone"
+    },
+    "68684E4712C05221": {
+      "type": "heracles:item",
+      "amount": 24,
+      "item": "gtceu:nickel_ingot"
+    },
+    "59AA0604B02D17EF": {
+      "type": "heracles:item",
+      "amount": 24,
+      "item": "gtceu:lead_ingot"
+    },
+    "0384FDE2E9B1414F": {
+      "type": "heracles:item",
+      "amount": 24,
+      "item": "gtceu:silver_ingot"
+    },
+    "46C1361E3C1678C4": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "minecraft:diamond"
+    }
+  },
+  "rewards": {
+    "2C6F42288FF9B7DA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sand",
+        "count": 128
+      }
+    },
+    "5242721C19BCC092": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:clay_ball",
+        "count": 128
+      }
+    },
+    "04BE5FBBF9402D5D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 64
+      }
+    },
+    "2D409B8436727D1C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:nickel_ingot",
+        "count": 24
+      }
+    },
+    "35EE3F4BAAE41AC3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:lead_ingot",
+        "count": 24
+      }
+    },
+    "70008D5488014AF1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:silver_ingot",
+        "count": 24
+      }
+    },
+    "29963CB493F50CC0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Early Investments",
+    "description": [
+      "<subtitle id=\"62212F2B51AC779E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"37A7D2DE2F82E529\" quest=\"62212F2B51AC779E\"/>",
+      "<task task=\"68684E4712C05221\" quest=\"62212F2B51AC779E\"/>",
+      "<task task=\"59AA0604B02D17EF\" quest=\"62212F2B51AC779E\"/>",
+      "<task task=\"0384FDE2E9B1414F\" quest=\"62212F2B51AC779E\"/>",
+      "<task task=\"46C1361E3C1678C4\" quest=\"62212F2B51AC779E\"/>",
+      "<hr/>",
+      "Iron, Copper and Tin will only get you so far. &&4Redstone&&r and &&bDiamond&&r will occasionally be required during the &&6Steam Age&&r, whereas Nickel, Lead and Silver are also nice to have. All will come in handy &&asoon enough&&r.",
+      "<br/>",
+      "&&o&&8Consult the ore tab if you're struggling to find these materials!&&r",
+      "<hr/>",
+      "<reward reward=\"2C6F42288FF9B7DA\" quest=\"62212F2B51AC779E\"/>",
+      "<reward reward=\"5242721C19BCC092\" quest=\"62212F2B51AC779E\"/>",
+      "<reward reward=\"04BE5FBBF9402D5D\" quest=\"62212F2B51AC779E\"/>",
+      "<reward reward=\"2D409B8436727D1C\" quest=\"62212F2B51AC779E\"/>",
+      "<reward reward=\"35EE3F4BAAE41AC3\" quest=\"62212F2B51AC779E\"/>",
+      "<reward reward=\"70008D5488014AF1\" quest=\"62212F2B51AC779E\"/>",
+      "<reward reward=\"29963CB493F50CC0\" quest=\"62212F2B51AC779E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:silver_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Sometimes, you gotta be inefficient... to be efficient!"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          168,
+          0
+        ]
+      }
+    }
+  }
+}

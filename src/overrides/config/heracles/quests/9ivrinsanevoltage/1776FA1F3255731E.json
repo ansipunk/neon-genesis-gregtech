@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "069FD86133D7D582"
+  ],
+  "tasks": {
+    "7F7D77145AC8197E": {
+      "type": "heracles:item",
+      "item": "gtceu:hssg_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "HSS-G",
+    "description": [
+      "<subtitle id=\"1776FA1F3255731E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7F7D77145AC8197E\" quest=\"1776FA1F3255731E\"/>",
+      "<hr/>",
+      "&&7High-Speed Steels&&r (HSS) are resistant Steel alloys typically used in rails.",
+      "<br/>",
+      "If you previously made &&dUltimet&&r for whatever reason, you've already acquired &&aMolybdenum&&r. Otherwise, it can be found in a Nether vein.",
+      "<br/>",
+      "We hope you have a lot of &&9Tungstensteel&&r, because you're gonna need more! It's used for the creation of &&aHSS&&r alloys - in this case, &&aHSS-G&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hssg_ingot"
+    },
+    "subtitle": {
+      "text": "This time, we're going at HIGH speed!"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    }
+  }
+}

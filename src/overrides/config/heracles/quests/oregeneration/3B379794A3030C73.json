@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "46C302CBE74092FC": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_tin"
+    },
+    "55D733978CCBA87D": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_cassiterite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cassiterite",
+    "description": [
+      "<subtitle id=\"3B379794A3030C73\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"46C302CBE74092FC\" quest=\"3B379794A3030C73\"/>",
+      "<task task=\"55D733978CCBA87D\" quest=\"3B379794A3030C73\"/>",
+      "<hr/>",
+      "A pure, very rich Tin vein - excellent for early game. You'll be over the moon to find one of these in the &&6Steam Age&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cassiterite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "#1 Source of Tin"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          160,
+          -64
+        ]
+      }
+    }
+  }
+}

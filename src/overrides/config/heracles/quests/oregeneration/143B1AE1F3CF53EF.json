@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41D32C5178760F47"
+  ],
+  "tasks": {
+    "310ED3BE9C7FD9E2": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_naquadah"
+    },
+    "21A34924E41D1BE6": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_plutonium"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Naquadah",
+    "description": [
+      "<subtitle id=\"143B1AE1F3CF53EF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"310ED3BE9C7FD9E2\" quest=\"143B1AE1F3CF53EF\"/>",
+      "<task task=\"21A34924E41D1BE6\" quest=\"143B1AE1F3CF53EF\"/>",
+      "<hr/>",
+      "Seasoned sci-fi fans might recognise &&2Naquadah&&r from the series &&dStargate&&r! You'll find this becomes an essential material from &&dLuV&&r onwards.",
+      "<br/>",
+      "Naquadah can be processed in &&dLuV&&r for Titanium, Trinium, Barium, Gallium, Indium, Phosphorus, Enriched Naquadah, and Naquadria. Versatile!",
+      "<br/>",
+      "Moving the spotlight to the other ore, &&cPlutonium&&r is used to start the Radon loop, required in &&9IV&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:endstone_naquadah_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of... a lot."
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          320,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "378F0AFCF95354B2",
+    "2FCBA0D780DBDA9E",
+    "00C14E3B8009DF7F"
+  ],
+  "tasks": {
+    "48F555D3FC7EA449": {
+      "type": "heracles:item",
+      "item": "gtceu:trinium_sulfide_dust"
+    },
+    "0F64CAA30D89B10B": {
+      "type": "heracles:item",
+      "item": "gtceu:trinium_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Trinium",
+    "description": [
+      "<subtitle id=\"0DC999F79A685194\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"48F555D3FC7EA449\" quest=\"0DC999F79A685194\"/>",
+      "<task task=\"0F64CAA30D89B10B\" quest=\"0DC999F79A685194\"/>",
+      "<hr/>",
+      "&&aTrinium&&r is a very important material for progression. You'll need it to make a &&9Fusion Reactor&&r, but it stays relevant all throughout &&cZPM&&r. We &&7(well, this particular questbook writer!)&&r can never have enough of this stuff.",
+      "<br/>",
+      "It also requires an &&dLuV&&r EBF to smelt! Perhaps dedicate a setup solely for cooking this, unless you're confident that your infrastructure can deal with it.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In Stargate, Trinium was strong enough to block a point-blank C4 explosion. It's considered to be a hundred times stronger than steel, at only one-hundreth the weight."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:trinium_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Another Stargate material!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          108,
+          72
+        ]
+      }
+    }
+  }
+}

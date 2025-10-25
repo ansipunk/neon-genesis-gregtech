@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41D32C5178760F47",
+    "4AFD3073C731A1E4"
+  ],
+  "tasks": {
+    "337D8EF42A7BD3A2": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_circuit_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "HV Circuit Assembler",
+    "description": [
+      "<task task=\"337D8EF42A7BD3A2\" quest=\"6B1595678ECB7AC8\"/>",
+      "<hr/>",
+      "The next &&3Circuit Assembler&&r. This tier of Circuit Assembler is only required for one type of Circuit - your first ever &&aMainframe&&r.",
+      "<br/>",
+      "You can put this off until &&5EV&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_circuit_assembler"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          252,
+          -96
+        ]
+      }
+    }
+  }
+}

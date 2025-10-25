@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EAF2C5B5EB755C5"
+  ],
+  "tasks": {
+    "5DCE370285F5B2C6": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "minecraft:paper"
+    }
+  },
+  "rewards": {
+    "42FE9060BBF29DAF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sugar_cane",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Greg has struck again",
+    "description": [
+      "<subtitle id=\"76B70EF552B35779\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5DCE370285F5B2C6\" quest=\"76B70EF552B35779\"/>",
+      "<hr/>",
+      "Obtaining paper is both more difficult and less efficient than in vanilla. Thanks, Greg.",
+      "<br/>",
+      "You'll need to grind &&aSugar Canes&&r into &&aChad&&r, and then smush the dust with a mallet and water.",
+      "<br/>",
+      "&&9Note 1:&&r Don't worry, we're not cruel enough to have the recipe consume the bucket.",
+      "<br/>",
+      "&&9Note 2:&&r Make a manual Sugar Cane farm. You could also automate one with Observers and Pistons. Shoutout to any &&aNomifactory&&r veterans.",
+      "<br/>",
+      "&&9Note 3:&&r When you reach &&7LV&&r, you'll be able to make Paper from Wood.",
+      "<br/>",
+      "&&9Note 4:&&r The Crafting Station makes this microcrafting absolutely &&2trivial&&r - use it!",
+      "<br/>",
+      "&&9Note 5:&&r Paper will be used as a poor-quality wrapping material for the upcoming resistors.",
+      "<br/>",
+      "&&9Note 6:&&r It is truly a pleasure to share this moment with you, our fellow Greg enjoyer.",
+      "<br/>",
+      "&&9Note 7:&&r Yes, Paper Dust is really called that. Let's get the giggles out of the way now, shall we?",
+      "<hr/>",
+      "<reward reward=\"42FE9060BBF29DAF\" quest=\"76B70EF552B35779\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:paper"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "#realism"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          288,
+          24
+        ]
+      }
+    }
+  }
+}

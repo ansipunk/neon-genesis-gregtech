@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "762C48F0C2EA6B81",
+    "6988AE94BE7B461F",
+    "35F13B6D60361904",
+    "0199DBC46D7BC2B9"
+  ],
+  "tasks": {
+    "3AD82F68865047F3": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_electric_motor"
+    },
+    "495AADA7E2532B14": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_electric_piston"
+    },
+    "006FD36B583851E7": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_electric_pump"
+    },
+    "2CED35222E0F45AE": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_conveyor_module"
+    },
+    "1F2A7D8C0AE58BAA": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_robot_arm"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Total Euphoria",
+    "description": [
+      "<subtitle id=\"26F5A04750F6B6DD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3AD82F68865047F3\" quest=\"26F5A04750F6B6DD\"/>",
+      "<task task=\"495AADA7E2532B14\" quest=\"26F5A04750F6B6DD\"/>",
+      "<task task=\"006FD36B583851E7\" quest=\"26F5A04750F6B6DD\"/>",
+      "<task task=\"2CED35222E0F45AE\" quest=\"26F5A04750F6B6DD\"/>",
+      "<task task=\"1F2A7D8C0AE58BAA\" quest=\"26F5A04750F6B6DD\"/>",
+      "<hr/>",
+      "&&3UV&&r Components are a tad harder than &&cZPM&&r. ",
+      "<br/>",
+      "They use lots of &&9Tritanium&&r and &&9Naquadria&&r, so make sure your have enough Fusion Reactors, and a fast enough Naquadah Plant.",
+      "<br/>",
+      "They also need a lot more &&9Computation&&r, which means &&3Advanced HPCA Components&&r are now required!",
+      "<br/>",
+      "Computation Needs for early &&3UV&&r:",
+      "<br/>",
+      "- &&a32 CWU/t&&r: Basic &&3UV&&r Components and the Network Switch",
+      "- &&a48 CWU/t&&r: &&3UV&&r Sensor, Emitter, and Field Generator"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_electric_motor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Prepare your Fusion Reactors!"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          180,
+          48
+        ]
+      }
+    }
+  }
+}

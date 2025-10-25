@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5898743D8D6C2690"
+  ],
+  "tasks": {
+    "4BA6939D643E63A6": {
+      "type": "heracles:item",
+      "item": "gtceu:heavy_fuel_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Heavy Fuel",
+    "description": [
+      "<subtitle id=\"035CF39E6CC98B77\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4BA6939D643E63A6\" quest=\"035CF39E6CC98B77\"/>",
+      "<hr/>",
+      "Heavy Fuel can be obtained from many sources, but your best bet is distilling it from &&eHeavy Oil&&r. ",
+      "<br/>",
+      "You could just burn it in a combustion generator now for &&9Power&&r, but there's something even greater... check the Quest to the left."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:heavy_fuel_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Things are getting really Heavy around here..."
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -180,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "581CDF545E1EA1FD",
+    "5B2696206205CB2E"
+  ],
+  "tasks": {
+    "4A68C6BC78CB07E2": {
+      "type": "heracles:item",
+      "item": "gtceu:rotor_casting_mold"
+    },
+    "7EF3EDA1698AFB7F": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "gtceu:tin_rotor"
+    }
+  },
+  "rewards": {
+    "7162E47A4FB3EDB1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:empty_mold",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "C-C-Combo!",
+    "description": [
+      "<subtitle id=\"115C4226F6473F0C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4A68C6BC78CB07E2\" quest=\"115C4226F6473F0C\"/>",
+      "<task task=\"7EF3EDA1698AFB7F\" quest=\"115C4226F6473F0C\"/>",
+      "<hr/>",
+      "Use both of your new machines to turn a material into a Fluid, and solidify it back to a Rotor! This combination makes Rotors far easier to craft - &&6four Ingots per Rotor&&r, as well.",
+      "<br/>",
+      "You can also do the same for &&6Gears&&r and &&6Small Gears&&r, which will then be superseded when you make a &&3MV Extruder&&r.",
+      "<br/>",
+      "&&9Note:&&r Some metals, like Steel, require higher voltages than &&7LV&&r for Fluid Extraction, so make sure to keep an eye on the recipe tier in EMI.",
+      "<hr/>",
+      "<reward reward=\"7162E47A4FB3EDB1\" quest=\"115C4226F6473F0C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:rotor_casting_mold"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Time to end the misery of hand crafting rotors!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          180,
+          144
+        ]
+      }
+    }
+  }
+}

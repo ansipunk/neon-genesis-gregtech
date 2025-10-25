@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "797EB7DF0C07F327"
+  ],
+  "tasks": {
+    "1C9515F37AD27BA9": {
+      "title": "Every last drop counts.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Electrolyse what's left!",
+    "description": [
+      "<subtitle id=\"3B72CFB9F466DD76\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1C9515F37AD27BA9\" quest=\"3B72CFB9F466DD76\"/>",
+      "<hr/>",
+      "Some dusts in &&bGregTech&&r have little use other than to be processed in an &&3Electrolyser&&r for some nice bonus chemical outputs. You can either set a manual filter for the desired items in a &&aStorage Bus&&r, or provide the most vital dusts via ME Interface, for example."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electrolyzer"
+    },
+    "subtitle": {
+      "text": "We don't need THIS much Cobaltite, right?"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          -32,
+          320
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "315169840E06110F"
+  ],
+  "tasks": {
+    "6D4D63F75646DB1C": {
+      "type": "heracles:item",
+      "item": "gtceu:sapphire_lens"
+    },
+    "6705F883970BDD89": {
+      "type": "heracles:item",
+      "item": "gtceu:ulpic_wafer"
+    },
+    "0295B47C0CC169BD": {
+      "type": "heracles:item",
+      "item": "gtceu:ulpic_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "ULPIC Chips",
+    "description": [
+      "<subtitle id=\"16A1EF8B80A96633\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6D4D63F75646DB1C\" quest=\"16A1EF8B80A96633\"/>",
+      "<task task=\"6705F883970BDD89\" quest=\"16A1EF8B80A96633\"/>",
+      "<task task=\"0295B47C0CC169BD\" quest=\"16A1EF8B80A96633\"/>",
+      "<hr/>",
+      "Using a Sapphire Lens, engrave a Silicon Wafer into an ULPIC Wafer.",
+      "<br/>",
+      "This can be processed in a Cutter for ULPIC Chips, which are important for some multiblock components!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ulpic_chip"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Pickin' up Chips"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          144,
+          12
+        ]
+      }
+    }
+  }
+}

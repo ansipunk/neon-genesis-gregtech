@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "3FB527F5B10381D2": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_fluid_drilling_rig"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fluid Drilling Rigs",
+    "description": [
+      "<subtitle id=\"05ADBAE5B6F38956\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3FB527F5B10381D2\" quest=\"05ADBAE5B6F38956\"/>",
+      "<hr/>",
+      "It's quite the investment to own a &&3Fluid Drilling Rig&&r, but it is &&oby far&&r the most prominent &&6source of Oil&&r.",
+      "<br/>",
+      "It pumps fluids from underneath Bedrock itself. Note that the fluids aren't actually there, instead being simulated.",
+      "<br/>",
+      "Fluid veins are stored within &&cchunk-sized regions&&r. Each vein has a different fluid, but they are mostly types of Oil.",
+      "<br/>",
+      "You can't carry out prospecting for fluid veins &&oyet&&r - this will come at &&6HV&&r.",
+      "<br/>",
+      "Each vein generates with a different base yield. This is typically between &&d150L&&r to &&d300L per second&&r.",
+      "<br/>",
+      "When drained, fluid veins will slowly deplete. This will cause the fluid yield to decrease over time until it reaches its depletion yield. At that point, you should move the Rig to a different vein.",
+      "<br/>",
+      "A &&3Basic Fluid Drilling Rig&&r will last for 100,000 operations (with 1 second per operation) until depletion. This is enough for &&6well over 10,000&&r buckets of Oil. Higher tier Rigs will massively increase the yield, while also decreasing the depletion rate.",
+      "<br/>",
+      "&&lWhat you can find in the &&2Overworld&&r&&l:&&r",
+      "<br/>",
+      "&&9Oil:&&r richer in &&aLight Fuel&&r, the most appreciated variant.",
+      "&&9Light Oil:&&r richer in &&aRefinery Gas&&r, usable for power.",
+      "&&9Heavy Oil:&&r richer in &&aHeavy Fuel&&r, which has uses that are more niche.",
+      "&&9Raw Oil:&&r richer in &&aNaphtha&&r, the best source of the early-game oil products.",
+      "&&9Natural Gas:&&r grants &&aRefinery Gas&&r with no distillation required.",
+      "&&l&&9Salt Water:&&r grants &&aSodium&&r and &&aChlorine&&r, useful later.",
+      "<br/>",
+      "&&lWhat you can find in the &&cNether&&r&&l:&&r",
+      "<br/>",
+      "&&9Natural Gas:&&r grants &&aRefinery Gas&&r but with higher yield than the Overworld vein.",
+      "&&9Lava:&&r hopefully, you know what this is.",
+      "<br/>",
+      "When starting out, you may have to tap randomly until you find something you like. Remember that whatever you pump could also be used to refuel your Fluid Rig."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_fluid_drilling_rig"
+    },
+    "subtitle": {
+      "text": "Fluid Drilling Rigs in CEu!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -72,
+          -24
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F6E351C5F676618"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "Combatting Lag",
+    "description": [
+      "<subtitle id=\"63F9531F391040B2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "The chances you are having TPS issues playing this modpack are slim - this Quest is more suited for late game bases with GregTech and AE2.",
+      "<br/>",
+      "If you run the command &&9/forge tps&&r, you will be given the current &&4TPS&&r and the &&4tick time&&r in milliseconds.",
+      "<br/>",
+      "If the tick time exceeds 50ms, the server is under too much load, and won't be able to keep up with a steady 20 TPS.",
+      "<br/>",
+      "Any machine will add up to the tick time, but don't be too scared of adding machines. Most of the lag usually comes from things that are unoptimized.",
+      "<br/>",
+      "Things to &&cavoid&&r in general:",
+      "<br/>",
+      "&&9-&&r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thankfully, this shouldn't be an issue in this modpack.",
+      "<br/>",
+      "&&9-&&r Building everything packed together in a small space. Note that this does &&onot&&r affect TPS, but you will suffer FPS drops instead.",
+      "<br/>",
+      "&&9-&&r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing.",
+      "<br/>",
+      "Things to&&c avoid&&r with AE2:",
+      "<br/>",
+      "&&9-&&r ME Import and Export Buses on large networks. Use ME Interfaces instead.",
+      "<br/>",
+      "&&9-&&r Crafting Cards to passively do large requests.",
+      "<br/>",
+      "&&9-&&r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network.",
+      "<br/>",
+      "Things to &&cavoid&&r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy your TPS, as with any mod):",
+      "<br/>",
+      "&&9-&&r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines.",
+      "<br/>",
+      "&&9-&&r Large amounts of Fluid Pipes. They are &&onot&&r laggy individually, but they can add up if you have thousands of them.",
+      "<br/>",
+      "&&9-&&r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:mud"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "They call me 007 - 0 Naquadah, 0 EU/t, 7 TPS"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          72,
+          108
+        ]
+      }
+    }
+  }
+}

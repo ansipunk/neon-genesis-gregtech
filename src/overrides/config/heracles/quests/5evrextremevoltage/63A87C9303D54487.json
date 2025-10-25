@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7D15EEE81B1A3100"
+  ],
+  "tasks": {
+    "1276318CB2F198F7": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:carbon_fibers"
+    },
+    "47E901701A935F9D": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_cpu_wafer"
+    },
+    "5D6E97DA360FBA32": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_cpu_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Nano CPUs",
+    "description": [
+      "<task task=\"1276318CB2F198F7\" quest=\"63A87C9303D54487\"/>",
+      "<task task=\"47E901701A935F9D\" quest=\"63A87C9303D54487\"/>",
+      "<task task=\"5D6E97DA360FBA32\" quest=\"63A87C9303D54487\"/>",
+      "<hr/>",
+      "&&aNano CPU Wafers&&r are made by infusing regular &&aCPU Wafers&&r with &&dGlowstone&&r and &&9Raw Carbon Fibers&&r.",
+      "<br/>",
+      "They will be needed in large quantities when making the &&5Nano&&r line of Circuits.",
+      "<br/>",
+      "Higher-tier polymers will increase your yield of &&9Raw Carbon Fibers&&r. One &&dEpoxy&&r is enough for a full stack.",
+      "<br/>",
+      "&&9Tip:&&r Don't like mining &&dGlowstone&&r? Check out Redstone ore processing."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_cpu_wafer"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          216,
+          216
+        ]
+      }
+    }
+  }
+}

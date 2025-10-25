@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "78277DBC07D3C45C",
+    "7A1E3C3A2D699C5B"
+  ],
+  "tasks": {
+    "28332FC9FCA83E41": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:naquadah_coil_block"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Naquadah Coils",
+    "description": [
+      "<subtitle id=\"2FCBA0D780DBDA9E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"28332FC9FCA83E41\" quest=\"2FCBA0D780DBDA9E\"/>",
+      "<hr/>",
+      "&&aNaquadah Coils&&r crank up the Heat Capacity to &&d7,200K&&r.",
+      "<br/>",
+      "These coils are required for progressing to the second half of &&dLuV&&r and beyond.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Well... not some \"juicy GregTech lore\", but a cool space fact, owing to the fact you're beating the Sun's temperature with your EBF. The surface temperature of the Sun is 5,800K. We're taking this as an effective temperature - i.e. the radiative temperature of the Sun as if it were a perfectly \"black body\". Check out the Stefan-Boltzmann law if you're interested in some crude astrophysics.",
+      "<br/>",
+      "&&oOh, and the \"photosphere\" (the part of the sun we're talking about when we mention its surface)? It's 400 kilometres thick. That's 250 miles. Damn!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadah_coil_block"
+    },
+    "subtitle": {
+      "text": "Hotter than the surface temperature of the Sun!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          108,
+          36
+        ]
+      }
+    }
+  }
+}

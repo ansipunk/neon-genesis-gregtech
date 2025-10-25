@@ -1,0 +1,74 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63CD0236B337EAAD",
+    "713C8D6A20BF3A0E"
+  ],
+  "tasks": {
+    "4AA56628D87A3AF9": {
+      "amount": 1,
+      "tasks": {
+        "dc5fabd0-9ca9-41d5-b00d-ca021686acd5": {
+          "type": "heracles:item",
+          "item": "gtceu:fluid_voiding_cover",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "6c8a8868-a47e-4729-a4b0-63791c00b87d": {
+          "type": "heracles:item",
+          "item": "gtceu:item_voiding_cover",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "7B4720913F7D4D6E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cactus",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Voiding Covers",
+    "description": [
+      "<subtitle id=\"249B9E104CAF5FE6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4AA56628D87A3AF9\" quest=\"249B9E104CAF5FE6\"/>",
+      "<hr/>",
+      "&&3Voiding Covers&&r can be attached to GregTech Machines, Crates or Drums. They will void stuff you don't want. How fancy!",
+      "<br/>",
+      "For machines, it will only void items in the Output slots. The Input slots are ignored.",
+      "<br/>",
+      "You can attach a &&aFilter&&r for more precise voiding.",
+      "<br/>",
+      "An advanced version also exists, which requires a &&dMV Circuit&&r. It enables voiding above a set threshold - great for for overflow control.",
+      "<br/>",
+      "&&9Note:&&r They default to being switched off, to prevent accidental voiding. Right-click them with a &&5Soft Mallet&&r to activate them.",
+      "<br/>",
+      "Obtaining &&eany&&r Voiding Cover will complete this Quest.",
+      "<hr/>",
+      "<reward reward=\"7B4720913F7D4D6E\" quest=\"249B9E104CAF5FE6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:item_voiding_cover"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "The best mechanic - making an item or fluid disappear!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          144,
+          216
+        ]
+      }
+    }
+  }
+}

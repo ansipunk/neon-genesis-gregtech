@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "05ADBAE5B6F38956"
+  ],
+  "tasks": {
+    "027B41ACE1566E28": {
+      "type": "heracles:item",
+      "item": "gtceu:refinery_gas_bucket"
+    },
+    "0ABB837337D9CAF9": {
+      "type": "heracles:item",
+      "item": "gtceu:methane_bucket"
+    },
+    "401B9B85969AE681": {
+      "type": "heracles:item",
+      "item": "gtceu:lpg_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Church of Natural Farts",
+    "description": [
+      "<subtitle id=\"227D89550BB9BD55\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"027B41ACE1566E28\" quest=\"227D89550BB9BD55\"/>",
+      "<task task=\"0ABB837337D9CAF9\" quest=\"227D89550BB9BD55\"/>",
+      "<task task=\"401B9B85969AE681\" quest=\"227D89550BB9BD55\"/>",
+      "<hr/>",
+      "&&aRefinery Gas&&r, &&aLPG&&r and &&aMethane&&r are &&9Gas Fuels&&r. LPG (Liquid Petroleum Gas) is a mix of hydrocarbons typically used in heating appliances.",
+      "<br/>",
+      "Refinery Gas is obtained either through &&dNatural Gas&&r or &&dLight Oil&&r, the latter yielding more, yet requiring an extra step of distillation.",
+      "<br/>",
+      "Use of a &&3Centrifuge&&r to separate into &&aLPG&&r and &&aMethane&&r should always be done, as it's practically free.",
+      "<br/>",
+      "&&a&&aLPG&&r and &&aMethane&&r are burned in a &&3Gas Turbine&&r. Among the other fuel options, they are the easier to set up which makes them excellent to get started. Their drawback is that they cannot be refined further, so upgrading the &&3Fluid Drilling Rig&&r may be a top priority if you stick to this fuel source.",
+      "<br/>",
+      "&&aMethane&&r can also be obtained from a few &&anatural sources&&r. &&eBetween us&&r, they're memes, but you can explore them if you wish. Ultimately, your power source is your choice."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:natural_gas_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Whoever smelt it..."
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -72,
+          12
+        ]
+      }
+    }
+  }
+}

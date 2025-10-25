@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3144DC68B266730C",
+    "76B70EF552B35779"
+  ],
+  "tasks": {
+    "35CFB9E695DE3549": {
+      "type": "heracles:item",
+      "item": "gtceu:resistor"
+    }
+  },
+  "rewards": {
+    "0AEE150D99E66D54": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:charcoal",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Electronics #1: Resistors",
+    "description": [
+      "<subtitle id=\"391E853DCE86BFD0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"35CFB9E695DE3549\" quest=\"391E853DCE86BFD0\"/>",
+      "<hr/>",
+      "Resistors are components that will be used to make your first Circuit.",
+      "<br/>",
+      "It wouldn't be unwise to prioritise the recipes that use &&aFine Wires&&r, as they'll save you more materials in the long run.",
+      "<br/>",
+      "Wires may be expensive right now, but they'll get a lot cheaper in &&7LV&&r.",
+      "<hr/>",
+      "<reward reward=\"0AEE150D99E66D54\" quest=\"391E853DCE86BFD0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:resistor"
+    },
+    "subtitle": {
+      "text": "The easier component for circuits"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          252,
+          24
+        ]
+      }
+    }
+  }
+}

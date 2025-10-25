@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0017FFFAD7CD2EFE",
+    "2D5BECC0AC0E316B"
+  ],
+  "tasks": {
+    "2E0E4FF63368E44C": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_processor_computer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More IV Circuits",
+    "description": [
+      "<subtitle id=\"5CC9B0E832545569\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2E0E4FF63368E44C\" quest=\"5CC9B0E832545569\"/>",
+      "<hr/>",
+      "Entering &&1IV&&r with these Circuits shouldn't be too painful."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_processor_computer"
+    },
+    "subtitle": {
+      "text": "Set sail, IV is on the horizon"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          252,
+          324
+        ]
+      }
+    }
+  }
+}

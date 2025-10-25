@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41D32C5178760F47",
+    "42FB276AB16258D9"
+  ],
+  "tasks": {
+    "1BE01DA0E8A143FB": {
+      "title": "Uraninite Dust",
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "#forge:dusts/uraninite"
+    },
+    "19027B3E2E43BAFF": {
+      "type": "heracles:item",
+      "item": "gtceu:uranium_hexafluoride_bucket"
+    },
+    "63142D5387BB1D3E": {
+      "type": "heracles:item",
+      "item": "gtceu:uranium_dust"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Uranium Refinement",
+    "description": [
+      "<subtitle id=\"06B4AAC7DD796182\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1BE01DA0E8A143FB\" quest=\"06B4AAC7DD796182\"/>",
+      "<task task=\"19027B3E2E43BAFF\" quest=\"06B4AAC7DD796182\"/>",
+      "<task task=\"63142D5387BB1D3E\" quest=\"06B4AAC7DD796182\"/>",
+      "<hr/>",
+      "&&aUranium&&r has very few uses in &&2GTCEu&&r right now, as we're &&4yet to&&r implement our &&3Nuclear Reactor&&r (it's planned!).",
+      "<br/>",
+      "Make &&dUranium Hexafluoride&&r from &&aUraninite&&r. This will allow you to seperate the isotopes between U-238 and U-235.",
+      "<br/>",
+      "&&9Fluorine&&r is fully recycled in the reaction, but you will need around maybe 40 buckets to bootstrap.",
+      "<br/>",
+      "&&9Hydrogen&&r is consumed, so you will need quite a lot of it. Either electrolyze a lot of water using several &&3LV Electrolyzers&&r for the best energy efficiency, or recycle any unused &&dhydrocarbons&&r such as Methane.",
+      "<br/>",
+      "&&9Tip:&&r You can make this setup compact by having one single &&3Centrifuge&&r and using a &&6Fluid Regulator&&r set to &&dSupply Exact 1,000&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uranium_dust"
+    },
+    "subtitle": {
+      "text": "Let's hope this quest doesn't put you on a list"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          144,
+          360
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "378F0AFCF95354B2",
+    "4C7C0F6A6598BC24"
+  ],
+  "tasks": {
+    "4A49FE8B35B48D97": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadria_sulfate_dust"
+    },
+    "13A95E109FF72A87": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadria_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Naquadria",
+    "description": [
+      "<subtitle id=\"6D1F10543A391940\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4A49FE8B35B48D97\" quest=\"6D1F10543A391940\"/>",
+      "<task task=\"13A95E109FF72A87\" quest=\"6D1F10543A391940\"/>",
+      "<hr/>",
+      "&&aNaquadria&&r is an isotope of Naquadah, Nq-522. It's highly unstable, but it'll still be used for &&3UV&&r components, &&9Fusion Mk2&&r, and when fusing Neutronium."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadria_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Naquadah, but radioactive-er!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -84,
+          0
+        ]
+      }
+    }
+  }
+}

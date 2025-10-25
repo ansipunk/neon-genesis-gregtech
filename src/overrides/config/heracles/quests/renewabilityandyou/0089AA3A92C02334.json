@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55D8E30978CBBC0D",
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "7D054563301323A4": {
+      "type": "heracles:item",
+      "item": "minecraft:granite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:granite",
+    "description": [
+      "<subtitle id=\"0089AA3A92C02334\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7D054563301323A4\" quest=\"0089AA3A92C02334\"/>",
+      "<hr/>",
+      "Granite Dust centrifuges into Redrock Dust and the familiar Silicon Dioxide Dust.",
+      "<br/>",
+      "Silicon Dioxide is generally just great to have, and Redrock centrifuges into Calcite (that's renewable Calcium) and Flint."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:granite"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Redrock, Silicon Dioxide..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          53,
+          -84
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24366846FDA52CE3"
+  ],
+  "tasks": {
+    "5D597AE565A54388": {
+      "type": "heracles:item",
+      "item": "gtceu:americium_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Americium",
+    "description": [
+      "<subtitle id=\"762C48F0C2EA6B81\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5D597AE565A54388\" quest=\"762C48F0C2EA6B81\"/>",
+      "<hr/>",
+      "&&aAmericium&&r is a Fusion Mk2 material, used in large quantities in CEu progression!",
+      "<br/>",
+      "It requires 2 Fusion steps to obtain - Lanthanum and Silicon will make &&bLutetium&&r, and combining this &&bLutetium&&r with Chrome will give you &&aAmericium&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In Gregicality Legacy, Americium was replaced with Dubnium. Americium is a material only obtained from nuclear reactors, so GCYL changed it to the synthetic element Dubnium instead."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:americium_ingot"
+    },
+    "subtitle": {
+      "text": "It'd be nice if we could make this in a nuclear reactor..."
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -48,
+          108
+        ]
+      }
+    }
+  }
+}

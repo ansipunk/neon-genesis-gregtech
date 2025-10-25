@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1ECBA1CBFFB9F625"
+  ],
+  "tasks": {
+    "1A4DDB914D7D2F3C": {
+      "title": "Any Hammer!",
+      "icon": {
+        "type": "heracles:item",
+        "item": "gtceu:steel_hammer"
+      },
+      "type": "heracles:item",
+      "item": "#forge:tools/hammers"
+    }
+  },
+  "rewards": {
+    "6C50A2A3D43D3FEE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:iron_plate"
+      }
+    }
+  },
+  "display": {
+    "title": "STOP! Hammer time!",
+    "description": [
+      "<subtitle id=\"7DEB73FD649BDFB6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1A4DDB914D7D2F3C\" quest=\"7DEB73FD649BDFB6\"/>",
+      "<hr/>",
+      "Alright - your first &&oproper&&r &&aGregTech&&r tool. The first of &&dmany&&r.",
+      "<br/>",
+      "GT tools can be made out of many different materials. When used in crafting recipes, they &&baren't consumed&&r, instead losing durability. You'll want to start with an Iron tool - but you could opt for Wrought Iron if you already tackled that quest.",
+      "<br/>",
+      "&&9&&lHammer&&f:&&r A crafting tool that shows up in a lot of earlygame recipes. Its secondary function is muting machines by &&msmacking&&r right-clicking them.",
+      "<br/>",
+      "As a sidenote on all &&aGregTech&&r tools, you can repair them in an Anvil using the material of the tool itself, just like any vanilla tool. If you are finding yourself short on experience, &&eBottles o' Enchanting&&r are now craftable.",
+      "<hr/>",
+      "<reward reward=\"6C50A2A3D43D3FEE\" quest=\"7DEB73FD649BDFB6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_hammer"
+    },
+    "subtitle": {
+      "text": "Your first GT Tool!"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          72,
+          -96
+        ]
+      }
+    }
+  }
+}

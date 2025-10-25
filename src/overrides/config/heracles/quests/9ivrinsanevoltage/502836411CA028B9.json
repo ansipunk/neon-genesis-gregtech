@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CFC112B8F460549"
+  ],
+  "tasks": {
+    "5A9B72CD21F42428": {
+      "type": "heracles:item",
+      "item": "gtceu:polybenzimidazole_mallet",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "GT.Tool": {
+          "MaxDamage": 1023
+        },
+        "HideFlags": 2
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Mallet to End All Other Mallets",
+    "description": [
+      "<subtitle id=\"502836411CA028B9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5A9B72CD21F42428\" quest=\"502836411CA028B9\"/>",
+      "<hr/>",
+      "&&bPolybenzimidazole&&r is the best material for &&6Soft Mallets&&r in vanilla GTCEu. Show us that you're on top of your PBI supply by spending some of it on a &&dsuperfluous tool upgrade&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:polybenzimidazole_mallet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Life would be boring without silly quests..."
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          -53,
+          120
+        ]
+      }
+    }
+  }
+}

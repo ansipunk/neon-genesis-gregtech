@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "271CE5C2B78A1EDC"
+  ],
+  "tasks": {
+    "5D897ADB4F7D9920": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tungsten",
+    "description": [
+      "<subtitle id=\"0B25A282F677744B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5D897ADB4F7D9920\" quest=\"0B25A282F677744B\"/>",
+      "<hr/>",
+      "Tungsten in Swedish translates directly as \"Heavy Stone\", which is pretty funny. You may know of this element as Wolfram too, hence its formula being W.",
+      "<br/>",
+      "&&aTungsten&&r will be the main &&1IV&&r Cable material, but will also show its face elsewhere!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_ingot"
+    },
+    "subtitle": {
+      "text": "Wolfram Alpha"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          216,
+          144
+        ]
+      }
+    }
+  }
+}

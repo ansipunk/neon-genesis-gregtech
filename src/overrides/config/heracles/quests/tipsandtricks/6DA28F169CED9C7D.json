@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0"
+  ],
+  "tasks": {
+    "5626378FBFA6241A": {
+      "title": "Research",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Research",
+    "description": [
+      "<subtitle id=\"6DA28F169CED9C7D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5626378FBFA6241A\" quest=\"6DA28F169CED9C7D\"/>",
+      "<hr/>",
+      "Scanning is the first step for research. Take the item shown in EMI and put it with a &&3Data Stick&&r to scan it. This will &&4consume&&r the item and put Data on the Data Stick. Pretty straightforward, right?",
+      "<br/>",
+      "You will need at least an &&6HV Scanner&&r to progress to &&dLuV&&r, an &&5EV Scanner&&r for &&aLuV Energy Hatches&&r, and an &&1IV Scanner&&r for &&aFusion Reactors&&r.",
+      "<br/>",
+      "Later on, recipes will require different &&aData Storage Items&&r for research, such as the &&3Data Orb&&r. This process will remain the same, but will use different Data Storage Items instead. They can also be copied the same way, but you cannot copy between different types of storage items.",
+      "<br/>",
+      "Eventually, you'll want multiple Assembly Lines, but you won't want to re-scan for every Research. This is why you can also use the &&3Scanner&&r to &&dCopy Data&&r. Place the data stick you want to copy in one slot, and a blank one in the other. This will copy the contents of the first stick into the second!",
+      "<br/>",
+      "&&4Important&&r: Using two different data sticks with data on them will cause one to &&4overwrite&&r the other. Be careful!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:data_orb"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Implemented At Last"
+    },
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          63,
+          63
+        ]
+      }
+    }
+  }
+}

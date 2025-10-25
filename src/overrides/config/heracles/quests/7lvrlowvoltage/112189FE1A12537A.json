@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "4FB4D157D57EF9C8": {
+      "amount": 1,
+      "tasks": {
+        "3e83f11c-8096-4a8e-823f-14bc72c2077b": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_item_collector",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "019194ef-b66c-4fca-8fc6-ead33687798e": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_item_collector",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "9b8aa4d9-2f77-46cd-a8dc-1f07d3ade4cd": {
+          "type": "heracles:item",
+          "item": "gtceu:hv_item_collector",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "5dc8879c-f321-46b6-9228-e7452e65fce5": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_item_collector",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Gotta Catch 'Em All",
+    "description": [
+      "<subtitle id=\"112189FE1A12537A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4FB4D157D57EF9C8\" quest=\"112189FE1A12537A\"/>",
+      "<hr/>",
+      "&&o&&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&&r",
+      "<br/>",
+      "&&3Item Collectors&&r will pick up items - similar to any kind of &&aVacuum Chest&&r you may be familiar with from &&dother mods&&r.",
+      "<br/>",
+      "Higher tiers of &&3Collector&&r will increase the &&ecollection radius&&r over multiple chunks. This can be useful if your farm relies on in-world drops, such as &&bSugar Cane&&r, or... &&7uh, bizarrely,&&r &&8chicken eggs.&&r",
+      "<br/>",
+      "&&eAny&&r Item Collector will complete this Quest."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_item_collector"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Oops, dropped my Pickaxe."
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          264,
+          0
+        ]
+      }
+    }
+  }
+}

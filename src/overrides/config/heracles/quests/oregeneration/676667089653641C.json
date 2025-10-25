@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "4E280784AE8DC125": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_soapstone"
+    },
+    "232376309055C021": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_talc"
+    },
+    "634BF4E9CE99821E": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_glauconite_sand"
+    },
+    "73EFE59001EDA5CC": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pentlandite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Soapstone",
+    "description": [
+      "<subtitle id=\"676667089653641C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4E280784AE8DC125\" quest=\"676667089653641C\"/>",
+      "<task task=\"232376309055C021\" quest=\"676667089653641C\"/>",
+      "<task task=\"634BF4E9CE99821E\" quest=\"676667089653641C\"/>",
+      "<task task=\"73EFE59001EDA5CC\" quest=\"676667089653641C\"/>",
+      "<hr/>",
+      "This one's nothing but a meme. It's literally called a Lubricant vein.",
+      "<br/>",
+      "With that being said, Lubricant is always useful for your &&eCutting Machines&&r to keep your factory running smoothly."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:soapstone_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Lubricant"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          -32,
+          64
+        ]
+      }
+    }
+  }
+}

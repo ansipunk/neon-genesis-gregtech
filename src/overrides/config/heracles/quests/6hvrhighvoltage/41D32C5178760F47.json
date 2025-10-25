@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "124B32A0583A636A",
+    "16E3465CF94E2BDD",
+    "4024C831C77101CA"
+  ],
+  "tasks": {
+    "30A89DD2A22EE314": {
+      "type": "heracles:item",
+      "amount": 12,
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "rewards": {
+    "30A15D4EF08A423C": {
+      "title": "Nearest Stronghold location printed in chat",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:end_portal_frame"
+      },
+      "type": "heracles:command",
+      "command": "/locate structure minecraft:stronghold"
+    }
+  },
+  "display": {
+    "title": "The End of an Era",
+    "description": [
+      "<subtitle id=\"41D32C5178760F47\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"30A89DD2A22EE314\" quest=\"41D32C5178760F47\"/>",
+      "<hr/>",
+      "Regardless of whether you're playing on Peaceful or not, you will have to defeat the &&4Ender Dragon&&r to return to the Overworld safely.",
+      "<br/>",
+      "Prepare yourself with a bow, a few arrows, a blade, and some beds &&7(speedrunner strats!)&&r.",
+      "<br/>",
+      "This quest will print the &&alocation of the nearest Stronghold&&r in chat. This &&cwon't work&&r if you have cheats disabled, unfortunately.",
+      "<br/>",
+      "&&9The End&&r has even more new veins and materials to harvest, such as &&ePlatinum&&r and &&7Naquadah&&r! Similar to Nether ores, End ores are &&6worth two Overworld ores&&r.",
+      "<br/>",
+      "&&aEyes of Ender&&r are additionally used in crafting certain components, or for creating &&5Quantum Eyes&&r.",
+      "<hr/>",
+      "<reward reward=\"30A15D4EF08A423C\" quest=\"41D32C5178760F47\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:end_portal_frame"
+    },
+    "subtitle": {
+      "text": "...but not the end of your playthrough"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          252,
+          -60
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2F7617C0C4B330DE"
+  ],
+  "tasks": {
+    "5E8D784C83A4F672": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_fluid_regulator"
+    }
+  },
+  "rewards": {
+    "64CB7F650D8CE198": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:lv_electric_pump"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:lv_fluid_regulator",
+    "description": [
+      "<subtitle id=\"47D4545452F05E37\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5E8D784C83A4F672\" quest=\"47D4545452F05E37\"/>",
+      "<hr/>",
+      "The &&aFluid Regulator&&r is sort of the equivalent to a &&9Robot Arm&&r for Fluids.",
+      "<br/>",
+      "It can transfer fluids, but has two useful modes:",
+      "<br/>",
+      "&&9-&&r &&dSupply Exact&&r will transfer the amount of specified Fluid per tick if available. No more, no less.",
+      "&&9-&&r &&dKeep Exact&&r will make sure the exact amount of Fluid in the attached machine is being kept.",
+      "<hr/>",
+      "<reward reward=\"64CB7F650D8CE198\" quest=\"47D4545452F05E37\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_fluid_regulator"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "A cover!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -36,
+          36
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "settings": {},
+  "dependencies": [
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "5B6D9DD390CC3184": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_electric_motor"
+    },
+    "20D97B1AD73D38C9": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_electric_piston"
+    },
+    "2E2ED201C713950B": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_conveyor_module"
+    },
+    "574C6D74D2D869BD": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_electric_pump"
+    },
+    "44822263DC8E4BE4": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_robot_arm"
+    },
+    "10D85B677A95EA38": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_emitter"
+    },
+    "4173FF5B0A6FA1C3": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_sensor"
+    }
+  },
+  "rewards": {
+    "72019B9C7B00FDB7": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "72019B9C7B00FDB7_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:chromium_rod",
+            "count": 12
+          }
+        },
+        "72019B9C7B00FDB7_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:electrum_ingot",
+            "count": 32
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "We call this \"fun\"",
+    "description": [
+      "<subtitle id=\"029CF0D9E5097F87\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5B6D9DD390CC3184\" quest=\"029CF0D9E5097F87\"/>",
+      "<task task=\"20D97B1AD73D38C9\" quest=\"029CF0D9E5097F87\"/>",
+      "<task task=\"2E2ED201C713950B\" quest=\"029CF0D9E5097F87\"/>",
+      "<task task=\"574C6D74D2D869BD\" quest=\"029CF0D9E5097F87\"/>",
+      "<task task=\"44822263DC8E4BE4\" quest=\"029CF0D9E5097F87\"/>",
+      "<task task=\"10D85B677A95EA38\" quest=\"029CF0D9E5097F87\"/>",
+      "<task task=\"4173FF5B0A6FA1C3\" quest=\"029CF0D9E5097F87\"/>",
+      "<hr/>",
+      "Just like &&bMV&&r, you'll need to make higher-tier components.",
+      "<br/>",
+      "The painful &&dFlawless Gems&&r have been replaced with slightly-more-painful &&dEyes of Ender&&r. Also notice that the &&aMotors&&r require &&d2x Silver Cables&&r.",
+      "<br/>",
+      "&&aHulls&&r and &&aMachines&&r use &&dGold Cables&&r.",
+      "<br/>",
+      "&&9&&lTips to make life less painful:&&r",
+      "<br/>",
+      "- Consider using &&dElectrotine decomposition&&r and &&dOre Processing&&r for &&eElectrum&&r.",
+      "- Consider using the &&3Chemical Bath&&r with &&dMercury&&r for &&eGold&&r from a wide variety of ores.",
+      "<hr/>",
+      "<reward reward=\"72019B9C7B00FDB7\" quest=\"029CF0D9E5097F87\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_electric_motor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Wouldn't you agree? Fun!"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          36,
+          -24
+        ]
+      }
+    }
+  }
+}

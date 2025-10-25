@@ -1,0 +1,68 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0DBC148D92A9F69F",
+    "1BE0349B8F3890D3",
+    "6E186F9C57155BFA"
+  ],
+  "tasks": {
+    "1F170291094582D6": {
+      "amount": 1,
+      "tasks": {
+        "c362685e-ad88-4a5a-8aa6-2baaadd820df": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_steam_turbine",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "95dc7c46-8109-437f-ae0c-b2154b33ba8d": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_gas_turbine",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "8ca18f03-b361-4d46-946c-756ad8cef0a2": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_combustion",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Electricity Generation in MV",
+    "description": [
+      "<subtitle id=\"583D0CC4FAA4FC98\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1F170291094582D6\" quest=\"583D0CC4FAA4FC98\"/>",
+      "<hr/>",
+      "Higher-tier Generators will increase their fuel consumption proportionally to their Generation rate, keeping the duration of fuels and the specific amount of energy from fuels the same. The &&3Advanced Steam Turbine&&r will use &&d5,120 mB Steam&&r per second, equivalent to &&d256 mB/t&&r.",
+      "<br/>",
+      "Get &&eany&&r of the generators to complete this quest, but you may prefer starting off with the &&3Advanced Steam Turbine&&r.",
+      "<br/>",
+      "There are a few new power options available for &&bMV&&r. Selecting the Generators and pressing &&4U&&r will let you see which fuels count as &&aCombustion&&r or &&aGas&&r.",
+      "<br/>",
+      "Quests in the top left corner of this Chapter are for the valuable Power options.",
+      "<br/>",
+      "If you stick to &&9Steam&&r for your Power generation, you'll probably need a &&3Large Boiler&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_steam_turbine"
+    },
+    "subtitle": {
+      "text": "Things are 'boutta get rough"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          0,
+          78
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3398FC108D9DCB46",
+    "41D32C5178760F47",
+    "40408FFD02134148",
+    "4AFD3073C731A1E4",
+    "6B08799BCFD01D3D",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "6BA811C086B5CF00": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_dust"
+    }
+  },
+  "rewards": {
+    "7987EDE1771A5BEE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:endstone_scheelite_ore",
+        "count": 6
+      }
+    },
+    "45F295D16818D055": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:endstone_tungstate_ore",
+        "count": 6
+      }
+    }
+  },
+  "display": {
+    "title": "Tungsten Chain",
+    "description": [
+      "<subtitle id=\"271CE5C2B78A1EDC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6BA811C086B5CF00\" quest=\"271CE5C2B78A1EDC\"/>",
+      "<hr/>",
+      "This quest will cover the Tungsten Chain. &&aTungsten&&r is obtained from either &&eTungstate&&r or &&eScheelite&&r, which are part of the same vein in the End.",
+      "<br/>",
+      "Just like the &&dRutile&&r chain, you will only need to input one item type, and everything else will be looped perfectly!",
+      "<br/>",
+      "You will need:",
+      "<br/>",
+      "&&9-&&r One &&3Chemical Bath&&r, to make &&dTungstic Acid&&r.",
+      "&&9-&&r One &&3Electrolyzer&&r, to electrolyze &&oboth&&r Bath outputs.",
+      "&&9-&&r One &&3Chemical Reactor&&r, to loop &&dHydrogen&&r and &&dChlorine&&r back into &&aHydrochloric Acid&&r.",
+      "<br/>",
+      "You will be granted either Calcium or Lithium as a byproduct - it's on the house!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GTCE, Tungstate or Scheelite took 40sec and 4,000mB of Hydrogen @ 1920 EU/t to electrolyze into 1 Tungsten Dust. Even if it was simpler, it was much more expensive!",
+      "<hr/>",
+      "<reward reward=\"7987EDE1771A5BEE\" quest=\"271CE5C2B78A1EDC\"/>",
+      "<reward reward=\"45F295D16818D055\" quest=\"271CE5C2B78A1EDC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_dust"
+    },
+    "subtitle": {
+      "text": "All in one!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          216,
+          108
+        ]
+      }
+    }
+  }
+}

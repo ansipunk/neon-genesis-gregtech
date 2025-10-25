@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "300348B1238BCB9A",
+    "7A1E3C3A2D699C5B"
+  ],
+  "tasks": {
+    "3789CEDA4AEEBD91": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "gtceu:samarium_iron_arsenic_oxide_single_wire"
+      },
+      "type": "heracles:item",
+      "item": "gtceu:samarium_iron_arsenic_oxide_single_wire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "IV Superconductors",
+    "description": [
+      "<subtitle id=\"52D952ADBEB67454\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3789CEDA4AEEBD91\" quest=\"52D952ADBEB67454\"/>",
+      "<hr/>",
+      "This Superconductor will be required for progression during &&dLuV&&r... when you delve deeper into &&bResearch&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:samarium_iron_arsenic_oxide_double_wire"
+    },
+    "subtitle": {
+      "text": "So you're telling me an Ivy conducted this Super?"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          -24,
+          48
+        ]
+      }
+    }
+  }
+}

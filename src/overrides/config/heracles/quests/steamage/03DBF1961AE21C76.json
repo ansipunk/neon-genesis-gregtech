@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5DD49D500327A0E2"
+  ],
+  "tasks": {
+    "03BA041BE9C347FD": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_machine_casing"
+    }
+  },
+  "rewards": {
+    "5A98072E0B3DBC41": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:bronze_dust",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Machine Behaviour",
+    "description": [
+      "<subtitle id=\"03DBF1961AE21C76\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"03BA041BE9C347FD\" quest=\"03DBF1961AE21C76\"/>",
+      "<hr/>",
+      "&&dSteam Machines&&r accept any Steam that is pumped from nearby Boilers into their internal storage tank. They will run recipes from EMI up to 32 EU/t (&&7LV&&r-tier).",
+      "<br/>",
+      "&&6This quest unlocks a new tutorial on Steam in the &&lTips and Tricks&&r&&6 tab - check it out to learn more!&&r",
+      "<hr/>",
+      "<reward reward=\"5A98072E0B3DBC41\" quest=\"03DBF1961AE21C76\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_machine_casing"
+    },
+    "subtitle": {
+      "text": "Surprisingly Steamy"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          36,
+          24
+        ]
+      }
+    }
+  }
+}

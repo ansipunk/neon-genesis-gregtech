@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0",
+    "46C7E1D5E37B1ED2"
+  ],
+  "tasks": {
+    "3AC7E29D373750F8": {
+      "type": "heracles:item",
+      "item": "expatternprovider:wireless_connect"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Power of Wireless",
+    "description": [
+      "<subtitle id=\"7E2076D45F83D9C3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3AC7E29D373750F8\" quest=\"7E2076D45F83D9C3\"/>",
+      "<hr/>",
+      "The &&aWireless Connector&&r will help with logistics, giving &&9Wireless Transfer&&r for your ME Network with unlimited range. The energy cost scales exponentially with transfer distance."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "expatternprovider:wireless_connect"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "To infinity, and beyond!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          127,
+          190
+        ]
+      }
+    }
+  }
+}

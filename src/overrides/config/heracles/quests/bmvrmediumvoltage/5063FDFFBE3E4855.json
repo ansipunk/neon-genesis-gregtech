@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "38DE506FF5B32031",
+    "3DFFA8F91452C62A"
+  ],
+  "tasks": {
+    "2FE33281A44C34F6": {
+      "type": "heracles:item",
+      "item": "gtceu:micro_processor_assembly"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More HV Circuits",
+    "description": [
+      "<subtitle id=\"5063FDFFBE3E4855\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2FE33281A44C34F6\" quest=\"5063FDFFBE3E4855\"/>",
+      "<hr/>",
+      "Better &&6HV&&r Circuits - much &&dcheaper&&r and easier to make than before.",
+      "<br/>",
+      "Before you move on to &&6HV&&r, make sure you have scaled up your Power Production, and automated the most important processes with AE2!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:micro_processor_assembly"
+    },
+    "subtitle": {
+      "text": "On that HV grind"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          324,
+          -24
+        ]
+      }
+    }
+  }
+}

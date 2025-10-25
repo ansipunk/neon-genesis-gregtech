@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "526A5FF9B5DBB129": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_chemical_bath"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Chemical Bath",
+    "description": [
+      "<subtitle id=\"330BDB559A7BAB35\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"526A5FF9B5DBB129\" quest=\"330BDB559A7BAB35\"/>",
+      "<hr/>",
+      "&&lOutside of Ore Processing:&&r",
+      "<br/>",
+      "You can make &&6Paper out of Wood&&r so that you no longer rely on &&aSugar Canes&&9*&&r. You're probably sick of them by now, especially if you've played Nomifactory.",
+      "<br/>",
+      "There are some other less important recipes, such as applying colours to various items and blocks, or bleaching them.",
+      "<br/>",
+      "&&9*&&r &&aSugar&&r is still useful as a requirement for &&cTNT&&r production in &&6HV&&r, so don't dismantle your setups.",
+      "<br/>",
+      "&&lFor Ore Processing:&&r",
+      "<br/>",
+      "Some &&aCrushed Ores&&r have alternate routes when washed into &&aPurified Ore&&r, involving bathing in either &&aMercury&&r or &&aSodium Persulfate&&r. This step isn't really important, unless you really want that special &&6Byproduct&&r. This can be a nice alternate source of Gold (hint, hint!)."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_chemical_bath"
+    },
+    "subtitle": {
+      "text": "The Chemical Bath bathes..."
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          36,
+          108
+        ]
+      }
+    }
+  }
+}

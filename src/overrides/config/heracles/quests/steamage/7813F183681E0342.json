@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1C50A758A1DE25CB"
+  ],
+  "tasks": {
+    "1C4CFA0AD3125A6D": {
+      "title": "Oh god, what have I gotten myself into!?",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "What is this Mess?!",
+    "description": [
+      "<subtitle id=\"7813F183681E0342\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1C4CFA0AD3125A6D\" quest=\"7813F183681E0342\"/>",
+      "<hr/>",
+      "In its simplest form, Ore Processing in GregTech boils down to &&aconverting one Ore Block into two Ingots through two Dusts&&r, like several other tech mods. ",
+      "<br/>",
+      "The added spice is the amount of steps, either optional or required.",
+      "<br/>",
+      "Ore Processing will be explained further once you get into &&7LV&&r.",
+      "<br/>",
+      "&&6This quest unlocks a new tutorial on rudimentary Ore Processing in the &&lTips and Tricks&&r&&6 tab - check it out to learn more!&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:crushed_gold_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "...and how do I get rid of it?"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          0,
+          96
+        ]
+      }
+    }
+  }
+}

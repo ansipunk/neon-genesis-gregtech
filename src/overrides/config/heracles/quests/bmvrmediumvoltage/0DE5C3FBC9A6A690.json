@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "26394C1290D70AB6"
+  ],
+  "tasks": {
+    "7ED7103DAF7E4413": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_circuit_assembler"
+    }
+  },
+  "rewards": {
+    "484745BF48673036": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:soldering_alloy_dust",
+        "count": 40
+      }
+    }
+  },
+  "display": {
+    "title": "Advanced Circuit Assembler",
+    "description": [
+      "<subtitle id=\"0DE5C3FBC9A6A690\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7ED7103DAF7E4413\" quest=\"0DE5C3FBC9A6A690\"/>",
+      "<hr/>",
+      "As is common for every tier, the &&3Circuit Assembler&&r is an essential part of progression, always opening up a new Tier of circuits.",
+      "<br/>",
+      "At this point you should be placing an &&3Extractor&&r next to your Circuit Assembler. Send off dozens of stacks of &&aSoldering Alloy&&r Ingots, and you won't have to worry about refilling again.",
+      "<hr/>",
+      "<reward reward=\"484745BF48673036\" quest=\"0DE5C3FBC9A6A690\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_circuit_assembler"
+    },
+    "subtitle": {
+      "text": "Yippee, yahoo"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          252,
+          12
+        ]
+      }
+    }
+  }
+}

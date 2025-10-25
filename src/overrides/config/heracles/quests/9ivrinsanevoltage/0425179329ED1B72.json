@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7820DF52516344F4",
+    "0F192D1F44B9B599",
+    "5CA86A333670A55C",
+    "528CE69DA4358B2E"
+  ],
+  "tasks": {
+    "3550E45267942DE8": {
+      "type": "heracles:item",
+      "item": "gtceu:hpic_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "High Power Integrated Circuit",
+    "description": [
+      "<task task=\"3550E45267942DE8\" quest=\"0425179329ED1B72\"/>",
+      "<hr/>",
+      "The &&aHPIC&&r unlocks &&3IV Energy Hatches&&r and &&3Dynamos&&r... You know the drill!",
+      "<br/>",
+      "Making an &&3IV Chemical Reactor&&r is &&doptional&&r. You can craft this with a &&3Large Chemical Reactor&&r if you wish.",
+      "<br/>",
+      "If you wish to automate your LCR with patterns, circle back to the P2P Tunnel Quest for more information."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hpic_chip"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          84,
+          120
+        ]
+      }
+    }
+  }
+}

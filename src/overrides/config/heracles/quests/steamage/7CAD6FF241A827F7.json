@@ -1,0 +1,81 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40DE888E6025C646"
+  ],
+  "tasks": {
+    "01DEABF7BF6C5413": {
+      "title": "Take a trip to the Nether",
+      "type": "heracles:changed_dimension",
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether"
+    }
+  },
+  "rewards": {
+    "235ABC3543BF8285": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:red_steel_pickaxe",
+        "count": 1,
+        "nbt": {
+          "GT.Tool": {}
+        }
+      }
+    },
+    "1A074EA36535C8B0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:silk_touch",
+              "lvl": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Journey to the Nether",
+    "description": [
+      "<subtitle id=\"7CAD6FF241A827F7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"01DEABF7BF6C5413\" quest=\"7CAD6FF241A827F7\"/>",
+      "<hr/>",
+      "Now that you have Steel, you can make a &&3Flint and Steel&&r. You now have access to the &&4Nether&&r.",
+      "<br/>",
+      "&&o&&8You could also light the Nether portal using... natural means. Dirty cheater.&&r",
+      "<br/>",
+      "The &&4Nether&&r has more veins to mine, and with those veins, new ores to discover. Check the Ore Tab to learn more about the Nether Veins.",
+      "<br/>",
+      "Additionally, &&6Nether Ores are worth two Overworld Ores&&r if mined with &&3Silk Touch&&r. It'd be great if you could craft the book directly, huh? ;)",
+      "<br/>",
+      "&&4Nether&&r veins will take more effort to find - and are more dangerous to mine - than &&2Overworld&&r veins. Keep on top of your mining by using Waypoints - and remember that veins can be above you as well!",
+      "<br/>",
+      "If you're yet to transition to &&dPeaceful&&r, it isn't too late to make the switch! There's no need to bother fighting Ghasts or Blazes in GTCEu.",
+      "<br/>",
+      "This is because the Blaze/Magma Cube and Enderman loot tables have been changed in this pack to &&5Sulfur Dust&&r and &&5Ender Pearl Dust&&r respectively, so you can't just rush the End.",
+      "<hr/>",
+      "<reward reward=\"235ABC3543BF8285\" quest=\"7CAD6FF241A827F7\"/>",
+      "<reward reward=\"1A074EA36535C8B0\" quest=\"7CAD6FF241A827F7\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherrack"
+    },
+    "subtitle": {
+      "text": "Why WOULDN'T it be made of Steel?"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          132,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "45E300FD7CD05A37",
+    "0BADFBA6F96E457E"
+  ],
+  "tasks": {
+    "4783D6B309027111": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_energy_input_hatch"
+    },
+    "62593894E98AFC45": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_energy_output_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Upgrading your Assembly Line III",
+    "description": [
+      "<task task=\"4783D6B309027111\" quest=\"2F2F82D9DE3C798C\"/>",
+      "<task task=\"62593894E98AFC45\" quest=\"2F2F82D9DE3C798C\"/>",
+      "<hr/>",
+      "This Quest will be completed with &&eeither&&r a &&3UV Energy Hatch&&r&&r... or a &&3UV Dynamo Hatch&&r for your Multiblock Generators.",
+      "<br/>",
+      "Don't forget that &&d16 Amp&&r variants exist!",
+      "<br/>",
+      "Additionally, remember that these hatches require a &&9Data Module&&r for research."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_energy_input_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          144,
+          12
+        ]
+      }
+    }
+  }
+}

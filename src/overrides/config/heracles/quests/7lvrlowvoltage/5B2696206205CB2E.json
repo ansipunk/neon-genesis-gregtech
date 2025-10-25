@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "581CDF545E1EA1FD",
+    "63CD0236B337EAAD"
+  ],
+  "tasks": {
+    "5CD363C839475426": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_extractor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: gtceu:lv_extractor",
+    "description": [
+      "<subtitle id=\"5B2696206205CB2E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5CD363C839475426\" quest=\"5B2696206205CB2E\"/>",
+      "<hr/>",
+      "&&8Wait, we're not in the Steam Age anymore!",
+      "<br/>",
+      "The reason we didn't present &&7LV&&r versions of &&6Steam&&r machines is because they are &&4NOT&&r required. You might not want to invest into an upgrade that does next to nothing. Except for &&othis one&&r specifically, because it's a big improvement over the &&6Steam Age&&r.",
+      "<br/>",
+      "The &&3Basic Extractor&&r gains Fluid capabilities, which enables &&aFluid Extraction&&r. Use it to melt Rubber that you previously solidified, to &&dmelt Soldering Alloy&&r for your circuits, and to &&dmelt Red Alloy&&r for the &&6best Vacuum Tube recipe&&r in the &&3Assembler&&r!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Did you notice this machine doubles as both an Extractor and a Fluid Extractor? The two of them were separate machines in previous versions of GregTech."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_extractor"
+    },
+    "subtitle": {
+      "text": "The Steam Extractor extracts..."
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          180,
+          180
+        ]
+      }
+    }
+  }
+}

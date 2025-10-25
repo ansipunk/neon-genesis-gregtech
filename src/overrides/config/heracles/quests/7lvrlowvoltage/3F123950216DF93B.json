@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "33AEA84A406741FF": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_packer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Packer",
+    "description": [
+      "<subtitle id=\"3F123950216DF93B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"33AEA84A406741FF\" quest=\"3F123950216DF93B\"/>",
+      "<hr/>",
+      "The &&3Packager&&r compresses &&aTiny Dusts&&r and &&aSmall Dusts&&r into &&afull Dusts&&r, which can be compressed further into Ingots.",
+      "<br/>",
+      "It can also work in reverse, change between sizes of Wires, and much more...",
+      "<br/>",
+      "Unpacking Cables back into Wires and Rubber will be &&every useful&&r once you rewire your Energy Network.",
+      "<br/>",
+      "&&oYeah, we know...&&r the 3x3 compacting recipes don't seem useful, because you can just use a Crafting Table. We urge you to consider the utility of this machine when used for &&9automation&&r purposes.",
+      "<br/>",
+      "For an &&9automated&&r Dust setup, route &&aTiny Dusts&&r into a buffer inventory (a chest will do) placed next to your &&3Packager&&r.",
+      "<br/>",
+      "Next place a &&3Robot Arm&&r and configure it to \"&&dImport&&r\", and \"&&dSupply Exact 9&&r\". Finally, let the Machine auto-output on another side.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GTCE, the reverse operation required a separate machine - the Unpackager."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_packer"
+    },
+    "subtitle": {
+      "text": "Look who's packing"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -36,
+          156
+        ]
+      }
+    }
+  }
+}

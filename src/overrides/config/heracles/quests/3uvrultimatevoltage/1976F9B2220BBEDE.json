@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "762C48F0C2EA6B81",
+    "6988AE94BE7B461F",
+    "35F13B6D60361904",
+    "0199DBC46D7BC2B9"
+  ],
+  "tasks": {
+    "244FC822F724507F": {
+      "type": "heracles:item",
+      "item": "gtceu:cleaning_maintenance_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cleaning Maintenance Hatch",
+    "description": [
+      "<task task=\"244FC822F724507F\" quest=\"1976F9B2220BBEDE\"/>",
+      "<hr/>",
+      "This Maintenance Hatch is an upgrade to the Automatic Maintenance Hatch.",
+      "<br/>",
+      "It allows your Multiblock to run regular &&aCleanroom recipes&&r when not contained inside one - but not Sterilized recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cleaning_maintenance_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          180,
+          84
+        ]
+      }
+    }
+  }
+}

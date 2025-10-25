@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "10FB27DD3C7BEC2F"
+  ],
+  "tasks": {
+    "47EA273D728C158F": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_super_tank"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Super Tank",
+    "description": [
+      "<subtitle id=\"6C53B01A05FFF1DC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"47EA273D728C158F\" quest=\"6C53B01A05FFF1DC\"/>",
+      "<hr/>",
+      "No, but seriously.",
+      "<br/>",
+      "This is the &&cu&&6l&&et&&ai&&bm&&9a&&5t&&4e&&r portable Fluid storage solution. &&64,000 buckets of storage&&r - in one single block!",
+      "<br/>",
+      "Like Drums, Super Tanks &&6keep their fluids when broken&&r, and can be cleared in the crafting grid.",
+      "<br/>",
+      "If you hunger for &&9even more&&r storage, take a look at higher tier Super Tanks or AE2 Fluid Storage Cells."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_super_tank"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Super Tanks are OP!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          180,
+          -60
+        ]
+      }
+    }
+  }
+}

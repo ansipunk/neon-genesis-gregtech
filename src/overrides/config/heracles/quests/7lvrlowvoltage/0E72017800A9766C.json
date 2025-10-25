@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63CD0236B337EAAD"
+  ],
+  "tasks": {
+    "2080D5BB367332D3": {
+      "type": "heracles:item",
+      "item": "ae2:cell_component_1k"
+    }
+  },
+  "rewards": {
+    "73455D7AB7929E27": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ae2:item_storage_cell_1k",
+        "count": 1
+      }
+    }
+  },
+  "display": {
+    "title": "The Digital Age? Already!?",
+    "description": [
+      "<subtitle id=\"0E72017800A9766C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2080D5BB367332D3\" quest=\"0E72017800A9766C\"/>",
+      "<hr/>",
+      "Getting into Applied Energistics at this point is possible, but also a little bit involved...",
+      "<br/>",
+      "You will need to make quite a few &&7LV&&r machines, and the &&7LV-tier&&r recipes for some AE2 items are comparatively expensive without access to more advanced technology.",
+      "<br/>",
+      "In &&7LV&&r, you're able to craft:",
+      "<br/>",
+      "&&6-&&r Energy Acceptor",
+      "<br/>",
+      "&&6-&&r ME Terminal",
+      "<br/>",
+      "&&6-&&r 1k ME Storage component",
+      "<br/>",
+      "&&6-&&r ME Chest",
+      "<br/>",
+      "&&bChannels are disabled&&r in this modpack, so feel free to put a few ME Chests with 1k Cells side-by-side to increase your storage capacity! You can use an ME Terminal to access all their contents at the same time.",
+      "<br/>",
+      "&&9Note:&&r This pack includes &&5Fluix Crystals&&r, but they are generated as a GT material, rather than the default AE2 Fluix Crystals. To get them, put &&dFluix Dust&&r in the &&aAutoclave&&r, which is made from &&7Certus Quartz Dust&&r, &&eNether Quartz Dust&&o&&r and &&cRedstone&&r in a &&aMixer&&r. No need to charge the Certus Quartz. It gets... charged in the Mixer... or something like that.",
+      "<br/>",
+      "Feel free to use AE2's in-game guide! Alternatively, you could consider:",
+      "<br/>",
+      "The official &&dApplied Energistics 2&&r website: &&9https://appliedenergistics.org/guides&&r",
+      "<br/>",
+      "An &&binstructionary video&&r made by &&aPansmith&&r, which covers Applied Energistics 2 on &&6Minecraft 1.12.2&&r. The fundamentals are still near-identical, however.",
+      "&&9https://www.youtube.com/watch?v=u0ouTWgdcXk&&r",
+      "<hr/>",
+      "<reward reward=\"73455D7AB7929E27\" quest=\"0E72017800A9766C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:cell_component_1k"
+    },
+    "subtitle": {
+      "text": "Time to ditch those chests"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          144,
+          252
+        ]
+      }
+    }
+  }
+}

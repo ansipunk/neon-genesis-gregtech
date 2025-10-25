@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7820DF52516344F4",
+    "528CE69DA4358B2E",
+    "57D4E09A9CAB150C"
+  ],
+  "tasks": {
+    "236EFFBCE5885D61": {
+      "type": "heracles:item",
+      "item": "gtceu:rarest_metal_mixture_dust"
+    },
+    "1AAE4205D9FA580D": {
+      "type": "heracles:item",
+      "item": "gtceu:iridium_dust"
+    },
+    "75849AB6B11652E9": {
+      "type": "heracles:item",
+      "item": "gtceu:osmium_dust"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Iridium and Osmium",
+    "description": [
+      "<task task=\"236EFFBCE5885D61\" quest=\"216E5A3574AC08BF\"/>",
+      "<task task=\"1AAE4205D9FA580D\" quest=\"216E5A3574AC08BF\"/>",
+      "<task task=\"75849AB6B11652E9\" quest=\"216E5A3574AC08BF\"/>",
+      "<hr/>",
+      "This part of the chain starts by obtaining some &&aRarest Metal Mixture&&r.",
+      "<br/>",
+      "You'll need at least an &&9IV&&r &&3Large Chemical Reactor&&r, but the average power draw isn't too bad.",
+      "<br/>",
+      "&&dChlorine&&r is fully looped, and &&dHydrogen&&r is slightly negative &&7(&&ounless you put Acidic Osmium Solution in the Distillation Tower and electrolyze the water back... &&8on second thoughts, don't do that&&r&&8).",
+      "<br/>",
+      "&&aIridium&&r is required to progress through &&9IV&&r, so get your PGS line automated ASAP!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iridium_ingot"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          120,
+          84
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "30A6EDDF25A5E5F8"
+  ],
+  "tasks": {
+    "578F4D24289C544E": {
+      "type": "heracles:item",
+      "item": "ae2:me_p2p_tunnel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "P2P Tunnels",
+    "description": [
+      "<subtitle id=\"39E7997F3080250A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"578F4D24289C544E\" quest=\"39E7997F3080250A\"/>",
+      "<hr/>",
+      "Even without channels, P2P Tunnels are still extremely important automation tools!",
+      "<br/>",
+      "&&9Note:&&r There are many fantastic resources online to explain how P2P Tunnels work. The short description is that they allow transfer of things from 1 input to endless output. You can link them using a Memory Card.",
+      "<br/>",
+      "This Quest acts as a tutorial on how to use the P2P Tunnels to your own benefit."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:me_p2p_tunnel"
+    },
+    "subtitle": {
+      "text": "Fear not, channels are gone"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          252,
+          108
+        ]
+      }
+    }
+  }
+}

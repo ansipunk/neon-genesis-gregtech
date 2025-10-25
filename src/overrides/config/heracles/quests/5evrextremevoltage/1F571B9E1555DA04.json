@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "390E59F05132FCB8"
+  ],
+  "tasks": {
+    "45620325962A91D0": {
+      "type": "heracles:item",
+      "item": "gtceu:epichlorohydrin_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Epichlorohydrin",
+    "description": [
+      "<subtitle id=\"1F571B9E1555DA04\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"45620325962A91D0\" quest=\"1F571B9E1555DA04\"/>",
+      "<hr/>",
+      "You're going to want to use the &&3LCR&&r recipe for your first &&aEpichlorohydrin&&r.",
+      "<br/>",
+      "This recipe requires &&aPropene&&r, which means that &&dOil Processing&&r and &&dFuel Cracking&&r are now necessary ventures. We're truly sorry if you've been dragging your heels!",
+      "<br/>",
+      "It's quite important that you make your first &&3Distillation Tower&&r before progressing to the right.",
+      "<br/>",
+      "Last of all, if you haven't noticed, you can loop the &&dSalt Water&&r byproduct to bootstrap the &&dSodium Hydroxide&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:epichlorohydrin_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Putting the \"Epic\" in \"Epichlorohydrin\""
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          252
+        ]
+      }
+    }
+  }
+}

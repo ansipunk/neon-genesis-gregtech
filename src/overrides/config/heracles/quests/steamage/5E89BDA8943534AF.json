@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54AF8696674766B4"
+  ],
+  "tasks": {
+    "193A62DF98B59838": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:backpack"
+    }
+  },
+  "rewards": {
+    "7193C5F82152C3EB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:leather",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Backpacks",
+    "description": [
+      "<subtitle id=\"5E89BDA8943534AF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"193A62DF98B59838\" quest=\"5E89BDA8943534AF\"/>",
+      "<hr/>",
+      "After &&lmany&&r requests, &&6Sophisticated Backpacks&&r has now been integrated!",
+      "<br/>",
+      "Backpacks scale alongside &&aPortable Cell&&r tiering, with modular upgrades that can be inserted to provide new &&dBackpack functionalities&&r.",
+      "<br/>",
+      "Before you reach &&7LV&&r, the upgrade options are &&cquite limited&&r. However, you should be able to upgrade the starter backpack &&eonce&&r before you make your first electric machine!",
+      "<br/>",
+      "Just so you know - backpacks have been configured and will &&cnot&&r interact with a connected &&bStorage Bus&&r. If you want the power of digital storage, you'll have to work for it!",
+      "<br/>",
+      "Oh, and holding one too many backpacks will &&6slow you down&&r.",
+      "<hr/>",
+      "<reward reward=\"7193C5F82152C3EB\" quest=\"5E89BDA8943534AF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:backpack"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "A lower-tech Personal Cell!"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          106,
+          42
+        ]
+      }
+    }
+  }
+}

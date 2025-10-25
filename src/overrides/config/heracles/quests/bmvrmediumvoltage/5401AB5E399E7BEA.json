@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "315169840E06110F"
+  ],
+  "tasks": {
+    "1141B6EFBC930999": {
+      "type": "heracles:item",
+      "item": "ae2:calculation_processor_press"
+    },
+    "232235435C17AF43": {
+      "type": "heracles:item",
+      "item": "ae2:engineering_processor_press"
+    },
+    "7BEAD830AE385683": {
+      "type": "heracles:item",
+      "item": "ae2:logic_processor_press"
+    },
+    "54ACD8E01EABC134": {
+      "type": "heracles:item",
+      "item": "ae2:silicon_press"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Pressing Matters",
+    "description": [
+      "<subtitle id=\"5401AB5E399E7BEA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1141B6EFBC930999\" quest=\"5401AB5E399E7BEA\"/>",
+      "<task task=\"232235435C17AF43\" quest=\"5401AB5E399E7BEA\"/>",
+      "<task task=\"7BEAD830AE385683\" quest=\"5401AB5E399E7BEA\"/>",
+      "<task task=\"54ACD8E01EABC134\" quest=\"5401AB5E399E7BEA\"/>",
+      "<hr/>",
+      "Making &&aAE2 Presses&&r will unlock all the &&9Processors&&r from AE2. This opens up &&9ME Drives&&r, &&9ME Interfaces,&&r &&9ME Crafting CPUs&&r... that's almost the rest of AE2 at your fingertips! &&7(Or at least... not until you obtain Silicon Ingots.)&&r",
+      "<br/>",
+      "AE2 &&9Printed Circuits&&r are now made in the &&3Forming Press&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:silicon_press"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Who likes meteor hunting, anyway?"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          108,
+          84
+        ]
+      }
+    }
+  }
+}

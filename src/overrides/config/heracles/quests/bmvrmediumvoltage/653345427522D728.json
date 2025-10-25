@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5C94CF50090D7DA0"
+  ],
+  "tasks": {
+    "0A8CADD371444760": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "gtceu:long_distance_item_pipeline_endpoint"
+    },
+    "66D528959958D445": {
+      "type": "heracles:item",
+      "item": "gtceu:long_distance_item_pipeline"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Long-Distance Items",
+    "description": [
+      "<subtitle id=\"653345427522D728\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0A8CADD371444760\" quest=\"653345427522D728\"/>",
+      "<task task=\"66D528959958D445\" quest=\"653345427522D728\"/>",
+      "<hr/>",
+      "&&3Long-Distance Item Pipes&&r can be used to send items across great distances. Place one endpoint at each end, and connect them with pipeline blocks.",
+      "<br/>",
+      "These pipes instantly transfer from the input side to the output side.",
+      "<br/>",
+      "They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:long_distance_item_pipeline_endpoint"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Wondering how to move those ores around?"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -108,
+          12
+        ]
+      }
+    }
+  }
+}

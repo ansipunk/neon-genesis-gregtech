@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "390E59F05132FCB8"
+  ],
+  "tasks": {
+    "3E2FBCED1C782E7C": {
+      "title": "Silicone Rubber Ingot",
+      "type": "heracles:item",
+      "item": "#forge:ingots/silicone_rubber"
+    },
+    "3CF87D26761354C4": {
+      "title": "Silicone Rubber Plate",
+      "type": "heracles:item",
+      "item": "#forge:plates/silicone_rubber"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Silicone Rubber",
+    "description": [
+      "<subtitle id=\"1A4AD56965407DC5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3E2FBCED1C782E7C\" quest=\"1A4AD56965407DC5\"/>",
+      "<task task=\"3CF87D26761354C4\" quest=\"1A4AD56965407DC5\"/>",
+      "<hr/>",
+      "Silicone Rubber has its uses in Cable insulation, Conveyor recipes, and more.",
+      "<br/>",
+      "You may want to shelve this quest for now, as tackling Silicone Rubber can be a pretty severe &&dChlorine&&r sink.",
+      "<br/>",
+      "&&9Note:&&r Rubber will eventually be usurped by either &&aSilicone Rubber&&r or &&aStyrene-Butadienne Rubber&&r for &&1IV&&r Cables.",
+      "<br/>",
+      "Both these rubbers will be required once you make it to &&dLuV&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:silicone_rubber_plate"
+    },
+    "subtitle": {
+      "text": "An alternate rubber"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          36,
+          216
+        ]
+      }
+    }
+  }
+}

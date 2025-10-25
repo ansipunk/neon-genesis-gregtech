@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24A90D07C3A35370",
+    "5DBBD9B1F5B01F4E",
+    "6958029B5514D4EC"
+  ],
+  "tasks": {
+    "074BDDF3F1AE08AA": {
+      "title": "It's not all hellish in the Nether.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Liquid Nether Air",
+    "description": [
+      "<subtitle id=\"38E5B595C33A071C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"074BDDF3F1AE08AA\" quest=\"38E5B595C33A071C\"/>",
+      "<hr/>",
+      "Carbon Monoxide is useful when making &&6Butyraldehyde&&r for your Laminated Glass in &&9late IV&&r.",
+      "<br/>",
+      "&&6Coal Gas&&r can be processed in a Distillation Tower for a variety of useful outputs.",
+      "<br/>",
+      "Helium-3 is only used in &&bFusion&&r, and Neon is used to boost a single &&aBlast Furnace&&r recipe - &&4UHV&&r superconductors!",
+      "<br/>",
+      "Ashes are always useful for the handful of resources they grant."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:liquid_nether_air_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Carbon, Coal Gas, Helium-3..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          -69,
+          -22
+        ]
+      }
+    }
+  }
+}

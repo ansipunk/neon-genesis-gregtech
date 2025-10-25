@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3CCD98E7139BA564"
+  ],
+  "tasks": {
+    "24ECAB4EA2E82FE7": {
+      "title": "Sounds great to me.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Subnets 101",
+    "description": [
+      "<subtitle id=\"1CB9A26C3296858E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"24ECAB4EA2E82FE7\" quest=\"1CB9A26C3296858E\"/>",
+      "<hr/>",
+      "One could define a Subnetwork &&7(or \"Subnet\" for short)&&r as any network that isn't part of your main network.",
+      "<br/>",
+      "The simplest way to create a Subnet is by attaching an &&bME Interface&&r to a &&aStorage Bus&&r. This means that the Storage Bus will treat the Interface as an inventory to be read from - i.e., it'll be able to see &&5all of the items&&r in the network connected to the Interface.",
+      "<br/>",
+      "As your main network will &&4not&&r be transferred through the Storage Bus, you'll need to give your subnet power from the main network with &&6Quartz Fibre&&r. Ensure that you don't accidentally connect the two networks with regular cabling.",
+      "<br/>",
+      "Question is - how does this &&abenefit you&&r as a player? The logistics powers made available with subnetworking are immense, so we'll cover a few examples &&9in light detail&&r. The rest is left as an exercise to the reader!",
+      "<br/>",
+      "- A subnet for your ore processing system, which &&bautomatically handles&&r all the intermediate byproducts without them constantly entering and exiting your main network!",
+      "- Really, it's useful to subnet &&dlarger processing chains&&r such as &&ePlatinum processing&&r. This way, you can ensure that byproducts can be appropriately recycled, and reduce overhead.",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "Subnets can be infinitely nested, but as always in &&bmodded Minecraft&&r, this should be performed in moderation (or even better, avoided), as many levels of nesting can cause &&4performance issues&&r when calculating the network.",
+      "<br/>",
+      "Oh... and if you've re-enabled Channels in this pack, subnetworks only consume a single channel from your main network. What a bargain!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:storage_bus"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Socially Distanced Network"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          -48,
+          -36
+        ]
+      }
+    }
+  }
+}

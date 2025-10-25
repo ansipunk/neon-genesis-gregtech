@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A1E3C3A2D699C5B",
+    "216E5A3574AC08BF"
+  ],
+  "tasks": {
+    "578E3442D589DAE8": {
+      "type": "heracles:item",
+      "item": "gtceu:hsss_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "HSS-S",
+    "description": [
+      "<subtitle id=\"3A7491323AC5C70C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"578E3442D589DAE8\" quest=\"3A7491323AC5C70C\"/>",
+      "<hr/>",
+      "HSS-S is another &&mcompletely fictional&&r &&7High Speed Steel&&r, alloyed with Iridium and Osmium.",
+      "<br/>",
+      "&&aHSS-S&&r will be necessary to craft &&dLuV Motors&&r.",
+      "<br/>",
+      "This alloy has a great mining speed, which translates into extremely good &&6efficiency&&r when used as a &&dRotor&&r in &&3Large Turbines&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hsss_ingot"
+    },
+    "subtitle": {
+      "text": "We made this one up"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          84,
+          48
+        ]
+      }
+    }
+  }
+}

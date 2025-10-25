@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4AFD3073C731A1E4"
+  ],
+  "tasks": {
+    "784C1A8A77AD314E": {
+      "type": "heracles:item",
+      "item": "gtceu:vacuum_freezer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ice Cold",
+    "description": [
+      "<subtitle id=\"6958029B5514D4EC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"784C1A8A77AD314E\" quest=\"6958029B5514D4EC\"/>",
+      "<hr/>",
+      "The &&3Vacuum Freezer&&r is a multiblock used to cool down &&eHot Ingots&&r. All ingots made in the EBF with a temperature above &&d1750K&&r will need it.",
+      "<br/>",
+      "Most of the time, your &&3Electric Blast Furnace&&r will be the bottleneck, so you don't need to worry about overclocking your freezer.",
+      "<br/>",
+      "Since &&eHot Ingots&&r &&churt you&&r when held, item routing will be very useful."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:vacuum_freezer"
+    },
+    "subtitle": {
+      "text": "Did you know vacuums actually make things hotter?"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          216,
+          -168
+        ]
+      }
+    }
+  }
+}

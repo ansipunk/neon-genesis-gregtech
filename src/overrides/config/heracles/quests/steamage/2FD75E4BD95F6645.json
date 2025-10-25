@@ -1,0 +1,98 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40DE888E6025C646"
+  ],
+  "tasks": {
+    "0DC74FB54995F3F1": {
+      "amount": 1,
+      "tasks": {
+        "e06bb699-06ea-4d6b-87a4-9efc68925ea4": {
+          "type": "heracles:item",
+          "item": "gtceu:hp_steam_solid_boiler",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "9789c1dc-4939-42ba-8bb6-1dcea999f632": {
+          "type": "heracles:item",
+          "item": "gtceu:hp_steam_liquid_boiler",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "e2340e66-4db5-473d-b75a-24fbde9e3ac5": {
+          "type": "heracles:item",
+          "item": "gtceu:hp_steam_solar_boiler",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "22FCFB1342070EC5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 12
+      }
+    },
+    "195F3D02A2632E78": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:wrought_iron_ingot",
+        "count": 12
+      }
+    },
+    "5A949113167C4248": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:steel_ingot",
+        "count": 12
+      }
+    }
+  },
+  "display": {
+    "title": "High Pressure",
+    "description": [
+      "<subtitle id=\"2FD75E4BD95F6645\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0DC74FB54995F3F1\" quest=\"2FD75E4BD95F6645\"/>",
+      "<hr/>",
+      "&&3High Pressure Boilers&&r will be a better source of Steam for powering your Steam machines.",
+      "<br/>",
+      "Keep in mind that you will still be using Steam to power your Electric machines in &&7LV&&r via the miracles of energy conversion.",
+      "<br/>",
+      "&&cNote:&&r You will need more than a handful of &&3HP Boilers&&r. The more you make, the less you'll need to worry about running out of power.",
+      "<br/>",
+      "The &&3Solid Boiler&&r burns solid Fuel. It's self explanatory - better fuels last longer.",
+      "<br/>",
+      "The &&3Liquid Boiler&&r burns either &&dLava&&r or &&dCreosote&&r.",
+      "<br/>",
+      "The &&3Solar Boiler&&r burns nothing - it's fueled by the sun.",
+      "<br/>",
+      "Looking for a recommendation? Honestly, either goes, as all three boilers are equivalent in generation. Craft the boiler that best suits your preferred resource.",
+      "<br/>",
+      "Get &&eany&&r of the proposed boilers to complete this quest.",
+      "<hr/>",
+      "<reward reward=\"22FCFB1342070EC5\" quest=\"2FD75E4BD95F6645\"/>",
+      "<reward reward=\"195F3D02A2632E78\" quest=\"2FD75E4BD95F6645\"/>",
+      "<reward reward=\"5A949113167C4248\" quest=\"2FD75E4BD95F6645\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hp_steam_solid_boiler"
+    },
+    "subtitle": {
+      "text": "Pressure! Pushin' down on me..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          0,
+          -38
+        ]
+      }
+    }
+  }
+}

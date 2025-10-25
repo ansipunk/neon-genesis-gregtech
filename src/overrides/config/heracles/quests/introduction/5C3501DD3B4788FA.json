@@ -1,0 +1,90 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2001CB4968D3E0A2"
+  ],
+  "tasks": {
+    "4055931FAD6A5087": {
+      "title": "Any Screwdriver!",
+      "type": "heracles:item",
+      "item": "#forge:tools/screwdrivers"
+    },
+    "0CB546DCA11BB335": {
+      "title": "Any Wire Cutter!",
+      "type": "heracles:item",
+      "item": "#forge:tools/wire_cutters"
+    },
+    "4DF1C23D7DD1FAD6": {
+      "title": "Any Mortar!",
+      "type": "heracles:item",
+      "item": "#forge:tools/mortars"
+    },
+    "397DD831CA0665E7": {
+      "title": "Any Knife!",
+      "type": "heracles:item",
+      "item": "#forge:tools/knives"
+    },
+    "1BFE642ED0595A93": {
+      "title": "Any Soft Mallet!",
+      "type": "heracles:item",
+      "item": "#forge:tools/mallets"
+    }
+  },
+  "rewards": {
+    "433F0ED89B586383": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:damascus_steel_ingot",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "More Tools",
+    "description": [
+      "<task task=\"4055931FAD6A5087\" quest=\"5C3501DD3B4788FA\"/>",
+      "<task task=\"0CB546DCA11BB335\" quest=\"5C3501DD3B4788FA\"/>",
+      "<task task=\"4DF1C23D7DD1FAD6\" quest=\"5C3501DD3B4788FA\"/>",
+      "<task task=\"397DD831CA0665E7\" quest=\"5C3501DD3B4788FA\"/>",
+      "<task task=\"1BFE642ED0595A93\" quest=\"5C3501DD3B4788FA\"/>",
+      "<hr/>",
+      "More tools - they're not critically important right now, but you'll need to make these at some point.",
+      "<br/>",
+      "&&9&&lScrewdriver:&&r A crafting tool. It's used for special configuration of machines and covers.",
+      "<br/>",
+      "&&9&&lWire Cutter:&&r A crafting tool. You'll need it if you want to configure wire connections. Right-clicking on wires will enable or disable connection to other blocks.",
+      "<br/>",
+      "&&9&&lMortar:&&r A crafting tool, used to grind various things down into dust form.",
+      "<br/>",
+      "&&9&&lKnife:&&r A pretty mediocre weapon, better suited as - &&oyou guessed it&&r - a crafting tool!",
+      "<br/>",
+      "&&9&&lSoft Mallet:&&r A tool to toggle machine operation with a simple right-click.",
+      "<br/>",
+      "There are a couple of other tools that are quite niche, but deserve a mention.",
+      "<br/>",
+      "&&9&&lCrowbar:&&r A helpful tool that can remove covers from &&aGregTech&&r machines by right-clicking the side.",
+      "<br/>",
+      "&&9&&lScythe:&&r A powerful farming tool that can automatically replant your crops in a large area. It's also a surprisingly good weapon!",
+      "<br/>",
+      "&&9&&lPlunger:&&r A tool to clear stuck fluids from GregTech&&a machines.",
+      "<br/>",
+      "&&9&&lButchery Knife:&&r A weapon that comes pre-enchanted with &&6Looting III&&r. You might want to use it to gather leather and food.",
+      "<br/>",
+      "&&e&&lNote:&&r This quest's reward is &&3Damascus Steel&&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it.",
+      "<hr/>",
+      "<reward reward=\"433F0ED89B586383\" quest=\"5C3501DD3B4788FA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_screwdriver"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          168,
+          -96
+        ]
+      }
+    }
+  }
+}

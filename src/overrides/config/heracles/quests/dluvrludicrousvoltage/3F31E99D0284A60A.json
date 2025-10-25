@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "78277DBC07D3C45C"
+  ],
+  "tasks": {
+    "2F8C92A86CAF338F": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadah_boule"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Naquadah-doped Silicon Boule",
+    "description": [
+      "<subtitle id=\"3F31E99D0284A60A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2F8C92A86CAF338F\" quest=\"3F31E99D0284A60A\"/>",
+      "<hr/>",
+      "Doping &&9Silicon&&r with &&9Naquadah&&r will give a better &&aSilicon Boule&&r.",
+      "<br/>",
+      "Use it for higher yield on &&dWafers&&r.",
+      "<br/>",
+      "This will also unlock the &&6best recipe&&r for &&6HV&&r Circuits in the &&3LuV Circuit Assembler&&r. You're probably going to want to mass produce these for the many &&dLapotronic Energy Orbs&&r that'll be required moving forwards."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadah_boule"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Doper than ever before"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          0,
+          36
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "05003665368F5A57"
+  ],
+  "tasks": {
+    "496C00BA0D8F5445": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Setting up Ore Processing",
+    "description": [
+      "<subtitle id=\"724FB950CC472BB4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"496C00BA0D8F5445\" quest=\"724FB950CC472BB4\"/>",
+      "<hr/>",
+      "Welcome to the age of automation!",
+      "<br/>",
+      "Ore Processing is now at your fingertips.",
+      "<br/>",
+      "&&6This quest unlocks a definitive tutorial on Ore Processing in the &&lTips and Tricks&&r&&6 tab - check it out to learn more!&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:refined_almandine_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "I've been waiting for this!"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          48,
+          192
+        ]
+      }
+    }
+  }
+}

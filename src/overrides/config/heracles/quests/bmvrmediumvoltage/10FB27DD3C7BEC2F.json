@@ -1,0 +1,82 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6BB98D128822730E"
+  ],
+  "tasks": {
+    "15E5F008339B8964": {
+      "type": "heracles:item",
+      "item": "gtceu:polyethylene_plate"
+    }
+  },
+  "rewards": {
+    "48DD442B4934D192": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "48DD442B4934D192_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:aluminium_fluid_cell",
+            "count": 1,
+            "nbt": {
+              "Fluid": {
+                "Amount": 32000,
+                "FluidName": "gtceu:naphtha"
+              }
+            }
+          }
+        },
+        "48DD442B4934D192_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:aluminium_fluid_cell",
+            "count": 1,
+            "nbt": {
+              "Fluid": {
+                "Amount": 32000,
+                "FluidName": "gtceu:ethanol"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Polyethylene",
+    "description": [
+      "<subtitle id=\"10FB27DD3C7BEC2F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"15E5F008339B8964\" quest=\"10FB27DD3C7BEC2F\"/>",
+      "<hr/>",
+      "If you want to be less fancy, just call it plastic.",
+      "<br/>",
+      "For the polymerization process, add &&aOxygen&&r, which gives better returns than Air, then solidify like you would with Rubber.",
+      "<br/>",
+      "&&aPolyethylene (PE)&&r is the key to unlocking &&6many new things&&r. It's commonly used as &&dSheets&&r, or in &&dFluid&&r form.",
+      "<br/>",
+      "In addition, some recipes are now more efficient! Check out diodes and machine hulls (both &&8LV&&r and &&bMV&&r).",
+      "<br/>",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The OreDict and fluid name for Polyethylene in 1.12.2 GTCEu was &&bplastic&&f, for cross-mod compatibility.",
+      "<hr/>",
+      "<reward reward=\"48DD442B4934D192\" quest=\"10FB27DD3C7BEC2F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:polyethylene_plate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Baby's first polymer!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          216,
+          -96
+        ]
+      }
+    }
+  }
+}

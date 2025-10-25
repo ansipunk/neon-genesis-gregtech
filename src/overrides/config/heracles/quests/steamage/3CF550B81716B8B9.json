@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "249374557D095913"
+  ],
+  "tasks": {
+    "099C373568DF4500": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "gtceu:vacuum_tube"
+    }
+  },
+  "rewards": {
+    "259F8029A6ED0C85": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:glass_pane",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Electronics #3: Vacuum Tubes",
+    "description": [
+      "<subtitle id=\"3CF550B81716B8B9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"099C373568DF4500\" quest=\"3CF550B81716B8B9\"/>",
+      "<hr/>",
+      "Crafting Vacuum Tubes might make you question your existence. Sorry about that.",
+      "<br/>",
+      "This is mostly due to the fact that Wires and Rods are &&7(sadly)&&r very expensive right now, but they'll get cheaper in &&7LV&&r.",
+      "<br/>",
+      "Vacuum Tubes are also technically your first Ultra Low Voltage (&&8ULV&&r) Circuit! Congratulations! You won't find very much use for these by themselves, though.",
+      "<hr/>",
+      "<reward reward=\"259F8029A6ED0C85\" quest=\"3CF550B81716B8B9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:vacuum_tube"
+    },
+    "subtitle": {
+      "text": "The harder component for circuits"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          180,
+          24
+        ]
+      }
+    }
+  }
+}

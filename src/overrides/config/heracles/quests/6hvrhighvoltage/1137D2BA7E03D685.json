@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "26394C1290D70AB6"
+  ],
+  "tasks": {
+    "52E617BBF3718471": {
+      "type": "heracles:item",
+      "item": "gtceu:implosion_compressor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Implosion Compressor",
+    "description": [
+      "<subtitle id=\"1137D2BA7E03D685\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"52E617BBF3718471\" quest=\"1137D2BA7E03D685\"/>",
+      "<hr/>",
+      "The &&3Implosion Compressor&&r turns the Dust form of Gems into their Gem form.",
+      "<br/>",
+      "It's required to get &&aEnder Pearls&&r.",
+      "<br/>",
+      "In descending order of efficiency, &&4ITNT&&r, &&cTNT&&r, &&6Dynamite&&r, or &&ePowerbarrels&&r can be used for the Implosion."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:implosion_compressor"
+    },
+    "subtitle": {
+      "text": "Controlled GregTech Explosion"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          288,
+          -24
+        ]
+      }
+    }
+  }
+}

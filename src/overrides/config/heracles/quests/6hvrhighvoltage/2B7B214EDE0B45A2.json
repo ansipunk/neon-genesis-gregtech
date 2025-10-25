@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "316FF60D6FFE97CE",
+    "6A304E453D74C57C"
+  ],
+  "tasks": {
+    "1CB85F57BA45252D": {
+      "type": "heracles:item",
+      "item": "gtceu:gelled_toluene"
+    },
+    "04BF6A36E965C348": {
+      "type": "heracles:item",
+      "item": "minecraft:tnt"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "TNT",
+    "description": [
+      "<subtitle id=\"2B7B214EDE0B45A2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1CB85F57BA45252D\" quest=\"2B7B214EDE0B45A2\"/>",
+      "<task task=\"04BF6A36E965C348\" quest=\"2B7B214EDE0B45A2\"/>",
+      "<hr/>",
+      "&&cTNT&&r (Trinitrotoluene, to be pedantic) can't be prepared with the usual \"Gunpowder and Sand\" routine anymore. Instead, you'll have to produce &&aGelled Toluene&&r and react it with Sulfuric Acid to make TNT.",
+      "<br/>",
+      "Using the &&3HV Chemical Reactor&&r recipe will double the yield of &&aGelled Toluene&&r at the cost of requiring additional inputs.",
+      "<br/>",
+      "We don't have any easy tips to give you for &&aToluene&&r. We regret to inform you that making TNT is going to be tricky no matter which route you take.",
+      "<br/>",
+      "That being said, don't miss out on the direct &&aHeavy Fuel&&r to &&aToluene&&r recipe in the single block &&3Distillery&&r.",
+      "<br/>",
+      "&&aToluene&&r can also optionally be used in &&5EV&&r to make &&dGasoline&&r.",
+      "<br/>",
+      "&&cTNT&&r is used in the &&3Implosion Compressor&&r to make Gems. It also blows stuff (and your friends) up.",
+      "<br/>",
+      "Technically, Dynamite or Powerbarrels could also be used... but Dynamite is a pain to obtain, whereas Powerbarrels are weaker."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:tnt"
+    },
+    "subtitle": {
+      "text": "An explosive discovery"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          252,
+          12
+        ]
+      }
+    }
+  }
+}

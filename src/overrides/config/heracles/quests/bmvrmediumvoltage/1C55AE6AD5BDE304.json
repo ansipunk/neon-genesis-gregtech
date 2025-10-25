@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1646BF9194100E57",
+    "2AD44111B9B39C90",
+    "66805BB78A828C00"
+  ],
+  "tasks": {
+    "0737586F9DFFC0FE": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:kanthal_coil_block"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Kanthal Coils",
+    "description": [
+      "<subtitle id=\"1C55AE6AD5BDE304\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0737586F9DFFC0FE\" quest=\"1C55AE6AD5BDE304\"/>",
+      "<hr/>",
+      "&&3Kanthal Heating Coils&&r are the next major step in progression. They increase the temperature of your &&3Blast Furnace&&r to &&d2,700K&&r, allowing you to process new materials. They may also &&eaccelerate&&r less hot recipes - check the quest to the top-left for details.",
+      "<br/>",
+      "You will need a staggering &&a128 Ingots&&r for a full set of Coils, which will easily take over an hour. We advise that you move on to other projects while your &&3EBF&&r is hard at work - that or build another one!",
+      "<br/>",
+      "An &&3MV Chemical Bath&&r is required to cool &&cHot Ingots&&r down. They're &&chot&&r when held, as the name implies. &&o&&7Maybe you should save your hands and automate this...&&r",
+      "<br/>",
+      "With the construction of a &&3Kanthal EBF&&r, you're now able to make &&dSilicon Ingots&&r, opening up the vast majority of AE2!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:kanthal_coil_block"
+    },
+    "subtitle": {
+      "text": "Is it getting hot in here?"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          144,
+          -24
+        ]
+      }
+    }
+  }
+}

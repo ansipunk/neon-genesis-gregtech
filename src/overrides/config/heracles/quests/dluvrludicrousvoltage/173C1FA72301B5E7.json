@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "546CC03435E763CF"
+  ],
+  "tasks": {
+    "062ECB2F9C9D741D": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fluid of the Stars",
+    "description": [
+      "<subtitle id=\"173C1FA72301B5E7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"062ECB2F9C9D741D\" quest=\"173C1FA72301B5E7\"/>",
+      "<hr/>",
+      "&&cWarning&&r: &&9Plasmas&&r are &&cextremely hot&&r, with temperatures exceeding &&d30k Kelvin&&r! ",
+      "<br/>",
+      "However, this &&6&&ldoesn't&&r mean that a special type of pipe is required to transport plasma. Plasmas are treated slightly differently, and bend the rules a bit.",
+      "<br/>",
+      "Fluid pipes that can handle plasmas, such as &&aTungsten&&r, &&aNaquadah&&r, or &&aDuranium&&r can hold any plasma &&6regardless of temperature&&r. This means they &&lwon't&&r melt under the heat of the plasma!",
+      "<br/>",
+      "WARNING:&&r Plasmas in incompatible pipes will cause &&cvoiding&&r, &&cpipe burning&&r, and &&ldisproportionately high&&r rates of &&cdeath&&r. Be careful!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This mechanic originates from GT6, just like the acids!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:argon_plasma_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "The stars are calling..."
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          180,
+          36
+        ]
+      }
+    }
+  }
+}

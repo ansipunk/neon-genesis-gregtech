@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5E6BA54E8A5BEBDE",
+    "383B789B654C4094",
+    "63A87C9303D54487",
+    "4C3805F75C9EE3DD"
+  ],
+  "tasks": {
+    "028DC1BC1D3E1381": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_processor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best HV Circuits!",
+    "description": [
+      "<subtitle id=\"196FC518F744B983\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"028DC1BC1D3E1381\" quest=\"196FC518F744B983\"/>",
+      "<hr/>",
+      "Making the best &&6HV&&r Circuits will allow for easier &&6HV&&r Machines for your on-demand automation. Convenient!",
+      "<br/>",
+      "Starting from here, all circuit lines will be consistent with each other until the end of the game.",
+      "<br/>",
+      "Each tier until &&cZPM&&r will show its own challenges when acquiring new and better Circuits."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_processor"
+    },
+    "subtitle": {
+      "text": "The Pinnacle... the Zenith"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          216,
+          252
+        ]
+      }
+    }
+  }
+}

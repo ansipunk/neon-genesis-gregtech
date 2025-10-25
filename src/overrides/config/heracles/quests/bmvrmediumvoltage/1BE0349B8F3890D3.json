@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603"
+  ],
+  "tasks": {
+    "76A30E86C0FDF039": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_electric_motor"
+    },
+    "569F6A8DF342E3F2": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_electric_piston"
+    },
+    "22AA9FC8B94E4DC2": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_electric_pump"
+    },
+    "63123E0DCB8D851C": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_conveyor_module"
+    },
+    "3DEEAA7FE50CC0E2": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_robot_arm"
+    },
+    "57955AE7B270A891": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_emitter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "MV Components",
+    "description": [
+      "<subtitle id=\"1BE0349B8F3890D3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"76A30E86C0FDF039\" quest=\"1BE0349B8F3890D3\"/>",
+      "<task task=\"569F6A8DF342E3F2\" quest=\"1BE0349B8F3890D3\"/>",
+      "<task task=\"22AA9FC8B94E4DC2\" quest=\"1BE0349B8F3890D3\"/>",
+      "<task task=\"63123E0DCB8D851C\" quest=\"1BE0349B8F3890D3\"/>",
+      "<task task=\"3DEEAA7FE50CC0E2\" quest=\"1BE0349B8F3890D3\"/>",
+      "<task task=\"57955AE7B270A891\" quest=\"1BE0349B8F3890D3\"/>",
+      "<hr/>",
+      "Here's a list of the components you will need in &&bMV&&r. To alleviate the pain, be sure to autocraft or &&dbulk-craft&&r these parts, especially &&aMotors&&r.",
+      "<br/>",
+      "Familiar with the &&aEmitter&&r? This tier's Emitter requires a &&dFlawless Emerald&&r in its recipe, which'll be only attainable with the &&3Sifting Machine&&r for now.",
+      "<br/>",
+      "Conveyors, Pumps and Robot Arms are objective upgrades to &&7LV&&r versions if you use them as covers.",
+      "<br/>",
+      "&&6This quest unlocks a new tutorial on Overclocking in the &&lTips and Tricks&&r&&6 tab - check it out to learn more!&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_electric_motor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Hated crafting these in the previous tier?"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          0,
+          48
+        ]
+      }
+    }
+  }
+}

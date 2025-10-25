@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7820DF52516344F4",
+    "4CD9F6D1B4CC7D81",
+    "5BACED5AE350EAB1",
+    "4343746E706264E6",
+    "528CE69DA4358B2E"
+  ],
+  "tasks": {
+    "7C5D37940A0C8409": {
+      "type": "heracles:item",
+      "item": "gtceu:polybenzimidazole_ingot"
+    },
+    "65165EC105F048AD": {
+      "type": "heracles:item",
+      "item": "gtceu:polybenzimidazole_plate"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Polybenzimidazole",
+    "description": [
+      "<subtitle id=\"7CFC112B8F460549\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7C5D37940A0C8409\" quest=\"7CFC112B8F460549\"/>",
+      "<task task=\"65165EC105F048AD\" quest=\"7CFC112B8F460549\"/>",
+      "<hr/>",
+      "You should have all the tools available to produce &&aPolybenzimidazole&&r on your own! Good luck - it's a 14-step process, and it's no slouch at that.",
+      "<br/>",
+      "&&aPBI&&r only becomes mandatory to progress from &&dLuV&&r to &&cZPM&&r, but tackling it earlier will unlock the &&6Advanced SMDs&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:polybenzimidazole_plate"
+    },
+    "subtitle": {
+      "text": "GTCEu's toughest polymer!"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          -24,
+          120
+        ]
+      }
+    }
+  }
+}

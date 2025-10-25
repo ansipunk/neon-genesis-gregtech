@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40DE888E6025C646"
+  ],
+  "tasks": {
+    "2586D1FC6BC5E53C": {
+      "type": "heracles:item",
+      "item": "gtceu:charcoal_pile_igniter"
+    },
+    "3B769177C398E246": {
+      "title": "No, I hate extra Charcoal yields...",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "73DAEC542AC76676": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:brittle_charcoal"
+      }
+    }
+  },
+  "display": {
+    "title": "Fuel Pit",
+    "description": [
+      "<subtitle id=\"4384068C4517F3D9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2586D1FC6BC5E53C\" quest=\"4384068C4517F3D9\"/>",
+      "<task task=\"3B769177C398E246\" quest=\"4384068C4517F3D9\"/>",
+      "<hr/>",
+      "The &&3Charcoal Pile Igniter&&r is a particularly unique multiblock. You can use it to produce &&aCharcoal&&r faster than &&3Coke Ovens&&r, but this comes with the trade-off of &&amanual labor&&r.",
+      "<br/>",
+      "To operate the Igniter, dig a big pit into the ground - up to &&e9x9x5&&r blocks in size. Line the floor of the pit with vanilla &&aBrick blocks&&r, then fill the remaining space entirely with &&aLogs&&r. After that, &&esurround the filled pit&&r with Grass, Dirt, or other natural groundcover. In the layer with the roof, place the Igniter! To start it, light it with &&aFlint and Steel&&r.",
+      "<br/>",
+      "Once the process completes, open up the pit for your reward - &&aBrittle Charcoal&&r. This can be mined with a Shovel (or Spade!), and each block drops 1.4 Charcoal on average. Assuming 1 Log converts into 1 Brittle Charcoal, we're sure you can see the efficiency boost!",
+      "<br/>",
+      "&&eNote&&r: The pit must be &&cfull to the brim&&r with Logs - Air blocks will prevent this Multiblock from forming.",
+      "<br/>",
+      "&&eNote&&r: This quest is &&boptional&&r. If you would like to skip this quest, hit the checkmark instead.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This multiblock originated in GT5u, but did not require a fire-starting item to start.",
+      "<hr/>",
+      "<reward reward=\"73DAEC542AC76676\" quest=\"4384068C4517F3D9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:charcoal_pile_igniter"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "I'm the trouble starter, punkin' instigator..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          38,
+          -95
+        ]
+      }
+    }
+  }
+}

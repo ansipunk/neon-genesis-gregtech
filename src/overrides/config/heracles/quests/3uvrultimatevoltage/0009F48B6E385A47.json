@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6DBF61D4F94BC851"
+  ],
+  "tasks": {
+    "06668056CFF73DBD": {
+      "type": "heracles:item",
+      "item": "gtceu:gravi_star"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Gravi Star",
+    "description": [
+      "<subtitle id=\"0009F48B6E385A47\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"06668056CFF73DBD\" quest=\"0009F48B6E385A47\"/>",
+      "<hr/>",
+      "The &&aGravi Star&&r is the final upgraded Nether Star in GTCEu. It's needed for &&3UV&&r Sensors, Emitters, and Field Generators."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:gravi_star"
+    },
+    "subtitle": {
+      "text": "Unfortunately, doesn't make you float"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          252,
+          -24
+        ]
+      }
+    }
+  }
+}

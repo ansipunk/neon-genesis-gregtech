@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0D7C978F9CDF771B"
+  ],
+  "tasks": {
+    "23AF5E66858C1950": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_quarktech_chestplate"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best Flight!",
+    "description": [
+      "<subtitle id=\"0A884622985A7417\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"23AF5E66858C1950\" quest=\"0A884622985A7417\"/>",
+      "<hr/>",
+      "The Advanced Quantum Chestplate combines protection, a personal battery and an &&6ultimate Jetpack&&r into a single powerful piece of gear.",
+      "<br/>",
+      "Note that this stores &&oa lot&&r of energy. You may want to invest in an &&3LuV Turbo Charger&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This armor piece is inspired by the IndustrialCraft  Addon Gravisuite, which added the Gravitation Suit, analogous to this chestplate."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_quarktech_chestplate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "I'll be seeing you in the skies!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          216,
+          180
+        ]
+      }
+    }
+  }
+}

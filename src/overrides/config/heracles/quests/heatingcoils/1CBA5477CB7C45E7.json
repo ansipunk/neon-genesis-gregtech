@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6958029B5514D4EC"
+  ],
+  "tasks": {
+    "1104AC52E0A0A472": {
+      "type": "heracles:item",
+      "item": "gtceu:nichrome_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Nichrome",
+    "description": [
+      "<subtitle id=\"1CBA5477CB7C45E7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1104AC52E0A0A472\" quest=\"1CBA5477CB7C45E7\"/>",
+      "<hr/>",
+      "Nichrome will require your &&aElectric Blast Furnace&&r to be at least &&6EV&&r, with &&bKanthal&&r coils to boot."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nichrome_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Operation Nichrome Dome"
+    },
+    "groups": {
+      "Heating Coils": {
+        "position": [
+          16,
+          -208
+        ]
+      }
+    }
+  }
+}

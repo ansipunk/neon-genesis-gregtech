@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "21B8E250B773443C": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_chalcopyrite"
+    },
+    "2C704F920F765D2D": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_zeolite"
+    },
+    "2AA6111227CF13B3": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_cassiterite"
+    },
+    "5EA6E475025D758C": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_realgar"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Chalcopyrite",
+    "description": [
+      "<subtitle id=\"4826DCD2FC457EA5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"21B8E250B773443C\" quest=\"4826DCD2FC457EA5\"/>",
+      "<task task=\"2C704F920F765D2D\" quest=\"4826DCD2FC457EA5\"/>",
+      "<task task=\"2AA6111227CF13B3\" quest=\"4826DCD2FC457EA5\"/>",
+      "<task task=\"5EA6E475025D758C\" quest=\"4826DCD2FC457EA5\"/>",
+      "<hr/>",
+      "A great vein for the early game. Copper and Tin to make Bronze, Realgar for your first source of Arsenic, and Zeolite for... nothing much.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o As GregTech used to auto-generate its recipes, Zeolite used to electrolyze in batches of 141 dust at a time. Whoops!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:chalcopyrite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Copper, Tin"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          144,
+          -96
+        ]
+      }
+    }
+  }
+}

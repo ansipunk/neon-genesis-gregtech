@@ -1,0 +1,89 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1FFD2242B94A7378"
+  ],
+  "tasks": {
+    "7C0AFE7BBF56CD68": {
+      "amount": 1,
+      "tasks": {
+        "4c2e0c4b-27ac-4ed8-b40c-79e5ed96f1cc": {
+          "type": "heracles:item",
+          "item": "gtceu:potin_tiny_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "99ab49cf-151d-4cf1-b55e-1e7d7f843b0e": {
+          "type": "heracles:item",
+          "item": "gtceu:potin_small_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "5119a3f2-6401-4f52-8812-abdeb965ad38": {
+          "type": "heracles:item",
+          "item": "gtceu:potin_normal_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "425c7ee3-c15c-4192-9329-ed05a0e5a913": {
+          "type": "heracles:item",
+          "item": "gtceu:potin_large_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "1c2211db-e80b-4556-a83f-4293f7c866b0": {
+          "type": "heracles:item",
+          "item": "gtceu:potin_huge_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "18C834E9EC619985": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:potin_plate",
+        "count": 6
+      }
+    }
+  },
+  "display": {
+    "title": "Potin Seller...",
+    "description": [
+      "<subtitle id=\"3C70B0717E9377A4\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7C0AFE7BBF56CD68\" quest=\"3C70B0717E9377A4\"/>",
+      "<hr/>",
+      "&&dPotin Fluid Pipes&&r have a &&avery high throughput&&r for the material tier and cost. You may want to look into making some of these to aid with fluid logistics.",
+      "<br/>",
+      "To get &&dPotin&&r, you should start by crafting its &&eDust&&r form.",
+      "<br/>",
+      "Get a &&dPotin&&r pipe of any size to complete this quest.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o &&dPotin Fluid Pipes&&f were first seen in &&9GT++&&f, an addon to GT5, and are a considerable power spike for players in a relatively unknown pack called &&4GT:NH&&f. We wanted to spread some of that joy.",
+      "<br/>",
+      "&&oIn the real world, &&dPotin&&f is an alloy used in coins, not pipes. GTCEu just gets more unrealistic by the day...",
+      "<hr/>",
+      "<reward reward=\"18C834E9EC619985\" quest=\"3C70B0717E9377A4\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:potin_normal_fluid_pipe"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "...I'm going into battle, and I need only your finest Potin."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          -72,
+          24
+        ]
+      }
+    }
+  }
+}

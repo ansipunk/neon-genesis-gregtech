@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A55CC71442CC854"
+  ],
+  "tasks": {
+    "3DF109921CA21ADB": {
+      "type": "heracles:item",
+      "item": "gtceu:lapotron_crystal"
+    },
+    "486FD2A6FCEFDFEF": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_lapotronic_battery"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Extreme Batteries",
+    "description": [
+      "<task task=\"3DF109921CA21ADB\" quest=\"69E384F389B0D07B\"/>",
+      "<task task=\"486FD2A6FCEFDFEF\" quest=\"69E384F389B0D07B\"/>",
+      "<hr/>",
+      "The best battery-like item for &&5EV&&r!",
+      "<br/>",
+      "Making a &&aLapotron Crystal&&r will require quite a bit of nested crafting, so craft these in large batches - or, of course, automate everything with &&bAE2&&r patterns."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lapotron_crystal"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          108,
+          36
+        ]
+      }
+    }
+  }
+}

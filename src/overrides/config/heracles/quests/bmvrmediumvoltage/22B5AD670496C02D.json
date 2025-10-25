@@ -1,0 +1,61 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "73E8504BA235C4BF": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_extruder"
+    }
+  },
+  "rewards": {
+    "0E6CAED1ED976D9E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:small_gear_extruder_mold"
+      }
+    },
+    "0A0BD551FFBC2E1C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:gear_extruder_mold"
+      }
+    }
+  },
+  "display": {
+    "title": "Advanced Extruder",
+    "description": [
+      "<subtitle id=\"22B5AD670496C02D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"73E8504BA235C4BF\" quest=\"22B5AD670496C02D\"/>",
+      "<hr/>",
+      "We &&lSINCERELY&&r hope at &&cno&&r point you made the &&7LV&&r Extruder, because only the &&bMV&&r Extruder is actually useful. If you did, immediately &&arecycle it&&r through the Arc Furnace.",
+      "<br/>",
+      "The Extruder shapes solid materials into (almost!) any form using &&aIngots&&r. This is a great way to reduce the amount of microcrafting, as well as keeping a high conversion ratio.",
+      "<br/>",
+      "The Extruder can make &&6Bolts&&r, &&6&&6Small Gears&&r, &&6Gears&&r, and &&6&&6Rings&&r at the highest efficiency in a single step!",
+      "<br/>",
+      "You may also like to use it for &&dPipes&&r, &&dLong Rods&&r, and &&dRotors&&r.",
+      "<hr/>",
+      "<reward reward=\"0E6CAED1ED976D9E\" quest=\"22B5AD670496C02D\"/>",
+      "<reward reward=\"0A0BD551FFBC2E1C\" quest=\"22B5AD670496C02D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_extruder"
+    },
+    "subtitle": {
+      "text": "The biggest upgrade you'll make"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          36,
+          12
+        ]
+      }
+    }
+  }
+}

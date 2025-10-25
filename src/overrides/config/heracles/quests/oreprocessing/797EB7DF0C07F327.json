@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3C36AA80FE51DA45",
+    "46B3BB368D86D931",
+    "517B6A6E04F4E4C8"
+  ],
+  "tasks": {
+    "554BFDB6C8AB1132": {
+      "title": "Yay! That was really, really fun.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "We did it! Now what?",
+    "description": [
+      "<subtitle id=\"797EB7DF0C07F327\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"554BFDB6C8AB1132\" quest=\"797EB7DF0C07F327\"/>",
+      "<hr/>",
+      "From now? That's the basics of an &&5ore processing setup&&r. You can check your filters, make more machines, and generally improve efficiency, but if you've &&6loosely&&r followed everything on this page, you should be in &&bgood stead&&r!",
+      "<br/>",
+      "&&m&&7Hopefully, some information here was of use.&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:gold_dust"
+    },
+    "subtitle": {
+      "text": "That wasn't so bad, now."
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          0,
+          256
+        ]
+      }
+    }
+  }
+}

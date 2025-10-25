@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3E6DC423FE4A99F7"
+  ],
+  "tasks": {
+    "0D2407D27B875AC3": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_iron_drill",
+      "nbt": {
+        "Charge": 2147483647,
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {
+          "AoEColumn": 1,
+          "AoELayer": 0,
+          "AoERow": 1,
+          "MaxAoEColumn": 1,
+          "MaxAoELayer": 0,
+          "MaxAoERow": 1
+        },
+        "GT.Tool": {
+          "HarvestLevel": 2,
+          "MaxDamage": 767,
+          "ToolSpeed": 6
+        },
+        "HideFlags": 2,
+        "MaxCharge": 2147483647
+      }
+    },
+    "602D1C47F55AFC5D": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Oh Yeah, we Drillin'",
+    "description": [
+      "<subtitle id=\"70BBF00528C68A05\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0D2407D27B875AC3\" quest=\"70BBF00528C68A05\"/>",
+      "<task task=\"602D1C47F55AFC5D\" quest=\"70BBF00528C68A05\"/>",
+      "<hr/>",
+      "&&9Drills&&r are electric tools which come in different tiers. The &&7LV&&r Drill is quite good: mining a 3x3x1 area. Higher-tier drills can mine 3x3x3, 5x5x5, and up to 9x9x9 to make huge holes!",
+      "<br/>",
+      "This suggested drill is with a Diamond tip, which might be the best material for it right now.",
+      "<br/>",
+      "&&9Note 1:&&r All Electric Tools have a lot more durability than indicated, as they use Energy to prevent damage from being applied! On top of that, they can be enchanted as Pickaxes can.",
+      "<br/>",
+      "&&9Note 2:&&r Drills can now be configured to different ranges, not just the maximum or a single block.",
+      "<br/>",
+      "&&9Note 3:&&r You can now craft electric versions of other tools too! Hooray for less Wire Cutter crafting!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Up until GTCEu, Electric tools required Stainless Steel, which locked players out of experiencing their glory until &&6HV&&f!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_iron_drill"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "We Drill Now? We Drill Now."
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          190,
+          95
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5B2696206205CB2E",
+    "70432F650591353C"
+  ],
+  "tasks": {
+    "4F19FBED1E1766AC": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:cupronickel_coil_block"
+    }
+  },
+  "rewards": {
+    "2DF635DEFA2D4DCD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:nickel_ore",
+        "count": 8
+      }
+    },
+    "0F7FB05B78AAFB96": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:copper_ore",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Cupronickel Coils",
+    "description": [
+      "<subtitle id=\"1646BF9194100E57\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4F19FBED1E1766AC\" quest=\"1646BF9194100E57\"/>",
+      "<hr/>",
+      "Prepare &&a128 Cupronickel&&r, &&a32 Bronze&&r and &&a16 Tin Alloy&&r to craft the Heating Coils required for your first Electric Blast Furnace.",
+      "<br/>",
+      "This is still less than half (!) of the cost of the whole EBF in raw materials. You will also need about a stack each of Invar and Steel, so get mining.",
+      "<br/>",
+      "The Cupronickel Coils will allow the EBF to perform recipes up to &&d1,800K&&r (ignoring Voltage bonuses). That's pretty hot if you ask us.",
+      "<br/>",
+      "&&6This quest unlocks a new tutorial on Coils in the &&lTips and Tricks&&r&&6 tab - check it out to learn more!&&r",
+      "<hr/>",
+      "<reward reward=\"2DF635DEFA2D4DCD\" quest=\"1646BF9194100E57\"/>",
+      "<reward reward=\"0F7FB05B78AAFB96\" quest=\"1646BF9194100E57\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cupronickel_coil_block"
+    },
+    "subtitle": {
+      "text": "Baby's first heating coil"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          216,
+          144
+        ]
+      }
+    }
+  }
+}

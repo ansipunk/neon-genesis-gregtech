@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "49C1D61741AA288E",
+    "327C3E02CD751453",
+    "698B5F65F2DE4439",
+    "145F71A817C5996E"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "Craftable in §1IV§r",
+    "description": [
+      "<subtitle id=\"66A23AC2EE9BC4AE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "Welcome to the &&9Quantum&&r Circuit line.",
+      "<br/>",
+      "You may want to invest in &&aPBI&&r at this point, as &&dAdvanced SMDs&&r will skyrocket your circuit production."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_machine_hull"
+    },
+    "subtitle": {
+      "text": "GregTech gets Quantum"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          128,
+          -64
+        ]
+      }
+    }
+  }
+}

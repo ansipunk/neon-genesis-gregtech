@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "26394C1290D70AB6",
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "652CFAE1FA60F3E2": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_chemical_reactor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "High Voltage Chemistry",
+    "description": [
+      "<subtitle id=\"390E59F05132FCB8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"652CFAE1FA60F3E2\" quest=\"390E59F05132FCB8\"/>",
+      "<hr/>",
+      "The &&3HV Chemical Reactor&&r unlocks a ton of new recipes. Ah, who doesn't love the ever-growing demand on more advanced Chemistry?",
+      "<br/>",
+      "&&9Note:&&r We've actually unlocked a ton of new content by reaching &&6HV&&r. However, not every processing line or item is crucial right now. It'd make the &&6HV&&r chapter far too dense if we included everything!",
+      "<br/>",
+      "You could still check out the &&5EV&&r Chapter if you want to push yourself."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_chemical_reactor"
+    },
+    "subtitle": {
+      "text": "Chemistry-heads rejoice!"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          180,
+          -60
+        ]
+      }
+    }
+  }
+}

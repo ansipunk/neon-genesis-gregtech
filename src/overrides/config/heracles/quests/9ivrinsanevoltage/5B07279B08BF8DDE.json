@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0988B5FB795FF7DA",
+    "383B789B654C4094",
+    "69E384F389B0D07B"
+  ],
+  "tasks": {
+    "3B8E3903EA888A6F": {
+      "type": "heracles:item",
+      "item": "gtceu:lapotronic_energy_orb"
+    },
+    "529358AADE55D801": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_lapotronic_battery"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Insane Batteries",
+    "description": [
+      "<subtitle id=\"5B07279B08BF8DDE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3B8E3903EA888A6F\" quest=\"5B07279B08BF8DDE\"/>",
+      "<task task=\"529358AADE55D801\" quest=\"5B07279B08BF8DDE\"/>",
+      "<hr/>",
+      "&&o&&7\"250,000,000 EU in a Battery? That's 25 minutes of Power when drained constantly.\"",
+      "<br/>",
+      "The &&aLapotronic Energy Orb&&r should be the beginning of the end of your energy storage struggles.",
+      "<br/>",
+      "This form of Energy Storage is perfect if your Power Generation is inconsistent, or if you need to buffer large amounts due to the nature of &&3Large Turbines&&r.",
+      "<br/>",
+      "Such a boost in power does not come cheap. Each &&dLapotronic Energy Orb&&r is worth &&a8 Lapotron Crystals&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lapotronic_energy_orb"
+    },
+    "subtitle": {
+      "text": "It's amazing!"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          228,
+          156
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "315169840E06110F",
+    "6975F16F5B50F17F"
+  ],
+  "tasks": {
+    "6B595E3904B796C3": {
+      "type": "heracles:item",
+      "item": "gtceu:nand_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best ULV Circuits!",
+    "description": [
+      "<subtitle id=\"15EC934CE8F4DC86\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6B595E3904B796C3\" quest=\"15EC934CE8F4DC86\"/>",
+      "<hr/>",
+      "&&8ULV&&r Circuits are used in some AE2 recipes, such as the &&aAnnihilation Core&&r and &&aFormation Core&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nand_chip"
+    },
+    "subtitle": {
+      "text": "Good on you for making these!"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          144,
+          48
+        ]
+      }
+    }
+  }
+}

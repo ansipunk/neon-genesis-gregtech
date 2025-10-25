@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4073577B7EF9B593",
+    "1E9BE8D3F8A602DC"
+  ],
+  "tasks": {
+    "1A18D503A429CC17": {
+      "type": "heracles:item",
+      "item": "gtceu:silicon_boule"
+    },
+    "6443C18E4B63EBDC": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:silicon_wafer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Silicon Lottery",
+    "description": [
+      "<subtitle id=\"71412502C81F21C1\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1A18D503A429CC17\" quest=\"71412502C81F21C1\"/>",
+      "<task task=\"6443C18E4B63EBDC\" quest=\"71412502C81F21C1\"/>",
+      "<hr/>",
+      "&&9Silicon Boules&&r are made in the &&3EBF&&r with half a stack of &&aSilicon Dust&&r and a pinch of &&aGallium Arsenide&&r. Their primary purpose is engraving &&6Circuit Wafers&&r.",
+      "<br/>",
+      "After making the Boule, process it in the &&3Cutter&&r to get 16 Silicon Wafers ready for engraving.",
+      "<br/>",
+      "The recommended &&aSilicon&&r source at this point would be... hm, either &&dGlass Dust&&r or &&dSodalite&&r.",
+      "<br/>",
+      "&&cWarning:&&r Each Silicon Boule takes &&47.5 minutes&&r to make at 120 EU/t, or 1,080,000 EU! If the EBF loses power midway, the recipe will start to &&close progress&&r.",
+      "<br/>",
+      "With that being said, Silicon Boules take an absolute age to craft, so consider parallelizing the recipe in multiple &&3EBF&&rs and stockpiling them."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:silicon_boule"
+    },
+    "subtitle": {
+      "text": "These wafers are fully fungible"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          144,
+          120
+        ]
+      }
+    }
+  }
+}

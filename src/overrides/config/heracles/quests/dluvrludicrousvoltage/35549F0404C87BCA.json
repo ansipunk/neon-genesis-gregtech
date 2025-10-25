@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "00C14E3B8009DF7F"
+  ],
+  "tasks": {
+    "10FAF765725C7790": {
+      "type": "heracles:item",
+      "item": "gtceu:pcb_coolant_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Dielectric PCB Coolant",
+    "description": [
+      "<subtitle id=\"35549F0404C87BCA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10FAF765725C7790\" quest=\"35549F0404C87BCA\"/>",
+      "<hr/>",
+      "&&3Dielectric PCB Coolant&&r is used to maintain some highly advanced late and end-game machinery.",
+      "<br/>",
+      "You only need a little bit in &&dLuV&&r, but you'll want to automate it when you get to &&cZPM&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:pcb_coolant_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Absolutely beneficial for the environment"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          72,
+          36
+        ]
+      }
+    }
+  }
+}

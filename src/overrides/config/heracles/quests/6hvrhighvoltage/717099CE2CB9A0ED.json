@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6958029B5514D4EC"
+  ],
+  "tasks": {
+    "497959F0CC572A68": {
+      "type": "heracles:item",
+      "item": "gtceu:item_tag_filter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "300IQ",
+    "description": [
+      "<subtitle id=\"717099CE2CB9A0ED\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"497959F0CC572A68\" quest=\"717099CE2CB9A0ED\"/>",
+      "<hr/>",
+      "&&oThis is a guide on how to automatically route &&lall&&r&&o your Hot Ingots to your Vacuum Freezer while keeping everything automated perfectly fine.&&r",
+      "<br/>",
+      "You already know the drill from the Chemical Bath, so let's get right to the chase.",
+      "<br/>",
+      "Install an &&aItem Tag Filter&&r Cover on the &&3Input Bus&&r of your &&3Vacuum Freezer&&r, open it and set to whitelist &&e&&lhot_ingots&&r. The slot is to &&dtest&&r items to make sure you configured the Filter properly in case you forgot. Drag ingots from EMI!",
+      "<br/>",
+      "From here, you now have the option to route either with &&9Item Pipes&&r or &&9AE2&&r.",
+      "<br/>",
+      "&&2With Item Pipes&&r, connect the output of your &&3EBF(s)&&r to the input of your &&3Vacuum Freezer&&r and the output dump (Chest, Crate, or ME Interface).",
+      "You can also have a &&dRestrictive Pipe&&r in front of the output dump to ensure the Vacuum Freezer will be prioritized.",
+      "<br/>",
+      "&&2With AE2&&r, place a &&3ME Storage Bus&&r on top of your Cover and set to very &&dhigh priority&&r. Any hot ingots entering your ME system will automatically be moved into the Vacuum Freezer.",
+      "<br/>",
+      "&&l&&9Note:&&r If you wish to know more tags for future automation setups, they will display if you press Shift when hovering over an item. For instance, an item tagged with &&e&&o#forge:plates/copper&&r would be filtered as &&e&&lplates/copper&&r.",
+      "<br/>",
+      "&&9Other Note:&&r The Item Tag Filter partially supports &&dregex&&r. Hover over the info icon for more information."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:item_tag_filter"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Can we get much smarter? Apparently so"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          252,
+          -204
+        ]
+      }
+    }
+  }
+}

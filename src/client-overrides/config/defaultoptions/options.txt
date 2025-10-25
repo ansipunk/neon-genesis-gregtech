@@ -1,0 +1,13 @@
+version:3465
+autoJump:false
+enableVsync:false
+realmsNotifications:false
+renderDistance:12
+simulationDistance:12
+maxFps:120
+lang:en_us
+mipmapLevels:4
+rawMouseInput:true
+skipMultiplayerWarning:true
+telemetryOptInExtra:false
+onboardAccessibility:false

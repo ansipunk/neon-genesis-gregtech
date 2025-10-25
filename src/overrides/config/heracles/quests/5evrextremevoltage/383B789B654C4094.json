@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73E8283634E5E33A",
+    "3398FC108D9DCB46",
+    "40408FFD02134148",
+    "4AFD3073C731A1E4",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "544E19AF6D2630DC": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_circuit_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "EV Circuit Assembling",
+    "description": [
+      "<subtitle id=\"383B789B654C4094\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"544E19AF6D2630DC\" quest=\"383B789B654C4094\"/>",
+      "<hr/>",
+      "Quite a journey to get here.",
+      "<br/>",
+      "The &&3EV Circuit Assembling&&r \"unlocks\" the next tier of Circuits, &&5Nano&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_circuit_assembler"
+    },
+    "subtitle": {
+      "text": "Consider yourself firmly in EV!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          144,
+          252
+        ]
+      }
+    }
+  }
+}

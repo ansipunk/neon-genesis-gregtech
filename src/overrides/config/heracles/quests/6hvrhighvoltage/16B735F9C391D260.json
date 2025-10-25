@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "26394C1290D70AB6",
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "1B70E35262CA2CB8": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "HV Assembling Machine",
+    "description": [
+      "<task task=\"1B70E35262CA2CB8\" quest=\"16B735F9C391D260\"/>",
+      "<hr/>",
+      "The &&3HV Assembling Machine&&r is the next step in progression, but also unlocks a handful of useful utilities - snoop around this quest for more."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_assembler"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          72,
+          -24
+        ]
+      }
+    }
+  }
+}

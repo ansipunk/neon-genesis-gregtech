@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "216E5A3574AC08BF"
+  ],
+  "tasks": {
+    "7A5A2DC7C8C3406E": {
+      "type": "heracles:item",
+      "item": "gtceu:power_substation"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Power Substation",
+    "description": [
+      "<subtitle id=\"04E9D2F484702965\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7A5A2DC7C8C3406E\" quest=\"04E9D2F484702965\"/>",
+      "<hr/>",
+      "The &&3Power Substation&&r is a multiblock power storage system. Fill it with &&a2-18 layers&&r of assorted &&9Capacitor Blocks&&r to increase its storage. Each layer must be full of capacitors, and you can use Empty Capacitors to fill unused spaces.",
+      "<br/>",
+      "&&9Capacitors&&r also hold significantly more energy than the batteries used to make them. In the &&3Power Substation&&r, &&9Capacitors&&r can be mixed, so they do not all have to be the same tier.",
+      "<br/>",
+      "At &&1IV&&r, you can make &&5EV&&r and/or &&1IV&&r Capacitors.",
+      "<br/>",
+      "Energy can be inputted with regular Energy Hatches, and output with regular Dynamo Hatches.",
+      "<br/>",
+      "You can also use &&9Substation Hatches&&r to transmit many more amps. These hatches only work in Substations, and do not work in regular multiblocks."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:power_substation"
+    },
+    "subtitle": {
+      "text": "Centralised power, at last"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          156,
+          48
+        ]
+      }
+    }
+  }
+}

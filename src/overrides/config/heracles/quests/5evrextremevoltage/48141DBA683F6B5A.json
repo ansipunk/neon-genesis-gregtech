@@ -1,0 +1,74 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4AFD3073C731A1E4",
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "53541406691632A9": {
+      "type": "heracles:item",
+      "item": "gtceu:distillation_tower"
+    }
+  },
+  "rewards": {
+    "2893ECAD2905293A": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "2893ECAD2905293A_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:lv_super_tank",
+            "count": 4
+          }
+        },
+        "2893ECAD2905293A_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "gtceu:clean_machine_casing",
+            "count": 16
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Distillation Tower",
+    "description": [
+      "<subtitle id=\"48141DBA683F6B5A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"53541406691632A9\" quest=\"48141DBA683F6B5A\"/>",
+      "<hr/>",
+      "The &&3Distillation Tower&&r is a multiblock that will help you extract the most out of fluids. In &&3Distilleries&&r, you had to pick only one product to output. DTs output &&6all of it at once&&r!",
+      "<br/>",
+      "&&9Note the special placement rules:&&r Energy, Items, and Fluid Inputs can only be placed on the bottom layer. Maintenance can be placed anywhere. Fluid Outputs can only be placed starting on the second vertical layer, and only allow one per layer as well.",
+      "<br/>",
+      "The &&3DT&&r can form at any height from &&c&&c3&&r to &&c13&&r blocks, allowing 2 to 12 Fluid Outputs. Fluid will always output on the layer corresponding to the recipe in &&2EMI&&r.",
+      "<br/>",
+      "The &&3DT&&r has one more &&9special&&r rule. You can deliberately build it too short, and it will &&cvoid&&r whichever Fluid should have been output at the top layers that were removed. This can be useful in some very niche situations.",
+      "<br/>",
+      "It is a good idea to use &&3Super Tanks&&r as the output for every layer.",
+      "<br/>",
+      "&&cNote:&&r Using the &&3Distillation Tower&&r for Oil -> Fuel -> Diesel is &&cnot&&r worth it! You will spend more energy overclocking the Multiblock than what you would get back from the products. It would be better to wait until you can make the &&3Large Distillery&&r (&&1IV&&r) for large scale Diesel production. ",
+      "<br/>",
+      "However, the DT is &&6very valuable&&r when extracting Cracked Fuels and Pyrolyse products.",
+      "<hr/>",
+      "<reward reward=\"2893ECAD2905293A\" quest=\"48141DBA683F6B5A\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:distillation_tower"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Time for a real oil refinery!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          36,
+          324
+        ]
+      }
+    }
+  }
+}

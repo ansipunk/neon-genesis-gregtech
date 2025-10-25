@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6DBF61D4F94BC851"
+  ],
+  "tasks": {
+    "29384189E33C8CB1": {
+      "type": "heracles:item",
+      "item": "gtceu:nan_certificate"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Certificate of not being a Noob anymore",
+    "description": [
+      "<subtitle id=\"3ED40CE1E4476C99\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"29384189E33C8CB1\" quest=\"3ED40CE1E4476C99\"/>",
+      "<hr/>",
+      "A goal if you really want to make a point.",
+      "<br/>",
+      "If you make this in a &&3UV&&r machine, it'll take you 10 days.",
+      "<br/>",
+      "If you overclock a Gregicality Multiblock to UEV (by using a 4A &&4UHV&&r hatch), you'll still be waiting for 2.5 days!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The NAN Certificate comes from Crops++, a GT5u addon that adds a wide variety of IC2 crops."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nan_certificate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Obtain for G.O.A.T Status"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          180,
+          12
+        ]
+      }
+    }
+  }
+}

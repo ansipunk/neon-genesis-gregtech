@@ -1,0 +1,73 @@
+{
+  "settings": {},
+  "dependencies": [
+    "07415D6305C3B1D2"
+  ],
+  "tasks": {
+    "7B33C92B976F5AB8": {
+      "type": "heracles:item",
+      "item": "gtceu:primitive_blast_furnace"
+    },
+    "4EC38823292AF1E1": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "gtceu:firebricks"
+    }
+  },
+  "rewards": {
+    "4BA49D38A085D5CA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 64
+      }
+    },
+    "6E244AE238636F71": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Primitive Blast Furnace",
+    "description": [
+      "<subtitle id=\"40DE888E6025C646\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7B33C92B976F5AB8\" quest=\"40DE888E6025C646\"/>",
+      "<task task=\"4EC38823292AF1E1\" quest=\"40DE888E6025C646\"/>",
+      "<hr/>",
+      "The &&3Primitive Blast Furnace&&r (&&3PBF&&r for short) is a multiblock you will become very familiar with in the next few hours.",
+      "<br/>",
+      "It is &&cimportant&&r that you get a &&3Macerator&&r before tackling this quest - if you haven't made one yet, this multiblock will be &&lfour times as expensive&&r.",
+      "<br/>",
+      "Using your fancy new &&3Macerator&&r, you'll need to process &&d132 Clay&&r, split into &&d66 Clay Dusts&&r and &&d66 Brick Dusts&&r.",
+      "<br/>",
+      "Build the structure using &&4EMI's Multiblock preview tab&&r.",
+      "<br/>",
+      "Steel will be &&9of utmost importance&&r throughout the entire game, so make sure you keep that PBF running. We should clarify that the PBF isn't the only way to get Steel throughout your playthrough, though!",
+      "<br/>",
+      "Steel also has &&6double the durability&&r compared to regular Iron for GregTech tools. It also provides &&6Diamond mining level&&r, and is much faster.",
+      "<hr/>",
+      "<reward reward=\"4BA49D38A085D5CA\" quest=\"40DE888E6025C646\"/>",
+      "<reward reward=\"6E244AE238636F71\" quest=\"40DE888E6025C646\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:primitive_blast_furnace"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Steel Yourself for Greater Things"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          36,
+          -48
+        ]
+      }
+    }
+  }
+}

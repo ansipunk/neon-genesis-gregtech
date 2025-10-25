@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6D1F10543A391940",
+    "64EA73FAB2A51850",
+    "79E4E53E9DF45549"
+  ],
+  "tasks": {
+    "0D45B9FFF6BA13FE": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_fusion_reactor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fusion Reactor II",
+    "description": [
+      "<subtitle id=\"24366846FDA52CE3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0D45B9FFF6BA13FE\" quest=\"24366846FDA52CE3\"/>",
+      "<hr/>",
+      "Build the structure displayed with Fusion Glass in &&aEMI&&r.",
+      "<br/>",
+      "To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure).",
+      "<br/>",
+      "The &&aFusion Reactor Mk2&&r is even more expensive than the Mk1! The key difference is that it has a higher &&6Energy To Start&&r than the Mk1, allowing you to run new recipes.",
+      "<br/>",
+      "It can also overclock lower voltage recipes, such as those in the Mk1 reactor. See the Mk1's quest for how these mechanics work."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_fusion_reactor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Fusion just got more expensive..."
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -84,
+          108
+        ]
+      }
+    }
+  }
+}

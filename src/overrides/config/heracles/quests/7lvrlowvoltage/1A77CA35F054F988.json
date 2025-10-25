@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "32B08E6F414A00C0",
+    "15928F50AE80A5CF"
+  ],
+  "tasks": {
+    "1F76ED94CDBD13E1": {
+      "type": "heracles:item",
+      "item": "gtceu:oxygen_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Breath of Fresh Oxygen",
+    "description": [
+      "<subtitle id=\"1A77CA35F054F988\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1F76ED94CDBD13E1\" quest=\"1A77CA35F054F988\"/>",
+      "<hr/>",
+      "You could waste &&o&&eprecious years of your life&&r in EMI looking for the most optimal Oxygen recipe, given the many ways to obtain it. Various minerals will produce it when electrolyzed.",
+      "<br/>",
+      "If only the quest book had more information!",
+      "<br/>",
+      "The best way to get &&bOxygen&&r is by electrolyzing &&bSilicon Dioxide&&r. Silicon Dioxide is obtained from various sources, most notably Glass Dust. We would &&chighly&&r recommend setting up an automated, passive line of machines for Oxygen via this method! At first, the machines will consume tons of power, but once the machine buffers are filled up, the machines will rarely turn on. ",
+      "<br/>",
+      "To figure out how to get renewable Glass for this purpose, check out the relevant quest in the &&eRenewables & You&&r section.",
+      "<br/>",
+      "Another method is &&acentrifuging Air&&r after making a &&dGas Collector&&r, which you might not be able to make just yet. This recipe also gives &&aNitrogen&&r, which is handy as it can speed up certain &&3Electric Blast Furnace&&r recipes&&r.",
+      "<br/>",
+      "Technically, you could source it by &&aelectrolyzing Water&&r. In reality, electrolysis of water is more suitable for &&aHydrogen production&&r due to the higher energy cost.",
+      "<br/>",
+      "Try your best not to &&cvoid&&r Oxygen! This applies to most fluids and chemicals in GregTech, and is a good habit to pick up. The less Oxygen you void, the less energy and time you spend on generating more.",
+      "<br/>",
+      "&&eNote:&&r Submit a fluid by having it stored in a &&lbucket&&r in your inventory."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:oxygen_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Ackshually, it's Dioxygen..."
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -72,
+          216
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "730043448A9ADBB6"
+  ],
+  "tasks": {
+    "037584D32CBC5D8D": {
+      "title": "I'm feeling pretty crushed right now.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The First Maceration",
+    "description": [
+      "<subtitle id=\"012BF60FBD5D41AC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"037584D32CBC5D8D\" quest=\"012BF60FBD5D41AC\"/>",
+      "<hr/>",
+      "All good ore processing lines start with a crush, and in your case, you'll want to macerate either your &&5Raw Ore&&r, or your Ore blocks (if you're using &&dSilk Touch&&r!)",
+      "<br/>",
+      "When you can make the large multiblock Miners, your ore yield is almost &&aquadrupled&&r further, and you won't need to macerate for the first step - the &&bLarge Miner&&r will output its ores as if they had been macerated."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_macerator"
+    },
+    "subtitle": {
+      "text": "Well. You've gotta start somewhere!"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

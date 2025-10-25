@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "390E59F05132FCB8",
+    "4CD9F6D1B4CC7D81",
+    "1F571B9E1555DA04",
+    "40018C0546454CD9"
+  ],
+  "tasks": {
+    "35EAB019D81FD0A6": {
+      "type": "heracles:item",
+      "item": "gtceu:epoxy_plate"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Epoxy",
+    "description": [
+      "<subtitle id=\"117FBB18DEE6F08B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"35EAB019D81FD0A6\" quest=\"117FBB18DEE6F08B\"/>",
+      "<hr/>",
+      "&&aEpoxy&&r is the foundation for all future Circuit Boards in the game. Get ready to make a lot of this stuff.",
+      "<br/>",
+      "&&9&&lNote:&&r This questline is quite complicated, so tackle everything else before trying to make Epoxy. You'll need all the help you can get!",
+      "<br/>",
+      "There are several ways to obtain the ingredients for &&aEpoxy&&r.",
+      "<br/>",
+      "We'll ignore recipes related to Glycerol, as they're never worth it unless modpack devs tweak things around. &&mHint hint, if you're making your own pack!&&r",
+      "<br/>",
+      "Try and use &&3Large Chemical Reactors&&r to shortcut recipes.",
+      "<br/>",
+      "&&dChlorine&&r is only partially recycled, so you'll need a constant supply. Feeding it manually should be sufficient at first.",
+      "<br/>",
+      "Recipes involving &&dSodium Hydroxide&&r could be looped by electrolyzing the &&9Salt Water&&r co-product.",
+      "<br/>",
+      "Doing this will probably require you to make some Quadruple Pipes, Pump Covers, Fluid Filters... or route everything using AE2.",
+      "<br/>",
+      "In general, closed loop setups are nice to prevent overproduction or overconsumption, but go for whatever's more fun for you."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:epoxy_plate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Prime circuit board material"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          108,
+          252
+        ]
+      }
+    }
+  }
+}

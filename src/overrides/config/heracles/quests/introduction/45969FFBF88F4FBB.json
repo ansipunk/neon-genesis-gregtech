@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "2001CB4968D3E0A2"
+  ],
+  "tasks": {},
+  "rewards": {
+    "2C28FA1A5275D24E": {
+      "amount": 1,
+      "rewards": {
+        "2C28FA1A5275D24E_0": {
+          "item": {
+            "id": "minecraft:copper_ingot",
+            "count": 32
+          },
+          "type": "heracles:item"
+        },
+        "2C28FA1A5275D24E_1": {
+          "item": {
+            "id": "gtceu:tin_ingot",
+            "count": 32
+          },
+          "type": "heracles:item"
+        }
+      },
+      "type": "heracles:selectable"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": "Gather more resources!"
+    },
+    "description": [
+      "<subtitle id=\"45969FFBF88F4FBB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"616556ECE4DB6103\" quest=\"45969FFBF88F4FBB\"/>",
+      "<hr/>",
+      "More resources are always nice. You're getting close to entering the &&6age of Steam&&r - Copper and Tin are required in many &&6Steam Age&&r machines, so check the ore tab to find out what veins they can be found in, and get mining!",
+      "<br/>",
+      "If the different ore names are &&bconfusing&&r, you can tell which elements an ore holds at a glance by reading the &&dmolecular formula&&r in its tooltip. Copper is &&oCu&&r, Tin is &&oSn&&r, Iron is &&oFe&&r, and you can consult a &&3periodic table&&r for the rest. It's time to brush up on your chemistry - you'll need it for &&llater&&r.",
+      "<br/>",
+      "This quest can be completed with &&9either metal&&r, so you can claim the metal you're missinng as the reward. Be sure to find a source of both soon, as a &&a&&ocertain&&r&&a Copper-Tin alloy&&r will be needed to get through the &&6Steam Age&&r.",
+      "<hr/>",
+      "<reward reward=\"2C28FA1A5275D24E\" quest=\"45969FFBF88F4FBB\"/>"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          120,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:copper_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Onwards to the Age of Bronze!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

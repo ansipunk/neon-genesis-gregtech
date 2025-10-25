@@ -1,0 +1,28 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3B49BD004F38E1A2"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§4UHV§r Circuits",
+    "description": [
+      "Congratulations! You've reached the end of the circuit progression.",
+      "<br/>",
+      "The only &&4UHV&&r circuit is the &&6Wetware Mainframe&&r, which is used for crafting some endgame stuff."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uhv_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          256
+        ]
+      }
+    }
+  }
+}

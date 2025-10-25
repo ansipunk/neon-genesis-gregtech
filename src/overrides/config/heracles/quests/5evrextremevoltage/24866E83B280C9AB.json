@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48141DBA683F6B5A"
+  ],
+  "tasks": {
+    "4307AF60A80EE9FC": {
+      "type": "heracles:item",
+      "item": "gtceu:cracker"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Multiblock Cracking",
+    "description": [
+      "<subtitle id=\"24866E83B280C9AB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4307AF60A80EE9FC\" quest=\"24866E83B280C9AB\"/>",
+      "<hr/>",
+      "The &&3Cracker&&r is a multiblock built with the sole purpose of cracking fluids. It comes with all the recipes of &&3Chemical Reactor&&r Cracking, but it is &&6lossless&&r.",
+      "<br/>",
+      "This is a great way to save a lot of Fuel in the long term!",
+      "<br/>",
+      "Higher Coil tiers provide a small energy discount - up to 70% with the best Coils available."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cracker"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "You Crack Me Up"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          0,
+          324
+        ]
+      }
+    }
+  }
+}

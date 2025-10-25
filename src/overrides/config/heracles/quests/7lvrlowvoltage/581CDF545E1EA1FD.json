@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3D98819A799D2E64"
+  ],
+  "tasks": {
+    "20B1CA4DB2750E84": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_fluid_solidifier"
+    }
+  },
+  "rewards": {
+    "2B85DCFFF22770D8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:rubber_bucket"
+      }
+    }
+  },
+  "display": {
+    "title": "Basic Fluid Solidifier",
+    "description": [
+      "<subtitle id=\"581CDF545E1EA1FD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"20B1CA4DB2750E84\" quest=\"581CDF545E1EA1FD\"/>",
+      "<hr/>",
+      "Build this machine next to your &&3Chemical Reactor&&r to automatically solidify Rubber into &&aRubber Sheets&&r.",
+      "<br/>",
+      "You can make your Chemical Reactor auto-output if you &&dwrench&&r the side of your &&3Chemical Reactor&&r and enable Fluid &&9auto-output&&r.",
+      "<br/>",
+      "There will be more Fluids to solidify, so you may re-purpose your &&3Fluid Solidifier&&r when not crafting Rubber - or make a second one!",
+      "<hr/>",
+      "<reward reward=\"2B85DCFFF22770D8\" quest=\"581CDF545E1EA1FD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_fluid_solidifier"
+    },
+    "subtitle": {
+      "text": "The Fluid Solidifier solidifies..."
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          144,
+          144
+        ]
+      }
+    }
+  }
+}

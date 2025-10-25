@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A74F692F14F0FF8"
+  ],
+  "tasks": {
+    "3B9666A5C3CBDCD6": {
+      "type": "heracles:item",
+      "item": "gtceu:engraved_crystal_chip"
+    },
+    "6AFCBD40BD589726": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_cpu"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Crystal CPU",
+    "description": [
+      "<subtitle id=\"764091A111FB4DA6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3B9666A5C3CBDCD6\" quest=\"764091A111FB4DA6\"/>",
+      "<task task=\"6AFCBD40BD589726\" quest=\"764091A111FB4DA6\"/>",
+      "<hr/>",
+      "&&aCrystal CPUs&&r are used to produce &&9Crystal Circuits&&r - who would have thought?",
+      "<br/>",
+      "Producing these is quite a bit different from the previous circuit components. Instead of standard silicon wafers, these rely on &&9Emerald&&r or &&9Olivine&&r.",
+      "<br/>",
+      "Getting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier Autoclave. If you use a &&6HV&&r Autoclave... well, we didn't take you for the gambling sort.",
+      "<br/>",
+      "After you get your first Chip, you can duplicate them with &&9Europium&&r. Don't worry about those other recipes yet, they're for later on in &&cZPM&&r.",
+      "<br/>",
+      "&&eNote&&r: An &&9Advanced Item Detector&&r cover will be useful for automating these. They work just like the Advanced Energy Detector.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GT5u modpacks, making your first Crystal Chips required the autoclave to be in Low Gravity, which meant doing this process on a Galacticraft Space Station, or on the moon!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_cpu"
+    },
+    "subtitle": {
+      "text": "These don't even make any sense!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          252,
+          72
+        ]
+      }
+    }
+  }
+}

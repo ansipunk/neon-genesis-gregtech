@@ -1,0 +1,75 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0DBC148D92A9F69F",
+    "7567E885B7166603"
+  ],
+  "tasks": {
+    "0FD2962C232149F8": {
+      "type": "heracles:item",
+      "item": "gtceu:pyrolyse_oven"
+    }
+  },
+  "rewards": {
+    "01DA9E28ADAD19B3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:coal",
+        "count": 64
+      }
+    },
+    "3F4EFE922903E799": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "Pyrolyse Oven",
+    "description": [
+      "<subtitle id=\"53DC6E32C41C94C3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0FD2962C232149F8\" quest=\"53DC6E32C41C94C3\"/>",
+      "<hr/>",
+      "The &&3Pyrolyse Oven&&r is an electric equivalent to the &&3Coke Oven&&r. It can produce &&9Coal Coke&&r and &&9Charcoal&&r with a &&9Creosote&&r byproduct just as before, but also has additional &&6Organic Byproducts&&r, the most beneficial of these being &&aWood Tar&&r.",
+      "<br/>",
+      "Another product is &&aBiomass&&r, which is more pertinent for your progression as of this moment.",
+      "<br/>",
+      "The byproducts can be Distilled for an array of organic resources, with &&odifferent&&r byproducts giving &&odifferent&&r ratios of &&odifferent&&r chemicals.",
+      "<br/>",
+      "You will need to take a peek at the &&9Distillation&&r Quest to get to grips with the power of distillation...",
+      "<br/>",
+      "<br/>",
+      "&&9Note: &&rWith &&d40 EU/t&&r recipes, it needs either 1 &&bMV&&r energy hatch or 2 &&7LV&&r energy hatches. Multiblocks will &&cnot&&r use 2A of one tier to reach the next one for recipe voltage minimums. ",
+      "<br/>",
+      "In other words, the controller needs to say at least \"&&bMV&&r\" in the GUI to run recipes which say \"&&bMV&&r\" in EMI, even if they can draw enough EU/t with a lower tier hatch configuration. On the bright side, if you're using two &&7LV&&r hatches, you can choose to only power one, leaving the other disconnected - as long as you supply enough EU.",
+      "<br/>",
+      "<br/>",
+      "The Pyrolyse Oven remains &&doptional&&r, should you choose to use Breweries instead. However, it is very rewarding to construct one either for Power, or for the various Byproducts, and we highly recommend you give it a look.",
+      "<br/>",
+      "There are recipes that can accept &&bNitrogen&&r to double the speed. This isn't quite worth pursuing right now, but Nitrogen will eventually be free and infinite.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GT5u, the structure for the Pyrolyse Oven was infamously a giant box with only 9 coils inside. Players usually spent several minutes debugging what is wrong due to a lack of a EMI preview.",
+      "<hr/>",
+      "<reward reward=\"01DA9E28ADAD19B3\" quest=\"53DC6E32C41C94C3\"/>",
+      "<reward reward=\"3F4EFE922903E799\" quest=\"53DC6E32C41C94C3\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:pyrolyse_oven"
+    },
+    "subtitle": {
+      "text": "Thermal Decomposition"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          0,
+          -24
+        ]
+      }
+    }
+  }
+}

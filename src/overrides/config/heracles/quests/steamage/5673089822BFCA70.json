@@ -1,0 +1,73 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40DE888E6025C646"
+  ],
+  "tasks": {
+    "77ECBBA179EC9B3F": {
+      "amount": 1,
+      "tasks": {
+        "7dbac056-e168-49fa-bb45-a9f8d0d647c2": {
+          "type": "heracles:item",
+          "item": "gtceu:hp_steam_compressor",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "4be71260-4a54-487c-bb83-399c9b3926ca": {
+          "type": "heracles:item",
+          "item": "gtceu:hp_steam_alloy_smelter",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "dc8dd4d4-c495-49a2-8c85-d89fee1ab5bd": {
+          "type": "heracles:item",
+          "item": "gtceu:hp_steam_forge_hammer",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "24A6C74E123DDC99": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:steel_plate",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "No More Penalty",
+    "description": [
+      "<subtitle id=\"5673089822BFCA70\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"77ECBBA179EC9B3F\" quest=\"5673089822BFCA70\"/>",
+      "<hr/>",
+      "You may recall that regular Steam machines had a duration penalty, and were twice as slow. Not great.",
+      "<br/>",
+      "&&5High Pressure&&r Steam machines no longer bear a &&bduration penalty &&rfor recipes, making them objective upgrades.",
+      "<br/>",
+      "Make &&eone&&r of the proposed HP machines to complete this quest.",
+      "<hr/>",
+      "<reward reward=\"24A6C74E123DDC99\" quest=\"5673089822BFCA70\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hp_steam_compressor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Pressure can be good sometimes"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          0,
+          -63
+        ]
+      }
+    }
+  }
+}

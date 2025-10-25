@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1C55AE6AD5BDE304"
+  ],
+  "tasks": {
+    "76A20EE57CB39857": {
+      "type": "heracles:item",
+      "item": "gtceu:item_tag_filter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "250IQ",
+    "description": [
+      "<subtitle id=\"13A976D0D612BC84\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"76A20EE57CB39857\" quest=\"13A976D0D612BC84\"/>",
+      "<hr/>",
+      "This is a guide on how to automatically route &&lall&&r your Hot Ingots to your Chemical Bath, while keeping everything automated in tip-top shape.",
+      "<br/>",
+      "The cheap way would be to use filters, and manually add Hot Ingots one by one... which is so boring! Let's try the fun option.",
+      "<br/>",
+      "Install an &&aItem Tag Filter&&r Cover on the side of your &&3Chemical Bath&&r, open it and set it to whitelist \"&&e&&lhot_ingots&&r\".",
+      "<br/>",
+      "From here, you can route with &&9any logistics system&&r of your choice.",
+      "<br/>",
+      "Connect the output of your &&3EBF(s)&&r to the input of your &&3Chemical Bath&&r and the output dump (Chest or Crate).",
+      "You can also have a &&dRestrictive Pipe&&r in front of the output dump to ensure the Chemical Bath will be prioritized.",
+      "<br/>",
+      "&&l&&9Note:&&r If you wish to know more tags for more automation setups, they will display if you press Shift when hovering over an item. For instance, an item tagged with &&e&&o#forge:plates/copper&&r would be filtered as &&e&&lplates/copper&&r.",
+      "<br/>",
+      "&&9Other Note:&&r The Item Tag Filter partially supports &&dregex&&r. Hover over the info icon for more information."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:item_tag_filter"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Stop burning your darn hands!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          108,
+          -60
+        ]
+      }
+    }
+  }
+}

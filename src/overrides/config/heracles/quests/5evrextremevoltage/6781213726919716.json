@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "383B789B654C4094"
+  ],
+  "tasks": {
+    "29BA6B4E01C4AFB6": {
+      "type": "heracles:item",
+      "item": "gtceu:soc"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "System on Chip",
+    "description": [
+      "<subtitle id=\"6781213726919716\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"29BA6B4E01C4AFB6\" quest=\"6781213726919716\"/>",
+      "<hr/>",
+      "The &&6System-on-Chip&&r (or &&bSoC&&r) is a specialty component that miniaturizes all the typical circuit components (like SMDs) onto a single chip.",
+      "<br/>",
+      "These are very useful as they unlock the most efficient recipes for creating &&6Refined&&r, &&6Micro&&r, and &&6Nano Circuits&&r.",
+      "<br/>",
+      "Each SoC-based circuit recipe requires a different minimum tier of &&aAssembling Machine&&r, with the Nano Circuits requiring you to hit &&dLuV&&r. &&aSystem on Chip&&r unlocks the best recipe for &&dLV Circuits&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:soc"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Where's the Chip on System?"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          252,
+          252
+        ]
+      }
+    }
+  }
+}

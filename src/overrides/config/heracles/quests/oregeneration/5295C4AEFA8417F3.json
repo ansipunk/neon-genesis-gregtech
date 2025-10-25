@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "0A9878360139CD46": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_basaltic_mineral_sand"
+    },
+    "4080824C57EFA2C2": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_granitic_mineral_sand"
+    },
+    "37B33325ED63458D": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_fullers_earth"
+    },
+    "1399C23538D97FDE": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_gypsum"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mineral Sand",
+    "description": [
+      "<subtitle id=\"5295C4AEFA8417F3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0A9878360139CD46\" quest=\"5295C4AEFA8417F3\"/>",
+      "<task task=\"4080824C57EFA2C2\" quest=\"5295C4AEFA8417F3\"/>",
+      "<task task=\"37B33325ED63458D\" quest=\"5295C4AEFA8417F3\"/>",
+      "<task task=\"1399C23538D97FDE\" quest=\"5295C4AEFA8417F3\"/>",
+      "<hr/>",
+      "The worst Iron vein. It's helpful in the early game, but that's about it.",
+      "<br/>",
+      "We love you anyway, Mineral Sand vein!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:granitic_mineral_sand_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Iron"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          16,
+          -112
+        ]
+      }
+    }
+  }
+}

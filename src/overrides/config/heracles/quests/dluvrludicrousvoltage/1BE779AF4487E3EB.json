@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0"
+  ],
+  "tasks": {
+    "414C3982BED7EA0D": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_large_miner"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ludicrous Ore Drilling",
+    "description": [
+      "<task task=\"414C3982BED7EA0D\" quest=\"1BE779AF4487E3EB\"/>",
+      "<hr/>",
+      "This Large Miner is nearly identical to the regular one, except it has a wider range and uses more drilling fluid.",
+      "<br/>",
+      "It's an optional sidegrade - one you might not even want.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o There may be a rebalance for these in the future. See the Multiblock Miner quest for details."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_large_miner"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          169,
+          169
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "69FC6941E6C83799": {
+      "type": "heracles:item",
+      "item": "gtceu:me_input_bus"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "ME Hatches",
+    "description": [
+      "<subtitle id=\"681F1423A36FD4FF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"69FC6941E6C83799\" quest=\"681F1423A36FD4FF\"/>",
+      "<hr/>",
+      "&&3ME Hatches&&r directly connect to your &&aAE System&&r, allowing you to skip placing interfaces directly on buses and hatches.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This feature originally comes from GTNH!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:me_input_bus"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "No more interfaces on buses"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          180,
+          144
+        ]
+      }
+    }
+  }
+}

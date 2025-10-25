@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "10FB27DD3C7BEC2F"
+  ],
+  "tasks": {
+    "60D8154F5C9C0EAC": {
+      "type": "heracles:item",
+      "item": "gtceu:capacitor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Capacitors",
+    "description": [
+      "<subtitle id=\"6E9E15DA847DD0A1\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"60D8154F5C9C0EAC\" quest=\"6E9E15DA847DD0A1\"/>",
+      "<hr/>",
+      "A circuit component that you can now produce thanks to the &&3MV Assembler&&r!",
+      "<br/>",
+      "Capacitors are commonly used in computers to store information during power failures, amongst many other uses."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:capacitor"
+    },
+    "subtitle": {
+      "text": "No cap, bussin frfr"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          288,
+          -60
+        ]
+      }
+    }
+  }
+}

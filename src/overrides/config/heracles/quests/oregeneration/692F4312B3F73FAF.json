@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "6BF52C2246A0844E": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_yellow_limonite"
+    },
+    "6CA526A4E36E2AA4": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_malachite"
+    },
+    "6749696D0F802C8E": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_goethite"
+    },
+    "322E7284449B296F": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_hematite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Limonite",
+    "description": [
+      "<subtitle id=\"692F4312B3F73FAF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6BF52C2246A0844E\" quest=\"692F4312B3F73FAF\"/>",
+      "<task task=\"6CA526A4E36E2AA4\" quest=\"692F4312B3F73FAF\"/>",
+      "<task task=\"6749696D0F802C8E\" quest=\"692F4312B3F73FAF\"/>",
+      "<task task=\"322E7284449B296F\" quest=\"692F4312B3F73FAF\"/>",
+      "<hr/>",
+      "A standard Iron vein. It's a good target when you need to replenish your supply."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:yellow_limonite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Iron, Copper"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          48,
+          -112
+        ]
+      }
+    }
+  }
+}

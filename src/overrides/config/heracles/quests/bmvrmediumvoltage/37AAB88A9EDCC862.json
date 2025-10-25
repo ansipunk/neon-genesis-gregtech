@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "53DC6E32C41C94C3"
+  ],
+  "tasks": {
+    "7EC058F5FE8478D1": {
+      "type": "heracles:item",
+      "item": "gtceu:wood_tar_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Wood Tar",
+    "description": [
+      "<task task=\"7EC058F5FE8478D1\" quest=\"37AAB88A9EDCC862\"/>",
+      "<hr/>",
+      "This is the main way of getting &&9Power&&r via the &&aBiochemical&&r route. Put Logs in the &&3Pyrolyse Oven&&r for &&9Wood Tar&&r. The Charcoal you obtain can then be processed in &&3Extractors&&r for even more &&9Wood Tar&&r!",
+      "<br/>",
+      "Check out the Distillation quest to see what you can do with this wondrous substance."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:wood_tar_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -72,
+          -60
+        ]
+      }
+    }
+  }
+}

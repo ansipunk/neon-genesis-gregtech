@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A55CC71442CC854",
+    "478B0D55369C0F7F",
+    "6B08799BCFD01D3D",
+    "2F9D9AAB27E6534D",
+    "3856DBCCAA6D2A58"
+  ],
+  "tasks": {
+    "16A26A909A8CE527": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:rtm_alloy_coil_block"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "RTM Alloy Coils",
+    "description": [
+      "<subtitle id=\"069FD86133D7D582\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"16A26A909A8CE527\" quest=\"069FD86133D7D582\"/>",
+      "<hr/>",
+      "&&aRTM Alloy Coils&&r raise the Heat Capacity to a scorching &&d4,500K&&r.",
+      "<br/>",
+      "These will be required in &&9IV&&r, but as always, you should get them earlier for the &&6Coil bonuses&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o These coils used to be Tungstensteel Coils. This however made most of the EV tier very easy to skip over and postpone to IV, so they were changed to the new RTM Alloy. GTNH was the first to make this change, and used TPV Alloy instead, made from Titanium, Platinum, and Vanadium.",
+      "<br/>",
+      "&&o&&7Which coil do you prefer?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:rtm_alloy_coil_block"
+    },
+    "subtitle": {
+      "text": "What happened to my Tungstensteel!?"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          288,
+          72
+        ]
+      }
+    }
+  }
+}

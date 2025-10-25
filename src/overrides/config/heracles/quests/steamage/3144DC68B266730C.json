@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5193DD03C0742548"
+  ],
+  "tasks": {
+    "67D04A48C5473D10": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "gtceu:sticky_resin"
+    }
+  },
+  "rewards": {
+    "606726568EBF1E4A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 24
+      }
+    }
+  },
+  "display": {
+    "title": "Sticky Resin",
+    "description": [
+      "<subtitle id=\"3144DC68B266730C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"67D04A48C5473D10\" quest=\"3144DC68B266730C\"/>",
+      "<hr/>",
+      "Grow &&dRubber Trees&&r and cut them down to get &&aSticky Resin&&r.",
+      "<br/>",
+      "If you're playing on a difficulty other than &&bPeaceful&&r, Sticky Resin can be obtained from Slimeballs.",
+      "<hr/>",
+      "<reward reward=\"606726568EBF1E4A\" quest=\"3144DC68B266730C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:sticky_resin"
+    },
+    "subtitle": {
+      "text": "Did you think we would force you to use treetaps...?"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          252,
+          60
+        ]
+      }
+    }
+  }
+}

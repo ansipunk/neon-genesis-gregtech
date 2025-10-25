@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "5FC26FB906B6F0A2": {
+      "type": "heracles:item",
+      "item": "minecraft:coal"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Coal",
+    "description": [
+      "<subtitle id=\"1E27C654E2F6FFF2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5FC26FB906B6F0A2\" quest=\"1E27C654E2F6FFF2\"/>",
+      "<hr/>",
+      "As an ore, Coal is hardly worth large-scale processing, because there are too many additional steps. required to turn it into usable fuel. It's still good to have some in your back pocket.",
+      "<br/>",
+      "Just run it through a Furnace."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:coal_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of pollution"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    }
+  }
+}

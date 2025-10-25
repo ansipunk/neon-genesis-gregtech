@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41D32C5178760F47"
+  ],
+  "tasks": {
+    "221E6D04EBEC9DDE": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_magnetite"
+    },
+    "595577EA15045970": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_vanadium_magnetite"
+    },
+    "22990DDA1E1B862C": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_chromite"
+    },
+    "48CBB7AE11A1F841": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_gold"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Magnetite",
+    "description": [
+      "<subtitle id=\"4FC668EF2BF294ED\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"221E6D04EBEC9DDE\" quest=\"4FC668EF2BF294ED\"/>",
+      "<task task=\"595577EA15045970\" quest=\"4FC668EF2BF294ED\"/>",
+      "<task task=\"22990DDA1E1B862C\" quest=\"4FC668EF2BF294ED\"/>",
+      "<task task=\"48CBB7AE11A1F841\" quest=\"4FC668EF2BF294ED\"/>",
+      "<hr/>",
+      "You may already have boatloads of Iron by the time you make it here, but don't overlook the utility of this vein.",
+      "<br/>",
+      "Chromite is an excellent source of Chromium, and Vanadium is needed in higher quantities in the late game."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:endstone_magnetite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Iron, Vanadium, Gold, Chromium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          256,
+          48
+        ]
+      }
+    }
+  }
+}

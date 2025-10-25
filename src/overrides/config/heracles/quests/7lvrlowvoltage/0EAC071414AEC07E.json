@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5263F866638D875C"
+  ],
+  "tasks": {
+    "284F6584EEEF3AD6": {
+      "type": "heracles:item",
+      "item": "gtceu:glue_bucket"
+    }
+  },
+  "rewards": {
+    "3134ECF63472A855": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:rubber_log",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Glued",
+    "description": [
+      "<subtitle id=\"0EAC071414AEC07E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"284F6584EEEF3AD6\" quest=\"0EAC071414AEC07E\"/>",
+      "<hr/>",
+      "You can now &&3centrifuge&&r &&aResin&&r, which will still give Raw Rubber - but this time alongside &&aGlue&&r (and the less useful Plantball).",
+      "<br/>",
+      "Give yourself a headstart and get on producing Glue. You can use it to make &&6cheaper Resistors&&r, as well as &&6cheaper Circuit Boards&&r in the &&3Assembling Machine&&r (and it is especially useful &&oin the near future&&r).",
+      "<br/>",
+      "&&eNote:&&r Submit a fluid by having it stored in a &&lbucket&&r in your inventory.",
+      "<hr/>",
+      "<reward reward=\"3134ECF63472A855\" quest=\"0EAC071414AEC07E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:glue_bucket"
+    },
+    "subtitle": {
+      "text": "Extractor? I hardly knew 'er!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          0,
+          288
+        ]
+      }
+    }
+  }
+}

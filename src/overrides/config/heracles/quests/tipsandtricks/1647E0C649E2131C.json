@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2FC7B1E867E4194E"
+  ],
+  "tasks": {
+    "4C9F42B0E4A2E0DB": {
+      "title": "Forming Multiblocks",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Forming Multiblocks",
+    "description": [
+      "<subtitle id=\"1647E0C649E2131C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4C9F42B0E4A2E0DB\" quest=\"1647E0C649E2131C\"/>",
+      "<hr/>",
+      "There are two really important factors to know when building Multiblocks.",
+      "<br/>",
+      "Check EMI, and remember to keep things versatile.",
+      "<br/>",
+      "Rule number one - check EMI!",
+      "<br/>",
+      "This one was probably obvious, but EMI is so much more than just a cute picture of how the Multiblock looks when built! Use your mouse to &&drotate&&r the preview, and &&9hover over the blocks used&&r to view any extra information.",
+      "<br/>",
+      "The EMI page also contains an ingredient list of required blocks. You can also &&dright-click&&r a block in the preview to get a display of all blocks that work in that specific position.",
+      "<br/>",
+      "Rule number two - multiblocks are versatile!",
+      "<br/>",
+      "There is no \"definite\" way to form the Multiblock. Most of the time, you have complete freedom over the &&9tier of Buses/Hatches&&r used - and you also have the ability to&&d choose where you want your inputs/outputs&&r.",
+      "<br/>",
+      "Taking the EBF as an example, any tier of Energy/Bus/Hatch can be used, and they can be placed anywhere in place of a casing. Fluid Hatches are also optional, though you probably want them if you need to handle recipes involving fluid."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:heatproof_machine_casing"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Multiblock University"
+    },
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          0,
+          32
+        ]
+      }
+    }
+  }
+}

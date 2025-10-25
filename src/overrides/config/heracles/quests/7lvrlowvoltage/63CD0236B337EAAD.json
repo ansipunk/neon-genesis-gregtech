@@ -1,0 +1,72 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "6B5537B80EB05B30": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_assembler"
+    }
+  },
+  "rewards": {
+    "15CB6A60C5C891BB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:basic_electronic_circuit",
+        "count": 4
+      }
+    },
+    "3AF49D4A68D17C1A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:lv_machine_hull"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:lv_assembler",
+    "description": [
+      "<subtitle id=\"63CD0236B337EAAD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6B5537B80EB05B30\" quest=\"63CD0236B337EAAD\"/>",
+      "<hr/>",
+      "While this is an extremely &&9important&&r machine for progression, this will &&9&&lnot help you immediately&&r as it is &&cexpensive.&&r Most of the recipes you will want to pursue require &&cfluids&&r. Set up a little bit more infrastructure before rushing this.",
+      "<br/>",
+      "With that out of the way, the &&3Assembler&&r is crucial to gameplay. Consider it as important as a Crafting Table, except... well, it's a machine, duh.",
+      "<br/>",
+      "We as \"modpack developers\" also love to use this to include all sorts of custom recipes - and speaking of custom recipes, the Assembler now unlocks &&dApplied Energistics 2&&r!",
+      "<br/>",
+      "Once you have enough infrastructure you will be able to make use of better recipes for:",
+      "<br/>",
+      "&&9-&&r &&6Vacuum Tubes&&r, giving over double the previous yield",
+      "<br/>",
+      "&&9-&&r &&6Resistors&&r, granting 4 resistors per craft!",
+      "<br/>",
+      "&&9-&&r &&6Circuit Boards&&r, greatly reducing copper used",
+      "<br/>",
+      "Wahoo!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Back in the days of GregTech 2, the Assembling Machine only had two slots, and was only really used for alternate Circuit and Hull recipes.",
+      "<hr/>",
+      "<reward reward=\"15CB6A60C5C891BB\" quest=\"63CD0236B337EAAD\"/>",
+      "<reward reward=\"3AF49D4A68D17C1A\" quest=\"63CD0236B337EAAD\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_assembler"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Assemblers, Avenge!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          108,
+          216
+        ]
+      }
+    }
+  }
+}

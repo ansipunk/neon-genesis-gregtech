@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "4E3A072619DD0ADD": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_galena"
+    },
+    "630590BF96CFC43C": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_silver"
+    },
+    "1F04EE0BC55BBC3D": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_lead"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Galena",
+    "description": [
+      "<subtitle id=\"14587AE142D84E12\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4E3A072619DD0ADD\" quest=\"14587AE142D84E12\"/>",
+      "<task task=\"630590BF96CFC43C\" quest=\"14587AE142D84E12\"/>",
+      "<task task=\"1F04EE0BC55BBC3D\" quest=\"14587AE142D84E12\"/>",
+      "<hr/>",
+      "The most consistent source of Lead and Silver."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:galena_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Lead, Silver"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          -48,
+          -32
+        ]
+      }
+    }
+  }
+}

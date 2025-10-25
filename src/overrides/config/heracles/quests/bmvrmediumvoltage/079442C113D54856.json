@@ -1,0 +1,62 @@
+{
+  "settings": {},
+  "dependencies": [
+    "316FF60D6FFE97CE",
+    "64CACABB48635904"
+  ],
+  "tasks": {
+    "2D0DE3FB6E5E4146": {
+      "title": "I'm an acid professional, don't worry",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5CF50AE30DCD7E68": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:glass_vial",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "It will Melt Your Flesh",
+    "description": [
+      "<subtitle id=\"079442C113D54856\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2D0DE3FB6E5E4146\" quest=\"079442C113D54856\"/>",
+      "<hr/>",
+      "You may notice that some fluids say they are \"&&aAcidic&&r\", with &&9Sulfuric Acid&&r being one of them.",
+      "<br/>",
+      "This means that many fluid pipes will not be able to transport them safely!",
+      "<br/>",
+      "At &&bMV&&r, the cheapest pipes for acid transportation are probably &&aGold&&r, with the more expensive &&aVanadium Steel&&r or &&aChrome&&r pipes taking second and third place.",
+      "<br/>",
+      "&&aStainless Steel&&r or &&aPolytetrafluoroethylene&&r (try saying that fast) will be valid options once you are in &&6HV&&r.",
+      "<br/>",
+      "You have three options for acid storage at around this point: &&dGlass Vials&&r, &&dGold Drums&&r, or &&dSuper Tanks&&r. Glass Vials are like &&9Fluid Cells&&r, and are made to store acids. Gold Drums are self-explanatory. Super Tanks will be unlocked after &&9Polyethylene&&r, and can store any fluid without restriction.",
+      "<br/>",
+      "&&cWARNING:&&r Acids in the wrong pipes will cause &&cvoiding&&r, &&cpipe burning&&r, and high chance of &&cdeath&&r! Be careful!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The acid transportation and storage mechanics originate from GregTech 6.",
+      "<hr/>",
+      "<reward reward=\"5CF50AE30DCD7E68\" quest=\"079442C113D54856\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:acid_hazard_sign_block"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "...if you don't read this quest."
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          108,
+          -96
+        ]
+      }
+    }
+  }
+}

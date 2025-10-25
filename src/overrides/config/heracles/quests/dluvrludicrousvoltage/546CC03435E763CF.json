@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0DC999F79A685194",
+    "5ED7707B0ECF2207",
+    "52D952ADBEB67454",
+    "7CFC112B8F460549",
+    "327C3E02CD751453"
+  ],
+  "tasks": {
+    "48A4D39ED0E11EBC": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_fusion_reactor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fusion Reactor I",
+    "description": [
+      "<subtitle id=\"546CC03435E763CF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"48A4D39ED0E11EBC\" quest=\"546CC03435E763CF\"/>",
+      "<hr/>",
+      "First things first - build the version of the structure that uses Fusion Glass in &&aEMI&&r. It's far cheaper right now.",
+      "<br/>",
+      "To save on &&3Fusion Casings&&r, fit Input/Output Hatches wherever you can (as displayed in the structure).",
+      "<br/>",
+      "The &&bFusion Reactor&&r will pick a free Output Hatch from the many that are available. In order to \"&&6force&&r\" the Reactor to use a particular Output Hatch, you can always &&alock all of the hatches&&r to an irrelevant fluid (we usually use &&9Water&&r).",
+      "<br/>",
+      "This time, we'll try something new: we're gonna explain the &&3Lore&&r at the same time as the mechanics.",
+      "<br/>",
+      "Enjoy the ride!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o GregTech 5's &&3Fusion Reactor&&f stores EU you feed it in its internal buffer. The maximum capacity is determined by the amount of &&3Energy Hatches&&f in the structure.",
+      "<br/>",
+      "&&oRecipes can only start if the &&9\"EU to start\"&&f is stored internally, which will be &&cconsumed&&f. With this stored energy, the reactor can keep running recipes until it goes idle. At this point it will need to be topped up on EU to start again.",
+      "<br/>",
+      "&&oShadow of Greg's &&3Fusion Reactor&&f (which is now GTCEu's Fusion Reactor) comes with an added mechanic called &&4Heat&&f.",
+      "<br/>",
+      "&&oWhen the reactor is running, the &&9EU to start&&f is converted to &&4Heat&&f. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down.",
+      "<br/>",
+      "&&oNext time a recipe is found, it will use all possible Heat and deduct it from the &&9EU to start&&f, allowing you to save Energy for short pauses.",
+      "<br/>",
+      "&&oThe &&3Fusion Reactor I&&f can only run recipes up to a required EU of 160 MEU to start. It will also overclock up to &&dLuV&&f at best, even if you upgrade to ZPM Hatches, so don't stress over attempting this."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_fusion_reactor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Stellar power"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          180,
+          72
+        ]
+      }
+    }
+  }
+}

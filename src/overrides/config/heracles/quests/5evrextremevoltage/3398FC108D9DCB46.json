@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "330BDB559A7BAB35",
+    "41D32C5178760F47",
+    "57D4E09A9CAB150C"
+  ],
+  "tasks": {
+    "422782D7BAC8024B": {
+      "type": "heracles:item",
+      "item": "gtceu:platinum_dust"
+    },
+    "20DD24EB9315C33B": {
+      "type": "heracles:item",
+      "item": "gtceu:platinum_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Platinum",
+    "description": [
+      "<subtitle id=\"3398FC108D9DCB46\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"422782D7BAC8024B\" quest=\"3398FC108D9DCB46\"/>",
+      "<task task=\"20DD24EB9315C33B\" quest=\"3398FC108D9DCB46\"/>",
+      "<hr/>",
+      "How do you get Platinum?",
+      "<br/>",
+      "&&9-&&r As a byproduct of &&aNickel Ore&&r processing, either with a &&3Chemical Bath&&r, or a &&3HV Macerator&&r",
+      "&&9-&&r From &&aSheldonite veins&&r in the End",
+      "&&9-&&r From &&aPlatinum Group Sludge&&r, a complicated chain granting all Platinum Group metals. Highly &&cunrecommended until IV&&r, but eventually required.",
+      "<br/>",
+      "Platinum is needed in small amounts for &&dSMD Diodes&&r, and for a plethora of recipes starting in &&5EV&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Mekanism's primary material was planned to be Platinum. However, GregoriusT didn't agree - the fact that such a rare material could be found all over the world wasn't quite to his tastes. The Mekanism devs thus opted to make the primary material Osmium."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:platinum_ingot"
+    },
+    "subtitle": {
+      "text": "Diamond and Pearl"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          144,
+          120
+        ]
+      }
+    }
+  }
+}

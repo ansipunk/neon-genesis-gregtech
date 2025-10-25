@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1776FA1F3255731E",
+    "0425179329ED1B72",
+    "58BBD540D7D4FF01"
+  ],
+  "tasks": {
+    "7F0E2A5AD0E2FC25": {
+      "type": "heracles:item",
+      "item": "gtceu:extreme_combustion_engine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Extreme Combustion Engine",
+    "description": [
+      "<subtitle id=\"466AC4DD902115EF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7F0E2A5AD0E2FC25\" quest=\"466AC4DD902115EF\"/>",
+      "<hr/>",
+      "When running the &&3Extreme Combustion Engine&&r, you're gonna want to boost it! &&m&&7Why bother otherwise?&&r",
+      "<br/>",
+      "Get yourself a &&34A IV Dynamo Hatch&&r as the output, and set up a &&3Vacuum Freezer&&r to provide &&aLiquid Oxygen&&r.",
+      "<br/>",
+      "You should now be wielding the equivalent of 1 &&dLuV&&r Amp, all whilst burning fuel at &&6200% efficiency&&r!",
+      "<br/>",
+      "Don't forget to keep it supplied with a small amount of &&aLubricant&&r.",
+      "<br/>",
+      "The &&3ECE&&r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The ECE comes from GT:NH. However... its implementation wasn't so rosy at first. The stats on the tooltip looked similar to this one - so far, so good.",
+      "<br/>",
+      "&&oThe bad part came when crunching the numbers. Players ended up realizing they needed to run around 16 whole &&6HV&&f Vacuum Freezers to keep up with the Liquid Oxygen demand...",
+      "<br/>",
+      "&&oThe one and only fuel it would accept is High Octane Gasoline, which was stated to be burned at 300% efficiency when boosted, but the UI was lying. The efficiency remained at 100%.",
+      "<br/>",
+      "&&oThe GT:NH team eventually decided to rework the ECE among other power options... phew!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:extreme_combustion_engine"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "The ultimate Combustion generator!"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          48,
+          84
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6431381FBE07D6EF"
+  ],
+  "tasks": {
+    "1C81FD3C54CC2274": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "gtceu:tin_quadruple_cable"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "But what are Amps?",
+    "description": [
+      "<subtitle id=\"7B0FF43022F6C2EC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1C81FD3C54CC2274\" quest=\"7B0FF43022F6C2EC\"/>",
+      "<hr/>",
+      "This questline serves as a quick guide to &&9GregTech Amperage&&r. As for &&dVoltage&&r mechanics, we'll go over those once you reach &&bMV&&r.",
+      "<br/>",
+      "&&6&&lTL;DR:&&r For safety, match the Amperage limit of your Cables with the max amount of Amps provided by your Energy Producers.",
+      "<br/>",
+      "&&6This quest unlocks a new tutorial on Amperage in the &&lTips and Tricks&&r&&6 tab - check it out to learn more!&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tin_quadruple_cable"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Amps and You: a how-to"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          216,
+          36
+        ]
+      }
+    }
+  }
+}

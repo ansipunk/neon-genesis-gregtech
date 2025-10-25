@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "50787547A7F0A72E": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_red_garnet"
+    },
+    "66ADB2741F652DFD": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_yellow_garnet"
+    },
+    "3DB2F28F248E5030": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_amethyst"
+    },
+    "74912302B5E832B7": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_opal"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Garnet",
+    "description": [
+      "<subtitle id=\"178285129CEA9F9F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"50787547A7F0A72E\" quest=\"178285129CEA9F9F\"/>",
+      "<task task=\"66ADB2741F652DFD\" quest=\"178285129CEA9F9F\"/>",
+      "<task task=\"3DB2F28F248E5030\" quest=\"178285129CEA9F9F\"/>",
+      "<task task=\"74912302B5E832B7\" quest=\"178285129CEA9F9F\"/>",
+      "<hr/>",
+      "It's shiny! That's about it!",
+      "<br/>",
+      "Yeah, you wish you could make jewelry out of it."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:red_garnet_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Necklaces"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          112,
+          112
+        ]
+      }
+    }
+  }
+}

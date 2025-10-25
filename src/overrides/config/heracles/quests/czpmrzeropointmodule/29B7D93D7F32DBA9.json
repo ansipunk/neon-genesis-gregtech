@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D6CC3C7F6BE4055"
+  ],
+  "tasks": {
+    "488A759013AF2680": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_soc"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Crystal SoC",
+    "description": [
+      "<subtitle id=\"29B7D93D7F32DBA9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"488A759013AF2680\" quest=\"29B7D93D7F32DBA9\"/>",
+      "<hr/>",
+      "The &&aCrystal SoC&&r is used to make cheaper &&9Crystal Circuits&&r. Enjoy the discount!",
+      "<br/>",
+      "Crystal SoCs require &&9ZPM Emitters&&r, which means you need a &&9Data Orb&&r for their research.",
+      "<br/>",
+      "In the future, these may become more difficult to make.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GT5u, the texture for this item was red, and did not have the special design on it. There was a \"raw\" version with the design, but it was used for other unrelated things. Who knows why?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_soc"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "When engraving it once isn't enough"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -120,
+          36
+        ]
+      }
+    }
+  }
+}

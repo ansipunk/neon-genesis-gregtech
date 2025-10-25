@@ -1,0 +1,75 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1C50A758A1DE25CB"
+  ],
+  "tasks": {
+    "478F7F5E6B4FC488": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_grinder"
+    },
+    "03C98558808BFE64": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_hatch"
+    },
+    "2DC0277BA681DFAE": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_bus"
+    },
+    "68A6EFAD92986DFA": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_output_bus"
+    },
+    "4E7178278B4E3189": {
+      "type": "heracles:item",
+      "amount": 22,
+      "item": "gtceu:steam_machine_casing"
+    }
+  },
+  "rewards": {
+    "36B5ABA86707D569": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:bronze_ingot",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Grinder",
+    "description": [
+      "<subtitle id=\"7FF95F1216D104B2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"478F7F5E6B4FC488\" quest=\"7FF95F1216D104B2\"/>",
+      "<task task=\"03C98558808BFE64\" quest=\"7FF95F1216D104B2\"/>",
+      "<task task=\"2DC0277BA681DFAE\" quest=\"7FF95F1216D104B2\"/>",
+      "<task task=\"68A6EFAD92986DFA\" quest=\"7FF95F1216D104B2\"/>",
+      "<task task=\"4E7178278B4E3189\" quest=\"7FF95F1216D104B2\"/>",
+      "<hr/>",
+      "&&o...or perhaps it was the opposite?&&r",
+      "<br/>",
+      "The &&3Steam Grinder&&r can pulverize &&6large batches of items quickly&&r and effortlessly&&r, sort of like a parallel Macerator.",
+      "<br/>",
+      "This thing is incredibly good for its tier. It's actually as strong as 5.3 &&6HV&&r Macerators, and only requires a trickle of Steam to power.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This Multiblock originally comes from GT++. It required Tumbaga to craft, an alloy with a mix of Gold and Bronze.",
+      "<hr/>",
+      "<reward reward=\"36B5ABA86707D569\" quest=\"7FF95F1216D104B2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_grinder"
+    },
+    "subtitle": {
+      "text": "The Steam Oven's elder brother"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          36,
+          96
+        ]
+      }
+    }
+  }
+}

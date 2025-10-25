@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "3FF25D11627A1D05": {
+      "amount": 1,
+      "tasks": {
+        "bfe3a335-8056-4edb-9e2e-ca1d60b8b5ae": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_block_breaker",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "b27ba807-da64-468d-8123-9e8fffc02479": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_block_breaker",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "4f96e915-8a65-40e4-8bef-a2082cd10af0": {
+          "type": "heracles:item",
+          "item": "gtceu:hv_block_breaker",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "a0c7ac74-725d-4af4-890f-4fe5b99ec6ba": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_block_breaker",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Break the Targets!",
+    "description": [
+      "<subtitle id=\"12DF2E5269BE87D5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3FF25D11627A1D05\" quest=\"12DF2E5269BE87D5\"/>",
+      "<hr/>",
+      "&&o&&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&&r",
+      "<br/>",
+      "The &&3Block Breaker&&r... well, we'll &&dleave it to you&&r to figure out what this one does. There are likely some &&anifty farms&&r you can create with clever usage of this machine - especially with the &&6many vanilla mechanics&&r introduced between 1.12.2 and 1.20.1!",
+      "<br/>",
+      "Higher tiers of &&3Block Breaker&&r come with an additional speed bonus.",
+      "<br/>",
+      "&&eAny&&r Block Breaker will complete this Quest."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_block_breaker"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "I've had it with these blocks!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          232,
+          0
+        ]
+      }
+    }
+  }
+}

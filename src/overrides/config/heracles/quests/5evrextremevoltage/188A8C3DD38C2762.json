@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F539EC8D2361791",
+    "189F84D6C76CDC8B",
+    "4E9DED9569AA17F5"
+  ],
+  "tasks": {
+    "2CE74616CF080BF9": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Large Turbine Mechanics",
+    "description": [
+      "<subtitle id=\"188A8C3DD38C2762\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2CE74616CF080BF9\" quest=\"188A8C3DD38C2762\"/>",
+      "<hr/>",
+      "The Large Turbines are the most complex Multiblock Generators that you'll find in GTCEu in the present day.",
+      "<br/>",
+      "Let's delve into Turbines!",
+      "<br/>",
+      "&&6This quest unlocks a new tutorial on Turbine Mechanics in the &&lTips and Tricks&&r&&6 tab - check it out to learn more!&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:turbine_rotor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "My mechanics are... complex"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          144
+        ]
+      }
+    }
+  }
+}

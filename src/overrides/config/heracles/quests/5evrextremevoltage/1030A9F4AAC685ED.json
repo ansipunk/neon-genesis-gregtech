@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6D12CE80F92FC485",
+    "48141DBA683F6B5A"
+  ],
+  "tasks": {
+    "692E848C43205905": {
+      "type": "heracles:item",
+      "item": "gtceu:oxygen_bucket"
+    },
+    "1EF11FF81D5E6135": {
+      "type": "heracles:item",
+      "item": "gtceu:nitrogen_bucket"
+    },
+    "2654CD00A7193574": {
+      "type": "heracles:item",
+      "item": "gtceu:helium_bucket"
+    },
+    "2C54EC0AABA91D39": {
+      "type": "heracles:item",
+      "item": "gtceu:argon_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "True Distillation: Air",
+    "description": [
+      "<task task=\"692E848C43205905\" quest=\"1030A9F4AAC685ED\"/>",
+      "<task task=\"1EF11FF81D5E6135\" quest=\"1030A9F4AAC685ED\"/>",
+      "<task task=\"2654CD00A7193574\" quest=\"1030A9F4AAC685ED\"/>",
+      "<task task=\"2C54EC0AABA91D39\" quest=\"1030A9F4AAC685ED\"/>",
+      "<hr/>",
+      "&&aLiquid Air&&r is a great way to get large amounts of &&aNitrogen&&r and &&aOxygen&&r at the cost of using more energy than &&3LV Centrifuges&&r.",
+      "<br/>",
+      "However, this will also give you both &&6Helium&&r and &&6Argon&&r - which are great to boost smelting in the &&3Electric Blast Furnace&&r.",
+      "<br/>",
+      "&&cNote:&&r You will need at least &&3HV Input and Output Hatches&&r to be able to run this recipe."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:air_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          360
+        ]
+      }
+    }
+  }
+}

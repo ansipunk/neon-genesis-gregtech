@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "390E59F05132FCB8"
+  ],
+  "tasks": {
+    "00CC416ACB6CA99F": {
+      "type": "heracles:item",
+      "amount": 12,
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Blaze Powder",
+    "description": [
+      "<subtitle id=\"16E3465CF94E2BDD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"00CC416ACB6CA99F\" quest=\"16E3465CF94E2BDD\"/>",
+      "<hr/>",
+      "If you've killed a Blaze before, you may have noticed it dropped &&eSulfur Dust&&r instead of a &&cBlaze Rod&&r.",
+      "<br/>",
+      "In order to get &&6Blaze Powder&&r, you must instead combine &&7Carbon Dust&&r and &&eSulfur Dust&&r in a &&3HV Chemical Reactor&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:blaze_powder"
+    },
+    "subtitle": {
+      "text": "Took a while to get some of this, right?"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          216,
+          -60
+        ]
+      }
+    }
+  }
+}

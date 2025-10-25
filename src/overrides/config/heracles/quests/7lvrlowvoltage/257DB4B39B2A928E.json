@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "4A0B4A206ED30212": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_mixer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Mixer",
+    "description": [
+      "<subtitle id=\"257DB4B39B2A928E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4A0B4A206ED30212\" quest=\"257DB4B39B2A928E\"/>",
+      "<hr/>",
+      "It's recommended that you &&6put this machine off&&r until you actually require it for for progression - explore elsewhere if you're fresh into &&7LV&&r.",
+      "<br/>",
+      "Some alloys previously made by hand can also be made in the mixer, except at &&ahigher yield&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_mixer"
+    },
+    "subtitle": {
+      "text": "The Mixer mixes..."
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          72,
+          216
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2FC7B1E867E4194E"
+  ],
+  "tasks": {
+    "20525743B089148E": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_input_bus"
+    },
+    "1BAD5A4B4E0EA120": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_output_bus"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Multiblock I/O",
+    "description": [
+      "<task task=\"20525743B089148E\" quest=\"0C09F89291D29EF8\"/>",
+      "<task task=\"1BAD5A4B4E0EA120\" quest=\"0C09F89291D29EF8\"/>",
+      "<hr/>",
+      "Similarly to the Steam Multiblocks - hopefully, you made these! - you're going to need some &&3Buses&&r if you want to move items in and out.",
+      "<br/>",
+      "For fluids, you'll instead need &&3Hatches&&r. Higher tiers of &&3Hatches/Buses&&r have more slots.",
+      "<br/>",
+      "&&9Tip:&&r You can Sneak + Right Click a placed &&3Hatch&&r or &&3Bus&&r while holding a &&2Screwdriver&&r (and an empty offhand) to swap its I/O Direction"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_input_bus"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          192,
+          32
+        ]
+      }
+    }
+  }
+}

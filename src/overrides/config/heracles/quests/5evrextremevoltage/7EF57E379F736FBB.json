@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "39E7997F3080250A"
+  ],
+  "tasks": {
+    "3CF9C3527F11EDA1": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Item P2P Tunnels",
+    "description": [
+      "<subtitle id=\"7EF57E379F736FBB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3CF9C3527F11EDA1\" quest=\"7EF57E379F736FBB\"/>",
+      "<hr/>",
+      "To turn a P2P Tunnel into an &&aItem P2P Tunnel&&r, right-click it in the world with a &&dvanilla Chest&&r.",
+      "<br/>",
+      "Item P2P Tunnels are useful in a more abstract way so let's start with an example.",
+      "<br/>",
+      "&&eExample:&&r Making a &&9HV Machine Hull&&r in the &&3Assembler&&r also requires an &&3Extractor&&r for the Fluid. That is two machines, hence two inventories.",
+      "<br/>",
+      "You could passively fill the Assembler with Polyethylene, &&lor&&r you can also include it in your &&dPattern&&r, in the form of 2 Bars (Ingots).",
+      "<br/>",
+      "You may think the next step is just to dump the items in a Buffer and route the items with Pipes - however, this system will eventually &&4jam&&r due to the incompability with AE2 Interface blocking mode! Oh no!",
+      "<br/>",
+      "This can be fixed by placing the input of the &&aItem P2P&&r on your &&3ME Interface&&r, placing one output on the &&3Extractor&&r, and another output on the &&3Assembler&&r.",
+      "<br/>",
+      "Then, use Filter covers where the outputs are connected. &&dItem Tag Filters&&r are better, since you can configure them to &&9ingot&&r. Have them on &&ewhitelist&&r for the &&3Extractor&&r, and on &&eblacklist&&r for the &&3Assembler&&r (no Assembler recipe ever requires Ingots - that's an intentional design decision in GregTech).",
+      "<br/>",
+      "Don't forget &&dBlocking Mode&&r on your Interface.",
+      "<br/>",
+      "Look - another reason why it's good to store polymers (Polyethylene, PTFE, PBI) as Bars!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:item_p2p_tunnel"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "A primer on items and P2P"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          245,
+          143
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73E8283634E5E33A",
+    "12B4423F055BFBF5",
+    "327C3E02CD751453",
+    "0425179329ED1B72",
+    "069FD86133D7D582",
+    "6B128610C7D2825D"
+  ],
+  "tasks": {
+    "1BD34023E42B4E50": {
+      "type": "heracles:item",
+      "item": "gtceu:assembly_line"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Assembly Line",
+    "description": [
+      "<subtitle id=\"77B7B1EDD19831E0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1BD34023E42B4E50\" quest=\"77B7B1EDD19831E0\"/>",
+      "<hr/>",
+      "Making &&dLuV&&r Components will require more work. You'll need to make an &&3Assembly Line&&r in order to progress.",
+      "<br/>",
+      "This Multiblock has a &&evariable size&&r&&r. Each &&3ULV Input Bus&&r along the bottom can only hold a &&dsingle stack&&r of items, so you'll need different lengths for different recipes.",
+      "<br/>",
+      "You'll want to build this with a size of &&d10&&r to get started, or of a size of &&d14&&r to accept all possible recipes in base GTCEu. &&6Don't worry&&r if you overbuild - it can run any recipe if it's too long, but you may find the casings quite &&4expensive&&r right now. &&7Choices, &&8choices!&&r",
+      "<br/>",
+      "Recipes here will require &&aFluids&&r, so it's a good idea to keep the &&3Input Hatches&&r permanently filled with &&dSoldering Alloy&&r, &&dLubricant&&r and &&dStyrene-Butadienne Rubber&&r.",
+      "<br/>",
+      "&&6This quest unlocks two new tutorials on the Assembly Line and Research in the &&lTips and Tricks&&r&&6 tab - check them out to learn more!&&r"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:assembly_line"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "AKA the \"Assline\""
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          120,
+          156
+        ]
+      }
+    }
+  }
+}

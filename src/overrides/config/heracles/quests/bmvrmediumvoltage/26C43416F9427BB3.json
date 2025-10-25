@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "26394C1290D70AB6"
+  ],
+  "tasks": {
+    "3E70CB46874DE7C1": {
+      "type": "heracles:item",
+      "item": "gtceu:portable_scanner"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tricorder",
+    "description": [
+      "<subtitle id=\"26C43416F9427BB3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3E70CB46874DE7C1\" quest=\"26C43416F9427BB3\"/>",
+      "<hr/>",
+      "The &&aPortable Scanner&&r, or &&aTricorder&&r, is GTCEu's debug tool.",
+      "<br/>",
+      "Using it will show you a block's details, the details of the energy network, its current status and contents, and its impact on performance.",
+      "<br/>",
+      "It'll also display a percentage of fluid remaining in the fluid vein for the &&3Fluid Rigs&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This little useful device comes from GregTech 5. It was extremely useful in the early days, because very little information (basically nothing) was given by GUIs or WAILA."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:portable_scanner"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "For the nosiest GregTech players"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          192,
+          -10
+        ]
+      }
+    }
+  }
+}

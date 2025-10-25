@@ -1,0 +1,73 @@
+{
+  "settings": {},
+  "dependencies": [
+    "30A6EDDF25A5E5F8"
+  ],
+  "tasks": {
+    "382B9759383E1AC3": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_electric_motor"
+    },
+    "0C74DFC662ECC366": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_electric_pump"
+    },
+    "519AC26F40AFFB88": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_conveyor_module"
+    },
+    "36CA1AAFADE476FF": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_electric_piston"
+    },
+    "27DB5DDEF05DDC0D": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_robot_arm"
+    },
+    "165F27AC399EC0FD": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_emitter"
+    },
+    "6AD8B7D88D9E10F5": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_sensor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "There is no limit to \"Fun\"",
+    "description": [
+      "<subtitle id=\"01AB252C72B565FE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"382B9759383E1AC3\" quest=\"01AB252C72B565FE\"/>",
+      "<task task=\"0C74DFC662ECC366\" quest=\"01AB252C72B565FE\"/>",
+      "<task task=\"519AC26F40AFFB88\" quest=\"01AB252C72B565FE\"/>",
+      "<task task=\"36CA1AAFADE476FF\" quest=\"01AB252C72B565FE\"/>",
+      "<task task=\"27DB5DDEF05DDC0D\" quest=\"01AB252C72B565FE\"/>",
+      "<task task=\"165F27AC399EC0FD\" quest=\"01AB252C72B565FE\"/>",
+      "<task task=\"6AD8B7D88D9E10F5\" quest=\"01AB252C72B565FE\"/>",
+      "<hr/>",
+      "&&9IV&&r Components - fortunately for you - aren't a massive step up in terms of complexity.",
+      "<br/>",
+      "However, the amount of &&dTungsten&&r required in crafting these is huge.",
+      "<br/>",
+      "&&aEmitters&&r and &&aSensors&&r are in their own league, as they require &&dNether Stars&&r and &&dIridium&&r, both of which have their own dedicated Quests."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_electric_motor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "...and if you disagree, you'll see the light soon enough"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          12,
+          192
+        ]
+      }
+    }
+  }
+}

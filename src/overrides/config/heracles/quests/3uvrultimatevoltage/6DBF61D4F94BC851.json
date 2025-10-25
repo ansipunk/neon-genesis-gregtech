@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "023FF9633765A0EB"
+  ],
+  "tasks": {
+    "0454B12D9A5C9795": {
+      "type": "heracles:item",
+      "item": "gtceu:neutronium_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Neutronium",
+    "description": [
+      "<subtitle id=\"6DBF61D4F94BC851\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0454B12D9A5C9795\" quest=\"6DBF61D4F94BC851\"/>",
+      "<hr/>",
+      "&&6Neutronium&&r is a hyper-dense material normally found in the hearts of neutron stars: the collapsed cores of stars between ten and thirty times the size of the sun. It is the final primary material in GTCEu.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GCYL, Neutronium is unlocked at UMV-tier (called UXV in CEu). There is also Cosmic Neutronium, which is equivalent to Avaritia's Neutronium in GT5u, which was unlocked even later in GCYL!",
+      "<br/>",
+      "&&l&&3More Lore:&&r&&o Fun Fact: a single Neutronium block is approximately 2884 million metric tons and somewhere around 600000K, yet you're somehow capable of holding one with your bare hands. Don't think about it too much."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:neutronium_ingot"
+    },
+    "subtitle": {
+      "text": "Pure Neutrons"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          180,
+          -24
+        ]
+      }
+    }
+  }
+}

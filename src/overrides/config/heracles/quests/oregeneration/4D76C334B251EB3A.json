@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41D32C5178760F47"
+  ],
+  "tasks": {
+    "4547E85950CB15E4": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_bornite"
+    },
+    "2779AA47A008FE68": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_cooperite"
+    },
+    "41E8420E7558A052": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_platinum"
+    },
+    "1CE21684D9A3CB10": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_palladium"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sheldonite",
+    "description": [
+      "<subtitle id=\"4D76C334B251EB3A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4547E85950CB15E4\" quest=\"4D76C334B251EB3A\"/>",
+      "<task task=\"2779AA47A008FE68\" quest=\"4D76C334B251EB3A\"/>",
+      "<task task=\"41E8420E7558A052\" quest=\"4D76C334B251EB3A\"/>",
+      "<task task=\"1CE21684D9A3CB10\" quest=\"4D76C334B251EB3A\"/>",
+      "<hr/>",
+      "Platinum starts seeing usage in &&5EV&&r.",
+      "<br/>",
+      "The Platinum Group Sludge chain becomes a requirement in &&1IV&&r, and Sheldonite is the best ore to kickstart your processing.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The real-world name for Sheldonite ore is actually Cooperite. GregoriusT thought it was \"haha, funny\" to make it a reference to Sheldon Cooper, despite &&lnot&&r&&o being the person the ore was named after!  We kept the \"haha, funny\" joke going."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:endstone_cooperite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of a lot, again..."
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          256,
+          144
+        ]
+      }
+    }
+  }
+}

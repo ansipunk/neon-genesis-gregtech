@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "783D21E963174609": {
+      "type": "heracles:item",
+      "item": "expatternprovider:fishbig"
+    }
+  },
+  "rewards": {
+    "03A3C108D5BCE712": {
+      "type": "heracles:item",
+      "item": {
+        "id": "expatternprovider:fishbig"
+      }
+    }
+  },
+  "display": {
+    "title": "And they say GregTech is grindy...",
+    "description": [
+      "<subtitle id=\"59BEB2AA9598A21D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"783D21E963174609\" quest=\"59BEB2AA9598A21D\"/>",
+      "<hr/>",
+      "This is a &&4meme&&r quest - check the recipe requirement for the teddy.",
+      "<br/>",
+      "Yes... this will take you an entire year to craft in an &&7LV&&r Compressor. How long would this take you to craft when overclocked to the highest possible value?",
+      "<br/>",
+      "&&7Definitely don't worry about making this now... take the hint and wait for a heavy overclock.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The main developer of this pack spent far too long fixing the model files to customise this thing.&&7.&&8. If you're wondering why there's a random Pokemon doll, it's my Minecraft skin!",
+      "<hr/>",
+      "<reward reward=\"03A3C108D5BCE712\" quest=\"59BEB2AA9598A21D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "expatternprovider:fishbig"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Got enough time on your hands?"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -36,
+          72
+        ]
+      }
+    }
+  }
+}

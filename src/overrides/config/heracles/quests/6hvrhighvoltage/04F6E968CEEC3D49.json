@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BACED5AE350EAB1"
+  ],
+  "tasks": {
+    "122E070F32AB100B": {
+      "type": "heracles:item",
+      "item": "gtceu:cetane_boosted_diesel_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cetane-boosted Diesel",
+    "description": [
+      "<subtitle id=\"04F6E968CEEC3D49\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"122E070F32AB100B\" quest=\"04F6E968CEEC3D49\"/>",
+      "<hr/>",
+      "&&aCetane-Boosted Diesel&&r is &&650% more energy dense&&r than regular &&aDiesel&&r, and only requires 1 part &&dTetranitromethane (TNM)&&r for every 50 parts &&aDiesel&&r. What a steal, right?",
+      "<br/>",
+      "The catch comes in the complexity of making &&dTNM&&r. In order to concoct it, you must react &&aNitric Acid&&r with either &&dEthenone&&r or &&aMethyl Acetate&&r, both of which have quite an involved process themselves!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:fluid_cell"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "This is to go further beyond"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          252,
+          48
+        ]
+      }
+    }
+  }
+}

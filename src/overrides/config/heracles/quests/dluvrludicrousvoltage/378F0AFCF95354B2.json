@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "78277DBC07D3C45C",
+    "48DEABA155605D23"
+  ],
+  "tasks": {
+    "1D674C3951223E8C": {
+      "type": "heracles:item",
+      "item": "gtceu:fluoroantimonic_acid_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Naquadah Chain",
+    "description": [
+      "<subtitle id=\"378F0AFCF95354B2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1D674C3951223E8C\" quest=\"378F0AFCF95354B2\"/>",
+      "<hr/>",
+      "Refining &&9Naquadah&&r into further products will be your next automation challenge. The primary outputs of this line are &&aEnriched Naquadah&&r, &&aNaquadria&&r, and &&aTrinium&&r. ",
+      "<br/>",
+      "This processing line - affectionately known as the \"Naqline\" - also produces many useful byproducts, such as Titanium and Indium.",
+      "<br/>",
+      "&&aEnriched Naquadah&&r currently isn't used for much, but will be integral to power generation in the future.",
+      "<br/>",
+      "&&aNaquadria&&r is a lategame material that you'll want to stockpile for your &&3UV&&r components.",
+      "<br/>",
+      "&&aTrinium&&r is the material you'll be wanting most right now. You'll use a lot of it to build your first Fusion Reactor, is used for the next set of Coils, and sees heavy usage in most &&cZPM&&r recipes.",
+      "<br/>",
+      "&&eNote&&r: This processing chain presents more of a challenge than any chemistry you've dealt with so far.",
+      "<br/>",
+      "As usual, outputs in later steps can be sent back into previous processes... with the caveat that they lose a small amount of fluid with each loop.",
+      "<br/>",
+      "This can be challenging to automate. Good luck!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Many GregTech iterations have Naquadah processing. ",
+      "<br/>",
+      "&&oThe first was likely Impact, with its own original Naquadah fuel process. ",
+      "<br/>",
+      "&&oGregicality Legacy was hot on its heels with processes for making the Naquadah material (and variants) as well as Fuel. ",
+      "<br/>",
+      "&&oAfter that, GTNH added their own Naquadah processes for the material and fuel. ",
+      "<br/>",
+      "&&oLastly, GTCEu added the process you're about to set up!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadah_dust"
+    },
+    "subtitle": {
+      "text": "Do not touch the acid"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          36,
+          72
+        ]
+      }
+    }
+  }
+}

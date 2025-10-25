@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "29379C91D6E00436",
+    "3E6DC423FE4A99F7"
+  ],
+  "tasks": {
+    "14E4C5F6C88F5358": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_item_magnet"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Magnet",
+    "description": [
+      "<subtitle id=\"3ECD9C9B909CCCCC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"14E4C5F6C88F5358\" quest=\"3ECD9C9B909CCCCC\"/>",
+      "<hr/>",
+      "&&dSneak right-click&&r when in hand to activate your Magnet. Do it again to deactivate. The battery capacity of your magnet depends on the battery used to craft it.",
+      "<br/>",
+      "&&9Note:&&r The magnet has a whitelist filter turned on by default (in other words, it's not going to pick anything up.) Right-click the magnet to tinker with the item filter settings. There's even a &&ctag filter&&r - you could, for example, whitelist only &&braw ores&&r!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_item_magnet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Why can't these items I mine behave and enter my inventory!?"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          180,
+          74
+        ]
+      }
+    }
+  }
+}

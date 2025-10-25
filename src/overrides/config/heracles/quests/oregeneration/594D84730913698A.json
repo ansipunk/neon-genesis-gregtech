@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "14C64BEBBC783475": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_beryllium"
+    },
+    "2C9AE00CBFC47850": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_emerald"
+    },
+    "2CFDEB3CBF188CB9": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_thorium"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Emerald",
+    "description": [
+      "<subtitle id=\"594D84730913698A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"14C64BEBBC783475\" quest=\"594D84730913698A\"/>",
+      "<task task=\"2C9AE00CBFC47850\" quest=\"594D84730913698A\"/>",
+      "<task task=\"2CFDEB3CBF188CB9\" quest=\"594D84730913698A\"/>",
+      "<hr/>",
+      "Emerald is the useful ore here. It's used in small quantities in &&bMV&&r, and is a part of the Crystal process for Crystal and Wetware circuits much later on."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_emerald_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Beryllium, Emerald, Thorium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          272,
+          -128
+        ]
+      }
+    }
+  }
+}

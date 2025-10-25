@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0988B5FB795FF7DA",
+    "225F57C95C6D7650",
+    "2BB16260A76718B8"
+  ],
+  "tasks": {
+    "4E109F0F515B210F": {
+      "type": "heracles:item",
+      "item": "gtceu:quantum_processor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best EV Circuits!",
+    "description": [
+      "<subtitle id=\"49C1D61741AA288E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4E109F0F515B210F\" quest=\"49C1D61741AA288E\"/>",
+      "<hr/>",
+      "The first Circuit of the &&1Quantum&&r line. This is the last \"easy\" circuit line - things are about to get hectic.",
+      "<br/>",
+      "If you wish, you could go even further and aim for &&dAdvanced SMDs&&r to make these Circuits cheaper. ",
+      "<br/>",
+      "Doing so will require &&9PBI&&r... and Alloys that require &&aHSS-G Coils&&r in your EBF."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:quantum_processor"
+    },
+    "subtitle": {
+      "text": "Quantum Processing"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          264,
+          84
+        ]
+      }
+    }
+  }
+}

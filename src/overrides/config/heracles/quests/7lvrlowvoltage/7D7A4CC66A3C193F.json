@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "15928F50AE80A5CF"
+  ],
+  "tasks": {
+    "0C95F5A0FEC594A3": {
+      "type": "heracles:item",
+      "item": "gtceu:nitrogen_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Nitrogen",
+    "description": [
+      "<subtitle id=\"7D7A4CC66A3C193F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0C95F5A0FEC594A3\" quest=\"7D7A4CC66A3C193F\"/>",
+      "<hr/>",
+      "&&bNitrogen&&r is commonly obtained from centrifuging air. It's very useful, speeding up recipes in many multiblocks like the &&bElectric Blast Furnace&&r and the &&6Pyrolyse Oven&&r. We would &&chighly&&r recommend setting up a dedicated passive line to generate Nitrogen!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nitrogen_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Free nitro?"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -72,
+          252
+        ]
+      }
+    }
+  }
+}

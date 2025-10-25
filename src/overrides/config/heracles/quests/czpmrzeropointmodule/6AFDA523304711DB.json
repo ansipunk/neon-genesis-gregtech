@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "690E013DFCB060ED"
+  ],
+  "tasks": {
+    "5FFC06116E025936": {
+      "type": "heracles:item",
+      "item": "gtceu:sterilized_growth_medium_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sterilized Growth Medium",
+    "description": [
+      "<subtitle id=\"6AFDA523304711DB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5FFC06116E025936\" quest=\"6AFDA523304711DB\"/>",
+      "<hr/>",
+      "Production of &&aSterilized Growth Medium&&r is the final processing line in GTCEu, for now.",
+      "<br/>",
+      "You will need this for your first &&4Wetware Circuits&&r.",
+      "<br/>",
+      "Producing it won't be as much of a hassle as PBI, but nearly every step requires a Sterilized Cleanroom. This means you'll have to get creative with how you use your space.",
+      "<br/>",
+      "Make sure to scrutinise every step of the chain. Some recipes are much more efficient than others!",
+      "<br/>",
+      "&&ePro Tip&&r: You can wall-share cleanrooms with doors in-between too if you want more space.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o GTCEu's Sterilized Growth Medium chain is loosely based off of Bartworks' from GTNH. The main difference is that GTNH required a Bacterial Vat multiblock, which was more complex than the ordered Assembly Line. GTCEu is considering adding a multiblock like it but with their own spin in the future.",
+      "<br/>",
+      "&&l&&3More Lore:&&r&&o In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients.",
+      "<br/>",
+      "&&l&&3Even More Lore:&&r&&o In Shadows of Greg, this was made with just Distilled Water and Mince Meat. How far we've come..."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:sterilized_growth_medium_bucket"
+    },
+    "subtitle": {
+      "text": "The final processing line, at last!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -12,
+          36
+        ]
+      }
+    }
+  }
+}

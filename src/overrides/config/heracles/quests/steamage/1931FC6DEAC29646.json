@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "03DBF1961AE21C76"
+  ],
+  "tasks": {
+    "4F4074D7CE5A61A0": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_forge_hammer"
+    }
+  },
+  "rewards": {
+    "5C8B8D03ACE3CEED": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:anvil"
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Forge Hammer",
+    "description": [
+      "<subtitle id=\"1931FC6DEAC29646\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4F4074D7CE5A61A0\" quest=\"1931FC6DEAC29646\"/>",
+      "<hr/>",
+      "With the creation of this machine, many recipes that once required you to use a hammer can instead be made here!",
+      "<br/>",
+      "It can process &&bCobblestone into Gravel&&r, and &&dGravel into Sand&&r - and it's zippy at that to boot.",
+      "<br/>",
+      "Last but not least, it makes &&aPlates&&r at a better ratio: &&6three Ingots for two Plates&&r. A worthwhile investment!",
+      "<br/>",
+      "You know what? &&aBonus&&r! We'll give you the &&8Anvil&&r back if you craft the Forge Hammer. This is a gentle reminder that you can repair GregTech tools in an Anvil.",
+      "<hr/>",
+      "<reward reward=\"5C8B8D03ACE3CEED\" quest=\"1931FC6DEAC29646\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_forge_hammer"
+    },
+    "subtitle": {
+      "text": "The Forge Hammer hammers..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          0,
+          60
+        ]
+      }
+    }
+  }
+}

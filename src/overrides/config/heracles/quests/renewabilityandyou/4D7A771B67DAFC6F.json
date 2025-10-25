@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "25289F9E8AE01C29"
+  ],
+  "tasks": {
+    "10D096D6F4770F24": {
+      "title": "I love renewable resources!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Promoting a Sustainable Playthrough",
+    "description": [
+      "<subtitle id=\"4D7A771B67DAFC6F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10D096D6F4770F24\" quest=\"4D7A771B67DAFC6F\"/>",
+      "<hr/>",
+      "You may be wondering how to obtain &&6large quantities&&r of common resources used in &&bGregTech&&r. This might be old news to seasoned players, but it's actually possible to set up &&dpassive processes&&r to make various materials and chemicals &&2fully renewable&&r.",
+      "<br/>",
+      "We've added this chapter to lead you towards some setups that you &&7&&omight&&r desire. Obviously, there's no need to do all of these, but who doesn't love &&2\"free\" resources&&r.",
+      "<br/>",
+      "&&9&&lA footnote:&&r There's no way we could document all of the renewable routes in &&bGregTech&&r. This quest page merely serves as a primer to lead &&6newer players&&r through their options. Not every option listed in this quest book is optimal, so we urge you to experiment!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:big_dripleaf"
+    },
+    "subtitle": {
+      "text": "Very conscious of you!"
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          38,
+          -19
+        ]
+      }
+    }
+  }
+}

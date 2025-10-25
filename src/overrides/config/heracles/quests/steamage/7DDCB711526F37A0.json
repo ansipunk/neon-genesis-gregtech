@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3CF550B81716B8B9",
+    "54AF8696674766B4"
+  ],
+  "tasks": {
+    "459D19A750BB8440": {
+      "type": "heracles:item",
+      "item": "ae2:portable_item_cell_1k"
+    }
+  },
+  "rewards": {
+    "3463AA941A74C11C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:certus_quartz_gem",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Portable Cell",
+    "description": [
+      "<subtitle id=\"7DDCB711526F37A0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"459D19A750BB8440\" quest=\"7DDCB711526F37A0\"/>",
+      "<hr/>",
+      "The &&9Portable Cell&&r serves as an early-game digital backpack alternative! It holds up to &&a54&&r types of items.",
+      "<br/>",
+      "What's more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an &&aME Drive&&r or &&b&&aME IO Port&&r for convenience.",
+      "<br/>",
+      "The Portable Cell's energy only drains when it's open. With &&6167 minutes&&r of juice stored in it thanks to changed config, you shouldn't worry about it running out of energy.",
+      "<br/>",
+      "Regardless, you will be able to &&dcharge&&r it in &&7LV&&r in &&3machine Charger slots&&r, &&3Turbo Chargers&&r or &&3Battery Buffers&&r.",
+      "<br/>",
+      "&&cWarning&&r: Attempting to store items with very large NBT Tags may result in them getting &&cstuck&&r. So far it seems that the Building Gadgets, Terminal and Clipboards are &&lsafe&&r, but you never know what could happen.",
+      "<br/>",
+      "If something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest, then place your Portable Cell inside the IO Port. This will spit out any stored items into the chest.",
+      "<hr/>",
+      "<reward reward=\"3463AA941A74C11C\" quest=\"7DDCB711526F37A0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:portable_item_cell_1k"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "A higher-tech Backpack! "
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          156,
+          42
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48AED37B4E20A99A"
+  ],
+  "tasks": {
+    "49E114B96843E5C9": {
+      "title": "Invar Ingot",
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "#forge:ingots/invar"
+    }
+  },
+  "rewards": {
+    "15C0F36A7E35F7A6": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:invar_mining_hammer",
+        "count": 1,
+        "nbt": {
+          "DisallowContainerItem": 0,
+          "Enchantments": [
+            {
+              "id": "minecraft:efficiency",
+              "lvl": 1
+            }
+          ],
+          "GT.Behaviours": {
+            "AoEColumn": 1,
+            "AoELayer": 0,
+            "AoERow": 1,
+            "MaxAoEColumn": 1,
+            "MaxAoELayer": 0,
+            "MaxAoERow": 1
+          },
+          "GT.Tool": {
+            "HarvestLevel": 2,
+            "MaxDamage": 1151,
+            "ToolSpeed": 5.6
+          },
+          "HideFlags": 2
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Invar",
+    "description": [
+      "<subtitle id=\"76F61E499780C30B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"49E114B96843E5C9\" quest=\"76F61E499780C30B\"/>",
+      "<hr/>",
+      "Invar has &&650% more durability&&r when used in GregTech tools compared to Iron (yes, that is the same as &&aWrought Iron&&r), and comes with inherent &&bEfficiency I&&r. Great for mining - you might want to consider using this in your tools if you &&5haven't unlocked&&r Steel.",
+      "<hr/>",
+      "<reward reward=\"15C0F36A7E35F7A6\" quest=\"76F61E499780C30B\"/>"
+    ],
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "An Iron-Nickel alloy"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          72,
+          60
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1137D2BA7E03D685",
+    "2B7B214EDE0B45A2"
+  ],
+  "tasks": {
+    "3DC62CA60F006A06": {
+      "type": "heracles:item",
+      "item": "gtceu:ender_pearl_dust"
+    },
+    "20403A639228B809": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "rewards": {
+    "3A4CB6D323D4FAEE": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": {
+          "RepairCost": 0,
+          "StoredEnchantments": [
+            {
+              "id": "minecraft:sharpness",
+              "lvl": 5
+            }
+          ],
+          "display": {
+            "Name": "{\"text\":\":)\"}"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Ender Pearls",
+    "description": [
+      "<subtitle id=\"4024C831C77101CA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3DC62CA60F006A06\" quest=\"4024C831C77101CA\"/>",
+      "<task task=\"20403A639228B809\" quest=\"4024C831C77101CA\"/>",
+      "<hr/>",
+      "If you've killed an Enderman before, you may have noticed it dropped &&aEnderpearl Dust&&r instead of an Ender Pearl. In order to get &&aEnder Pearls&&r, you must make them from Enderpearl Dust in the &&3Implosion Compressor&&r.",
+      "<br/>",
+      "&&9Pro tip for non-Peaceful players&&r: Trapping Endermen in Boats makes them much easier to kill! Use a &&dButchery Knife&&r when slaying Endermen for the Looting 3 bonus.",
+      "<br/>",
+      "In the long term, &&aEnderpearl Dust&&r should be made in an &&3HV Mixer&&r.",
+      "<hr/>",
+      "<reward reward=\"3A4CB6D323D4FAEE\" quest=\"4024C831C77101CA\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:ender_pearl"
+    },
+    "subtitle": {
+      "text": "Darn \"artificial gating\""
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          252,
+          -24
+        ]
+      }
+    }
+  }
+}

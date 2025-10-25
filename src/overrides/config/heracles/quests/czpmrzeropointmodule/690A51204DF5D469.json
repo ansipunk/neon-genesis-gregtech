@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "64EA73FAB2A51850",
+    "0D7C978F9CDF771B"
+  ],
+  "tasks": {
+    "41813C4D68B991D7": {
+      "type": "heracles:item",
+      "item": "gtceu:energy_module"
+    },
+    "705422BF26C76199": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_lapotronic_battery"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mega Batteries",
+    "description": [
+      "<subtitle id=\"690A51204DF5D469\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"41813C4D68B991D7\" quest=\"690A51204DF5D469\"/>",
+      "<task task=\"705422BF26C76199\" quest=\"690A51204DF5D469\"/>",
+      "<hr/>",
+      "The &&aZPM Lapotronic Orb&&r is even better than the &&dLuV&&r one! It of course comes at a price...",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Imagine making 64 &&1IV&&f or 8 &&dLuV&&f Orbs for just one of these! See the Lore for the &&dLuV&&f orb for details."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:energy_module"
+    },
+    "subtitle": {
+      "text": "A power singularity!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -48,
+          36
+        ]
+      }
+    }
+  }
+}

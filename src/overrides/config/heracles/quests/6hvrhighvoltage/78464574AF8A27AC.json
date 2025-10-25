@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "16B735F9C391D260"
+  ],
+  "tasks": {
+    "3CE1967A82B9ED45": {
+      "type": "heracles:item",
+      "item": "gtceu:infinite_water_cover"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Infinite Water",
+    "description": [
+      "<subtitle id=\"78464574AF8A27AC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3CE1967A82B9ED45\" quest=\"78464574AF8A27AC\"/>",
+      "<hr/>",
+      "Time to say goodbye to your &&4Primitive Water Pumps&&r. They've done you proud.",
+      "<br/>",
+      "Place this on the side of a machine to give it &&616 buckets&&o&&r&&r of Water every second!",
+      "<br/>",
+      "Later on in &&5EV&&r, you can use these to craft Infinite Water Cells for your AE2 network."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:infinite_water_cover"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Truly revolutionary - water"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          36,
+          12
+        ]
+      }
+    }
+  }
+}

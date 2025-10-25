@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7DEB73FD649BDFB6"
+  ],
+  "tasks": {
+    "5DD165E4EB34C022": {
+      "type": "heracles:item",
+      "item": "minecraft:bucket"
+    }
+  },
+  "rewards": {
+    "68D4ECFA9AD5349A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:wood_drum",
+        "count": 1,
+        "nbt": {
+          "Fluid": {
+            "Amount": 16000,
+            "FluidName": "minecraft:water"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Greg has struck",
+    "description": [
+      "<subtitle id=\"592BD683A48C2AA2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5DD165E4EB34C022\" quest=\"592BD683A48C2AA2\"/>",
+      "<hr/>",
+      "The bucket recipe has been &&d&&lchanged.&&r It now requires plates - &&owahoo&&r.",
+      "<br/>",
+      "Plates are used absolutely &&beverywhere&&r in &&aGregTech&&r. Combining two ingots with your new &&9hammer&&r in a crafting table will make a plate. This ratio is kind of &&cexpensive,&&r but better recipes for plates will come later.",
+      "<br/>",
+      "Take this &&6Wooden Barrel&&r full of &&bWater&&r as a reward. Huh... isn't that an odd reward? We just wanted to show you that all &&aGTCEu&&r tanks are portable.",
+      "<hr/>",
+      "<reward reward=\"68D4ECFA9AD5349A\" quest=\"592BD683A48C2AA2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "#realism"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          72,
+          -48
+        ]
+      }
+    }
+  }
+}

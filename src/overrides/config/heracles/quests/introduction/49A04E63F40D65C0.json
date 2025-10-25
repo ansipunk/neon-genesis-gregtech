@@ -1,0 +1,108 @@
+{
+  "settings": {},
+  "dependencies": [
+    "45969FFBF88F4FBB"
+  ],
+  "tasks": {
+    "36052E42DE641787": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:iron_bolt"
+    },
+    "63F1C7989ADF097F": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "gtceu:iron_plate"
+    }
+  },
+  "rewards": {
+    "6292C644EE1ACA59": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 64
+      }
+    },
+    "380C42204033B5C4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:potato",
+        "count": 12
+      }
+    },
+    "725FA988559A2A06": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:sand",
+        "count": 128
+      }
+    },
+    "650805CC3324B1A2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:iron_shovel",
+        "count": 1,
+        "nbt": {
+          "GT.Tool": {}
+        }
+      }
+    },
+    "2B1124C773D1E30F": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:iron_axe",
+        "count": 1,
+        "nbt": {
+          "DisallowContainerItem": 0,
+          "GT.Behaviours": {
+            "DisableShields": 1,
+            "TreeFelling": 1
+          },
+          "GT.Tool": {
+            "HarvestLevel": 2,
+            "MaxDamage": 255,
+            "ToolSpeed": 4
+          },
+          "HideFlags": 2
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "A Minor Test of Strength",
+    "description": [
+      "<subtitle id=\"49A04E63F40D65C0\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"36052E42DE641787\" quest=\"49A04E63F40D65C0\"/>",
+      "<task task=\"63F1C7989ADF097F\" quest=\"49A04E63F40D65C0\"/>",
+      "<hr/>",
+      "Don't worry, these crafts are actually useful - you'll be required to make &&ehundreds more&&r of these components. It's good to start building the habit.",
+      "<br/>",
+      "It's generally wise to get familiar with the idea of &&o\"&&bbulk-crafting&&r&&o\"&&r - if you need 1 plate, try making 8, etc. This means you'll have lots of these &&dintermediates&&r ready for future crafts. It might seem unreasonable to craft &&astacks of rods&&r or &&ascrews&&r especially this early on, but they will always end up being used, saving you a lot of micro-crafting in the future.",
+      "<br/>",
+      "If you needed &&6any more&&r convincing, take a peek at the &&drewards&&r for this quest.",
+      "<hr/>",
+      "<reward reward=\"6292C644EE1ACA59\" quest=\"49A04E63F40D65C0\"/>",
+      "<reward reward=\"380C42204033B5C4\" quest=\"49A04E63F40D65C0\"/>",
+      "<reward reward=\"725FA988559A2A06\" quest=\"49A04E63F40D65C0\"/>",
+      "<reward reward=\"650805CC3324B1A2\" quest=\"49A04E63F40D65C0\"/>",
+      "<reward reward=\"2B1124C773D1E30F\" quest=\"49A04E63F40D65C0\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:bone_meal"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Put your micro-crafting talent to the task!"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          120,
+          0
+        ]
+      }
+    }
+  }
+}

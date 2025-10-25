@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "196FC518F744B983",
+    "7F272A099E65F848"
+  ],
+  "tasks": {
+    "658F8D1F068928CE": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_processor_assembly"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More EV Circuits!",
+    "description": [
+      "<subtitle id=\"0017FFFAD7CD2EFE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"658F8D1F068928CE\" quest=\"0017FFFAD7CD2EFE\"/>",
+      "<hr/>",
+      "Nothing to say here.",
+      "<br/>",
+      "Nice work, we suppose."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nano_processor_assembly"
+    },
+    "subtitle": {
+      "text": "Harder, Better, Faster, Stronger"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          252,
+          288
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5BACED5AE350EAB1"
+  ],
+  "tasks": {
+    "2A28EC2D53F6AF99": {
+      "type": "heracles:item",
+      "item": "gtceu:nitrobenzene_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Benzene Nitro",
+    "description": [
+      "<subtitle id=\"56E7A3A0CC690C8A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2A28EC2D53F6AF99\" quest=\"56E7A3A0CC690C8A\"/>",
+      "<hr/>",
+      "Making &&aNitrobenzene&&r will boost the energy efficiency of &&aBenzene&&r roughly &&6fourfold&&r. You love to see it.",
+      "<br/>",
+      "The catch here is that it takes &&dDistilled Water&&r, and consumes a bit of &&dSulfur&&r with every step."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:fluid_cell"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Click this link for free Nitro"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          288,
+          48
+        ]
+      }
+    }
+  }
+}

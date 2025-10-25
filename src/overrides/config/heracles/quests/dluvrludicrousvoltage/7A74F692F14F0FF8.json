@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "546CC03435E763CF"
+  ],
+  "tasks": {
+    "220305C9DA0F512B": {
+      "type": "heracles:item",
+      "item": "gtceu:europium_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Europium",
+    "description": [
+      "<subtitle id=\"7A74F692F14F0FF8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"220305C9DA0F512B\" quest=\"7A74F692F14F0FF8\"/>",
+      "<hr/>",
+      "&&aEuropium&&r is the first major Fusion Material. You'll be using this quite a lot going forwards.",
+      "<br/>",
+      "&&eNote&&r: The temperature of liquid Europium is very hot, but the fluid isn't a plasma. Plan your piping accordingly!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In Gregicality Legacy, Europium was replaced with Rutherfordium as the first fusion material, because Europium is actually found in Rare Earth and isn't fused in real life."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:europium_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Fusing Europium... whaaat?!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          216,
+          72
+        ]
+      }
+    }
+  }
+}

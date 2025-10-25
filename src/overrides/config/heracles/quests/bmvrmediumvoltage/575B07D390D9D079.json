@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "74180AC57AE9F0FE"
+  ],
+  "tasks": {
+    "7B6C7E6C11D68E06": {
+      "title": "Oilsands Ore",
+      "type": "heracles:item",
+      "item": "#forge:ores/oilsands"
+    },
+    "1838F842C9D12880": {
+      "type": "heracles:item",
+      "item": "gtceu:oilsands_dust"
+    }
+  },
+  "rewards": {
+    "286D83CF8F84A4DF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:oilsands_ore"
+      }
+    }
+  },
+  "display": {
+    "title": "America Simulator",
+    "description": [
+      "<subtitle id=\"575B07D390D9D079\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7B6C7E6C11D68E06\" quest=\"575B07D390D9D079\"/>",
+      "<task task=\"1838F842C9D12880\" quest=\"575B07D390D9D079\"/>",
+      "<hr/>",
+      "Underground, you may come across pure Oilsands ore veins. You can &&3centrifuge&&r the Dust to get &&aOil&&r.",
+      "<br/>",
+      "&&9&&lNote:&&r&&l The Oil path is one path towards &&9&&lEthylene&&r&&l. The other paths involve getting natural with some Ethanol.&&r",
+      "<br/>",
+      "For now, Oil is &&doptional&&r. It becomes mandatory much later when you get to &&5EV&&r.",
+      "<br/>",
+      "Oil can also be refined in the form of &&aLight Fuel&&r, &&aDiesel&&r or even &&aGasoline&&r, which are excellent power options.",
+      "<br/>",
+      "If you chose this path, you should use it for both Power and Ethylene.",
+      "<br/>",
+      "Oilsands are a &&6great starting point&&r - they'll tide you over until you unlock Fluid Drilling Rigs.",
+      "<hr/>",
+      "<reward reward=\"286D83CF8F84A4DF\" quest=\"575B07D390D9D079\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:oilsands_ore"
+    },
+    "subtitle": {
+      "text": "This quest was sponsored by the US Military"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -144,
+          -24
+        ]
+      }
+    }
+  }
+}

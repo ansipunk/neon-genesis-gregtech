@@ -1,0 +1,67 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5263F866638D875C",
+    "257DB4B39B2A928E",
+    "3D98819A799D2E64"
+  ],
+  "tasks": {
+    "118468CD578081CF": {
+      "type": "heracles:item",
+      "item": "gtceu:sodium_persulfate_bucket"
+    },
+    "1B7EDF573783D986": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_iii_chloride_bucket"
+    }
+  },
+  "rewards": {
+    "5A23AC1DA33FDC71": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:salt_ore",
+        "count": 20
+      }
+    }
+  },
+  "display": {
+    "title": "Sodium Persulfate / Iron III Chloride",
+    "description": [
+      "<subtitle id=\"4353AB0E20601AEC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"118468CD578081CF\" quest=\"4353AB0E20601AEC\"/>",
+      "<task task=\"1B7EDF573783D986\" quest=\"4353AB0E20601AEC\"/>",
+      "<hr/>",
+      "&&aSodium Persulfate&&r can be used in &&9Ore Processing&&r in the &&3Chemical Bath&&r to get various bonus outputs you would not normally obtain. It's completely optional, but pretty rewarding.",
+      "<br/>",
+      "&&lWait, stop! That's only a distraction&&r - the real topic of this Quest is...",
+      "<br/>",
+      "&&aSodium Persulfate&&r and &&aIron III Chloride&&r are used to make cheaper &&9Good Circuit Boards&&r, as their inclusion cuts Silver usage by a factor of four.",
+      "<br/>",
+      "They're also &&drequired&&r to make &&9Plastic Circuit Boards&&r.",
+      "<br/>",
+      "Making &&aSodium Persulfate&&r will yield &&aHydrochloric Acid&&r as a coproduct, which you may re-use to make &&aIron III Chloride&&r. This should the best approach right now, but the decision is entirely yours.",
+      "<br/>",
+      "With more automation later in the game, Iron III Chloride will be the cheaper and more straight forward path.",
+      "<br/>",
+      "This Quest requires &&eboth&&r Fluids to complete. You'll need both anyway...",
+      "<hr/>",
+      "<reward reward=\"5A23AC1DA33FDC71\" quest=\"4353AB0E20601AEC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_iii_chloride_bucket"
+    },
+    "subtitle": {
+      "text": "Let's etch some Copper off Circuit Boards!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          252,
+          -132
+        ]
+      }
+    }
+  }
+}

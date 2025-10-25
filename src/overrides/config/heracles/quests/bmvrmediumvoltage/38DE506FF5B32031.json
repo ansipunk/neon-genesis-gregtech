@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4600221BF0A30C3A",
+    "0DE5C3FBC9A6A690",
+    "6E9E15DA847DD0A1",
+    "375684F9CBEF9132"
+  ],
+  "tasks": {
+    "120B63C2E40D359A": {
+      "type": "heracles:item",
+      "item": "gtceu:micro_processor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best MV Circuits",
+    "description": [
+      "<subtitle id=\"38DE506FF5B32031\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"120B63C2E40D359A\" quest=\"38DE506FF5B32031\"/>",
+      "<hr/>",
+      "&&6The best MV Circuits&&r! You will be making these for the remainder of the game.",
+      "<br/>",
+      "Eventually (in &&9IV&&r), they will become even cheaper."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:micro_processor"
+    },
+    "subtitle": {
+      "text": "MV has peaked"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          288,
+          -24
+        ]
+      }
+    }
+  }
+}

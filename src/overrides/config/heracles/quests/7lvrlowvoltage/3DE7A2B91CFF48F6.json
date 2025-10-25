@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "38993B4697B0E16C"
+  ],
+  "tasks": {
+    "7D7A9CBE1E368E53": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_robot_arm"
+    }
+  },
+  "rewards": {
+    "372D894C29C4513C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:basic_electronic_circuit"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:lv_robot_arm",
+    "description": [
+      "<subtitle id=\"3DE7A2B91CFF48F6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7D7A9CBE1E368E53\" quest=\"3DE7A2B91CFF48F6\"/>",
+      "<hr/>",
+      "When placed on a machine, Robot Arms are a more configurable version of a Conveyor Module. They allow you to transfer items in specific batches, at specific rates, or keep a certain amount of items stocked.",
+      "<br/>",
+      "Practical uses for the Robot Arm will be explained in future Quests as a tutorial.",
+      "<br/>",
+      "&&9Note:&&r The functionalities provided by the Robot Arm work &&lonly&&r if it is &&lrequired&&r to perform the operation.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o GregTech 5 had blocks such as the Buffer, Filter and Type Filter to allow fine control over items. In GTCE it's all been replaced by the almighty Robot Arm and various Filter Covers. Much more compact!",
+      "<hr/>",
+      "<reward reward=\"372D894C29C4513C\" quest=\"3DE7A2B91CFF48F6\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_robot_arm"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "You're going to hate making these"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

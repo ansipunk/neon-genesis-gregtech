@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4343746E706264E6"
+  ],
+  "tasks": {
+    "659880DCA297ED7A": {
+      "type": "heracles:item",
+      "item": "gtceu:rocket_fuel_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Rocket Fuel",
+    "description": [
+      "<subtitle id=\"1B520580219AFAE9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"659880DCA297ED7A\" quest=\"1B520580219AFAE9\"/>",
+      "<hr/>",
+      "Rocket Fuel mostly exists for compatibility with other mods. You'll love it if you're making your own pack.",
+      "<br/>",
+      "As an actual fuel for GTCEu generators? Terrible!",
+      "<br/>",
+      "In this modpack, &&aRocket Fuel&&r is required to obtain &&dNether Stars&&r.",
+      "<br/>",
+      "Automating it may be a big hit to your resources, but you can safely batch craft using an overclocked &&3Large Chemical Reactor&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:rocket_fuel_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Honey, where are my Microverse Projectors?"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          192,
+          120
+        ]
+      }
+    }
+  }
+}

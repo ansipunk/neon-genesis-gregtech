@@ -1,0 +1,60 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2F9D9AAB27E6534D"
+  ],
+  "tasks": {
+    "0A57BEFB8BD9958A": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "gtceu:rhodium_plated_palladium_ingot"
+      },
+      "type": "heracles:item",
+      "item": "gtceu:rhodium_plated_palladium_ingot"
+    }
+  },
+  "rewards": {
+    "02E9F7E9FF906F4E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:rhodium_dust"
+      }
+    }
+  },
+  "display": {
+    "title": "Rhodium-Plated Palladium",
+    "description": [
+      "<subtitle id=\"4F6E351C5F676618\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0A57BEFB8BD9958A\" quest=\"4F6E351C5F676618\"/>",
+      "<hr/>",
+      "Congratulations on making it this far!",
+      "<br/>",
+      "Progressing into &&dLuV&&r will require more than &&aRhodium Plated Palladium&&r and &&9LuV Circuits&&r alone. You'll also need the &&3Assembly Line&&r.",
+      "<br/>",
+      "The &&4resource costs&&r for components will also start to increase &&4significantly&&r as you work towards &&eFusion&&r.",
+      "<br/>",
+      "If you haven't got automation for nearly everything, now (in &&1IV&&r) is a good time to do it. Take advantage of the power granted by &&2Gregicality Multiblocks&&r!",
+      "<br/>",
+      "If your power generation relies on &&3Large Turbines&&r, you can pick up the &&3LuV Rotor Holder&&r.",
+      "<hr/>",
+      "<reward reward=\"02E9F7E9FF906F4E\" quest=\"4F6E351C5F676618\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:rhodium_plated_palladium_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "The main §dLuV§r material"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          120,
+          48
+        ]
+      }
+    }
+  }
+}

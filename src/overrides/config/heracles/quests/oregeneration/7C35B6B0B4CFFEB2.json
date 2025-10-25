@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "301C4CD1E47E2D02": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_oilsands"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Oilsands",
+    "description": [
+      "<subtitle id=\"7C35B6B0B4CFFEB2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"301C4CD1E47E2D02\" quest=\"7C35B6B0B4CFFEB2\"/>",
+      "<hr/>",
+      "A good source of &&6Heavy Oil&&r, which is useful for &&6Diesel&&r setups early on.",
+      "<br/>",
+      "If you don't want to spend time processing Oilsands through your setup, you can always just &&bCentrifuge&&r it directly to get the Heavy Oil."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:oilsands_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of the American Dream"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          -16,
+          96
+        ]
+      }
+    }
+  }
+}

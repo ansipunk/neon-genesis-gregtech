@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1E9BE8D3F8A602DC"
+  ],
+  "tasks": {
+    "05610A3CFF3805F3": {
+      "title": "Alright, now let me play.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "I'm Fetching Me Mallet!",
+    "description": [
+      "<subtitle id=\"237EEDF8D3F170DA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"05610A3CFF3805F3\" quest=\"237EEDF8D3F170DA\"/>",
+      "<hr/>",
+      "A feature of the &&5Soft Mallet&&r that you may be aware of is its ability to &&6pause machines&&r. However, did you know that if you &&bsneak whilst pausing a machine&&r, it'll tell the machine to continue operating until it finishes its recipe?",
+      "<br/>",
+      "This is &&2perfect&&r if you need to make changes to a multiblock but don't want to &&evoid items&&r, as unforming a multiblock will void all inputs."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:polybenzimidazole_mallet"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Shoutout to Yung Onion"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          285,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40408FFD02134148",
+    "7FA0ACB7F161F378",
+    "4AFD3073C731A1E4"
+  ],
+  "tasks": {
+    "2F60DE9B52FDEFFC": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "EV Assembler",
+    "description": [
+      "<subtitle id=\"7A55CC71442CC854\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2F60DE9B52FDEFFC\" quest=\"7A55CC71442CC854\"/>",
+      "<hr/>",
+      "You know the drill by now. It's an Assembler - what else do you need to know?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_assembler"
+    },
+    "subtitle": {
+      "text": "Pushing into EV"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          144,
+          72
+        ]
+      }
+    }
+  }
+}

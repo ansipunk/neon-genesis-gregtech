@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "0428A9705DCDEBC2": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_bentonite"
+    },
+    "387BAF2D08F8252F": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_magnesite"
+    },
+    "1AEF16C083DB932C": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_olivine"
+    },
+    "6AA7AF45E3FC02CE": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_glauconite_sand"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Olivine",
+    "description": [
+      "<subtitle id=\"7C1B5559A03F6E02\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0428A9705DCDEBC2\" quest=\"7C1B5559A03F6E02\"/>",
+      "<task task=\"387BAF2D08F8252F\" quest=\"7C1B5559A03F6E02\"/>",
+      "<task task=\"1AEF16C083DB932C\" quest=\"7C1B5559A03F6E02\"/>",
+      "<task task=\"6AA7AF45E3FC02CE\" quest=\"7C1B5559A03F6E02\"/>",
+      "<hr/>",
+      "This vein starts to become notable for its Magnesium output starting in the midgame.",
+      "<br/>",
+      "Olivine also has various uses, as it can substitute &&aEmerald&&r in a couple of recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:olivine_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Magnesium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          144,
+          96
+        ]
+      }
+    }
+  }
+}

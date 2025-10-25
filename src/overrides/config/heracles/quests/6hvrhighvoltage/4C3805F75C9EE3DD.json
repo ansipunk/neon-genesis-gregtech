@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "16B735F9C391D260"
+  ],
+  "tasks": {
+    "75D9301389ECDAC7": {
+      "type": "heracles:item",
+      "item": "gtceu:smd_transistor"
+    },
+    "5AC39933BF3FB8C3": {
+      "type": "heracles:item",
+      "item": "gtceu:smd_resistor"
+    },
+    "6421A825AB3FC7CE": {
+      "type": "heracles:item",
+      "item": "gtceu:smd_capacitor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "SMD Components",
+    "description": [
+      "<subtitle id=\"4C3805F75C9EE3DD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"75D9301389ECDAC7\" quest=\"4C3805F75C9EE3DD\"/>",
+      "<task task=\"5AC39933BF3FB8C3\" quest=\"4C3805F75C9EE3DD\"/>",
+      "<task task=\"6421A825AB3FC7CE\" quest=\"4C3805F75C9EE3DD\"/>",
+      "<hr/>",
+      "The &&eSMD&&r (surface-mount device) &&aComponents&&r are CEu-exclusive components that are required for the next tier of circuits (&&5Nano&&r). They can also be used in place of their non-SMD counterparts in most Circuit recipes.",
+      "<br/>",
+      "Of course they're more complicated to make, this is GregTech! What did you expect?",
+      "<br/>",
+      "Invest in automation for these - you won't stop needing them."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:smd_transistor"
+    },
+    "subtitle": {
+      "text": "Alternate components!"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          72,
+          12
+        ]
+      }
+    }
+  }
+}

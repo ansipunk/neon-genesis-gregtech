@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1646BF9194100E57"
+  ],
+  "tasks": {
+    "3434AF20FA598211": {
+      "title": "Coil Behaviour",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Coil Behaviour",
+    "description": [
+      "<task task=\"3434AF20FA598211\" quest=\"6C8789A7B8946CFF\"/>",
+      "<hr/>",
+      "The &&3Electric Blast Furnace&&r, &&3Pyrolyse Oven, &&b&&aMulti Smelter&&r, and &&3Cracking Unit&&r all require Heating Coils. But why should you bother upgrading to higher tiers of Coil?",
+      "<br/>",
+      "Coil progression can be viewed in the Milestones tab.",
+      "<br/>",
+      "For the EBF, things get slightly complicated. The EBF smelts items at a certain &&dtemperature&&r. This is mainly determined by the tier of heating coil used - &&r&&6Cupronickel&&r smelts at &&d1800K&&r, &&bKanthal&&r at &&d2700K&&r, etc. Additionally, starting from &&6HV&&r, each tier of energy adds &&d100K&&r to the temperature.",
+      "<br/>",
+      "How does this affect you? Each EBF recipe has a certain base temperature. For example, &&bAluminium&&r is smelted at &&d1700K&&r. If the EBF temperature is not high enough, the recipe won't happen. If the EBF temperature is high enough, 2 different bonuses are applied:",
+      "<br/>",
+      "&&9-&&r For every &&d900K&&r above the recipe temperature, the amount of energy required is multiplied by &&a0.95x&&r - which stacks.",
+      "&&9-&&r For every &&d1800K&&r above the recipe temperature, a single additional overclock will be &&6100% efficient&&r; in other words, it will &&5quadruple the recipe speed&&r, instead of doubling it.",
+      "<br/>",
+      "The Pyrolyse Oven is much more simple in comparison to the EBF.",
+      "<br/>",
+      "Cupronickel coils apply a &&c+25% penalty&&r to recipe duration - effectively, recipes are slower than listed if one uses Cupronickel coils.",
+      "<br/>",
+      "Kanthal coils restore recipe duration to a regular length of time.",
+      "<br/>",
+      "However, coils above Kanthal apply an &&aadditive -50% bonus&&r to recipe duration!",
+      "<br/>",
+      "The Cracker is much more simple.",
+      "<br/>",
+      "Every coil tier post-Cupronickel will reduce its energy usage by 10%.",
+      "<br/>",
+      "Coils in the Multi Smelter reduce the amount of energy per operation whilst also increasing the number of items that can be processed in parallel."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tritanium_coil_block"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          96,
+          32
+        ]
+      }
+    }
+  }
+}

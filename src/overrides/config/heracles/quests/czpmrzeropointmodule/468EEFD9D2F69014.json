@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "52D952ADBEB67454",
+    "2587BFD0D9F3FF4A"
+  ],
+  "tasks": {
+    "148C1C60A855B61E": {
+      "type": "heracles:item",
+      "item": "gtceu:research_station"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Research Station",
+    "description": [
+      "<subtitle id=\"468EEFD9D2F69014\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"148C1C60A855B61E\" quest=\"468EEFD9D2F69014\"/>",
+      "<hr/>",
+      "The &&3Research Station&&r is the upgrade to the Scanner. It's used for more advanced forms of research, and will finally allow you to perform research which requires &&aData Orbs and Modules&&r.",
+      "<br/>",
+      "When running the &&3Research Station&&r, energy and &&9Computation&&r is needed. The latter is provided through an &&9HPCA&&r, which is explained in the next quest. It is recieved with a &&3Computation Data Reception Hatch&&r. Note that only one Reception Hatch is allowed in a Research Station.",
+      "<br/>",
+      "This multiblock needs computation &&dsporadically&&r, which means the recipe will not reverse progress if you don't supply enough - it will simply halt in-place. However, the machine will still draw energy constantly, even when recieving no computation.",
+      "<br/>",
+      "To scan items, the process is relatively similar. In the &&3Object Holder&&r, place the target item in the center slot, and the data storage item in the other slot. Then provide computation, and the data storage item will be updated upon completion. When running, the target item will be Locked and cannot be removed.",
+      "<br/>",
+      "&&eNote&&r: To form this multiblock, the &&3Object Holder&&r must face the controller."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:research_station"
+    },
+    "subtitle": {
+      "text": "Your research adventures continue!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -156,
+          72
+        ]
+      }
+    }
+  }
+}

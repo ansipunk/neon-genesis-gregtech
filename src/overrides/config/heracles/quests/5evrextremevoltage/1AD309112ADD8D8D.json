@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35E7E45987D9B1F6",
+    "14D277A164202FF8"
+  ],
+  "tasks": {
+    "4B0E8EBCA3950AA0": {
+      "type": "heracles:item",
+      "item": "gtceu:large_combustion_engine"
+    },
+    "38A33D0B4E9CD811": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_energy_output_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Large Combustion",
+    "description": [
+      "<task task=\"4B0E8EBCA3950AA0\" quest=\"1AD309112ADD8D8D\"/>",
+      "<task task=\"38A33D0B4E9CD811\" quest=\"1AD309112ADD8D8D\"/>",
+      "<hr/>",
+      "The &&3Large Combustion Engine&&r is a multiblock that can burn &&dCombustion Fuels&&r for even... more... power generation!",
+      "<br/>",
+      "By default, this puppy outputs 2048 EU/t, which is equivalent to 4 &&3Turbo Combustion Generators&&r.",
+      "<br/>",
+      "This might not convince you, but unlike the singleblock generators, you can actually &&6boost this&&r by providing &&aOxygen&&r. This will &&cdouble&&r the fuel consumption, but &&atriple&&r the power generation. This'll output 6144 EU/t with &&6150% Fuel efficiency&&r.",
+      "<br/>",
+      "You'll also need to supply a small amount of &&aLubricant&&r to the LCE during operation - nothing too crazy.",
+      "<br/>",
+      "The &&3LCE&&r is also void-free, unlike Large Turbines. Any energy that cannot be output will momentarily pause the multiblock.",
+      "<br/>",
+      "To harness the cataclysmic power of the 6144 EU/t output, you'll need a &&34A EV Dynamo Hatch&&r or an &&3IV Dynamo Hatch&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:large_combustion_engine"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          36
+        ]
+      }
+    }
+  }
+}

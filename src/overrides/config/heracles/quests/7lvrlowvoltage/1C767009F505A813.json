@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "288CE4AA4C5AA8BF",
+    "3DE7A2B91CFF48F6",
+    "2F7617C0C4B330DE"
+  ],
+  "tasks": {
+    "7C7A8A26D3FF0E96": {
+      "title": "I'm an expert on Covers now, don't you worry.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7A6A74FF4B058BA3": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:storage_cover"
+      }
+    }
+  },
+  "display": {
+    "title": "Cover Behaviour",
+    "description": [
+      "<subtitle id=\"1C767009F505A813\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7C7A8A26D3FF0E96\" quest=\"1C767009F505A813\"/>",
+      "<hr/>",
+      "Covers are placed by right-clicking with Cover in hand on a face of a machine, and removed with a &&5Crowbar&&r (or by mining the machine, but that's way slower).",
+      "<br/>",
+      "Pretty much any GregTech \"machine\" will accept Covers, even if they wouldn't provide any functionality.",
+      "<br/>",
+      "Opening a Cover is done by sneak-right-clicking it with an &&5empty hand&&r. You can also right-click with a &&5Screwdriver&&r, or sneak-right-click on another face using the grid.",
+      "<br/>",
+      "For Covers that transfer Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:",
+      "<br/>",
+      "&&9- &&rDisabled: only the cover will be allowed to transfer on this machine side.",
+      "<br/>",
+      "&&9-&&r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter",
+      "<br/>",
+      "&&9-&&r Allow Unfiltered: any other transfer is allowed on this machine side.",
+      "<br/>",
+      "Placing a cover of a lower voltage tier on a machine is &&9safe&&r.",
+      "<hr/>",
+      "<reward reward=\"7A6A74FF4B058BA3\" quest=\"1C767009F505A813\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:storage_cover"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Extra utility without taking up blockspace!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          0,
+          36
+        ]
+      }
+    }
+  }
+}

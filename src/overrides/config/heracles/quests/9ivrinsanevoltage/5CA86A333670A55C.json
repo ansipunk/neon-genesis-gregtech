@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CC79617A4965F25",
+    "30A6EDDF25A5E5F8"
+  ],
+  "tasks": {
+    "2BD1CC61E5122DC7": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_assembler"
+    },
+    "5E8D6AA09A113AE0": {
+      "type": "heracles:item",
+      "item": "gtceu:large_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "IV Assembler",
+    "description": [
+      "<task task=\"2BD1CC61E5122DC7\" quest=\"5CA86A333670A55C\"/>",
+      "<task task=\"5E8D6AA09A113AE0\" quest=\"5CA86A333670A55C\"/>",
+      "<hr/>",
+      "Tungstensteel under your belt? Nanoprocessor Mainframes on demand? Let's make some machinery.",
+      "<br/>",
+      "The &&3IV Assembler&&r is required to unlock &&3IV Energy and Dynamo Hatches&&r, as well as &&3HSS-G Coils&&r.",
+      "<br/>",
+      "Upgrading this to its &&2GCYM&&r variant isn't a bad idea.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Did you know that GTCE's content stopped at &&5EV&&r&&o, and all content up to &&3UV&&f was provided by Shadows of Greg, a third party mod?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_assembler"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          12,
+          120
+        ]
+      }
+    }
+  }
+}

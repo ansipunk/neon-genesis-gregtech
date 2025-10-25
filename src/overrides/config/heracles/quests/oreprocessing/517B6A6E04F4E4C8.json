@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1069BF4C1771A4F6"
+  ],
+  "tasks": {
+    "7F9EF449A760D102": {
+      "title": "Never mind, it's not as bad as I thought.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Oh no! Pure dust?!",
+    "description": [
+      "<subtitle id=\"517B6A6E04F4E4C8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7F9EF449A760D102\" quest=\"517B6A6E04F4E4C8\"/>",
+      "<hr/>",
+      "A side product of sifting is the production of &&dpure dusts&&r. These shouldn't be sent back to your main storage, because they can't be used in recipes... and &&3centrifuging&&r them will give you a sweet, sweet extra byproduct."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_centrifuge"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Fear not! We have our solution!"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          48,
+          208
+        ]
+      }
+    }
+  }
+}

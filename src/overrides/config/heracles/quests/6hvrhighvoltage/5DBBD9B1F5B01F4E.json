@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3568BC9742092FC5",
+    "124B32A0583A636A",
+    "16B735F9C391D260"
+  ],
+  "tasks": {
+    "19C5FBCD216DCE26": {
+      "type": "heracles:item",
+      "item": "gtceu:lpic_chip"
+    },
+    "3CB30E3B0B6353C2": {
+      "type": "heracles:item",
+      "item": "gtceu:sodium_potassium_bucket"
+    },
+    "1ABDABD68D1C6E50": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_energy_input_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Upgrade your EBF II",
+    "description": [
+      "<subtitle id=\"5DBBD9B1F5B01F4E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"19C5FBCD216DCE26\" quest=\"5DBBD9B1F5B01F4E\"/>",
+      "<task task=\"3CB30E3B0B6353C2\" quest=\"5DBBD9B1F5B01F4E\"/>",
+      "<task task=\"1ABDABD68D1C6E50\" quest=\"5DBBD9B1F5B01F4E\"/>",
+      "<hr/>",
+      "The &&aLow Power Integrated Circuit&&r requires an &&3HV Cutting Machine&&r inside your &&3Cleanroom&&r.",
+      "<br/>",
+      "&&3HV Energy Hatches&&r will be nice additions so you can run your Multiblocks (mainly your Electric Blast Furnace and Large Chemical Reactor) directly off a &&6HV&&r line.",
+      "<br/>",
+      "You'll need to upgrade your EBF with &&32 Energy Hatches&&r to obtain &&eNichrome coils&&r - fun!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_energy_input_hatch"
+    },
+    "subtitle": {
+      "text": "Noticing a pattern here?"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          144,
+          -24
+        ]
+      }
+    }
+  }
+}

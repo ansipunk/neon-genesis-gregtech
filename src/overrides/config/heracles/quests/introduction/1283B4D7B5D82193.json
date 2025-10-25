@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "45969FFBF88F4FBB"
+  ],
+  "tasks": {
+    "70C69E5432F6C3BE": {
+      "title": "I accept responsibility for any mod conflicts ;)",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "460EC827273306A5": {
+      "type": "heracles:item",
+      "item": {
+        "id": "storagedrawers:quantify_key"
+      }
+    }
+  },
+  "display": {
+    "title": "More mods?",
+    "description": [
+      "<subtitle id=\"1283B4D7B5D82193\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"70C69E5432F6C3BE\" quest=\"1283B4D7B5D82193\"/>",
+      "<hr/>",
+      "In this &&blightweight&&r modpack, we've included enough QoL to &&o(hopefully)&&r fit your needs, and the pack is &&aperfectly playable&&r as is.",
+      "<br/>",
+      "&&dStorage Drawers&&r and &&dApplied Energistics 2&&r make an appearance to help with &&estorage&&r and &&6logistics&&r. Their recipes have been modified to fit progression, but you hopefully won't need to play 50 hours to make your first &&5Molecular Assembler&&r. There are also a few other mods that you may wish to pursue for some &&ahelpful QoL&&r.",
+      "<br/>",
+      "But maybe you require... &&osomething more&&r?",
+      "<br/>",
+      "If you're playing solo, feel free to &&aadd mods&&r to your instance. Some more &&bQoL&&r could be nice... more &&3Tech&&r could sate your cravings... maybe even some &&5magic mods&&r, as long as you don't add &&eProjectE&&r. Promise?",
+      "<br/>",
+      "On the 1.12.2 version of &&aGregtech: CEu&&r, there were multiple &&aGregTech&&r addons that may be ported to 1.20.1 in future. Rest assured that this pack will do its &&dbest&&r to support them if they make it to this version!",
+      "<hr/>",
+      "<reward reward=\"460EC827273306A5\" quest=\"1283B4D7B5D82193\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:structure_void"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Omw to install DecoCraft"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          72,
+          0
+        ]
+      }
+    }
+  }
+}

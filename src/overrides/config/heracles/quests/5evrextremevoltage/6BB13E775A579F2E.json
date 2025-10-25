@@ -1,0 +1,68 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4AFD3073C731A1E4",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "3B898812B1C35440": {
+      "amount": 1,
+      "tasks": {
+        "d6bf50ce-181e-4cd0-9572-cdd09f739db9": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_input_hatch_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "47f2bdf2-86c9-4f7d-abf1-0dde7997cb13": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_input_hatch_9x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "98650517-583d-46eb-a954-bfc8286ccdef": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_output_hatch_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "48f7c591-fcc6-4ee6-9b81-b4f16f012cca": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_output_hatch_9x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Multiple Fluid Hatches",
+    "description": [
+      "<subtitle id=\"6BB13E775A579F2E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3B898812B1C35440\" quest=\"6BB13E775A579F2E\"/>",
+      "<hr/>",
+      "Need to handle &&6multiple&&r fluid inputs and outputs? Look no further - these &&aFluid Hatches&&r can handle more than one fluid at once!",
+      "<br/>",
+      "These cannot be used in a &&bDistillation Tower&&r, but may be particularly useful in &&5Large Chemical Reactors&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_input_hatch_4x"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "One-To-Many, Many-To-One"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          216,
+          180
+        ]
+      }
+    }
+  }
+}

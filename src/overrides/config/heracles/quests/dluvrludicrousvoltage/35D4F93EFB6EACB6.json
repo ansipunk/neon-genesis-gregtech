@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5CA86A333670A55C"
+  ],
+  "tasks": {
+    "1CAACC2FAABE68A1": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_polarizer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "IV Magnetism",
+    "description": [
+      "<subtitle id=\"35D4F93EFB6EACB6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1CAACC2FAABE68A1\" quest=\"35D4F93EFB6EACB6\"/>",
+      "<hr/>",
+      "&&aMagnetic Samarium&&r (which you'll need for your &&dLuV&&r components) requires an &&3IV Polarizer&&r.",
+      "<br/>",
+      "Even so, we hope you weren't running all the polarization off a single &&6HV&&r Polarizer. Were you?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_polarizer"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Feeling attracted yet?"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          12,
+          120
+        ]
+      }
+    }
+  }
+}

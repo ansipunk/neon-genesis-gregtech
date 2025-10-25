@@ -1,0 +1,88 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CC79617A4965F25"
+  ],
+  "tasks": {
+    "4738F666E22B212B": {
+      "type": "heracles:item",
+      "item": "gtceu:large_chemical_reactor"
+    },
+    "437860B6D7534842": {
+      "type": "heracles:item",
+      "amount": 10,
+      "item": "gtceu:inert_machine_casing"
+    },
+    "6D5FA685D7F4485B": {
+      "type": "heracles:item",
+      "item": "gtceu:ptfe_pipe_casing"
+    }
+  },
+  "rewards": {
+    "3167A01BDCACFEFF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:stainless_steel_fluid_cell",
+        "count": 1,
+        "nbt": {
+          "Fluid": {
+            "Amount": 64000,
+            "FluidName": "gtceu:sulfuric_acid"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Large Chemical Reactor",
+    "description": [
+      "<subtitle id=\"528CE69DA4358B2E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4738F666E22B212B\" quest=\"528CE69DA4358B2E\"/>",
+      "<task task=\"437860B6D7534842\" quest=\"528CE69DA4358B2E\"/>",
+      "<task task=\"6D5FA685D7F4485B\" quest=\"528CE69DA4358B2E\"/>",
+      "<hr/>",
+      "The &&3Large Chemical Reactor (LCR)&&r is a multiblock &&3Chemical Reactor&&r with more input/output slots. Its Teflon casings allow it to process extra recipes.",
+      "<br/>",
+      "The &&3LCR&&r can perform some exclusive reactions which allow you to combine multiple normal &&3Chemical Reactor&&r steps into a &&6single step&&r. Examples below:",
+      "<br/>",
+      "&&9-&&r &&aNitrogen Dioxide&&r (for Nitric Acid and Dinitrogen Tetroxide)",
+      "&&9-&&r &&aSulfuric Acid&&r",
+      "&&9-&&r &&aPhenol&&r",
+      "&&9-&&r &&aEpichlorohydrin&&r (you need it for Epoxy!)",
+      "&&9-&&r &&aEpoxy&&r",
+      "<br/>",
+      "There are also &&3LCR&&r exclusive recipes. For example, &&dRadon&&r can only be made in the LCR right now.",
+      "<br/>",
+      "All &&dOverclocks&&r in the &&3LCR&&r are &&6100% efficient&&r (known as Perfect overclocks); each overclock will &&5quadruple the speed&&r, as opposed to doubling it.",
+      "<br/>",
+      "The &&3LCR&&r has yet another &&6advantage&&r. You can use &&32 Energy Hatches&&r to allow it to run recipes of the &&5next tier&&r, similar to the &&3Electric Blast Furnace&&r.",
+      "<br/>",
+      "&&9Tip:&&r Given the amount of LCRs you may end up using, why not try utilising &&dwallsharing&&r to its full potential?",
+      "<br/>",
+      "You could share one 2A (standard) &&3Energy Hatch&&r between 2 LCRs.",
+      "<br/>",
+      "You might want to share &&3Input/Output Hatches&&r, but make sure each LCR is running the correct recipe.",
+      "<br/>",
+      "Keep in mind Maintenance hatches cannot wallshare.",
+      "<hr/>",
+      "<reward reward=\"3167A01BDCACFEFF\" quest=\"528CE69DA4358B2E\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:large_chemical_reactor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "The Magic Box to end all Magic Boxes"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          180,
+          48
+        ]
+      }
+    }
+  }
+}

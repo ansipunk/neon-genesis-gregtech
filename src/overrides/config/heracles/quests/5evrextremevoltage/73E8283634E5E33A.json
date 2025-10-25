@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "06B4AAC7DD796182",
+    "528CE69DA4358B2E"
+  ],
+  "tasks": {
+    "767C47FF351DAE3B": {
+      "title": "Plutonium Ingot",
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "#forge:ingots/plutonium"
+    },
+    "1797D435B5058938": {
+      "type": "heracles:item",
+      "item": "gtceu:radon_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Radon",
+    "description": [
+      "<subtitle id=\"73E8283634E5E33A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"767C47FF351DAE3B\" quest=\"73E8283634E5E33A\"/>",
+      "<task task=\"1797D435B5058938\" quest=\"73E8283634E5E33A\"/>",
+      "<hr/>",
+      "Don't worry, this is nothing compared to running an EBF.",
+      "<br/>",
+      "Hopefully for you, the &&3LCR&&r recipe in &&2EMI&&r for &&aRadon&&r should be self explanatory on how to set it up.",
+      "<br/>",
+      "Input some &&aUranium&&r, loop back the &&dPlutonium&&r using a &&3Electric Furnace&&r, and let the magic happen.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This cursed yet charming \"chain\" is inherited from GregTech 5. Plutonium 239 existing as an ore is a sort of a placeholder to avoid having to obtain it through complicated means."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:radon_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "200 seconds?! WHAT?!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          144,
+          288
+        ]
+      }
+    }
+  }
+}

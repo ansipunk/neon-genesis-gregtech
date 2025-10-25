@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "108424445D0F748A": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_chemical_reactor"
+    },
+    "52581CFF25BC339F": {
+      "type": "heracles:item",
+      "item": "gtceu:rubber_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Chemical Reactor",
+    "description": [
+      "<subtitle id=\"3D98819A799D2E64\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"108424445D0F748A\" quest=\"3D98819A799D2E64\"/>",
+      "<task task=\"52581CFF25BC339F\" quest=\"3D98819A799D2E64\"/>",
+      "<hr/>",
+      "The &&3Chemical Reactor&&r will be required for &&la lot&&r of recipes.",
+      "<br/>",
+      "Let's give it a spin - why don't we use your freshly made Chemical Reactor to unlock a new, &&6better recipe for Rubber&&r? Rubber is &&dunusable&&r as a Fluid, so you will need to make another machine to process it further.",
+      "<br/>",
+      "You can't make Rubber using the Chemical Reactor alone, so here are some &&aother machines&&r you might want to aim for: ",
+      "<br/>",
+      "A &&3Solidifier&&r is useful to solidify your Rubber directly into &&aRubber Sheets&&r. You'll want these moving forward.",
+      "<br/>",
+      "You could then make use of an &&3Assembler&&r to use your molten Rubber for &&aCables&&r. This isn't important for Tin Cables, but better cables will &&eneed&&r to be made in the Assembler.",
+      "<br/>",
+      "&&eNote:&&r Submit a fluid by having it stored in a &&lbucket&&r in your inventory."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_chemical_reactor"
+    },
+    "subtitle": {
+      "text": "Chemistry for dummies"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          108,
+          144
+        ]
+      }
+    }
+  }
+}

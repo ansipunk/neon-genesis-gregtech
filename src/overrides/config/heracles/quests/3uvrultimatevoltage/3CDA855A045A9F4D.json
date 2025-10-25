@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6AF3A40BC9CE7122"
+  ],
+  "tasks": {
+    "2A13EB0C94A752BD": {
+      "type": "heracles:item",
+      "item": "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "UV Superconductors",
+    "description": [
+      "<task task=\"2A13EB0C94A752BD\" quest=\"3CDA855A045A9F4D\"/>",
+      "<hr/>",
+      "&&aUV Superconductors&&r show up a lot in recipes when making a &&9Fusion Reactor Mk3&&r. Better get ready to make a boatload...",
+      "<br/>",
+      "You can also use them to cheapen &&9Superconducting Coils&&r even further."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:enriched_naquadah_trinium_europium_duranide_single_wire"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          72,
+          48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6B08799BCFD01D3D"
+  ],
+  "tasks": {
+    "2C582DDA7BC36951": {
+      "type": "heracles:item",
+      "item": "gtceu:mercury_barium_calcium_cuprate_single_wire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "HV Superconductors",
+    "description": [
+      "<task task=\"2C582DDA7BC36951\" quest=\"45F9AAE4ABE32033\"/>",
+      "<hr/>",
+      "By this point, normal Cables have such insignificant loss that superconductors aren't a requirement.",
+      "<br/>",
+      "You can use those as a flex!",
+      "<br/>",
+      "Superconductors are still required to craft &&aField Generators&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mercury_barium_calcium_cuprate_double_wire"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          180,
+          -204
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "648BCF486E16CCB2"
+  ],
+  "tasks": {
+    "07BA97A0F04F0876": {
+      "amount": 1,
+      "tasks": {
+        "171f8c3a-7b31-4740-9d90-20c87bce922f": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_fisher",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "94b7047f-267f-473f-a6b6-e0b5598a3352": {
+          "type": "heracles:item",
+          "item": "gtceu:mv_fisher",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "0008151d-a3b3-4701-ad7e-ca7358a70256": {
+          "type": "heracles:item",
+          "item": "gtceu:hv_fisher",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "19911387-8023-422d-9bd6-9332d4911b89": {
+          "type": "heracles:item",
+          "item": "gtceu:ev_fisher",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fishing 50",
+    "description": [
+      "<subtitle id=\"3B26CA44EA955B07\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"07BA97A0F04F0876\" quest=\"3B26CA44EA955B07\"/>",
+      "<hr/>",
+      "&&o&&7This quest's subject is optional, but may still be of interest to you. We've put it here in the name of completeness.&&r",
+      "<br/>",
+      "The &&3Fisher&&r catches fish from Water. It requires a 5x5 area of Water directly below to operate. It uses the same loot table as normal Fishing, so it can catch things like &&dEnchanted Books&&r. Each operation consumes 1 String and EU equivalent to its tier (32 for &&7LV&&r, etc.) That's about it.",
+      "<br/>",
+      "&&eFish Oil&&r can be extracted from Fish, which can be used for &&6Bio Diesel&&r.",
+      "<br/>",
+      "Get &&eany&&r tier Fisher to complete this quest. (They only go up to &&5EV&&r. If you foresee needing enough Fish to justify an &&1IV&&r or higher Fisher, make a feature request on our GitHub or Discord.)"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_fisher"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Women want me, fish fear me"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          201,
+          0
+        ]
+      }
+    }
+  }
+}

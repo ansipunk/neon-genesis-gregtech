@@ -1,0 +1,73 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3CF550B81716B8B9",
+    "391E853DCE86BFD0",
+    "4ED5A9AEF7B928BA",
+    "54AF8696674766B4",
+    "77EA56D16A9B3BFC"
+  ],
+  "tasks": {
+    "2D394A5292C3BA46": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "gtceu:basic_electronic_circuit"
+    },
+    "4296EFD816E40A37": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_machine_hull"
+    }
+  },
+  "rewards": {
+    "18CBC119F9A02091": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:basic_electronic_circuit"
+      }
+    },
+    "187A334C34304FEA": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:lv_machine_hull"
+      }
+    }
+  },
+  "display": {
+    "title": "Electronics #4: The Circuit",
+    "description": [
+      "<subtitle id=\"4B979482EF026BFF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2D394A5292C3BA46\" quest=\"4B979482EF026BFF\"/>",
+      "<task task=\"4296EFD816E40A37\" quest=\"4B979482EF026BFF\"/>",
+      "<hr/>",
+      "We made it to &&7LV&&r! Give yourself a pat on the back!",
+      "<br/>",
+      "Just kidding &&7(lol)&&r, you actually need three Circuits to get started anywhere relevant in &&7LV&&r. Thankfully for you, someone left this spare circuit laying around.",
+      "<br/>",
+      "We also want you to make an &&aLV Machine Hull&&r for this quest. You'll need one if you're to make any &&7LV&&r machine. We're feeling generous enough that this quest will grant you a second Hull, free of charge!",
+      "<br/>",
+      "Circuits are an integral part of progression in GregTech, so keep climbing.",
+      "<br/>",
+      "&&6Once you complete this Quest and the LV Motor Quest, you are ready to move on to the LV Age.&&r",
+      "<hr/>",
+      "<reward reward=\"18CBC119F9A02091\" quest=\"4B979482EF026BFF\"/>",
+      "<reward reward=\"187A334C34304FEA\" quest=\"4B979482EF026BFF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_electronic_circuit"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Your first §aElectronic Circuit§r!"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          216,
+          24
+        ]
+      }
+    }
+  }
+}

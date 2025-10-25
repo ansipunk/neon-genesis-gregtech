@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55D8E30978CBBC0D",
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "6358C3084C675965": {
+      "type": "heracles:item",
+      "item": "minecraft:diorite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:diorite",
+    "description": [
+      "<subtitle id=\"43D5A5F95EEB339C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6358C3084C675965\" quest=\"43D5A5F95EEB339C\"/>",
+      "<hr/>",
+      "Pulverise your Diorite into Dust, then centrifuge for Mirabilite Dust and Clay Dust.",
+      "<br/>",
+      "Mirabilite yields minimal Sulfur, but Clay Dust is the real treasure here. When electrolysed, you'll get some Aluminium for your troubles. Not bad!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:diorite"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Mirabilite, Clay..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          32,
+          -74
+        ]
+      }
+    }
+  }
+}

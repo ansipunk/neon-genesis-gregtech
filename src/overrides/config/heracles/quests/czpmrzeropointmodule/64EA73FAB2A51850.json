@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1D6CC3C7F6BE4055",
+    "52D00CD3E8D1E293",
+    "7A74F692F14F0FF8",
+    "468EEFD9D2F69014",
+    "24F0454B9A090C44"
+  ],
+  "tasks": {
+    "0B57097F8879481C": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_energy_input_hatch"
+    },
+    "2C60B79F78094E6A": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_energy_output_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Upgrading your Assembly Line II",
+    "description": [
+      "<task task=\"0B57097F8879481C\" quest=\"64EA73FAB2A51850\"/>",
+      "<task task=\"2C60B79F78094E6A\" quest=\"64EA73FAB2A51850\"/>",
+      "<hr/>",
+      "This Quest will be completed with &&eeither&&r a &&3ZPM Energy Hatch&&r&&r... or a &&3ZPM Dynamo Hatch&&r for your Multiblock Generators.",
+      "<br/>",
+      "Don't forget that &&d16 Amp&&r variants exist!",
+      "<br/>",
+      "Don't forget that these hatches require a &&9Data Orb&&r for research."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_energy_input_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -84,
+          72
+        ]
+      }
+    }
+  }
+}

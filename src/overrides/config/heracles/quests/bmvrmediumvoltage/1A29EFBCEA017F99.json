@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "74180AC57AE9F0FE"
+  ],
+  "tasks": {
+    "095C98D86D021B2E": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_brewery"
+    },
+    "1CB0F32E8293B5D7": {
+      "type": "heracles:item",
+      "item": "gtceu:lubricant_bucket"
+    }
+  },
+  "rewards": {
+    "2F6FA635755FBFA8": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone"
+      }
+    }
+  },
+  "display": {
+    "title": "Local Brewery selling Booze",
+    "description": [
+      "<subtitle id=\"1A29EFBCEA017F99\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"095C98D86D021B2E\" quest=\"1A29EFBCEA017F99\"/>",
+      "<task task=\"1CB0F32E8293B5D7\" quest=\"1A29EFBCEA017F99\"/>",
+      "<hr/>",
+      "The Brewery can be used to make &&aLubricant&&r from &&aRedstone&&r and &&aCreosote&&r/&&aOil&&r. Lubricant has some niche uses, namely being used in the &&3Cutter&&r to significantly reduce the duration of its recipes.",
+      "<br/>",
+      "The Brewery is a very, very slow machine, but it requires almost no power to run its recipes. Building &&2many Breweries&&r will help you obtain enough Biomass on your quest for plastic. Oh, and you can use it to brew &&dPotions&&r too!",
+      "<br/>",
+      "&&9Note:&&r The Brewery \"unlocks\" the Biomass path towards &&9Ethylene&&r. The same can be done in the &&3Pyrolyse Oven&&r. The other path involves Oil.&&r",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o You could make your own Brewery if you want to build up a company and start selling Booze... in GregTech 6.&&r",
+      "<hr/>",
+      "<reward reward=\"2F6FA635755FBFA8\" quest=\"1A29EFBCEA017F99\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_brewery"
+    },
+    "subtitle": {
+      "text": "*hic*... *hic*"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -36,
+          -60
+        ]
+      }
+    }
+  }
+}

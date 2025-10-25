@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "117FBB18DEE6F08B"
+  ],
+  "tasks": {
+    "27C6D1AB82DA805D": {
+      "type": "heracles:item",
+      "item": "gtceu:epoxy_printed_circuit_board"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Advanced Circuit Boards",
+    "description": [
+      "<subtitle id=\"5E6BA54E8A5BEBDE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"27C6D1AB82DA805D\" quest=\"5E6BA54E8A5BEBDE\"/>",
+      "<hr/>",
+      "Now that you have &&aEpoxy&&r, you can make &&aAdvanced Circuit Boards&&r! The next Circuit tier is oh so close, so keep pushing.",
+      "<br/>",
+      "&&9&&lTips:&&r",
+      "<br/>",
+      "- Consider using &&dElectrotine decomposition&&r and &&dOre Processing&&r for &&eElectrum&&r.",
+      "- Consider using the &&3Chemical Bath&&r with &&dMercury&&r for &&eGold&&r, from a wide variety of ores."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:epoxy_printed_circuit_board"
+    },
+    "subtitle": {
+      "text": "Quite the gold cost..."
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          180,
+          252
+        ]
+      }
+    }
+  }
+}

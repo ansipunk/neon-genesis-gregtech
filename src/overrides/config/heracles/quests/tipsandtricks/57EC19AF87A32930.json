@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5AD9884E7BFB2510"
+  ],
+  "tasks": {
+    "5F4FB0D81F0772F9": {
+      "title": "Colored Buses",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Colored Buses",
+    "description": [
+      "<subtitle id=\"57EC19AF87A32930\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5F4FB0D81F0772F9\" quest=\"57EC19AF87A32930\"/>",
+      "<hr/>",
+      "Spraying &&3Input Buses&&r and &&3Hatches&&r the same color will treat them as one &&3Hatch&&r in the &&5Multiblock&&r. With distinct mode enabled on the &&3Buses/Hatches&&r, the &&5Multiblock&&r will only search for a recipe using ingredients from one color group."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cyan_dye_spray_can"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Color by number multiblocks"
+    },
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          96,
+          63
+        ]
+      }
+    }
+  }
+}

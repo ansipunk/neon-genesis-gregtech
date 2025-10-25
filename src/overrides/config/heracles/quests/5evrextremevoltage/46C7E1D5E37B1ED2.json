@@ -1,0 +1,54 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73E8283634E5E33A",
+    "45F9AAE4ABE32033"
+  ],
+  "tasks": {
+    "4C598D3CF4500DB0": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "ae2:quantum_link"
+    },
+    "5C8C12569B770B97": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "ae2:quantum_ring"
+    },
+    "625E95960F92A2F6": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "ae2:quantum_entangled_singularity"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Quantum Tunnel",
+    "description": [
+      "<subtitle id=\"46C7E1D5E37B1ED2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4C598D3CF4500DB0\" quest=\"46C7E1D5E37B1ED2\"/>",
+      "<task task=\"5C8C12569B770B97\" quest=\"46C7E1D5E37B1ED2\"/>",
+      "<task task=\"625E95960F92A2F6\" quest=\"46C7E1D5E37B1ED2\"/>",
+      "<hr/>",
+      "You can now remotely expand your AE2 network if you're looking to move bases.",
+      "<br/>",
+      "A full set of two &&3Quantum Tunnels&&r is no slouch to craft, so you'll need to break a sweat if you want them."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_link"
+    },
+    "subtitle": {
+      "text": "[-h^2/2m∇^2 + V(x,t)]ψ(x,t) = iht'ψ(x,t)"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          108,
+          324
+        ]
+      }
+    }
+  }
+}

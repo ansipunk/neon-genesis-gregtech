@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "35E7E45987D9B1F6"
+  ],
+  "tasks": {
+    "7243C47692B04E81": {
+      "type": "heracles:item",
+      "item": "gtceu:gas_large_turbine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Large Gas Turbine",
+    "description": [
+      "<subtitle id=\"0F539EC8D2361791\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7243C47692B04E81\" quest=\"0F539EC8D2361791\"/>",
+      "<hr/>",
+      "The &&3Large Gas Turbine&&r may not impress you in &&5EV&&r, but it can scale to &&9better production&&r than the base 4096 EU/t, and boasts &&9higher efficiency&&r than those pesky singleblock generators.",
+      "<br/>",
+      "Each Large Turbine will require a &&aTurbine Rotor&&r and a &&3Rotor Holder&&r. More on the Turbine mechanics in the &&lnext&&r Quest.",
+      "<br/>",
+      "&&9Note:&&r This Quest &&eonly&&r requires the Controller, but obviously you still need all the multiblock parts to construct the Turbine.",
+      "<br/>",
+      "Turbines &&cvoid&&r energy if they're unable to output. If you plan on using this with HV power, use a Rotor with close to 100% Power stat."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:gas_large_turbine"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Gassed Up"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          108
+        ]
+      }
+    }
+  }
+}

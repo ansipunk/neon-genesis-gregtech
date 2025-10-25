@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "478A7F7565AFC8A8"
+  ],
+  "tasks": {
+    "77457ABAEFF7707B": {
+      "title": "That's hot.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Thermal Centrifuge",
+    "description": [
+      "<subtitle id=\"3C36AA80FE51DA45\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"77457ABAEFF7707B\" quest=\"3C36AA80FE51DA45\"/>",
+      "<hr/>",
+      "The default way to deal with ores at this step is usually with the &&eThermal Centrifuge&&r for its &&bexclusive byproduct&&r, but check around the above quest to make sure you're not missing something important.",
+      "<br/>",
+      "&&9Al&&rle&&4z!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_thermal_centrifuge"
+    },
+    "subtitle": {
+      "text": "This isn't Thermal Expansion..."
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          0,
+          192
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2CB8FCE09920042C",
+    "24366846FDA52CE3"
+  ],
+  "tasks": {
+    "6C5B3B1C0B85C003": {
+      "type": "heracles:item",
+      "item": "gtceu:tritanium_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tritanium",
+    "description": [
+      "<subtitle id=\"35F13B6D60361904\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6C5B3B1C0B85C003\" quest=\"35F13B6D60361904\"/>",
+      "<hr/>",
+      "&&aTritanium&&r is a material from Star Trek, and is used for a few other things in GT. It, like &&9Americium&&r, requires two fusion steps!",
+      "<br/>",
+      "You'll need this to get the next tier of circuits, and for &&3UV&&r components.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In some versions of GT5u, only Tritanium fluid was red. The material was otherwise white. In GTCEu, we decided to make the whole thing red instead. Much better looking!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tritanium_ingot"
+    },
+    "subtitle": {
+      "text": "Star Trek strikes again!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -12,
+          108
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603",
+    "0DBC148D92A9F69F"
+  ],
+  "tasks": {
+    "31B514C75B302F25": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_mixer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Advanced Mixer",
+    "description": [
+      "<subtitle id=\"4A92AFD2532EED26\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"31B514C75B302F25\" quest=\"4A92AFD2532EED26\"/>",
+      "<hr/>",
+      "If you're wanting to dive into &&bMV&&r, start here.",
+      "<br/>",
+      "The dusts created in an &&3MV Mixer&&r have great utility."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_mixer"
+    },
+    "subtitle": {
+      "text": "Mixing more complex alloys"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          36,
+          48
+        ]
+      }
+    }
+  }
+}

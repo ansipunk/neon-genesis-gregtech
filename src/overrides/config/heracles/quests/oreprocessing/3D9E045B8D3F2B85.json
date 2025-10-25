@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "012BF60FBD5D41AC",
+    "390E59F05132FCB8"
+  ],
+  "tasks": {
+    "412357F4B4B8FB48": {
+      "title": "Hurry hurry, slurry.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Slurry Processing",
+    "description": [
+      "<subtitle id=\"3D9E045B8D3F2B85\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"412357F4B4B8FB48\" quest=\"3D9E045B8D3F2B85\"/>",
+      "<hr/>",
+      "Some Gem ores - namely &&cRuby&&r, &&9Sapphire&&r, and &&2Green Sapphire&&r - can be mixed with Aqua Regia in their crushed form to obtain Slurry.",
+      "<br/>",
+      "When electrolysed, the Slurry has some interesting byproducts. Namely, it's one of the few ways to obtain &&dTitanium Dust&&r without macerating Titanium ingots!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ruby_slurry_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Not quite like Mekanism"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          57,
+          1
+        ]
+      }
+    }
+  }
+}

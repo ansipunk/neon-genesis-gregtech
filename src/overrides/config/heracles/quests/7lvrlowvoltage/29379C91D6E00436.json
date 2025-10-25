@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "32EA7E81885C8E87"
+  ],
+  "tasks": {
+    "5EC42A72DEC6F9FC": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_polarizer"
+    }
+  },
+  "rewards": {
+    "47F3A37E7A315A1D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:redstone",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Basic Polariser",
+    "description": [
+      "<subtitle id=\"29379C91D6E00436\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5EC42A72DEC6F9FC\" quest=\"29379C91D6E00436\"/>",
+      "<hr/>",
+      "One of the cheapest - if not the cheapest - &&7LV&&r machine. Use this to make &&6Redstone-free Magnetic Rods&&r for your Motors. Whenever you start to batch your Motors, this machine will save you stacks and stacks of Redstone.",
+      "<hr/>",
+      "<reward reward=\"47F3A37E7A315A1D\" quest=\"29379C91D6E00436\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_polarizer"
+    },
+    "subtitle": {
+      "text": "The Polarizer polarizes!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          180,
+          36
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5CBBBFD1FBBE95CE",
+    "71412502C81F21C1"
+  ],
+  "tasks": {
+    "75E27D981733ED44": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_laser_engraver"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Laser Engraving",
+    "description": [
+      "<task task=\"75E27D981733ED44\" quest=\"315169840E06110F\"/>",
+      "<hr/>",
+      "The &&3Laser Engraver&&r engraves patterns into &&9Silicon Wafers&&r based on the type of &&9Lens&&r it is given. After the wafers are engraved, they must be passed through a &&3Cutting Machine&&r to turn them into components ready to be put into Circuits.",
+      "<br/>",
+      "Higher tier Engravers can etch more complex wafers for more efficient Circuits."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_laser_engraver"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          144,
+          84
+        ]
+      }
+    }
+  }
+}

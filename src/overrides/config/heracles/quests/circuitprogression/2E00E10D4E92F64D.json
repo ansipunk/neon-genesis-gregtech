@@ -1,0 +1,28 @@
+{
+  "settings": {},
+  "dependencies": [
+    "370FC1CDF5F9A9CC",
+    "327C3E02CD751453",
+    "7AE681E2AB31EA0D"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§cZPM§r Circuits",
+    "description": [
+      "Circuits along this line are &&cZPM&&r, and are interchangeable in recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:zpm_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          192
+        ]
+      }
+    }
+  }
+}

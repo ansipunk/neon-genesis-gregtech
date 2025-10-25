@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "3E903B26B6E0D98E": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_lazurite"
+    },
+    "32D7780756D44749": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_sodalite"
+    },
+    "606762EB6B4E6B44": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_lapis"
+    },
+    "2A1B5CB79B4824D2": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_calcite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Lapis",
+    "description": [
+      "<subtitle id=\"39A58AFE2E0C13EB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3E903B26B6E0D98E\" quest=\"39A58AFE2E0C13EB\"/>",
+      "<task task=\"32D7780756D44749\" quest=\"39A58AFE2E0C13EB\"/>",
+      "<task task=\"606762EB6B4E6B44\" quest=\"39A58AFE2E0C13EB\"/>",
+      "<task task=\"2A1B5CB79B4824D2\" quest=\"39A58AFE2E0C13EB\"/>",
+      "<hr/>",
+      "Did you know Lazurite and Sodalite can be used as substitutes for &&9Lapis&&r in enchanting?",
+      "<br/>",
+      "Sodalite is the most valuable Ore here, thanks to its useful electrolysis recipe when you get to &&bMV&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lapis_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Lapis Lazuli, Aluminium, Sodium, Chlorine"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          -48,
+          32
+        ]
+      }
+    }
+  }
+}

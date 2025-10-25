@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4AFD3073C731A1E4",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "0AF5929611BCDF2C": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_chemical_reactor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Extreme Chemical Reactions",
+    "description": [
+      "<subtitle id=\"7D15EEE81B1A3100\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0AF5929611BCDF2C\" quest=\"7D15EEE81B1A3100\"/>",
+      "<hr/>",
+      "Note that in theory, the &&3EV Chemical Reactor&&r is skippable by using the &&3Large Chemical Reactor&&r instead, but we're evil enough to force you to make this.",
+      "<br/>",
+      "&&7It's still useful due to its compact size!",
+      "<br/>",
+      "&&8Honestly, if making one of these is a huge problem material-wise, take a look at your infrastructure."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_chemical_reactor"
+    },
+    "subtitle": {
+      "text": "Chemistry gets even harder"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          180,
+          180
+        ]
+      }
+    }
+  }
+}

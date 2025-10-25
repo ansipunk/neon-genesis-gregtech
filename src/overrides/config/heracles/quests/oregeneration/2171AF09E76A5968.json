@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "7628A17F2E48C5E7": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_bastnasite"
+    },
+    "20F2A4B11E2086CB": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_monazite"
+    },
+    "5233FC3D4022C248": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_neodymium"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Bastnatite",
+    "description": [
+      "<subtitle id=\"2171AF09E76A5968\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7628A17F2E48C5E7\" quest=\"2171AF09E76A5968\"/>",
+      "<task task=\"20F2A4B11E2086CB\" quest=\"2171AF09E76A5968\"/>",
+      "<task task=\"5233FC3D4022C248\" quest=\"2171AF09E76A5968\"/>",
+      "<hr/>",
+      "The de-facto Rare Earth vein for progression in &&5EV&&r... and onwards.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This vein was bugged for quite some time. It's never actually contained any Monazite, and nobody realised (well, nobody brought it up!) for many, many months. Did you notice?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_bastnasite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Rare Earth, Neodymium, Fluorine"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          240,
+          -96
+        ]
+      }
+    }
+  }
+}

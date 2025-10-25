@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "012BF60FBD5D41AC"
+  ],
+  "tasks": {
+    "2E2ABD36FCFF1CC5": {
+      "title": "Nah, I'll go with Distilled Water.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Washing with Distilled Water",
+    "description": [
+      "<subtitle id=\"228379C559E390B8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2E2ABD36FCFF1CC5\" quest=\"228379C559E390B8\"/>",
+      "<hr/>",
+      "Nothing special here. Any ores that you don't wash in novelty chemicals simply need to be washed in water with an &&dOre Washer&&r. You should use Distilled Water, as it cuts the recipe time down by &&650%&&r. Set up a couple of Distilleries on-site and buffer into an appropriately-sized &&aSuper Tank&&r.",
+      "<br/>",
+      "If you don't care about the byproducts in this section, you can wash the ores in &&bregular water&&r without a configured circuit to process &&225x&&r faster, but &&4without&&r byproducts."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:distilled_water_bucket"
+    },
+    "subtitle": {
+      "text": "The \"distinguished\" version of water"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    }
+  }
+}

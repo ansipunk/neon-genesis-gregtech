@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73E8283634E5E33A",
+    "0F192D1F44B9B599",
+    "63A87C9303D54487"
+  ],
+  "tasks": {
+    "4C2C6546F0928AD7": {
+      "type": "heracles:item",
+      "item": "gtceu:qbit_cpu_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Qubit CPUs",
+    "description": [
+      "<subtitle id=\"225F57C95C6D7650\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4C2C6546F0928AD7\" quest=\"225F57C95C6D7650\"/>",
+      "<hr/>",
+      "We know... this isn't actually gated behind &&dIndium&&r. However, you gotta trust us - this is the better recipe, so we don't want you wasting your time.",
+      "<br/>",
+      "&&aQubit CPUs&&r are used in the production of &&1Quantum&&r Processors."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:qbit_cpu_chip"
+    },
+    "subtitle": {
+      "text": "This actually has no relation to Quantum"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          156,
+          84
+        ]
+      }
+    }
+  }
+}

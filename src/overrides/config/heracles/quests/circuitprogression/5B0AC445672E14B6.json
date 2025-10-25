@@ -1,0 +1,31 @@
+{
+  "settings": {},
+  "dependencies": [
+    "42CD789B8C40E424",
+    "698B5F65F2DE4439",
+    "14D277A164202FF8",
+    "5CC9B0E832545569"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§1IV§r Circuits",
+    "description": [
+      "Circuits along this line are &&1IV&&r, and are interchangeable in recipes.",
+      "<br/>",
+      "The pattern stays the same: the rightmost circuit comes in &&dlarger quantities&&r and is overall &&aeasier&&r to produce."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          128
+        ]
+      }
+    }
+  }
+}

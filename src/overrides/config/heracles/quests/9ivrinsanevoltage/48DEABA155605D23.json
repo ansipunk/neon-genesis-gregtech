@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "dependencies": [
+    "216E5A3574AC08BF",
+    "0425179329ED1B72"
+  ],
+  "tasks": {
+    "2EC4E901B2CD35FA": {
+      "amount": 1,
+      "tasks": {
+        "cdab2d08-755b-4761-ab49-c8e5d6ce1499": {
+          "type": "heracles:item",
+          "item": "gtceu:iv_energy_input_hatch",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "1e2cf166-049d-4c08-9bab-101793580aa4": {
+          "type": "heracles:item",
+          "item": "gtceu:iv_energy_output_hatch",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Upgrading your EBF for the millionth time",
+    "description": [
+      "<subtitle id=\"48DEABA155605D23\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2EC4E901B2CD35FA\" quest=\"48DEABA155605D23\"/>",
+      "<hr/>",
+      "This Quest will be completed with &&eeither&&r an &&3IV Energy Hatch&&r&&r... or an &&3IV Dynamo Hatch&&r for your Multiblock Generators.",
+      "<br/>",
+      "Don't forget that &&d4 Amp&&r variants exist! However they require &&aNiobium-Titanium Cables&&r, which need &&9Polyphenylene Sulfide&&r.",
+      "<br/>",
+      "Look down in the &&dLuV&&r Chapter for that (don't worry... it's easy to obtain)."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_energy_input_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "This is second nature at this point"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          120,
+          121
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "257DB4B39B2A928E",
+    "5B2696206205CB2E"
+  ],
+  "tasks": {
+    "77875BBDC0A937A9": {
+      "type": "heracles:item",
+      "item": "gtceu:cupronickel_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: gtceu:cupronickel_ingot",
+    "description": [
+      "<subtitle id=\"70432F650591353C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"77875BBDC0A937A9\" quest=\"70432F650591353C\"/>",
+      "<hr/>",
+      "Gotta say, Cupronickel ingots look pretty tasty.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o IRL, Cupronickel usually contains additional elements such as Iron or Manganese to improve its strength. The Cupronickel in GregTech is probably more like Constantan (55:45 Copper:Nickel)."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cupronickel_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Legally distinct Constantan"
+    },
+    "groups": {
+      "Heating Coils": {
+        "position": [
+          -80,
+          -208
+        ]
+      }
+    }
+  }
+}

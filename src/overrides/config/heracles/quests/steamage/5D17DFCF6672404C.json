@@ -1,0 +1,78 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40DE888E6025C646"
+  ],
+  "tasks": {
+    "74C4EEA936A5EE4E": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "gtceu:primitive_blast_furnace"
+    },
+    "01198A1525737B75": {
+      "type": "heracles:item",
+      "amount": 52,
+      "item": "gtceu:firebricks"
+    },
+    "2446080B788A8A19": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "gtceu:steel_ingot"
+    }
+  },
+  "rewards": {
+    "7843257BC8A81E96": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:coke_gem",
+        "count": 64
+      }
+    }
+  },
+  "display": {
+    "title": "We Need More Steel!",
+    "description": [
+      "<subtitle id=\"5D17DFCF6672404C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"74C4EEA936A5EE4E\" quest=\"5D17DFCF6672404C\"/>",
+      "<task task=\"01198A1525737B75\" quest=\"5D17DFCF6672404C\"/>",
+      "<task task=\"2446080B788A8A19\" quest=\"5D17DFCF6672404C\"/>",
+      "<hr/>",
+      "With a very small percentage of carbon in its mass, Steel is significantly tougher than Iron or Wrought Iron.&&r",
+      "<br/>",
+      "One &&3PBF&&r most likely won't cut it moving forwards. Make another one, and you'll effectively halve the time spent waiting for Steel.",
+      "<br/>",
+      "To save the most time, use blocks of &&aCoke&&r and &&eWrought Iron&&r - this generates a block of Steel every 270 seconds. Not bad!",
+      "<br/>",
+      "<br/>",
+      "Just to check - did you know GregTech multiblocks can &&dshare walls&&r? This could save you a whole 12 Firebricks for your second PBF. &&7There may be more efficient setups, but don't stress out over figuring them out.&&r",
+      "<br/>",
+      "What you &&omay&&r also do is upgrade to four &&3PBFs&&r. It just depends on how much time you want to dedicate to resource collection, but more PBFs are always nice. We won't force you to make them, don't worry.",
+      "<br/>",
+      "&&9Note:&&r The &&3PBF&&r cannot be (reasonably) automated, but putting blocks of Iron and Coke or Charcoal will guarantee it will run for a long time without needing to be babysat.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o  In GregTech 5, one single Ingot of Steel would take you &&d360 seconds&&f in the PBF when using Coal or Charcoal! That's over &&e6 hours&&f for a whole stack! Of course, with 4 PBFs, that would cut it down to &&3around 1.5 hours&&f.",
+      "<br/>",
+      "&&oPollution was also (infamously) a thing, so four of these monsters would guarantee your character would periodically get negative effects such as slowness, mining fatigue, or even nausea and poison.",
+      "<br/>",
+      "&&oPollution is actually integrated into GregTech Modern, but we've graciously disabled it in the configs. You can re-enable it if you're up for a challenge.",
+      "<hr/>",
+      "<reward reward=\"7843257BC8A81E96\" quest=\"5D17DFCF6672404C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_ingot"
+    },
+    "subtitle": {
+      "text": "Steel, Schrödinger's alloy"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          96,
+          -48
+        ]
+      }
+    }
+  }
+}

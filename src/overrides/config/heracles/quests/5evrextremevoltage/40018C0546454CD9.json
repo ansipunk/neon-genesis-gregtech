@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "390E59F05132FCB8"
+  ],
+  "tasks": {
+    "78BFA0425B39316A": {
+      "type": "heracles:item",
+      "item": "gtceu:acetone_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acetone",
+    "description": [
+      "<task task=\"78BFA0425B39316A\" quest=\"40018C0546454CD9\"/>",
+      "<hr/>",
+      "While distilling &&aWood Vinegar&&r gives &&aAcetone&&r, the yield is low and might not meet your needs.",
+      "<br/>",
+      "You might want to use the direct &&3LCR&&r recipe from &&aAcetic Acid&&r to obtain &&aAcetone&&r.",
+      "<br/>",
+      "If you want to be fancy, you can also use the good old &&aAcetic Acid&&r -> &&dDissolved Calcium Acetate&&r -> &&aAcetone&&r loop, which does not require a &&3LCR&&r, but still recycles the Calcium compound perfectly.",
+      "<br/>",
+      "We've been talking about Acetic Acid, but we're yet to tell you how to obtain it. Wouldn't that be great?",
+      "<br/>",
+      "&&aAcetic Acid&&r can be synthesized in the &&3Chemical Reactor&&r. Our favorite recipe is from &&dEthylene&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:acetone_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          288
+        ]
+      }
+    }
+  }
+}

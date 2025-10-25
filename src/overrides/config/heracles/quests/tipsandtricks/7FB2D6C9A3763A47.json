@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "03DBF1961AE21C76"
+  ],
+  "tasks": {
+    "488F188E55E06B11": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Steam Power",
+    "description": [
+      "<subtitle id=\"7FB2D6C9A3763A47\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"488F188E55E06B11\" quest=\"7FB2D6C9A3763A47\"/>",
+      "<hr/>",
+      "You might already be familiar with EU as the Energy Unit for Electric machines - but what about Steam?",
+      "<br/>",
+      "Steam machines will run using a proportional amount of steam at a 1:1 ratio of EU to Steam as listed in your recipe viewer of choice.",
+      "<br/>",
+      "After each recipe, the Steam machines will vent cooler steam (with snazzy particles) from the side with the square. This is the exhaust port.",
+      "<br/>",
+      "Important: Keep the exhaust port unblocked - this is neither an input nor an output slot! If the machine fails to vent steam, it will stop working.",
+      "<br/>",
+      "Reminder: Use your Wrench to change which side the exhaust port is facing (right-click).",
+      "<br/>",
+      "Regular Steam Machines are twice as slow to complete recipes as is listed in EMI. To bring your machines up to speed, you may want to pursue High Pressure Steam machinery.",
+      "<br/>",
+      "High Pressure Steam Machines are the same speed as indicated by EMI, but with adjusted steam consumption. You will unlock them once you obtain Steel.",
+      "<br/>",
+      "Psst! If you're not in a Hardcore world, we invite you to stand on top of pipes transporting steam, or stand right in front of the vent as the machines are running recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_machine_casing"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "https://store.steampowered.com/"
+    },
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

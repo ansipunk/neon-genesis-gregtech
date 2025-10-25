@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40408FFD02134148",
+    "4AFD3073C731A1E4",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "4EC5F44332F7533B": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_macerator"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Even More Byproducts",
+    "description": [
+      "<subtitle id=\"7B23AF5B6B62BC19\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4EC5F44332F7533B\" quest=\"7B23AF5B6B62BC19\"/>",
+      "<hr/>",
+      "You've probably noticed the &&9\"chance per tier\"&&r when hovering over the bonus outputs in &&2EMI&&r Each overclock above the required tier will add that % bonus to the chanced output!",
+      "<br/>",
+      "This means using an &&3EV Macerator&&r will yield &&6more Byproducts&&r!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_macerator"
+    },
+    "subtitle": {
+      "text": "Avarice and hedonism in a single block"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          180,
+          216
+        ]
+      }
+    }
+  }
+}

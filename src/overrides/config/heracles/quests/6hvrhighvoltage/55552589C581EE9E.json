@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0021051273D48936"
+  ],
+  "tasks": {
+    "35D2AE2899F60BC3": {
+      "type": "heracles:item",
+      "item": "gtceu:energy_crystal"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Super Batteries",
+    "description": [
+      "<subtitle id=\"55552589C581EE9E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"35D2AE2899F60BC3\" quest=\"55552589C581EE9E\"/>",
+      "<hr/>",
+      "&&aEnergium Crystals&&r store a significant amount of &&9EU&&r. They're also arguably cheaper."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:energy_crystal"
+    },
+    "subtitle": {
+      "text": "Science-fiction batteries!"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          108,
+          -96
+        ]
+      }
+    }
+  }
+}

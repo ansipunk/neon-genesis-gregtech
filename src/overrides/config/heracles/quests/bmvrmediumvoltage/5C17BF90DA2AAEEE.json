@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F6D2829FC42F21C"
+  ],
+  "tasks": {
+    "2301CD2A841F17D9": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_integrated_circuit"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More LV Circuits",
+    "description": [
+      "<subtitle id=\"5C17BF90DA2AAEEE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2301CD2A841F17D9\" quest=\"5C17BF90DA2AAEEE\"/>",
+      "<hr/>",
+      "The Integrated Logic Circuit is an alternate &&7LV &&aCircuit&&r, which is easier to mass-produce, and can be upgraded to &&bMV&&r (and then &&6HV&&r).",
+      "<br/>",
+      "&&9Note:&&r This is not a strict upgrade to the cost of Circuits - you would need to get to the next Tier for that, just slightly further down in &&bMV&&r. It is still an important upgrade, and is required to get to &&6HV circuits&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The circuit progression in GTCEu is mostly based on GT5u's progression. It has been rebalanced to not be as painful. &&lSpecifically&&r&&o this circuit tier, which was a trap!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_integrated_circuit"
+    },
+    "subtitle": {
+      "text": "You have unlocked a new tier of Circuits!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          216,
+          84
+        ]
+      }
+    }
+  }
+}

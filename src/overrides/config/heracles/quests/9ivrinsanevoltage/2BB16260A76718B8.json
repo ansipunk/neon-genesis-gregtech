@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "73E8283634E5E33A",
+    "216E5A3574AC08BF",
+    "069FD86133D7D582",
+    "6B128610C7D2825D"
+  ],
+  "tasks": {
+    "230762F7951EB866": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_circuit_assembler"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "IV Circuit Assembling",
+    "description": [
+      "<task task=\"230762F7951EB866\" quest=\"2BB16260A76718B8\"/>",
+      "<hr/>",
+      "Woah! It's been tough to get here. You'll appreciate not having to make a new polymer for Circuits Boards.",
+      "<br/>",
+      "The &&3IV Circuit Assembler&&r unlocks the &&1Quantum&&r Circuit line.",
+      "<br/>",
+      "This also unlocks the &&6best recipe&&r for &&dMV Circuits&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_circuit_assembler"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          192,
+          84
+        ]
+      }
+    }
+  }
+}

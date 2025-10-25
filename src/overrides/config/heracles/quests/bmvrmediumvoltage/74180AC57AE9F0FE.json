@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7567E885B7166603"
+  ],
+  "tasks": {
+    "093E71F51E1ECA6F": {
+      "title": "Hydrocarbons",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Hydrocarbons",
+    "description": [
+      "<subtitle id=\"74180AC57AE9F0FE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"093E71F51E1ECA6F\" quest=\"74180AC57AE9F0FE\"/>",
+      "<hr/>",
+      "Welcome to your first (of many) forays into &&bHydrocarbons&&r! You may already know a few of them, like Petrol, Plastic, Alcohol... well, in GregTech, you'll mass-produce many of these things, and more! This topic can be confusing at times, so you'll want to read carefully in order to avoid getting lost in the details. Now...",
+      "<br/>",
+      "Here in &&bMV&&r, there are two main goals of working with Hydrocarbons - Power and Plastics. The interesting part is how you'll accomplish this. There are two main paths you can take: &&6Petrochemicals&&r and &&aBiochemicals&&r. Both have their pros and cons - Petrochemicals typically provide &&9higher yields&&r and &&benergy-efficiency&&r, while Biochemicals are fully &&drenewable&&r. Your source of Power and Plastics is entirely &&bup to you&&r.",
+      "<br/>",
+      "Ready to dive in? The &&6Petrochemical&&r route(s) are to the left of this quest - you've got three options here. For those with green thumbs, the &&2Biochemical&&r routes are diagonally right. Best of luck!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:polyethylene_nugget"
+    },
+    "subtitle": {
+      "text": "Getting industrial"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -36,
+          -24
+        ]
+      }
+    }
+  }
+}

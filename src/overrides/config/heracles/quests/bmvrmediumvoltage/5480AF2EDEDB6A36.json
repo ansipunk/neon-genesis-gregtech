@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0774EC59CD3DD7A5",
+    "575B07D390D9D079"
+  ],
+  "tasks": {
+    "6D77664884690FB4": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "gtceu:long_distance_fluid_pipeline_endpoint"
+    },
+    "01F1E774C67ED4AF": {
+      "type": "heracles:item",
+      "item": "gtceu:long_distance_fluid_pipeline"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Long-Distance Fluids",
+    "description": [
+      "<subtitle id=\"5480AF2EDEDB6A36\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6D77664884690FB4\" quest=\"5480AF2EDEDB6A36\"/>",
+      "<task task=\"01F1E774C67ED4AF\" quest=\"5480AF2EDEDB6A36\"/>",
+      "<hr/>",
+      "&&3Long-Distance Fluid Pipes&&r can be used to send fluids across great distances. Place one endpoint at each end, and connect them with pipeline blocks.",
+      "<br/>",
+      "These pipes instantly transfer from the input side to the output side.",
+      "<br/>",
+      "They also have a minimum distance between pipe endpoints, so you can't use these for short-range operations.",
+      "<br/>",
+      "These pipes have a reputation of being &&4buggy&&r to set up. If they don't seem to work at first, try rotating the endpoints with a &&eWrench&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:long_distance_fluid_pipeline_endpoint"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Wondering how to move that oil around?"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          -144,
+          12
+        ]
+      }
+    }
+  }
+}

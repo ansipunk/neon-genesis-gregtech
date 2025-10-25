@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "195E5BFDE4C5A0DE",
+    "6C241455C5434C2E",
+    "764091A111FB4DA6"
+  ],
+  "tasks": {
+    "6357389871CE70C2": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_processor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best IV Circuits!",
+    "description": [
+      "<subtitle id=\"42CD789B8C40E424\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6357389871CE70C2\" quest=\"42CD789B8C40E424\"/>",
+      "<hr/>",
+      "The first circuit of the &&9Crystal&&r line.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The concept of a Crystal Circuit has existed since the very early versions of GregTech. We're still not entirely sure if they exist in real life."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_processor"
+    },
+    "subtitle": {
+      "text": "I know where this is going!"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          252,
+          108
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0",
+    "5ED7707B0ECF2207",
+    "52D952ADBEB67454"
+  ],
+  "tasks": {
+    "01188385BE2DB3B3": {
+      "type": "heracles:item",
+      "item": "gtceu:data_bank"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mass Data Storage",
+    "description": [
+      "<subtitle id=\"42760D3A86EFDCA3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"01188385BE2DB3B3\" quest=\"42760D3A86EFDCA3\"/>",
+      "<hr/>",
+      "The &&3Data Bank&&r is a multiblock capable of storing huge amounts of data. You can fill it with &&aData Access Hatches&&r, and fill those with &&aData Storage Items&&r.",
+      "<br/>",
+      "After that, you'll need power, and then a way to connect it to your Assembly Line! This is done through &&3Optical Fiber Cables&&r, which can be used to link &&3Optical Data Hatches together&&r.",
+      "<br/>",
+      "An &&9Optical Transmission Hatch&&r is used to send data (like an output), and an &&9Optical Reception Hatch&&r to recieve the data (like an input). ",
+      "<br/>",
+      "Optical cables have some restrictions however. They can only connect &&eone input to one output&&r. The Data Bank is your answer to this, since you can place many hatches on them to route your data anywhere.",
+      "<br/>",
+      "You can use this behavior to &&echain&&r Data Banks as well. Connecting one Data Bank to another, and then one of them to an Assembly Line will provide the data of both banks!",
+      "<br/>",
+      "&&eNote: &&rThis multiblock will be required later on in progression, but is very useful to set up early.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This multiblock also originates from TecTech, but part of its mechanics required optical cables to be painted as well. You don't have to do that here, but it looks really nice if you do!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:data_bank"
+    },
+    "subtitle": {
+      "text": "Time for a server room"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          144,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "10FB27DD3C7BEC2F"
+  ],
+  "tasks": {
+    "72696AD2B77F805B": {
+      "type": "heracles:item",
+      "item": "gtceu:polyvinyl_chloride_plate"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Polyvinyl Chloride",
+    "description": [
+      "<subtitle id=\"40408FFD02134148\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"72696AD2B77F805B\" quest=\"40408FFD02134148\"/>",
+      "<hr/>",
+      "&&aPolyvinyl Chloride (PVC)&&r is the 3rd-most produced plastic in real life. Here in CEu, it can be substituted for Polyethylene in the production of &&aPlastic Circuit Boards&&r and other items to increase the yield. It is required from &&5EV&&r onwards to wrap Cables.",
+      "<br/>",
+      "PVC item pipes also have the &&6highest throughput&&r available for a while, but most of your setups right now won't need such speed. Still, it's good to keep this knowledge in your pocket.",
+      "<br/>",
+      "&&9Pro tip:&&r The fluid form of PVC is never used in base GTCEu, so feel free to solidify all of it into sheets."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:polyvinyl_chloride_plate"
+    },
+    "subtitle": {
+      "text": "You've already made one polymer, what's two?"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          216,
+          -132
+        ]
+      }
+    }
+  }
+}

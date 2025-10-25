@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3A8D7FC6F316C38C",
+    "5263F866638D875C"
+  ],
+  "tasks": {
+    "5710E0C2A7441809": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_gas_collector"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Gas Collector",
+    "description": [
+      "<subtitle id=\"15928F50AE80A5CF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5710E0C2A7441809\" quest=\"15928F50AE80A5CF\"/>",
+      "<hr/>",
+      "The Gas Collector collects Air that can then be centrifuged into &&aOxygen&&r and &&aNitrogen&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o GregTech 5 players remember when they had to use a Compressor with IC2 cells to get Compressed Air... here, cell chemistry is no more."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_gas_collector"
+    },
+    "subtitle": {
+      "text": "Time to sell some Air"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -36,
+          216
+        ]
+      }
+    }
+  }
+}

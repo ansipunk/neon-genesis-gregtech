@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3144DC68B266730C",
+    "236C886D50A99785",
+    "1436DB89E21264F3"
+  ],
+  "tasks": {
+    "04946F2F0923EFFE": {
+      "type": "heracles:item",
+      "item": "gtceu:rubber_ingot"
+    },
+    "5B1CDCDC598717C5": {
+      "type": "heracles:item",
+      "item": "gtceu:rubber_plate"
+    }
+  },
+  "rewards": {
+    "7190A812E045BE04": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:rubber_plate",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Rubbering up",
+    "description": [
+      "<subtitle id=\"77EA56D16A9B3BFC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"04946F2F0923EFFE\" quest=\"77EA56D16A9B3BFC\"/>",
+      "<task task=\"5B1CDCDC598717C5\" quest=\"77EA56D16A9B3BFC\"/>",
+      "<hr/>",
+      "Rubber is an excellent insulation material, and that's exactly what it's used for in GTCEu.",
+      "<br/>",
+      "You'll want to use the &&3Alloy Smelter&&r to make &&aRubber Bars&&r. These ratios aren't particularly great, but we promise that making Rubber Bars will be much more efficient at &&7LV&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In base GregTech 5 &&7(and in base GTCE)&&f, you needed to get string and black wool carpets as your first insulation material. &&8&&mThat was obviously far, far more fun.&&r",
+      "<hr/>",
+      "<reward reward=\"7190A812E045BE04\" quest=\"77EA56D16A9B3BFC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:rubber_ingot"
+    },
+    "subtitle": {
+      "text": "Put that resin to use!"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          252,
+          -12
+        ]
+      }
+    }
+  }
+}

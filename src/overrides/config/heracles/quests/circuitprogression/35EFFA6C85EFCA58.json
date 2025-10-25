@@ -1,0 +1,27 @@
+{
+  "settings": {},
+  "dependencies": [
+    "79E4E53E9DF45549",
+    "359121584E056022"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "§3UV§r Circuits",
+    "description": [
+      "Circuits along this line are &&3UV&&r, and are interchangeable for each other."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uv_machine_casing"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          -32,
+          224
+        ]
+      }
+    }
+  }
+}

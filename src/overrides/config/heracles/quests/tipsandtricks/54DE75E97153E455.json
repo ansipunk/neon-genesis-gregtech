@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1BE0349B8F3890D3"
+  ],
+  "tasks": {
+    "5E35ABFDCB703A38": {
+      "title": "Overclocking",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Overclocking",
+    "description": [
+      "<task task=\"5E35ABFDCB703A38\" quest=\"54DE75E97153E455\"/>",
+      "<hr/>",
+      "Why does every machine have a million variants across each tier? We'll let you in on an industry secret - overclocking is one of the main reasons.",
+      "<br/>",
+      "Overclocking is a mechanic that happens when you try to run a recipe in a machine &&dthat is higher tier than the recipe itself.&&r The recipe will use an increased amount of energy, but the recipe time will be cut based on how many tiers you're overclocking by.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o GTCE overclocking was extremely awkward. If the recipe consumed 16EU/t or below, it would do a classic 2.0x overclock. However if the recipe consumed more than 16EU/t, every Overclock would be 2.8x faster! GTCEu has a config to select the Overclock speed bonus.",
+      "<br/>",
+      "A pro tip - for automated setups, overclock as little as possible!",
+      "<br/>",
+      "Machines have a side menu to set the maximum voltage tier it will overclock to. Click on it to cycle through all the available Voltages and choose a limit.",
+      "<br/>",
+      "Each tier above the recipe tier allows one overclock. Each overclock implies:",
+      "<br/>",
+      "&&9-&&r &&a2x&&r recipe speed",
+      "&&9-&&r &&a4x&&r power consumption",
+      "&&9->&&r &&c2x&&r total energy cost",
+      "<br/>",
+      "As you can see, there are upsides and downsides. It is a game of balance: ask yourself if you want faster recipes at the cost of greater power consumption."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:clock"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Tips and Tricks": {
+        "position": [
+          127,
+          0
+        ]
+      }
+    }
+  }
+}

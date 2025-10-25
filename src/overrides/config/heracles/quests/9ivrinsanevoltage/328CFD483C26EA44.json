@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "30A6EDDF25A5E5F8",
+    "14D277A164202FF8"
+  ],
+  "tasks": {
+    "4C89839747EDFFF5": {
+      "type": "heracles:item",
+      "item": "gtceu:tungstensteel_large_boiler"
+    },
+    "4F863C04757556B2": {
+      "title": "Yup, totally crafted one.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Worst Combustion",
+    "description": [
+      "<subtitle id=\"328CFD483C26EA44\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4C89839747EDFFF5\" quest=\"328CFD483C26EA44\"/>",
+      "<task task=\"4F863C04757556B2\" quest=\"328CFD483C26EA44\"/>",
+      "<hr/>",
+      "The &&aLarge Tungstensteel Boiler&&r is the final Steam Boiler. It's even more efficient than the previous ones, and produces more steam.",
+      "<br/>",
+      "This thing is &&la colossal noob trap&&r, and you should &&4ABSOLUTELY&&r use something else. &&cDon't&&r make this, it's not good, not even as a meme! Steam &&4doesn't&&r scale beyond this point, and this boiler will likely be &&3removed&&r in the future.",
+      "<br/>",
+      "&&eNote&&r: This quest can be skipped &&7(for completion progress)&&r by clicking the Checkmark. You do not have to actually craft one.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o No one makes these in GT5u either... y'know, almost makes you feel sorry for the poor boiler."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tungstensteel_large_boiler"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Good luck fueling this, lmao"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          -24,
+          156
+        ]
+      }
+    }
+  }
+}

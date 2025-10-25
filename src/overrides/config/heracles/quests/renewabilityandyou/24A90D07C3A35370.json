@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4D7A771B67DAFC6F",
+    "48141DBA683F6B5A"
+  ],
+  "tasks": {
+    "2DE291473F207BF8": {
+      "title": "Air truly is wonderful.",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "All Kinds Of Air (Distillation)",
+    "description": [
+      "<subtitle id=\"24A90D07C3A35370\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2DE291473F207BF8\" quest=\"24A90D07C3A35370\"/>",
+      "<hr/>",
+      "By collecting Air with a &&6Gas Collector&&r and cooling it to Liquid state with a &&3Vacuum Freezer&&r, you can then distill the liquid Air for a plethora of valuable resources.",
+      "<br/>",
+      "You thought that was all? Air collection isn't limited to the &&2Overworld&&r - whilst you'll require a higher-tier Distillation Tower to distill the \"higher\" tiers of liquid Air, you can also process air from the &&4Nether&&r and the &&5End&&r. This process is mostly optional, but you'll definitely find it to be a rewarding one."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:distillation_tower"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Things are up in the air right now..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          -5,
+          -22
+        ]
+      }
+    }
+  }
+}

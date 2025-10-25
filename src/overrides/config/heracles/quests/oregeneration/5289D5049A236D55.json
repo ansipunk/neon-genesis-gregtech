@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "13B468D35939891B": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_salt"
+    },
+    "37199835CDD92171": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_rock_salt"
+    },
+    "1C5608B78BB94EF0": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_lepidolite"
+    },
+    "6D3D2CBF04EA7874": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_spodumene"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Gamer Rage",
+    "description": [
+      "<subtitle id=\"5289D5049A236D55\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"13B468D35939891B\" quest=\"5289D5049A236D55\"/>",
+      "<task task=\"37199835CDD92171\" quest=\"5289D5049A236D55\"/>",
+      "<task task=\"1C5608B78BB94EF0\" quest=\"5289D5049A236D55\"/>",
+      "<task task=\"6D3D2CBF04EA7874\" quest=\"5289D5049A236D55\"/>",
+      "<hr/>",
+      "Your one-stop-shop for sources of Chlorine.",
+      "<br/>",
+      "If you're pining after Lithium, note that it can be obtained from Lepidolite Ore Processing."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:salt_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Salt, Chlorine, Lithium, Fluorine"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          160,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6F15D7574B8F6DB5"
+  ],
+  "tasks": {
+    "0BE31C55310D03A8": {
+      "title": "Thanks for playing!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Finale",
+    "description": [
+      "<subtitle id=\"6E8F257261F93501\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0BE31C55310D03A8\" quest=\"6E8F257261F93501\"/>",
+      "<hr/>",
+      "Crafting the &&aUltimate Battery&&r marks the end of GTCEu and the GregTech Community Modpack. &&6Congratulations!&&r",
+      "<br/>",
+      "Now that you've finished the mod, there's a few things you should do:",
+      "<br/>",
+      "- &&9Join the GTCEu Discord&&r and tell us about how your playthrough went! Feel free to show off your battery :) ",
+      "<br/>",
+      "- &&eGo outside&&r (and start playing GregTech in real life, right?). Integrate back into regular society.",
+      "<br/>",
+      "- &&cBlow up your world with TNT and GT Dynamite&&r. &&nPlease, please, PLEASE make a backup first!!!&&r",
+      "<br/>",
+      "&&6&&lThank you for playing the pack! :D&&r",
+      "- The GregTech Community Pack Dev Team"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_wrench"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hearts.png",
+    "subtitle": {
+      "text": "Is this... the end?"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          324,
+          48
+        ]
+      }
+    }
+  }
+}

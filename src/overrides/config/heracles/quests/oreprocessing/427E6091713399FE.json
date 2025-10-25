@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "478A7F7565AFC8A8",
+    "57D4E09A9CAB150C"
+  ],
+  "tasks": {
+    "2AA030AFC90A1E7B": {
+      "title": "The Entire Platline In 50 Hours",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Platinum Group Processing",
+    "description": [
+      "<subtitle id=\"427E6091713399FE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2AA030AFC90A1E7B\" quest=\"427E6091713399FE\"/>",
+      "<hr/>",
+      "You'll want to send off the following ores to &&aPlatinum Group Processing&&r:",
+      "<br/>",
+      "- Purified Chalcopyrite Ore",
+      "- Purified Tetrahedrite Ore",
+      "- Purified Chalcocite Ore",
+      "- Purified Bornite Ore",
+      "- Purified Sheldonite Ore",
+      "- Purified Pentlandite Ore",
+      "<br/>",
+      "Treat these ores with &&eNitric Acid&&r to receive your &&5Platinum Group sludge&&r, alongside a Sulfuric byproduct fluid. What you do with these &&boutputs&&r... is up to you to figure out!",
+      "<br/>",
+      "&&8(Hint: It's in the EV chapter.)"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:platinum_group_sludge_dust"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Quite the rabbit hole to jump down..."
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          -64,
+          128
+        ]
+      }
+    }
+  }
+}

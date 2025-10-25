@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "32EA7E81885C8E87"
+  ],
+  "tasks": {
+    "3AC3A8728EE60E4C": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_bender"
+    }
+  },
+  "rewards": {
+    "6DF60970CB48982D": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:steel_plate",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Basic Bender",
+    "description": [
+      "<subtitle id=\"10ECB471A77F5136\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3AC3A8728EE60E4C\" quest=\"10ECB471A77F5136\"/>",
+      "<hr/>",
+      "Arguably the second best &&7LV&&r machine to craft, but we're down if you want to argue otherwise.",
+      "<br/>",
+      "This unlocks the ability to convert one &&6Ingot into one Plate&&r, which is a better ratio than the Forge Hammer.",
+      "<hr/>",
+      "<reward reward=\"6DF60970CB48982D\" quest=\"10ECB471A77F5136\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_bender"
+    },
+    "subtitle": {
+      "text": "The Bender bends!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          144,
+          36
+        ]
+      }
+    }
+  }
+}

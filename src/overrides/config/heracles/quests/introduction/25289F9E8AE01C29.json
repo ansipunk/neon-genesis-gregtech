@@ -1,0 +1,58 @@
+{
+  "settings": {},
+  "tasks": {
+    "6C1F570DB9013DE7": {
+      "title": "Welcome!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "6FD85EC9BD99C866": {
+      "title": "Steak",
+      "icon": {
+        "type": "heracles:item",
+        "item": "minecraft:cooked_beef"
+      },
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:sus_record"
+      }
+    }
+  },
+  "display": {
+    "title": "Welcome to GregTech CEu!",
+    "description": [
+      "<subtitle id=\"25289F9E8AE01C29\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6C1F570DB9013DE7\" quest=\"25289F9E8AE01C29\"/>",
+      "<hr/>",
+      "This modpack is intended as a guide on &&b&&lGregtech: Community Edition Unofficial Modern&&r&&r (also known as &&aGTCEu Modern&&r or &&aCEu Modern&&r), a continuation of &&aGTCE&&r - which is in itself a fork of Gregtech.",
+      "<br/>",
+      "New content has been added to every tier, even going up to &&3Ultimate Voltage,&&r and there is also a non-negligible amount of new &&dQuality of Life&&r.",
+      "<br/>",
+      "&&aCEu Modern&&r brings the mod up to date with &&erecent versions&&r of Minecraft &&o(as of writing this)&&r. You can open the questbook with the default keybind &&6F4&&r, but feel free to change it if it isn't to your tastes.",
+      "<br/>",
+      "This is a &&2pure &&lTech&&r&&2 modpack&&r, focused on GregTech and its progression. You'll find &&6no better place&&r to learn about this mod and all the features it adds!",
+      "<br/>",
+      "The questbook you're reading is &&ebrimming with information&&r to guide you through the modpack, so check it out if you find yourself getting lost.  We wrote it with both &&dold-school veterans&&r and &&bnewcomers&&r in mind.",
+      "<hr/>",
+      "<reward reward=\"6FD85EC9BD99C866\" quest=\"25289F9E8AE01C29\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "kubejs:greg_icon"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "We hope you enjoy your stay"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          -24,
+          -48
+        ]
+      }
+    }
+  }
+}

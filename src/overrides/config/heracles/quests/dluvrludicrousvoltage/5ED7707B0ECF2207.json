@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0F192D1F44B9B599",
+    "2FCBA0D780DBDA9E"
+  ],
+  "tasks": {
+    "10FB849CE994B1A5": {
+      "type": "heracles:item",
+      "item": "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "LuV Superconductors",
+    "description": [
+      "<subtitle id=\"5ED7707B0ECF2207\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10FB849CE994B1A5\" quest=\"5ED7707B0ECF2207\"/>",
+      "<hr/>",
+      "&&aLuV Superconductors&&r are necessary if you're eyeing a &&9Fusion Reactor&&r. ",
+      "<br/>",
+      "Don't ignore our warning here - you're gonna need &&ea lot&&r&&r of them. Luckily, any &&5Indium&&r shortages will be solved by your Naquadah line."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+    },
+    "subtitle": {
+      "text": "Be glad these don't use pumps"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          144,
+          36
+        ]
+      }
+    }
+  }
+}

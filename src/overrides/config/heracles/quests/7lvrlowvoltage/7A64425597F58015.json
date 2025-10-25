@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "2D87ADACFE1EF8E5": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_sifter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: gtceu:lv_sifter",
+    "description": [
+      "<subtitle id=\"7A64425597F58015\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2D87ADACFE1EF8E5\" quest=\"7A64425597F58015\"/>",
+      "<hr/>",
+      "The Sifter sifts &&dGem type&&r &&aPurified Ores&&r to find &&aExquisite&&r and &&aFlawless&&r Gems, which can be cut into normal Gems. It also finds &&aPurified Dusts&&r of that gem. Overall, this gives a &&6higher yield&&r than other means.",
+      "<br/>",
+      "A small amount of &&dFlawless Emeralds&&r will be required in &&bMV&&r, and running ores in &&3Sifting Machine&&r is how you obtain these.",
+      "<br/>",
+      "Each higher tier of &&3Sifter&&r increases the chance of all Gem types to be found, at the cost of more energy. ",
+      "<br/>",
+      "&&9Note:&&r If you crushed Gem Ores (such as Diamond), it is critical you use this machine to recover the actual gems in non dust form. However, this is a rather slow process, so you may want to smelt this type of ore directly into the Gem."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_sifter"
+    },
+    "subtitle": {
+      "text": "You're as Exquisite as the gems you sift!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          24,
+          180
+        ]
+      }
+    }
+  }
+}

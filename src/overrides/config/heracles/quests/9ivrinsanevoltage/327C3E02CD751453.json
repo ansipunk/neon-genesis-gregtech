@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "145F71A817C5996E"
+  ],
+  "tasks": {
+    "59901F46ED2C46DF": {
+      "type": "heracles:item",
+      "item": "gtceu:quantum_processor_mainframe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "First ZPM Circuits!",
+    "description": [
+      "<subtitle id=\"327C3E02CD751453\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"59901F46ED2C46DF\" quest=\"327C3E02CD751453\"/>",
+      "<hr/>",
+      "The &&aZPM Mainframe&&r is used to make the &&3LuV Circuit Assembler&&r (of course), but also allows you to step into &&3Fusion&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:quantum_processor_mainframe"
+    },
+    "subtitle": {
+      "text": "Zero Point Module is (almost) mine!"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          264,
+          156
+        ]
+      }
+    }
+  }
+}

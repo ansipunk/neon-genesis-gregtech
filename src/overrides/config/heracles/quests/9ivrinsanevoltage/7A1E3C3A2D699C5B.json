@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1776FA1F3255731E",
+    "5CA86A333670A55C",
+    "069FD86133D7D582"
+  ],
+  "tasks": {
+    "544762609C1B9613": {
+      "icon": {
+        "type": "heracles:item",
+        "item": "gtceu:hssg_coil_block"
+      },
+      "type": "heracles:item",
+      "item": "gtceu:hssg_coil_block"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "HSS-G Coils",
+    "description": [
+      "<subtitle id=\"7A1E3C3A2D699C5B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"544762609C1B9613\" quest=\"7A1E3C3A2D699C5B\"/>",
+      "<hr/>",
+      "&&aHSS-G Coils&&r bring up the Heat Capacity to &&d5,400K&&r.",
+      "<br/>",
+      "The ever-tempting &&6Coil bonuses&&r&&r should be high incentive to make those early, as they become mandatory only during &&dLuV&&r.",
+      "<br/>",
+      "At this point, you may find yourself using only one &&3Electric Blast Furnace&&r for your entire base, powered with the highest available Voltage you can supply.",
+      "<br/>",
+      "&&6Hot Metals&&r will start taking longer to cool down, as unlike your EBFs, the &&3Vacuum Freezer&&r doesn't get perfect overclocks. For that, you probably want a dual &&7(or quad)&&r &&3Vacuum Freezer&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hssg_coil_block"
+    },
+    "subtitle": {
+      "text": "Approaching solar temperatures"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          12,
+          48
+        ]
+      }
+    }
+  }
+}

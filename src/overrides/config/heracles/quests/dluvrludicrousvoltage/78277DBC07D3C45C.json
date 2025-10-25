@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A1E3C3A2D699C5B"
+  ],
+  "tasks": {
+    "36833D5050F81992": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadah_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Naquadah",
+    "description": [
+      "<subtitle id=\"78277DBC07D3C45C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"36833D5050F81992\" quest=\"78277DBC07D3C45C\"/>",
+      "<hr/>",
+      "&&aNaquadah&&r is a late-game material with a variety of uses. It is required when building a Fusion Reactor and progressing to &&cZPM&&r, to name a few.",
+      "<br/>",
+      "For some reason, its fluid is a brilliant &&agreen&&r - don't ask us why.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Naquadah is a material originally from Stargate."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadah_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Don't you mean Stargatium?"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          36,
+          36
+        ]
+      }
+    }
+  }
+}

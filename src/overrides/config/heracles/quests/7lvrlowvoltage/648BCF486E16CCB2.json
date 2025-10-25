@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "32EA7E81885C8E87"
+  ],
+  "tasks": {
+    "07CE2766ECA4B0D8": {
+      "title": "I... might have some sense of direction now",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Progressing Through LV",
+    "description": [
+      "<subtitle id=\"648BCF486E16CCB2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"07CE2766ECA4B0D8\" quest=\"648BCF486E16CCB2\"/>",
+      "<hr/>",
+      "&&7LV&&r will require you to craft a lot of different machines! You may also find it useful to have multiple of the same machine, set to different programmed circuit values.",
+      "<br/>",
+      "Here's a friendly tip if you're struggling to set goals: pick an item in a later quest and go backwards from there.",
+      "<br/>",
+      "With that in mind... why don't we start with a &&5Fusion Reactor&&r? Never mind, slightly too ambitious - let's check a closer goal instead. Ah, yes, the &&3Electric Blast Furnace&&r - the main \"end goal\" of &&7LV&&r - should be a good target.",
+      "<br/>",
+      "The EBF is &&aexpensive&&r, which is why you should initially focus on machines to make components and materials cheaper. We'll do our best to guide you in the right direction with these quests.",
+      "<br/>",
+      "Other important goals are crafting the &&3LV Assembler&&r and making your first &&aMV Circuits&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_electronic_circuit"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "Too many options, too little time!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          72,
+          144
+        ]
+      }
+    }
+  }
+}

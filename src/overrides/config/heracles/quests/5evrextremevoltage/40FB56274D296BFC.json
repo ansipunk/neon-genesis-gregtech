@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "39E7997F3080250A"
+  ],
+  "tasks": {
+    "74B6B5BE046E9810": {
+      "type": "heracles:item",
+      "item": "mae2:eu_p2p_tunnel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "EU P2P Tunnels",
+    "description": [
+      "<subtitle id=\"40FB56274D296BFC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"74B6B5BE046E9810\" quest=\"40FB56274D296BFC\"/>",
+      "<hr/>",
+      "To turn a P2P Tunnel into a &&aGTEU P2P Tunnel&&r, right-click it in the world with a &&dWire&&r or &&dCable&&r.",
+      "<br/>",
+      "This is ideal in lategame situations to negate Cable or Transformer spam. You can also use them in conjunction with the AE2 Quantum Bridge to power your high tier Miners and Drills outside your base.",
+      "<br/>",
+      "There is a &&45% Voltage Tax&&r on the output side of the P2P, resulting in 5% energy loss."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mae2:pattern_p2p_tunnel"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Unfortunately, unavailable to any British players"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          269,
+          89
+        ]
+      }
+    }
+  }
+}

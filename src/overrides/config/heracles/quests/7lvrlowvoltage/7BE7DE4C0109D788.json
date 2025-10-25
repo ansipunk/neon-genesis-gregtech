@@ -1,0 +1,53 @@
+{
+  "settings": {},
+  "dependencies": [
+    "63CD0236B337EAAD",
+    "4073577B7EF9B593"
+  ],
+  "tasks": {
+    "0FE8CA1C2D212378": {
+      "type": "heracles:item",
+      "item": "gtceu:diode"
+    }
+  },
+  "rewards": {
+    "7E08419FB2E4B575": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:gallium_dust",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:diode",
+    "description": [
+      "<subtitle id=\"7BE7DE4C0109D788\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0FE8CA1C2D212378\" quest=\"7BE7DE4C0109D788\"/>",
+      "<hr/>",
+      "Don't let EMI fool you... there's only one possible recipe right now for this Primitive Diode.",
+      "<br/>",
+      "Diodes have a infamously &&4nasty recipe&&r, but they will become cheaper and more convenient once you can obtain &&ePolyethylene&&r.",
+      "<br/>",
+      "This is required for &&dMV Circuits&&r.",
+      "<hr/>",
+      "<reward reward=\"7E08419FB2E4B575\" quest=\"7BE7DE4C0109D788\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:diode"
+    },
+    "subtitle": {
+      "text": "Don't be swayed by EMI!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          108,
+          252
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "60D7F6C1EE918B66",
+    "375684F9CBEF9132",
+    "1E7BF65DB32B8B3E"
+  ],
+  "tasks": {
+    "75EB5730046212D0": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_integrated_circuit"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "First HV Circuits!",
+    "description": [
+      "<subtitle id=\"26394C1290D70AB6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"75EB5730046212D0\" quest=\"26394C1290D70AB6\"/>",
+      "<hr/>",
+      "Alright... technically, obtaining &&6HV&&r Circuits and Stainless Steel lets you progress to &&6HV&&r - but let's not rush things.",
+      "<br/>",
+      "The first thing you should make with these is a &&3MV Circuit Assembler&&r to unlock the new tier of Circuits right away; cheaper recipes is the &&dreal payoff&&r here."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_integrated_circuit"
+    },
+    "subtitle": {
+      "text": "...but hold on before getting too giddy"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          216,
+          12
+        ]
+      }
+    }
+  }
+}

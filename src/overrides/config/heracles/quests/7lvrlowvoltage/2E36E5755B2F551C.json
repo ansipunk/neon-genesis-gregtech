@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3E6DC423FE4A99F7"
+  ],
+  "tasks": {
+    "1AC97E61EF4958C8": {
+      "type": "heracles:item",
+      "item": "gtceu:prospector.lv"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "This is Hacking",
+    "description": [
+      "<subtitle id=\"2E36E5755B2F551C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1AC97E61EF4958C8\" quest=\"2E36E5755B2F551C\"/>",
+      "<hr/>",
+      "The Prospector is an amazing tool that'll help you find veins in no time.",
+      "<br/>",
+      "Its GUI is interactive. Right-clicking will scan for ores, displaying them on a dynamic map.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Back in OUR day, the portable Prospector was locked to &&dLuV&&f. Kids these days have it easy."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:prospector.lv"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "(Ok, maybe not)"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          149,
+          69
+        ]
+      }
+    }
+  }
+}

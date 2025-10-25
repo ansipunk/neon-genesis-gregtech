@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "16A6AE5C770DB83A"
+  ],
+  "tasks": {
+    "13B0B5168E4B06E3": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_chemical_bath"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "High Voltage Bathing",
+    "description": [
+      "<subtitle id=\"124B32A0583A636A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"13B0B5168E4B06E3\" quest=\"124B32A0583A636A\"/>",
+      "<hr/>",
+      "The &&3HV Chemical Bath&&r is used to &&ddye Lenses&&r using &&aChemical Dye&&r. This will let you engrave more types of Wafers!",
+      "<br/>",
+      "This is also required for &&aEyes of Ender&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_chemical_bath"
+    },
+    "subtitle": {
+      "text": "Please don't bathe with electronics..."
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          144,
+          -60
+        ]
+      }
+    }
+  }
+}

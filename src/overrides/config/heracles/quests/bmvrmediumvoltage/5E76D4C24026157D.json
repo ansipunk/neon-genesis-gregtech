@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4600221BF0A30C3A",
+    "6E9E15DA847DD0A1",
+    "0DE5C3FBC9A6A690",
+    "375684F9CBEF9132"
+  ],
+  "tasks": {
+    "4E076080D7B23372": {
+      "type": "heracles:item",
+      "item": "gtceu:microchip_processor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best LV Circuits",
+    "description": [
+      "<subtitle id=\"5E76D4C24026157D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4E076080D7B23372\" quest=\"5E76D4C24026157D\"/>",
+      "<hr/>",
+      "&&6The best LV Circuits&&r! You can start to churn these guys out, as you'll be making them for the rest of the game.",
+      "<br/>",
+      "Try to keep a stockpile of these crafted at all times - making these on-demand can take a while.",
+      "<br/>",
+      "Reaching &&5EV&&r will unlock methods to make them even cheaper."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:microchip_processor"
+    },
+    "subtitle": {
+      "text": "It Feels Good to be the Best"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          252,
+          -24
+        ]
+      }
+    }
+  }
+}

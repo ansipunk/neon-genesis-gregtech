@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6EB68C28BEE24DEF",
+    "390E59F05132FCB8"
+  ],
+  "tasks": {
+    "54C9440D952AD14D": {
+      "type": "heracles:item",
+      "item": "gtceu:ammonia_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ammonia",
+    "description": [
+      "<subtitle id=\"4343746E706264E6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"54C9440D952AD14D\" quest=\"4343746E706264E6\"/>",
+      "<hr/>",
+      "&&aAmmonia&&r is &&doptional&&r in &&6HV&&r.",
+      "<br/>",
+      "You may use it in the production of:",
+      "<br/>",
+      "&&9-&&r Nitric Acid, although we don't recommend this.",
+      "<br/>",
+      "&&9-&&r Rocket Fuel, required for Nether Stars in &&1IV&&r.",
+      "<br/>",
+      "&&9-&&r Polybenzimidazole (now THAT'S a tongue twister!) in &&1IV&&r.",
+      "<br/>",
+      "The \"least painful\" recipe should be the one in the &&3HV Chemical Reactor&&r. Make sure your &&aHydrogen&&r production (mostly from &&aWater electrolysis&&r) is enough to support the demand.",
+      "<br/>",
+      "You could also obtain &&aAmmonia&&r as a waste product from &&dPlatinum Group Sludge&&r processing."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ammonia_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "The Nectar of the Gods"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          216,
+          -24
+        ]
+      }
+    }
+  }
+}

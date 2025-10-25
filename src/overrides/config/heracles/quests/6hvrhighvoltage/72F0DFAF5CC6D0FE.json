@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1C55AE6AD5BDE304",
+    "6958029B5514D4EC"
+  ],
+  "tasks": {
+    "4CCBDA5AC16CBB48": {
+      "type": "heracles:item",
+      "item": "gtceu:magnesium_diboride_single_wire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "MV Superconductors",
+    "description": [
+      "<task task=\"4CCBDA5AC16CBB48\" quest=\"72F0DFAF5CC6D0FE\"/>",
+      "<hr/>",
+      "&&a4A&&r of &&bMV&&r energy transmission may be appealing, but you probably don't need these at this point. Frankly, you might find it easier to just jump straight to the &&6HV&&r Superconductors. The option is always there if you need it. Boron can be obtained as a Salt processing byproduct."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:magnesium_diboride_double_wire"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          216,
+          -132
+        ]
+      }
+    }
+  }
+}

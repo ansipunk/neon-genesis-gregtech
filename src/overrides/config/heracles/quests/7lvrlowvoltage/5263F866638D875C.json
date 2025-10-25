@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "20EDB55B8D5CDAD6": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_centrifuge"
+    }
+  },
+  "rewards": {
+    "525C65CA6AFD3C11": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:cauldron"
+      }
+    }
+  },
+  "display": {
+    "title": "Basic Centrifuge",
+    "description": [
+      "<subtitle id=\"5263F866638D875C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"20EDB55B8D5CDAD6\" quest=\"5263F866638D875C\"/>",
+      "<hr/>",
+      "&&lOutside of Ore Processing:&&r",
+      "<br/>",
+      "Oh boy, what can't this machine do? Decomposition recipes to separate dust types, separating air, do your taxes, and many others...",
+      "<br/>",
+      "The list is too long! Let's just say &&cyou need the Centrifuge&&r.",
+      "<br/>",
+      "&&lFor Ore Processing:&&r",
+      "<br/>",
+      "This takes &&aImpure Dust&&r or &&aPurified Dust&&r and turns them into clean Dust, plus an added tiny Dust &&6Byproduct&&r. This is outside of the optimal chain for Byproducts, but this is also the cheapest Ore Processing machine of the presented array to run and to setup on a small scale.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In base GTCE, this was objectively the strongest Ore Processing machine as it was fairly easy to use, and gave three tiny dusts, just like the Ore Washer or the Thermal Centrifuge. We tuned it down in favor of diversity.",
+      "<hr/>",
+      "<reward reward=\"525C65CA6AFD3C11\" quest=\"5263F866638D875C\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_centrifuge"
+    },
+    "subtitle": {
+      "text": "Jack of Many Trades"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          0,
+          216
+        ]
+      }
+    }
+  }
+}

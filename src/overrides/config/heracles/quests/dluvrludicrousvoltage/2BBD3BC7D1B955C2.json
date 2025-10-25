@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4F6E351C5F676618"
+  ],
+  "tasks": {
+    "757053C4979D8B08": {
+      "type": "heracles:item",
+      "item": "gtceu:plutonium_241_dust"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Plutonium-241",
+    "description": [
+      "<subtitle id=\"2BBD3BC7D1B955C2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"757053C4979D8B08\" quest=\"2BBD3BC7D1B955C2\"/>",
+      "<hr/>",
+      "&&aPlutonium-241&&r is yet another requirement for the &&9Fusion Reactor&&r. It's very easy to make: just centrifuge some &&9Pu-239&&r to slowly separate some out.",
+      "<br/>",
+      "In the future, this material will require a &&dNuclear Reactor&&r to produce, but that's not in GTCEu yet.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GT Impact, making Pu-241 was a challenge. Your first Pu-241 had to be produced as a byproduct of its very expensive Naquadah fuel process, and it could only be made independently with something post-fusion!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:plutonium_241_dust"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Spicy Plutonium Isotope"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          144,
+          72
+        ]
+      }
+    }
+  }
+}

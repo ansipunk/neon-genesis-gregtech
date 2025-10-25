@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0",
+    "4F6E351C5F676618"
+  ],
+  "tasks": {
+    "6733F9F527CA9B29": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_energy_input_hatch"
+    },
+    "6CE9FCCC37446BFD": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_energy_output_hatch"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Upgrading your Assembly Line",
+    "description": [
+      "<task task=\"6733F9F527CA9B29\" quest=\"00C14E3B8009DF7F\"/>",
+      "<task task=\"6CE9FCCC37446BFD\" quest=\"00C14E3B8009DF7F\"/>",
+      "<hr/>",
+      "This Quest will be completed with &&eeither&&r an &&3LuV Energy Hatch&&r&&r... or an &&3LuV Dynamo Hatch&&r for your Multiblock Generators.",
+      "<br/>",
+      "Starting at &&dLuV&&r, you'll start upgrading more multiblocks, which means more energy hatches! Both the &&9EBF&&r and the &&9Assembly Line&&r will need power upgrades.",
+      "<br/>",
+      "Don't forget that &&d4 Amp&&r variants exist!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_energy_input_hatch"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          72,
+          72
+        ]
+      }
+    }
+  }
+}

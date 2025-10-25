@@ -1,0 +1,144 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40DE888E6025C646"
+  ],
+  "tasks": {
+    "19C34AAB329C7ABF": {
+      "amount": 1,
+      "tasks": {
+        "23e5d8a2-378b-44ed-a856-a97d24596d7f": {
+          "type": "heracles:item",
+          "item": "gtceu:wooden_multiblock_tank",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "589d75d9-d660-4b89-8d4b-8d55a63ae863": {
+          "type": "heracles:item",
+          "item": "gtceu:bronze_multiblock_tank",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "9d17b753-f282-4cd8-a66d-3d2316fdba61": {
+          "type": "heracles:item",
+          "item": "gtceu:steel_multiblock_tank",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    },
+    "123DB283FB4EF13D": {
+      "amount": 1,
+      "tasks": {
+        "f5c28ade-ddd6-45d6-bea3-492a056fe880": {
+          "type": "heracles:item",
+          "item": "gtceu:wooden_tank_valve",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "ce025941-5fb3-4d2b-b57b-a79085c265a4": {
+          "type": "heracles:item",
+          "item": "gtceu:bronze_tank_valve",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "0890053e-f523-4067-9fb3-900b13977b9a": {
+          "type": "heracles:item",
+          "item": "gtceu:steel_tank_valve",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    },
+    "72D3346BD7D0A57D": {
+      "amount": 1,
+      "tasks": {
+        "571c0dd1-ee1d-44b4-9a42-29ecf3af0379": {
+          "type": "heracles:item",
+          "item": "gtceu:solid_machine_casing",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "6653a854-c8bc-44f4-8562-5f86a9bd2a57": {
+          "type": "heracles:item",
+          "item": "gtceu:steam_machine_casing",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "77aa8e9e-b984-433e-a555-97a9aea34b3a": {
+          "type": "heracles:item",
+          "item": "gtceu:wood_wall",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "59F4BC1D1C54FDFB": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:coke_oven"
+      }
+    },
+    "48D6923B31E53EC2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:coke_oven_bricks",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Multiblock Tanks",
+    "description": [
+      "<subtitle id=\"15923B47D23CCF34\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"19C34AAB329C7ABF\" quest=\"15923B47D23CCF34\"/>",
+      "<task task=\"123DB283FB4EF13D\" quest=\"15923B47D23CCF34\"/>",
+      "<task task=\"72D3346BD7D0A57D\" quest=\"15923B47D23CCF34\"/>",
+      "<hr/>",
+      "You DO have access to some beefy &&bfluid storage&&r right now, but you'll need to make a &&eMultiblock&&r to access it!",
+      "<br/>",
+      "The &&3Wooden Multiblock Tank&&r&&r holds &&a250,000 mB&&r, but you won't be able to use it to store &&chot Fluids&&r such as Lava, or &&cGases&&r such as Steam or Oxygen.",
+      "<br/>",
+      "The &&3Bronze Multiblock Tank&&r holds &&a500,000 mB&&r, lifiting the maximum fluid tempreture and can now store &&cGases&&r. ",
+      "<br/>",
+      "The &&3Steel Multiblock Tank&&r holds &&a1,000,000 mB&&r, and lifts all the aforementioned fluid restrictions.",
+      "<br/>",
+      "Get &&eany&&r of the Tanks to complete this quest. The Steel version is &&dway too expensive&&r right now - so you should probably make the Wooden  or Bronze one instead.",
+      "<br/>",
+      "Fluid transfer can either be facilitated through the Controller block, or through up to &&atwo Valves&&r.",
+      "<br/>",
+      "Valves can &&9auto-output&&r by placing them on the &&dbottom layer&&r and making them &&dface down&&r (as always, use a &&5Wrench&&r to adjust their facing).",
+      "<br/>",
+      "Unlike &&3Drums&&r, these Tanks aren't portable... but you probably guessed that already.",
+      "<br/>",
+      "This Quest generously rewards an extra &&6Coke Oven&&r. Make the most of GTCEu's &&bwallsharing&&r mechanic, and place it next to an existing Coke Oven to save on casings.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Just like Drums, these multiblocks are ported from GregTech 6.",
+      "<hr/>",
+      "<reward reward=\"59F4BC1D1C54FDFB\" quest=\"15923B47D23CCF34\"/>",
+      "<reward reward=\"48D6923B31E53EC2\" quest=\"15923B47D23CCF34\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_tank_valve"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "So long, and Tanks for all the fish!"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          11,
+          -84
+        ]
+      }
+    }
+  }
+}

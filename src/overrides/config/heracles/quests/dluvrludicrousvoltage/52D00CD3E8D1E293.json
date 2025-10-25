@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "77B7B1EDD19831E0",
+    "78277DBC07D3C45C"
+  ],
+  "tasks": {
+    "375256F3884D78A5": {
+      "type": "heracles:item",
+      "item": "gtceu:uhpic_wafer"
+    },
+    "131EF40752C3F5B4": {
+      "type": "heracles:item",
+      "item": "gtceu:uhpic_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Ultra High Power Integrated Circuit",
+    "description": [
+      "<task task=\"375256F3884D78A5\" quest=\"52D00CD3E8D1E293\"/>",
+      "<task task=\"131EF40752C3F5B4\" quest=\"52D00CD3E8D1E293\"/>",
+      "<hr/>",
+      "The &&aUHPIC&&r unlocks &&3ZPM Energy Hatches&&r and &&3Dynamos&&r, as well as the Active Transformer. ",
+      "<br/>",
+      "You may know the drill, but do you know the screwdriver?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:uhpic_chip"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          72,
+          0
+        ]
+      }
+    }
+  }
+}

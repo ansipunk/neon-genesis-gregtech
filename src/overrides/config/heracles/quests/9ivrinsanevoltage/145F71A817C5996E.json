@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "698B5F65F2DE4439"
+  ],
+  "tasks": {
+    "0205E6C037A453A8": {
+      "type": "heracles:item",
+      "item": "gtceu:quantum_processor_computer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More LuV Circuits",
+    "description": [
+      "<subtitle id=\"145F71A817C5996E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0205E6C037A453A8\" quest=\"145F71A817C5996E\"/>",
+      "<hr/>",
+      "Good news for any mainframe haters out there - &&dLuV&&r Circuits that aren't mainframes!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:quantum_processor_computer"
+    },
+    "subtitle": {
+      "text": "Spread the LuV"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          264,
+          132
+        ]
+      }
+    }
+  }
+}

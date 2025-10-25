@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "03DBF1961AE21C76"
+  ],
+  "tasks": {
+    "21C99D59F1BE48A3": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_compressor"
+    }
+  },
+  "rewards": {
+    "1F47D2A131498C25": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:wrought_iron_block"
+      }
+    }
+  },
+  "display": {
+    "title": "Steam Compressor",
+    "description": [
+      "<subtitle id=\"07415D6305C3B1D2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"21C99D59F1BE48A3\" quest=\"07415D6305C3B1D2\"/>",
+      "<hr/>",
+      "The Steam Compressor unlocks some tantalising new recipes that will help you to progress towards Steel.",
+      "<hr/>",
+      "<reward reward=\"1F47D2A131498C25\" quest=\"07415D6305C3B1D2\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_compressor"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "The Steam Compressor compresses..."
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          36,
+          -12
+        ]
+      }
+    }
+  }
+}

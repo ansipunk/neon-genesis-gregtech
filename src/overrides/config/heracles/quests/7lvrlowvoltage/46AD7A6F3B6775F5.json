@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1E9BE8D3F8A602DC"
+  ],
+  "tasks": {
+    "4477AB06651827D6": {
+      "type": "heracles:item",
+      "item": "gtceu:manganese_phosphide_single_wire"
+    }
+  },
+  "rewards": {
+    "3F8346637D7277E1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:manganese_phosphide_single_wire"
+      }
+    }
+  },
+  "display": {
+    "title": "LV Superconductor",
+    "description": [
+      "<subtitle id=\"46AD7A6F3B6775F5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4477AB06651827D6\" quest=\"46AD7A6F3B6775F5\"/>",
+      "<hr/>",
+      "&&6Superconductors&&r are special Wires available for each Voltage tier. They don't come with a Cable counterpart, but that isn't necessary, as they have absolutely &&6zero cable loss&&r.",
+      "<br/>",
+      "They also won't damage you when you touch them. This makes them the best choice for wiring, if not a little expensive in comparison to the other wires.",
+      "<br/>",
+      "If you weren't already enamoured, the 1x variant also covers 2 Amps. Isn't that nice?",
+      "<br/>",
+      "Now is a good time to replace your crappy &&aTin Cables&&r. Recycle them in the &&3Packager&&r to recover both the Tin and Rubber used to craft them.",
+      "<br/>",
+      "Can't figure out how to make some of these? Here's a hint - &&eTricalcium Phosphate&&r and &&2Pyrolusite&&r ought to help.",
+      "<br/>",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o No version of GregTech has had actual Superconductors for &&7LV&&f up until Gregicality and GTCEu, though some modpacks had lossless cables.",
+      "<hr/>",
+      "<reward reward=\"3F8346637D7277E1\" quest=\"46AD7A6F3B6775F5\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:manganese_phosphide_single_wire"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "We aren't losing a single Amp more"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          252,
+          72
+        ]
+      }
+    }
+  }
+}

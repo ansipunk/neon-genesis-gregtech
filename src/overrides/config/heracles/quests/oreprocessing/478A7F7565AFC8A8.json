@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5AB202F6C0B34BF3",
+    "228379C559E390B8",
+    "2E0777FBD0476D75"
+  ],
+  "tasks": {
+    "6A094CE2872E8DA3": {
+      "title": "Alright, I've read this!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "We've got some Purified Ore - what's next?",
+    "description": [
+      "<subtitle id=\"478A7F7565AFC8A8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6A094CE2872E8DA3\" quest=\"478A7F7565AFC8A8\"/>",
+      "<hr/>",
+      "From now onwards, you'll be sending &&ball of your ores&&r towards &&6all kinds of places&&r, depending on how far you are through your playthrough. Quests will unlock around this node when you &&aunlock the ability&&r to deal with them, so check back occasionally if you're feeling bored."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:purified_gold_ore"
+    },
+    "subtitle": {
+      "text": "Started from the Raw Ore, now we here"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6958029B5514D4EC"
+  ],
+  "tasks": {
+    "5C8340E344B1EA59": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "This isn't Cryotheum!",
+    "description": [
+      "<subtitle id=\"6D12CE80F92FC485\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5C8340E344B1EA59\" quest=\"6D12CE80F92FC485\"/>",
+      "<hr/>",
+      "Some specific fluids are &&dCryogenic&&r, which are too cold for ordinary pipes. ",
+      "<br/>",
+      "Thus... you need to pick the right pipe for the job.",
+      "<br/>",
+      "Not many pipes support cold fluids, so you'll want to give &&aStainless Steel&&r or &&aIridium&&r a try. Later on you can use &&aNaquadah&&r or most of the fusion materials when you get there.",
+      "<br/>",
+      "&&cWARNING:&&r&&r Cryogenics in the wrong pipes will cause &&cvoiding&&r, &&cpipe freezing&&r, and high rates of &&cdeath&&r! Be careful.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o This is the first time GregTech has cryogenic mechanics, a GTCEu-original feature!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:stainless_steel_large_fluid_pipe"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "subtitle": {
+      "text": "You won't find it here"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          108,
+          360
+        ]
+      }
+    }
+  }
+}

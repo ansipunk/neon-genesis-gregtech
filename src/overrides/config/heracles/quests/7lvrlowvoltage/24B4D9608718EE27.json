@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "3162F3E3D12E00FB": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electromagnetic_separator"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Electromagnetic Separator",
+    "description": [
+      "<subtitle id=\"24B4D9608718EE27\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3162F3E3D12E00FB\" quest=\"24B4D9608718EE27\"/>",
+      "<hr/>",
+      "A rarely used machine. It uses magnetism to separate some Magnetic ores and gain additional &&6Byproducts&&r you would not obtain otherwise."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electromagnetic_separator"
+    },
+    "subtitle": {
+      "text": "Magnets... how do they work?"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          12,
+          108
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "53DC6E32C41C94C3",
+    "1A29EFBCEA017F99"
+  ],
+  "tasks": {
+    "4FBD476EB6B6DD04": {
+      "type": "heracles:item",
+      "item": "gtceu:biomass_bucket"
+    }
+  },
+  "rewards": {
+    "55B6D1599E7C55B1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:bio_chaff"
+      }
+    }
+  },
+  "display": {
+    "title": "Biomass",
+    "description": [
+      "<subtitle id=\"6EB68C28BEE24DEF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4FBD476EB6B6DD04\" quest=\"6EB68C28BEE24DEF\"/>",
+      "<hr/>",
+      "Welcome to the &&2natural&&r Ethylene route! This method uses &&9plant matter&&r to produce Ethanol.",
+      "<br/>",
+      "Before we get ahead of ourselves, &&aSugar Cane&&r works fine in a &&3Brewery&&r for a decent yield of Biomass.",
+      "<br/>",
+      "Othe&&rrwise, you could try the \"&&o&&dPlantball into Bio Chaff&&r\" route, and then turn it into Biomass, either in the &&3Brewery&&r or the &&3Pyrolyse Oven&&r - the latter being more efficient.",
+      "<br/>",
+      "&&9Note:&&r Only one Bio Chaff can be obtained from maceration until you make the &&3HV Macerator&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o You may recognise Plantballs from IndustrialCraft2! In IC2 Experimental, there was this rather... obscure way to turn Biomass into Biogas for power, which sadly required too much investment to be really worth it.",
+      "<hr/>",
+      "<reward reward=\"55B6D1599E7C55B1\" quest=\"6EB68C28BEE24DEF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:biomass_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Plants aren't industrial enough!"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          0,
+          -84
+        ]
+      }
+    }
+  }
+}

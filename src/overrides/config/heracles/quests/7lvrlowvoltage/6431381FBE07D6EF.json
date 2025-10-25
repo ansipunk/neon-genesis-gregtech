@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3E6DC423FE4A99F7"
+  ],
+  "tasks": {
+    "35FEF4BB8295416C": {
+      "amount": 1,
+      "tasks": {
+        "ca26b004-cbd2-4037-9867-5409dec2d5f8": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_battery_buffer_4x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "d8c63e5f-2ba1-4565-95a1-ae1cb3628111": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_battery_buffer_8x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "53202732-5630-4556-8167-c31cc4118109": {
+          "type": "heracles:item",
+          "item": "gtceu:lv_battery_buffer_16x",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Battery Buffer",
+    "description": [
+      "<task task=\"35FEF4BB8295416C\" quest=\"6431381FBE07D6EF\"/>",
+      "<hr/>",
+      "By itself, the Battery Buffer does nothing. However, if you place batteries inside its internal storage, it will act as a power buffer.",
+      "<br/>",
+      "The &&3Battery Buffer&&r handles &&9two Amps in&&r, and &&9one Amp out&&r, &&dper Battery&&r. The output side has the dot, and all other sides are used as inputs.",
+      "<br/>",
+      "Our recommendation is to have your generators input energy into it, and power your machines from the output side. This is because the Battery Buffers will demand many Amps of power when it charges, and this could prevent you from using your other machines if it's set up in a way where it can divert power from your other machines to itself.",
+      "<br/>",
+      "&&6It'll also charge &&lboth&&r EU and RF Tools inside it&&r.",
+      "<br/>",
+      "This is a must have if you don't have unlimited power at hand. Get &&eany&&r &&7LV&&r Battery Buffer to finish the quest. However, the 16 slots variant is likely overkill at this stage.",
+      "<br/>",
+      "&&9Note:&&r Don't loop your lossy Cables back to your Battery Buffer! If you think about it, you'll just end up voiding energy.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o To be frank with you, the GTCE Battery Buffer was... mediocre. It's been reworked in GTCEu to provide a mix between GT5 and GTCE's functionality. Energy now splits evenly across all batteries!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_battery_buffer_4x"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          216,
+          108
+        ]
+      }
+    }
+  }
+}

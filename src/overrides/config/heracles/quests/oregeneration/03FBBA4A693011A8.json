@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "21D9BE0CDF8D20D0": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_chalcopyrite"
+    },
+    "1915E87E03CA2995": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_iron"
+    },
+    "17AD746C72314452": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pyrite"
+    },
+    "1EDF0D3646DB3983": {
+      "type": "heracles:item",
+      "item": "minecraft:raw_copper"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Pyrite",
+    "description": [
+      "<subtitle id=\"03FBBA4A693011A8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"21D9BE0CDF8D20D0\" quest=\"03FBBA4A693011A8\"/>",
+      "<task task=\"1915E87E03CA2995\" quest=\"03FBBA4A693011A8\"/>",
+      "<task task=\"17AD746C72314452\" quest=\"03FBBA4A693011A8\"/>",
+      "<task task=\"1EDF0D3646DB3983\" quest=\"03FBBA4A693011A8\"/>",
+      "<hr/>",
+      "An excellent Iron-Copper hybrid vein.",
+      "<br/>",
+      "Chalcopyrite will play an integral role in the late game, when you're looking to get your hands on some Platinum Group Sludge."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:pyrite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Copper, Iron"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          112,
+          -112
+        ]
+      }
+    }
+  }
+}

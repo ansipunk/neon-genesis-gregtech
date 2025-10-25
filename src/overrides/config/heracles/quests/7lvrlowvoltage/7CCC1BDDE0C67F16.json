@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1C767009F505A813"
+  ],
+  "tasks": {
+    "6FE87ED832BF40D1": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_crate"
+    }
+  },
+  "rewards": {
+    "1CADDD995C2DD509": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ae2:sky_stone_chest"
+      }
+    }
+  },
+  "display": {
+    "title": "GregTech Storage",
+    "description": [
+      "<subtitle id=\"7CCC1BDDE0C67F16\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6FE87ED832BF40D1\" quest=\"7CCC1BDDE0C67F16\"/>",
+      "<hr/>",
+      "Crates are flat upgrades to Chests. A single block space that stores more items - what more could you ask for?",
+      "<br/>",
+      "Where they shine is the fact that they &&6accept Covers&&r, making them perfect candidates for buffers in automation.",
+      "<hr/>",
+      "<reward reward=\"1CADDD995C2DD509\" quest=\"7CCC1BDDE0C67F16\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_crate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Earlygame buffering"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          0,
+          72
+        ]
+      }
+    }
+  }
+}

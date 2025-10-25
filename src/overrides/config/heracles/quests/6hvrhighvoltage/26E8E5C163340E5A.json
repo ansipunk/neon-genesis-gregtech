@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6975F16F5B50F17F",
+    "16B735F9C391D260"
+  ],
+  "tasks": {
+    "4717CD0721804BAC": {
+      "type": "heracles:item",
+      "item": "ae2:fluid_cell_housing"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Digital Fluid Storage",
+    "description": [
+      "<subtitle id=\"26E8E5C163340E5A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4717CD0721804BAC\" quest=\"26E8E5C163340E5A\"/>",
+      "<hr/>",
+      "&&bDigital fluid storage&&r is pretty cool. Each &&b1k ME Fluid Storage Cell&&r holds up to &&d5 types&&r of fluid, and can hold &&6over 8,000 buckets&&r of those 5 fluid types! That's more than a &&3Super Tank 2&&r!",
+      "<br/>",
+      "You may want to &&4format&&r Fluid Storage Cells to certain types to prevent the network from clogging. Make a &&3Cell Workbench&&r to do so."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:fluid_cell_housing"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "\"Fluid Discretizer\"? Who's that?"
+    },
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          108,
+          12
+        ]
+      }
+    }
+  }
+}

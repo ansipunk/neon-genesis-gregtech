@@ -1,0 +1,42 @@
+{
+  "settings": {},
+  "dependencies": [
+    "2AD44111B9B39C90",
+    "4A92AFD2532EED26"
+  ],
+  "tasks": {
+    "76206DC9E7ABD07A": {
+      "type": "heracles:item",
+      "item": "gtceu:kanthal_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: gtceu:kanthal_ingot",
+    "description": [
+      "<subtitle id=\"66805BB78A828C00\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"76206DC9E7ABD07A\" quest=\"66805BB78A828C00\"/>",
+      "<hr/>",
+      "&&l&&3Lore:&&r&&o You might find Kanthal around the home. Due to its excellent thermal conductivity and intermediate electric resistance, Kanthal is usually found in toasters and heaters!",
+      "<br/>",
+      "&&oBet you didn't expect your toaster to be at &&bMV&&f before you!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:kanthal_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "That's just how I FeAlCr"
+    },
+    "groups": {
+      "Heating Coils": {
+        "position": [
+          -32,
+          -208
+        ]
+      }
+    }
+  }
+}

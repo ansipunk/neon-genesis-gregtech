@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "281CC5BB43AB6FBC": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_cassiterite_sand"
+    },
+    "0A0980AD4738EF96": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_garnet_sand"
+    },
+    "28AFE5A9181D76A7": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_asbestos"
+    },
+    "3842A89827031CCB": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_diatomite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Cassiterite Sand",
+    "description": [
+      "<subtitle id=\"41616C31D9C08648\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"281CC5BB43AB6FBC\" quest=\"41616C31D9C08648\"/>",
+      "<task task=\"0A0980AD4738EF96\" quest=\"41616C31D9C08648\"/>",
+      "<task task=\"28AFE5A9181D76A7\" quest=\"41616C31D9C08648\"/>",
+      "<task task=\"3842A89827031CCB\" quest=\"41616C31D9C08648\"/>",
+      "<hr/>",
+      "A decent alternative to the pure Tin vein if you haven't found one yet.",
+      "<br/>",
+      "The other ores are as good as decoration."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:cassiterite_sand_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Tin"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          176,
+          -32
+        ]
+      }
+    }
+  }
+}

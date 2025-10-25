@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0BADFBA6F96E457E",
+    "42760D3A86EFDCA3"
+  ],
+  "tasks": {
+    "10F68287B673E16E": {
+      "type": "heracles:item",
+      "item": "gtceu:data_module"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Data Module",
+    "description": [
+      "<subtitle id=\"45E300FD7CD05A37\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10F68287B673E16E\" quest=\"45E300FD7CD05A37\"/>",
+      "<hr/>",
+      "The &&3Data Module&&r is required for Endgame Research. &&aAssembly Lines&&r cannot read from it using &&aData Access Hatches&&r directly, and instead require the &&9Data Bank&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:data_module"
+    },
+    "subtitle": {
+      "text": "Data storage sure is expensive..."
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          108,
+          12
+        ]
+      }
+    }
+  }
+}

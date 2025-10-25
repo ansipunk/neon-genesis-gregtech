@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "012BF60FBD5D41AC"
+  ],
+  "tasks": {
+    "6508774C6A27D5D9": {
+      "title": "Showering with Jupiter",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Washing with Mercury",
+    "description": [
+      "<subtitle id=\"2E0777FBD0476D75\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6508774C6A27D5D9\" quest=\"2E0777FBD0476D75\"/>",
+      "<hr/>",
+      "Washing ores with Mercury where applicable instead of &&3Distilled Water&&r grants unique byproducts that may be difficult to obtain in other circumstances. It's usually worth doing this, as Mercury is readily available from centrifuging &&cRedstone&&r or &&4Cinnabar&&r &&7(and in fact, Mercury is the &&lonly&&r&&7 real usage of Cinnabar!)&&r.",
+      "<br/>",
+      "Simply wash any &&6Crushed Ore&&r with a Chemical Bath.",
+      "<br/>",
+      "Here is a non-exhaustive list of ores you likely want to wash in Mercury:",
+      "<br/>",
+      "- Galena Ore",
+      "- Tungstate Ore",
+      "- Silver Ore",
+      "- Bornite Ore",
+      "- Magnetite Ore",
+      "- Copper Ore",
+      "- Gold Ore",
+      "- Nickel Ore",
+      "- Platinum Ore",
+      "- Chalcopyrite Ore",
+      "- Sheldonite Ore",
+      "<br/>",
+      "These alternate \"&&bwashing routes&&r\" will increase your Gold, Silver, and Platinum Group yields significantly!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mercury_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Bathing with Venus"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          64,
+          64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4AFD3073C731A1E4",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "7D2406F7A603AAAE": {
+      "type": "heracles:item",
+      "item": "gtceu:titanium_large_boiler"
+    },
+    "7A6913316A12A7DB": {
+      "title": "I wasn't going to craft one anyway",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Worse Combustion",
+    "description": [
+      "<subtitle id=\"249FA99AADAC3710\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7D2406F7A603AAAE\" quest=\"249FA99AADAC3710\"/>",
+      "<task task=\"7A6913316A12A7DB\" quest=\"249FA99AADAC3710\"/>",
+      "<hr/>",
+      "The &&aLarge Titanium Boiler&&r is yet another steam boiler. It's even more efficient than the previous ones, and produces more steam too. However, Steam &&cbarely scales&&r at this voltage.",
+      "<br/>",
+      "This thing absolutely isn't worth it, and there are so many better options for power by this point, so you should avoid making this. The better options require &&9EV energy hatches&&r, which are later in the chapter.",
+      "<br/>",
+      "&&eNote&&r: The LTB is so awful that we'll let you skip this quest (for completion progress) by clicking the Checkmark. You don't actually have to craft one.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In GT5u, players can construct another multiblock - the Large Heat Exchanger. It's also constructed with titanium, but produced Superheated Steam from hot IC2 coolant, or lava. This was a much better than regular steam, and was actually viable! This might make its way to CEu in the future."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:titanium_large_boiler"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "We're gonna need more charcoal"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          108,
+          180
+        ]
+      }
+    }
+  }
+}

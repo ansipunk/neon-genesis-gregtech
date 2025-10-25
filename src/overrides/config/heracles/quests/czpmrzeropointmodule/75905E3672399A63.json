@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "24F0454B9A090C44"
+  ],
+  "tasks": {
+    "10AC8DC9332D084C": {
+      "type": "heracles:item",
+      "item": "gtceu:zero_point_module"
+    },
+    "7AD0E74B9CD9AFAE": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Zero Point Module",
+    "description": [
+      "<subtitle id=\"75905E3672399A63\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10AC8DC9332D084C\" quest=\"75905E3672399A63\"/>",
+      "<task task=\"7AD0E74B9CD9AFAE\" quest=\"75905E3672399A63\"/>",
+      "<hr/>",
+      "The &&aZero Point Module&&r (item) is a non-rechargable battery with TONS of energy stored. You may have found one of these before now, but you haven't been able to discharge it until reaching &&cZPM&&r.",
+      "<br/>",
+      "These can only be found as loot from &&6Jungle Temples&&r. They're exceptionally rare - don't worry about finding one. ",
+      "<br/>",
+      "This quest is &&6optional&&r and is just for fun. Feel free to hit the checkbox if you just want the completion points!",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Zero Point Module, the full name of the ZPM tier, is also from Stargate. Its namesake is a device which generated crazy amounts of energy."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:zero_point_module"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Unlimited powah!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -192,
+          0
+        ]
+      }
+    }
+  }
+}

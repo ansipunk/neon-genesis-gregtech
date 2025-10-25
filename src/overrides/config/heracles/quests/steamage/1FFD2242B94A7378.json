@@ -1,0 +1,93 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5DD49D500327A0E2"
+  ],
+  "tasks": {
+    "5953F4446733D908": {
+      "amount": 1,
+      "tasks": {
+        "bdfedc8c-b552-409a-8ece-ba2c3a9ba83a": {
+          "type": "heracles:item",
+          "item": "gtceu:bronze_tiny_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "82384512-4f60-4720-ae3a-db750ad4a694": {
+          "type": "heracles:item",
+          "item": "gtceu:bronze_small_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "7a4444e3-fce6-4fc6-bed2-f7c116d011e5": {
+          "type": "heracles:item",
+          "item": "gtceu:bronze_normal_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "753ad9d1-1ac6-4242-9573-f305ace91aab": {
+          "type": "heracles:item",
+          "item": "gtceu:bronze_large_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "b1539bd6-a1e2-4f85-bff5-90e9acb4f4b7": {
+          "type": "heracles:item",
+          "item": "gtceu:bronze_huge_fluid_pipe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "66E3F49541CA77B9": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:golden_apple",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Fluid Pipes",
+    "description": [
+      "<subtitle id=\"1FFD2242B94A7378\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5953F4446733D908\" quest=\"1FFD2242B94A7378\"/>",
+      "<hr/>",
+      "&&bFluid Pipes&&r will transport &&7Steam&&r between machines for you.",
+      "<br/>",
+      "Each Pipe has a certain throughput in mB/t, and a &&6Temperature Limit&&r. This is relevant right now, as Steam will burn Wooden Pipes. Some pipes have &&bspecial&&r attributes you don't need to worry about for now.",
+      "<br/>",
+      "Each material has several sizes for Pipes. The bigger the Pipe, the &&ahigher&&r the throughput, but the more &&dexpensive&&r the craft. For example, a normal &&6Bronze Fluid Pipe&&r transfers 120 mB/t. (It also has a 1,200 mB internal buffer!)",
+      "<br/>",
+      "Get any &&6Bronze Fluid Pipe&&r to complete this quest. The &&6small&&r and &&enormal&&r ones in particular are used in other recipes as well.",
+      "<br/>",
+      "&&aReminder:&&r 1 second = 20 ticks... assuming the server isn't lagging.",
+      "<br/>",
+      "&&dNote:&&r GT6-style Pipes are enabled. It means that placing Pipes connects them only to the block they were placed against. To open more connections, use your Wrench on the pipe.",
+      "<br/>",
+      "You can also shift-right click with your Wrench to disable input from a side. This can help counteract sloshing &&7(liquids travelling in an undesired direction)&&r.",
+      "<hr/>",
+      "<reward reward=\"66E3F49541CA77B9\" quest=\"1FFD2242B94A7378\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_normal_fluid_pipe"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Liquids, gases... we don't discriminate"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          -36,
+          24
+        ]
+      }
+    }
+  }
+}

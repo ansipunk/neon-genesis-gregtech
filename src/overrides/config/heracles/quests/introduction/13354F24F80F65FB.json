@@ -1,0 +1,201 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EAF2C5B5EB755C5"
+  ],
+  "tasks": {
+    "3880A08A72884627": {
+      "amount": 1,
+      "tasks": {
+        "ef04eb41-f466-49b2-8b88-944e2b2acf20": {
+          "type": "heracles:item",
+          "item": "gtceu:aluminium_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "9956b524-f7d1-4399-ae99-7b5ba61208fa": {
+          "type": "heracles:item",
+          "item": "gtceu:vanadium_steel_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "d87915cb-6c63-4181-a43c-171180cf2d74": {
+          "type": "heracles:item",
+          "item": "gtceu:naquadah_alloy_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "b6297036-cf65-4e20-9f7d-bd4318908aed": {
+          "type": "heracles:item",
+          "item": "gtceu:flint_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "52b33c45-ac75-48bd-89e9-5d0c9fc1d09b": {
+          "type": "heracles:item",
+          "item": "gtceu:red_steel_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "d44a9f6f-f616-46e1-ac76-c04c16f6c6d8": {
+          "type": "heracles:item",
+          "item": "gtceu:blue_steel_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "2eae7468-eae8-4f32-a01c-88c7b893dcb1": {
+          "type": "heracles:item",
+          "item": "gtceu:rose_gold_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "706bfd77-40a6-4e55-9ebe-cffafdf278e9": {
+          "type": "heracles:item",
+          "item": "gtceu:hsse_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "a22747a6-6e7a-4b26-9fd3-a697970f8da3": {
+          "type": "heracles:item",
+          "item": "gtceu:iron_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "f067cc03-495d-4db1-84ab-8df1f87fa55b": {
+          "type": "heracles:item",
+          "item": "gtceu:titanium_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "2a8f8259-9419-4dcc-9e20-c0f404051f78": {
+          "type": "heracles:item",
+          "item": "gtceu:neutronium_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "6416a9d3-8f96-4af4-afec-66cb46f3f0ea": {
+          "type": "heracles:item",
+          "item": "gtceu:duranium_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "3a28bae8-fb26-4ec4-a979-245fbb8a1042": {
+          "type": "heracles:item",
+          "item": "gtceu:bronze_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "5f02c11b-6d55-4544-b930-7aaa2f53d357": {
+          "type": "heracles:item",
+          "item": "gtceu:invar_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "8cb380e1-7319-4e31-a582-dbf750f88ffe": {
+          "type": "heracles:item",
+          "item": "gtceu:sterling_silver_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "34d093c3-1ae6-4e50-8739-94adc62bbceb": {
+          "type": "heracles:item",
+          "item": "gtceu:cobalt_brass_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "94b780d2-dbdc-4811-a362-1c76799c9394": {
+          "type": "heracles:item",
+          "item": "gtceu:tungsten_steel_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "6479cb38-7b25-4f44-9aed-e7266d233c89": {
+          "type": "heracles:item",
+          "item": "gtceu:damascus_steel_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "4d4f81f7-a9a2-4f0d-a5e1-b5bff6acb05f": {
+          "type": "heracles:item",
+          "item": "gtceu:tungsten_carbide_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "96673e40-acb9-43f8-a633-68caba181693": {
+          "type": "heracles:item",
+          "item": "gtceu:wrought_iron_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "2f5a3350-b80c-4a83-acd8-ce789804150c": {
+          "type": "heracles:item",
+          "item": "gtceu:ultimet_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "47765903-4075-4da6-ab06-f16ab5917cfe": {
+          "type": "heracles:item",
+          "item": "gtceu:steel_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "da5ba919-7866-47a9-8528-f7b6f8d557de": {
+          "type": "heracles:item",
+          "item": "gtceu:stainless_steel_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "b270886d-061e-4812-bc0a-41219b20fe53": {
+          "type": "heracles:item",
+          "item": "gtceu:diamond_axe",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "60E07F9D0763E8E1": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:spruce_sapling",
+        "count": 8
+      }
+    }
+  },
+  "display": {
+    "title": "Lumbering On",
+    "description": [
+      "<subtitle id=\"13354F24F80F65FB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3880A08A72884627\" quest=\"13354F24F80F65FB\"/>",
+      "<hr/>",
+      "Were you aware that &&aGregTech&&r comes with its own set of tools? If not, you may also be pleasantly surprised to hear that they &&6&&lsurpass&&r their vanilla equivalents.",
+      "<br/>",
+      "Let's use the GregTech Axe as an example. If you use one to mine a log in a tree, it'll fell the &&2entire tree&&r for you. Timber!",
+      "<br/>",
+      "Constant \"lumberjacking\" will eat through your Axe's &&9durability&&r in seconds, so you may want to make your Axe out of a &&estronger material&&r such as &&bDiamond&&r. Just be careful you don't make a vanilla Diamond Axe.",
+      "<br/>",
+      "As a reward, take these &&2Spruce saplings&&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &&deffective&&r fuel source!",
+      "<hr/>",
+      "<reward reward=\"60E07F9D0763E8E1\" quest=\"13354F24F80F65FB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_axe"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Who needs Veinminer?"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          -72,
+          -144
+        ]
+      }
+    }
+  }
+}

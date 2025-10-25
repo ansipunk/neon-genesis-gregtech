@@ -1,0 +1,108 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EAF2C5B5EB755C5"
+  ],
+  "tasks": {
+    "063705687ED657F5": {
+      "amount": 1,
+      "tasks": {
+        "f18fb2ef-5a7e-414d-9cf8-7dfa448aad93": {
+          "type": "heracles:item",
+          "item": "minecraft:raw_iron",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "a0012bde-fb56-414b-b432-635f142d10f4": {
+          "type": "heracles:item",
+          "item": "gtceu:raw_yellow_limonite",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "dbce6dbc-8965-48a6-b61d-6ab42bc4872c": {
+          "type": "heracles:item",
+          "item": "gtceu:raw_magnetite",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "fef940d4-184f-471c-aff9-050f4ee1efa4": {
+          "type": "heracles:item",
+          "item": "gtceu:raw_basaltic_mineral_sand",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "1ee7d91f-e93f-4f1b-bd77-986d3b0ddadb": {
+          "type": "heracles:item",
+          "item": "gtceu:raw_granitic_mineral_sand",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "b1323755-ef28-4ee3-b8c2-b2ddbb87a47a": {
+          "type": "heracles:item",
+          "item": "gtceu:raw_pyrite",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "831c69d0-709b-4958-a3d7-4d2fc5de8153": {
+          "type": "heracles:item",
+          "item": "gtceu:raw_goethite",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        },
+        "cb1199b7-a0f8-4495-9d31-5bdd0dc45627": {
+          "type": "heracles:item",
+          "item": "gtceu:raw_hematite",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
+    }
+  },
+  "rewards": {
+    "6A8A7B57C7372740": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:raw_magnetite",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Iron, Iron, Iron!",
+    "description": [
+      "<subtitle id=\"1ECBA1CBFFB9F625\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"063705687ED657F5\" quest=\"1ECBA1CBFFB9F625\"/>",
+      "<hr/>",
+      "In the real world, iron isn't &&oonly&&r found as pure Iron Ore. Instead, it's found in a &&avariety&&r of &&eoxide forms&&r or &&eminerals&&r.",
+      "<br/>",
+      "You'll want to go and collect quite a bit of Iron, because you're going to need &&9a bunch&&r very soon. If you're struggling to find some, the &&aOre Generation&&r quest tab contains a lot of information on &&eore veins&&r. You may also want to check the Ore Spawn Information and Ore Byproduct List tabs in &&2EMI&&r.",
+      "<br/>",
+      "Any of the raw ores we're asking for can be directly smelted into Iron. That comes to &&dfour different veins&&r that can give you Iron.",
+      "<br/>",
+      "Lastly, Fortune &&cdoes not&&r work on GregTech ores, &&7unfortunately&&r.",
+      "<br/>",
+      "Whilst it may be common habit to hoard ore in &&bmodded Minecraft&&r prior to unlocking some kind of &&aore multiplication&&r, don't worry about ore processing yet. Direct smelting remains the most efficient method for a long, &&olong&&r while, given how easy it is to obtain a lot of ore in a &&emining trip&&r.",
+      "<br/>",
+      "Gather &&l&&cany&&r of the requested &&dRaw Ores&&r to complete this quest!",
+      "<hr/>",
+      "<reward reward=\"6A8A7B57C7372740\" quest=\"1ECBA1CBFFB9F625\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot"
+    },
+    "subtitle": {
+      "text": "Isn't it ironic... don't you think?"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          24,
+          -96
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "378F0AFCF95354B2"
+  ],
+  "tasks": {
+    "4598D1D78A71E514": {
+      "type": "heracles:item",
+      "item": "gtceu:enriched_naquadah_sulfate_dust"
+    },
+    "08B5C0B89DB3E272": {
+      "type": "heracles:item",
+      "item": "gtceu:enriched_naquadah_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Enriched Naquadah",
+    "description": [
+      "<subtitle id=\"74B037D7031F4A78\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4598D1D78A71E514\" quest=\"74B037D7031F4A78\"/>",
+      "<task task=\"08B5C0B89DB3E272\" quest=\"74B037D7031F4A78\"/>",
+      "<hr/>",
+      "&&aEnriched Naquadah&&r is an isotope of Naquadah, Nq-528. It is radioactive and will be used in (as of yet) unimplemented nuclear reactors.",
+      "<br/>",
+      "Currently, you just need it to make &&9Trinium Coils&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:enriched_naquadah_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Naquadah, but radioactive!"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          -156,
+          -36
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41730E340B3D8EDA"
+  ],
+  "tasks": {
+    "2B48BE1948B21FA3": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_garnierite"
+    },
+    "7C7612EE2B7E4EC5": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_nickel"
+    },
+    "67E57FC9827B5092": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_cobaltite"
+    },
+    "037ACF0F26406F6A": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pentlandite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Nickel",
+    "description": [
+      "<subtitle id=\"38C955F6CBDD95BD\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2B48BE1948B21FA3\" quest=\"38C955F6CBDD95BD\"/>",
+      "<task task=\"7C7612EE2B7E4EC5\" quest=\"38C955F6CBDD95BD\"/>",
+      "<task task=\"67E57FC9827B5092\" quest=\"38C955F6CBDD95BD\"/>",
+      "<task task=\"037ACF0F26406F6A\" quest=\"38C955F6CBDD95BD\"/>",
+      "<hr/>",
+      "Your one and only trusty source for Nickel.",
+      "<br/>",
+      "Cobalt makes for some pretty decent early-game item pipes too!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:nickel_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Nickel, Cobalt"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          -32,
+          -64
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "22997534983F6812",
+    "48AED37B4E20A99A"
+  ],
+  "tasks": {
+    "4B958F6E2AA74763": {
+      "type": "heracles:item",
+      "item": "minecraft:glass"
+    },
+    "16FC5B5DCBBEE53E": {
+      "type": "heracles:item",
+      "item": "gtceu:glass_tube"
+    }
+  },
+  "rewards": {
+    "662203C8B58AE656": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:glass",
+        "count": 2
+      }
+    }
+  },
+  "display": {
+    "title": "Glass, at last!",
+    "description": [
+      "<subtitle id=\"249374557D095913\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4B958F6E2AA74763\" quest=\"249374557D095913\"/>",
+      "<task task=\"16FC5B5DCBBEE53E\" quest=\"249374557D095913\"/>",
+      "<hr/>",
+      "Use Mortars or a Macerator (your choice) to microcraft your way to Glass Dust, which you can then turn into a &&aGlass Block&&r.",
+      "<br/>",
+      "If you are lost, a more detailed guide for this process is on the next page, but &&dwe urge you to nose around EMI&&r and figure out the recipe on your own. Being able to navigate EMI and parse recipes is an &&6essential skill&&r for completing this pack.",
+      "<br/>",
+      "Glass will be easier later on. You've probably already noticed that juicy &&3Arc Furnace&&r recipe - don't worry, we'll get there soon.",
+      "<br/>",
+      "Glass tubes will be required for your first Electronic Circuit.",
+      "<br/>",
+      "Lost? Worry not!",
+      "<br/>",
+      "First, use a &&3method of pulverisation&&r to turn Sand into &&9Quartz Sand Dust&&r.",
+      "<br/>",
+      "Next, crush down some Flint into &&9Flint Dust&&r, and split this dust into tiny piles in a crafting grid.",
+      "<br/>",
+      "Combine the two into &&9Glass Dust&&r, which can be molded into Glass in an Alloy Smelter with a &&9Block Mold&&r.",
+      "<br/>",
+      "Finally, Glass!",
+      "<hr/>",
+      "<reward reward=\"662203C8B58AE656\" quest=\"249374557D095913\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:glass"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Must be satisfying, right?"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          132,
+          -12
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "082AB255886E73C2"
+  ],
+  "tasks": {
+    "31DF7507733F3EE0": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_processor_assembly"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Best ZPM Circuits!",
+    "description": [
+      "<subtitle id=\"370FC1CDF5F9A9CC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"31DF7507733F3EE0\" quest=\"370FC1CDF5F9A9CC\"/>",
+      "<hr/>",
+      "The second circuit of the &&4wetware&&r line.",
+      "<br/>",
+      "This is also the best &&cZPM&&r circuit!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:wetware_processor_assembly"
+    },
+    "subtitle": {
+      "text": "Did that circuit just BLINK at me?"
+    },
+    "groups": {
+      "§cZPM§r - Zero Point Module": {
+        "position": [
+          24,
+          36
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "60D7F6C1EE918B66",
+    "5C17BF90DA2AAEEE",
+    "26394C1290D70AB6"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "title": "Craftable in §bMV§r",
+    "description": [
+      "<subtitle id=\"5E4FBB2287D9E635\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "The &&9Integrated&&r Circuit line may not be a strict upgrade in terms of cost, but will tide you over as a stepping stone towards the next tier.",
+      "<br/>",
+      "They will require a MV &&3Laser Engraver&&r and a MV &&3Cutting Machine&&r.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o In Omnifactory, and in previous Gregicality, this circuit line was called &&9Refined&&f and was standardized like further tiers."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:mv_machine_hull"
+    },
+    "subtitle": {
+      "text": "Integrated Dynamics"
+    },
+    "groups": {
+      "Circuit Progression": {
+        "position": [
+          32,
+          -64
+        ]
+      }
+    }
+  }
+}

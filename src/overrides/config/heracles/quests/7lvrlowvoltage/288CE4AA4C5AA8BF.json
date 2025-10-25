@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5A8F0124E07D5025"
+  ],
+  "tasks": {
+    "064169E7E2772387": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_conveyor_module"
+    }
+  },
+  "rewards": {
+    "16807937144E5F61": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:rubber_nugget"
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: gtceu:lv_conveyor_module",
+    "description": [
+      "<subtitle id=\"288CE4AA4C5AA8BF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"064169E7E2772387\" quest=\"288CE4AA4C5AA8BF\"/>",
+      "<hr/>",
+      "Less common as a component, but used in a number of critical machines.",
+      "<br/>",
+      "When placed on a machine, conveyor modules will transfer items. You can configure them to import or export.",
+      "<br/>",
+      "They can also accept various &&9Item Filters&&r.",
+      "<hr/>",
+      "<reward reward=\"16807937144E5F61\" quest=\"288CE4AA4C5AA8BF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_conveyor_module"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "A crafting component, but also a cover!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          36,
+          36
+        ]
+      }
+    }
+  }
+}

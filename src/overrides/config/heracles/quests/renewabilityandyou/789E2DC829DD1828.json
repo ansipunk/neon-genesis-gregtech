@@ -1,0 +1,45 @@
+{
+  "settings": {},
+  "dependencies": [
+    "55D8E30978CBBC0D",
+    "26394C1290D70AB6",
+    "4AFD3073C731A1E4",
+    "16A6AE5C770DB83A",
+    "7FA0ACB7F161F378"
+  ],
+  "tasks": {
+    "10A533EC38D279DA": {
+      "type": "heracles:item",
+      "item": "gtceu:red_granite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: gtceu:red_granite",
+    "description": [
+      "<subtitle id=\"789E2DC829DD1828\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"10A533EC38D279DA\" quest=\"789E2DC829DD1828\"/>",
+      "<hr/>",
+      "Not to be confused with regular Granite, Red Granite has some useful utility when the dust is processed. ",
+      "<br/>",
+      "Electrolysing it yields Aluminium for slightly fewer steps than the renewable Clay electrolysis."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:red_granite"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Aluminium..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          95,
+          -11
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "5580AE2868E0E451": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_macerator"
+    }
+  },
+  "rewards": {
+    "19F7BE0EE2221321": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:tiny_stainless_steel_dust"
+      }
+    }
+  },
+  "display": {
+    "title": "Universal Macerator",
+    "description": [
+      "<subtitle id=\"1DA54DA70E12F499\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5580AE2868E0E451\" quest=\"1DA54DA70E12F499\"/>",
+      "<hr/>",
+      "&&5You:&&r &&oThat's it, I'm uninstalling! This pack is stupid! We're barely in &&7LV&&r&&o, but you're asking me to make you a &&6HV&&r&&o machine!?&&r",
+      "<br/>",
+      "Yes! This is indeed not completable yet, which is also why this quest appears in the &&6HV&&r Chapter.",
+      "<br/>",
+      "Remember how disappointing it was that you couldn't get byproducts with your Macerator? Well... that disappointment won't be going away until you reach &&6HV&&r.",
+      "<br/>",
+      "&&6The Macerator will unlock its second and third slot at HV&&r. Trust us - this is great news for your Ore Processing. In fact, one byproduct is completely locked behind this (after the Thermal Centrifuge step).",
+      "<br/>",
+      "&&cNote:&&r Unlike GTCE, the &&bMV&&r Macerator in GTCEu &&4doesn't&&r have a second slot.",
+      "<br/>",
+      "&&5Writer:&&r &&oCome back to me when you are stronger, young Cricket.&&r",
+      "<hr/>",
+      "<reward reward=\"19F7BE0EE2221321\" quest=\"1DA54DA70E12F499\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_macerator"
+    },
+    "subtitle": {
+      "text": "What? Why?!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          -36,
+          108
+        ]
+      }
+    }
+  }
+}

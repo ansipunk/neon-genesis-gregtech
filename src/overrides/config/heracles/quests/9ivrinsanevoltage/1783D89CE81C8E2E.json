@@ -1,0 +1,43 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A1E3C3A2D699C5B"
+  ],
+  "tasks": {
+    "096C0C576B0F3358": {
+      "type": "heracles:item",
+      "item": "gtceu:hsse_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "HSS-E",
+    "description": [
+      "<subtitle id=\"1783D89CE81C8E2E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"096C0C576B0F3358\" quest=\"1783D89CE81C8E2E\"/>",
+      "<hr/>",
+      "Technically, real-life HSS-E doesn't contain Manganese, but some other HSS alloys do have Manganese, so... close enough?",
+      "<br/>",
+      "&&aHSS-E&&r has some niche uses in progression.",
+      "<br/>",
+      "This alloy has great durability and damage property for tools. It has the best Power multiplier (until Neutronium!) as a &&dRotor&&r for &&3Large Turbines&&r, though it's slightly less efficient than &&aHSS-S&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hsse_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Turbine Upgrade, perhaps?"
+    },
+    "groups": {
+      "§9IV§r - Insane Voltage": {
+        "position": [
+          12,
+          84
+        ]
+      }
+    }
+  }
+}

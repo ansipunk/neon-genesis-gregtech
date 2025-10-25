@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7A55CC71442CC854",
+    "478B0D55369C0F7F"
+  ],
+  "tasks": {
+    "3FE1F17DD37F0A56": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_fluid_drilling_rig"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Extreme Fluid Drilling",
+    "description": [
+      "<subtitle id=\"10987A49F647279E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3FE1F17DD37F0A56\" quest=\"10987A49F647279E\"/>",
+      "<hr/>",
+      "At the cost of 4x the drilling Power, the &&3Advanced Fluid Drilling Rig&&r gains &&616x the output&&r in Fluid.",
+      "<br/>",
+      "The depletion of veins is also halved. This means you will get a total of &&632x&&r as much Oil (or whatever fluid) from a bedrock fluid vein until depletion!",
+      "<br/>",
+      "Even when depleted, you can still use this and be firmly power positive.",
+      "<br/>",
+      "One single &&3Advanced Fluid Drilling Rig&&r should be enough to supply Power for a base up to &&dLuV&&r... and possibly beyond!",
+      "<br/>",
+      "As a &&9reminder&&r, since this last appeared in &&bMV&&r:",
+      "<br/>",
+      "&&9-&&r &&aLight Oil&&r can be used for &&dLPG&&r and &&dMethane&&r to run in &&3Large Gas Turbines&&r.",
+      "&&9-&&r &&aOil&&r can be used for &&dDiesel&&r and &&dCetane-Boosted Diesel&&r to run in &&3Large Combustion Engines&&r.",
+      "&&9-&&r &&aHeavy Oil&&r can be used for &&dNitrobenzene&&r to run in &&3Large Gas Turbines&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:hv_fluid_drilling_rig"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "\"Extreme\" is an apt descriptor"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          108,
+          108
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "199361B5FEC959EA"
+  ],
+  "tasks": {
+    "67F9F84D66E32728": {
+      "type": "heracles:item",
+      "item": "gtceu:soldering_alloy_dust"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Soldering Alloy",
+    "description": [
+      "<subtitle id=\"713C8D6A20BF3A0E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"67F9F84D66E32728\" quest=\"713C8D6A20BF3A0E\"/>",
+      "<hr/>",
+      "&&aSoldering Alloy&&r is used solely as a &&9Fluid&&r, and in most cases is &&dinterchangeable&&r in circuit recipes as a cheaper alternative to Tin&&r.",
+      "<br/>",
+      "The choice is yours. Save more materials? Make Soldering Alloy. Spend less time crafting materials? Tin is the way to go."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:soldering_alloy_ingot"
+    },
+    "subtitle": {
+      "text": "I got soul but I'm not a solder"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          180,
+          288
+        ]
+      }
+    }
+  }
+}

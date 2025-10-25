@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "47087361D6DE7DCF"
+  ],
+  "tasks": {
+    "0E274B445A95250A": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_processor_computer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "More ZPM Circuits",
+    "description": [
+      "<subtitle id=\"7AE681E2AB31EA0D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0E274B445A95250A\" quest=\"7AE681E2AB31EA0D\"/>",
+      "<hr/>",
+      "&&cZPM&&r Circuits that aren't mainframes!",
+      "<br/>",
+      "Don't lie - &&bCrystal Supercomputers&&r sound really cool, right?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:crystal_processor_computer"
+    },
+    "subtitle": {
+      "text": "...wait, why'd things end here?"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          252,
+          180
+        ]
+      }
+    }
+  }
+}

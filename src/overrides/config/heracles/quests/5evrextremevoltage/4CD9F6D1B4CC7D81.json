@@ -1,0 +1,59 @@
+{
+  "settings": {},
+  "dependencies": [
+    "390E59F05132FCB8"
+  ],
+  "tasks": {
+    "5F713348547742D9": {
+      "type": "heracles:item",
+      "item": "gtceu:phenol_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Phenol",
+    "description": [
+      "<subtitle id=\"4CD9F6D1B4CC7D81\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5F713348547742D9\" quest=\"4CD9F6D1B4CC7D81\"/>",
+      "<hr/>",
+      "Obtain &&aPhenol&&r from:",
+      "<br/>",
+      "&&91 -&&r &&aWood Tar&&r distillation.",
+      "<br/>",
+      "&&92 -&&r Reacting &&aBenzene&&r with &&dChlorine&&r and &&dSodium Hydroxide&&r This should be performed in an &&3LCR&&r, and the Chlorine is perfectly looped.",
+      "<br/>",
+      "&&93 -&&r Shortcutting the above recipe by ignoring the &&dSodium Hydroxide&&r. This is net negative on &&dChlorine&&r.",
+      "<br/>",
+      "&&94 -&&r Reacting &&aBenzene&&r, &&dPropene&&r and &&dOxygen&&r using a small amount of &&4Phosphoric Acid&&r - normally a catalyst, but consumed here in small quantities. This is called the Cumene process.",
+      "<br/>",
+      "If you're having trouble deciding between the options presented, here's the appeal of each route:",
+      "<br/>",
+      "&&91 -&&r Great if you're willing to set up a &&3Pyrolyse Oven&&r + &&3Distillation Tower&&r combo.",
+      "<br/>",
+      "&&92 -&&r This one's our preference! You can use the &&dSalt&&r to make more &&dSalt Water&&r, then electrolyze to create a loop.",
+      "<br/>",
+      "&&93 -&&r Very appealing if you have an infinite supply of &&dChlorine&&r. You could achieve this by setting up a &&3Fluid Drilling Rig&&r on a Salt Water vein.",
+      "<br/>",
+      "&&94 -&&r ...&&4Phosphoric Acid&&r is a pain to produce. You'd be mad to consider this.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The Benzene + Oxygen recipe was added in GTCE with the intent of fixing missing chemical recipes, as the Large Chemical Reactor didn't exist. Now that CEu provides more realistic options, we may remove the recipe in future."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:phenol_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "But that's just how I Phenol"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          216
+        ]
+      }
+    }
+  }
+}

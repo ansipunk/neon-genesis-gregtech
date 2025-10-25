@@ -1,0 +1,46 @@
+{
+  "settings": {},
+  "dependencies": [
+    "16E3465CF94E2BDD",
+    "4024C831C77101CA"
+  ],
+  "tasks": {
+    "305731DA47087165": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_energy_detector_cover"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Advanced Energy Detector",
+    "description": [
+      "<subtitle id=\"7F2FE3AF6F0C1190\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"305731DA47087165\" quest=\"7F2FE3AF6F0C1190\"/>",
+      "<hr/>",
+      "The &&aAdvanced Energy Detector&&r is an RS-latch for Energy Control.",
+      "<br/>",
+      "Slap it on a &&3Battery Buffer&&r, set a Minimum EU near 0, and a Maximum EU near the max capacity.",
+      "<br/>",
+      "The Cover will output a &&4Redstone&&r signal until the high threshold is reached, and then it will wait until the low threshold is reached to output redstone again.",
+      "<br/>",
+      "This is a must to automate inertia-based power generators such as Boilers, or more importantly &&3Large Turbines&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:advanced_energy_detector_cover"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Save on Redstone contraptions"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          180,
+          288
+        ]
+      }
+    }
+  }
+}

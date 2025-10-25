@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7CAD6FF241A827F7"
+  ],
+  "tasks": {
+    "022CC6EDF95C7696": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_sulfur"
+    },
+    "6F3BBA2545C154CD": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pyrite"
+    },
+    "61F9BD58FBB8804F": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_sphalerite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sulfur",
+    "description": [
+      "<subtitle id=\"030E299F75640977\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"022CC6EDF95C7696\" quest=\"030E299F75640977\"/>",
+      "<task task=\"6F3BBA2545C154CD\" quest=\"030E299F75640977\"/>",
+      "<task task=\"61F9BD58FBB8804F\" quest=\"030E299F75640977\"/>",
+      "<hr/>",
+      "Your first Nether expedition should be for &&eSulfur&&r - which is found in this vein! Be careful, as this vein usually spawns from y-levels of 10 to 30. Bring Fire Resistance potions!",
+      "<br/>",
+      "Sphalerite is extremely valuable, as its ore processing gives Gallium. It also smelts directly into Zinc."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:netherrack_sulfur_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Sulfur, Iron, Zinc"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          240,
+          -32
+        ]
+      }
+    }
+  }
+}

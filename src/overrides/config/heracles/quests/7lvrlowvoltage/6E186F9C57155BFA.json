@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4B979482EF026BFF",
+    "5A8F0124E07D5025"
+  ],
+  "tasks": {
+    "155BC745245BCBAF": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_steam_turbine"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Electricity Generation",
+    "description": [
+      "<subtitle id=\"6E186F9C57155BFA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"155BC745245BCBAF\" quest=\"6E186F9C57155BFA\"/>",
+      "<hr/>",
+      "The &&3Steam Turbine&&r is the only Generator you can realistically use in &&7LV&&r. &&2Later, you'll unlock more interesting Power options&&r, such as natural gases or petrols.",
+      "<br/>",
+      "When provided Steam, the turbine will output EU at a ratio of &&d2 Steam = 1 EU&&r.",
+      "<br/>",
+      "&&6This quest unlocks two new tutorials on Electricity and Cables in the &&lTips and Tricks&&r&&6 tab - check them out to learn more!&&r",
+      "<br/>",
+      "If you're using a single &&3Steam Turbine&&r, you only need &&a1x Tin Cables&&r. On the other hand, if you upgrade to &&32 Steam Turbines&&r, you should use &&a2x Tin Cables&&r - else they may end up &&cburning&&r.",
+      "<br/>",
+      "This is because of the &&9Amperage&&r mechanic... but that will be explained later so you can enjoy playing. Don't worry!"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_steam_turbine"
+    },
+    "subtitle": {
+      "text": "You must construct more turbines"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          108,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41D32C5178760F47"
+  ],
+  "tasks": {
+    "6174FF347A1D09AE": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_pitchblende"
+    },
+    "449DE0416421D8ED": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_uraninite"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Pitchblende",
+    "description": [
+      "<subtitle id=\"5ED483A04095EFA3\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6174FF347A1D09AE\" quest=\"5ED483A04095EFA3\"/>",
+      "<task task=\"449DE0416421D8ED\" quest=\"5ED483A04095EFA3\"/>",
+      "<hr/>",
+      "The one and only vein for Uranium!",
+      "<br/>",
+      "Uranium has a few minor uses in &&5EV&&r and beyond.",
+      "<br/>",
+      "Did you know that Nuclear Reactors might be making their way to &&bGTCEu&&r in the future?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:endstone_pitchblende_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Uranium, Thorium, Lead"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          352,
+          96
+        ]
+      }
+    }
+  }
+}

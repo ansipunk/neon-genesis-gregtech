@@ -1,0 +1,52 @@
+{
+  "settings": {},
+  "dependencies": [
+    "32EA7E81885C8E87"
+  ],
+  "tasks": {
+    "6781D0241D0564A5": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_lathe"
+    }
+  },
+  "rewards": {
+    "09FC4530E70B9105": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:steel_rod",
+        "count": 4
+      }
+    }
+  },
+  "display": {
+    "title": "Basic Lathe",
+    "description": [
+      "<subtitle id=\"07E7678095258EDB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6781D0241D0564A5\" quest=\"07E7678095258EDB\"/>",
+      "<hr/>",
+      "The Lathe is an important machine to help shape metals. Thanks to it, you can turn &&6one Ingot into two Rods&&r, and &&6one Bolt into one screw&&r. That's twice the efficiency on those recipes as opposed to crafting by hand.",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o The GregTech 5 Lathe produces one Rod and 2 small piles of Dust per Ingot. We also have a setting for this in GTCEu, but it's turned off by default.",
+      "<br/>",
+      "&&oThe GT6 Lathe acts like GT5's, but Bolts lathe into one Screw and 1/72 of a pile of Dust. Disgusting!",
+      "<hr/>",
+      "<reward reward=\"09FC4530E70B9105\" quest=\"07E7678095258EDB\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_lathe"
+    },
+    "subtitle": {
+      "text": "The Lathe lathes!"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          108,
+          36
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "settings": {},
+  "dependencies": [
+    "40DE888E6025C646"
+  ],
+  "tasks": {
+    "33DCDFE73740AF97": {
+      "type": "heracles:item",
+      "item": "gtceu:plate_casting_mold"
+    },
+    "7E7A1A7FBBCA2C27": {
+      "type": "heracles:item",
+      "item": "gtceu:ball_casting_mold"
+    },
+    "2AE408B2303C21EA": {
+      "type": "heracles:item",
+      "item": "gtceu:block_casting_mold"
+    }
+  },
+  "rewards": {
+    "0F35BAFC22B1C82E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:small_gear_casting_mold"
+      }
+    },
+    "4CA581AFFDA18455": {
+      "type": "heracles:item",
+      "item": {
+        "id": "gtceu:gear_casting_mold"
+      }
+    }
+  },
+  "display": {
+    "title": "Malding",
+    "description": [
+      "<subtitle id=\"22997534983F6812\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"33DCDFE73740AF97\" quest=\"22997534983F6812\"/>",
+      "<task task=\"7E7A1A7FBBCA2C27\" quest=\"22997534983F6812\"/>",
+      "<task task=\"2AE408B2303C21EA\" quest=\"22997534983F6812\"/>",
+      "<hr/>",
+      "Make the listed molds for future alloy smelting. Be sure to make &&aMolds&&r - don't make &&cExtruder Shapes&&r, as they're used in a different machine.",
+      "<br/>",
+      "The reward for this quest will alleviate &&da lot of pain&&r when it comes to crafting &&bGears&&r.",
+      "<hr/>",
+      "<reward reward=\"0F35BAFC22B1C82E\" quest=\"22997534983F6812\"/>",
+      "<reward reward=\"4CA581AFFDA18455\" quest=\"22997534983F6812\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ball_casting_mold"
+    },
+    "subtitle": {
+      "text": "Reduce the amount of malding by molding"
+    },
+    "groups": {
+      "Steam Age": {
+        "position": [
+          72,
+          -12
+        ]
+      }
+    }
+  }
+}

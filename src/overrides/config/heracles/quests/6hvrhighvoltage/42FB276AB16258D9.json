@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0EFEE489906256AA"
+  ],
+  "tasks": {
+    "4ABE8033182CF48D": {
+      "type": "heracles:item",
+      "item": "gtceu:fluorine_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Fluorine",
+    "description": [
+      "<task task=\"4ABE8033182CF48D\" quest=\"42FB276AB16258D9\"/>",
+      "<hr/>",
+      "Fluorine is the rarest gas to obtain from electrolysis in this game.",
+      "<br/>",
+      "You can obtain it from &&aLepidolite&&r, &&aBastnatite&&r, and &&aMica&&r, but the best source is from &&aTopaz&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:fluorine_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§6HV§r - High Voltage": {
+        "position": [
+          180,
+          -24
+        ]
+      }
+    }
+  }
+}

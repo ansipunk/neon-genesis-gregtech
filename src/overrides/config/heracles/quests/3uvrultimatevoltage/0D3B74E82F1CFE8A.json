@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3F058322E1A8D5EC"
+  ],
+  "tasks": {
+    "493CC040B9974B42": {
+      "type": "heracles:item",
+      "item": "gtceu:highly_advanced_soc"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Highly Advanced SoCs",
+    "description": [
+      "<subtitle id=\"0D3B74E82F1CFE8A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"493CC040B9974B42\" quest=\"0D3B74E82F1CFE8A\"/>",
+      "<hr/>",
+      "&&aHighly Advanced SoC&&rs will make crafting &&4wetware circuits&&r much easier.",
+      "<br/>",
+      "The drawback is that the recipe requires UV power, but that's no problem to you, right?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:highly_advanced_soc"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Can we get much higher?"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          216,
+          12
+        ]
+      }
+    }
+  }
+}

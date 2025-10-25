@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "478A7F7565AFC8A8"
+  ],
+  "tasks": {
+    "089637EE7F1154FF": {
+      "title": "I'm harnessing the power of magnetism!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Electromagnetic Separator",
+    "description": [
+      "<subtitle id=\"46B3BB368D86D931\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"089637EE7F1154FF\" quest=\"46B3BB368D86D931\"/>",
+      "<hr/>",
+      "The Electromagnetic Separator is an interesting machine that skips &&6two processing stages&&r, but usually returns &&2unique&&r byproducts that aren't usually too simple to obtain. You'll need to process down pure dusts to use this - so &&bmake sure&&r you route any desired ores correctly.",
+      "<br/>",
+      "You may &&bappreciate&&r performing this stage of processing on the following ores:",
+      "<br/>",
+      "- Bastnasite Ore &&7(This is particularly strong for Neodymium!)&&r",
+      "- Naquadah Ore &&7(The Enriched Naquadah byproduct is very powerful!)&&r",
+      "- Nickel Ore",
+      "- Tin Ore",
+      "- Goethite Ore",
+      "- Hematite Ore",
+      "- Chromite Ore",
+      "- Ilmenite Ore",
+      "- Pyrite Ore",
+      "- Yellow Limonite Ore",
+      "- Glauconite Sand Ore",
+      "- Magnetite Ore",
+      "- Vanadium Magnetite Ore",
+      "- Granitic Mineral Sand Ore",
+      "- Basaltic Mineral Sand Ore"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electromagnetic_separator"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Maximising Naquadah"
+    },
+    "groups": {
+      "Ore Processing": {
+        "position": [
+          -48,
+          192
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "dependencies": [
+    "701BCADAE5CF6CA5"
+  ],
+  "tasks": {
+    "1C03C5F3E5196342": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_ore_washer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Basic Ore Washing Plant",
+    "description": [
+      "<subtitle id=\"58BA62A3A8A32C24\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1C03C5F3E5196342\" quest=\"58BA62A3A8A32C24\"/>",
+      "<hr/>",
+      "This machine combines washing for simple automation, but also advanced and precise washing for byproducts.",
+      "<br/>",
+      "Washing a &&aCrushed Ore&&r will grant a &&aPurified Ore&&r which can be refined further, some useless stone, and more importantly, the first &&6Byproduct&&r!",
+      "<br/>",
+      "Any Ore will give at &&9minimum 2/3rd of a Dust&&r of this Byproduct through washing. Prioritize this step the most.",
+      "<br/>",
+      "Using Distilled Water over Water cuts recipe duration in half, but it's also more difficult to produce."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_ore_washer"
+    },
+    "subtitle": {
+      "text": "Wash that mouth out"
+    },
+    "groups": {
+      "§7LV§r - Low Voltage": {
+        "position": [
+          48,
+          168
+        ]
+      }
+    }
+  }
+}

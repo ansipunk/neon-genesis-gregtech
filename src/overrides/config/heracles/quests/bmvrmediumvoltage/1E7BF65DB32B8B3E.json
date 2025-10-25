@@ -1,0 +1,49 @@
+{
+  "settings": {},
+  "dependencies": [
+    "315169840E06110F"
+  ],
+  "tasks": {
+    "40E0E6FD45AEC7B1": {
+      "type": "heracles:item",
+      "item": "gtceu:emerald_lens"
+    },
+    "2EACE2CF99B4B3D3": {
+      "type": "heracles:item",
+      "item": "gtceu:ram_wafer"
+    },
+    "28AC6209CFD8345C": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "gtceu:ram_chip"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Download more RAM",
+    "description": [
+      "<subtitle id=\"1E7BF65DB32B8B3E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"40E0E6FD45AEC7B1\" quest=\"1E7BF65DB32B8B3E\"/>",
+      "<task task=\"2EACE2CF99B4B3D3\" quest=\"1E7BF65DB32B8B3E\"/>",
+      "<task task=\"28AC6209CFD8345C\" quest=\"1E7BF65DB32B8B3E\"/>",
+      "<hr/>",
+      "&&aRandom Access Memory&&r is required for more advanced Electronic Components."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ram_chip"
+    },
+    "subtitle": {
+      "text": "Random Access Memories"
+    },
+    "groups": {
+      "§bMV§r - Medium Voltage": {
+        "position": [
+          180,
+          48
+        ]
+      }
+    }
+  }
+}

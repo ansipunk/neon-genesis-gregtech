@@ -1,0 +1,50 @@
+{
+  "settings": {},
+  "dependencies": [
+    "478B0D55369C0F7F"
+  ],
+  "tasks": {
+    "4BEA3166CD486845": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_steel_dust"
+    },
+    "6D93081E44DD9678": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_steel_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Tungstensteel",
+    "description": [
+      "<subtitle id=\"30A6EDDF25A5E5F8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"4BEA3166CD486845\" quest=\"30A6EDDF25A5E5F8\"/>",
+      "<task task=\"6D93081E44DD9678\" quest=\"30A6EDDF25A5E5F8\"/>",
+      "<hr/>",
+      "50% of &&aTungstensteel's&&r composition is Steel... suffice to say, you'll need large quantities of both &&aIron&&r and &&aTungsten&&r!",
+      "<br/>",
+      "Right now, &&aTungsten&&r is a crucial ingredient for the next tier of coils. You're one step closer to moving away from those pesky single block Generators!",
+      "<br/>",
+      "Boosting the smelting recipe in the &&3Electric Blast Furnace&&r will require &&eHelium&&r. You can get an initial supply from &&aextracting Monazite&&r or &&acentrifuging Endstone&&r.",
+      "<br/>",
+      "In the long term, you will want to get Helium via &&aLiquid Air Distillation&&r."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_steel_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "The main §9IV§r Material!"
+    },
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          216,
+          72
+        ]
+      }
+    }
+  }
+}

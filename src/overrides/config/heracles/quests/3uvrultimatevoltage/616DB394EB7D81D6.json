@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6DBF61D4F94BC851"
+  ],
+  "tasks": {
+    "665AC3D87C204E18": {
+      "type": "heracles:item",
+      "item": "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "UHV Superconductors",
+    "description": [
+      "<subtitle id=\"616DB394EB7D81D6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"665AC3D87C204E18\" quest=\"616DB394EB7D81D6\"/>",
+      "<hr/>",
+      "You probably don't even need these, but &&aUHV Superconductors&&r exist, and are used for a few things, which you also probably don't need...",
+      "<br/>",
+      "Craft these if you feel like flexing."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ruthenium_trinium_americium_neutronate_single_wire"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Is Neutronate even a real thing?"
+    },
+    "groups": {
+      "§3UV§r - Ultimate Voltage": {
+        "position": [
+          180,
+          -60
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "settings": {},
+  "dependencies": [
+    "48141DBA683F6B5A"
+  ],
+  "tasks": {
+    "1B0AD1105DEBBBC2": {
+      "type": "heracles:item",
+      "item": "gtceu:benzene_bucket"
+    },
+    "109534199B99AD2A": {
+      "type": "heracles:item",
+      "item": "gtceu:butadiene_bucket"
+    },
+    "33D42013817BF007": {
+      "type": "heracles:item",
+      "item": "gtceu:ethylene_bucket"
+    },
+    "0A3EED37CD163A73": {
+      "type": "heracles:item",
+      "item": "gtceu:methane_bucket"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "True Distillation: Fuel",
+    "description": [
+      "<task task=\"1B0AD1105DEBBBC2\" quest=\"46367A76755866D9\"/>",
+      "<task task=\"109534199B99AD2A\" quest=\"46367A76755866D9\"/>",
+      "<task task=\"33D42013817BF007\" quest=\"46367A76755866D9\"/>",
+      "<task task=\"0A3EED37CD163A73\" quest=\"46367A76755866D9\"/>",
+      "<hr/>",
+      "Here are the four most relevant &&dHydrocarbons&&r you will be obtaining from distilling Steam-Cracked Fuels.",
+      "<br/>",
+      "You will want to set this up &&lbefore&&r moving to &&1IV&&r.",
+      "<br/>",
+      "&&aSteam-Cracked Light Fuel&&r as input is probably the most favorable, but you are free to experiment.",
+      "<br/>",
+      "We know what you're thinking - something along the lines of \"&&7&&oThat Carbon output is just SO infuriating! It's ruining my automation!&&r\".",
+      "<br/>",
+      "Enable Item Voiding (in the controller GUI) if you don't want to build an Output Bus."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:oil_bucket"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "§5EV§r - Extreme Voltage": {
+        "position": [
+          72,
+          324
+        ]
+      }
+    }
+  }
+}

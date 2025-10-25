@@ -1,0 +1,51 @@
+{
+  "settings": {},
+  "dependencies": [
+    "41D32C5178760F47"
+  ],
+  "tasks": {
+    "30446661E519BD77": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_scheelite"
+    },
+    "05FE206449587AFC": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_tungstate"
+    },
+    "568AE4406565E837": {
+      "type": "heracles:item",
+      "item": "gtceu:raw_lithium"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Scheelite",
+    "description": [
+      "<subtitle id=\"5AA98D1298FD90BA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"30446661E519BD77\" quest=\"5AA98D1298FD90BA\"/>",
+      "<task task=\"05FE206449587AFC\" quest=\"5AA98D1298FD90BA\"/>",
+      "<task task=\"568AE4406565E837\" quest=\"5AA98D1298FD90BA\"/>",
+      "<hr/>",
+      "Your one and only &&9Tungsten&&r source! Whilst you could technically get your Tungstate from macerating &&eEnd Stone,&&r the yield is tiny. Process these ores instead!",
+      "<br/>",
+      "An extremely important vein, as Tungsten is used in vast amounts in &&9IV&&r and onwards."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:endstone_scheelite_ore"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Source of Tungsten, Lithium"
+    },
+    "groups": {
+      "Ore Generation": {
+        "position": [
+          320,
+          144
+        ]
+      }
+    }
+  }
+}

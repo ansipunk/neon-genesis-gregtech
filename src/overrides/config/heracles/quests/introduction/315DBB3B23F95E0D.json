@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "45969FFBF88F4FBB"
+  ],
+  "tasks": {
+    "39AEA2923971A2B5": {
+      "type": "heracles:item",
+      "amount": 24,
+      "item": "gtceu:bronze_ingot"
+    }
+  },
+  "rewards": {
+    "5F229B651404DF0E": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:clay_ball",
+        "count": 32
+      }
+    }
+  },
+  "display": {
+    "title": "Bronze Age? No, §6Steam Age§r!",
+    "description": [
+      "<subtitle id=\"315DBB3B23F95E0D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"39AEA2923971A2B5\" quest=\"315DBB3B23F95E0D\"/>",
+      "<hr/>",
+      "&&6Bronze&&r is an &&2alloy&&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &&o\"&&dMore Tools&&r&&o\"&&r quest.",
+      "<br/>",
+      "Don't spend your entire supply of Copper and Tin on Bronze right now! You'll soon be able to get a better ratio for your Bronze.",
+      "<br/>",
+      "&&6&&lThe progression now continues in the Steam Age chapter.&&r",
+      "<br/>",
+      "&&l&&3Lore:&&r&&o Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here (and in most of modded Minecraft) this is &&4not&&f the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &&eno realism here&&f.",
+      "<hr/>",
+      "<reward reward=\"5F229B651404DF0E\" quest=\"315DBB3B23F95E0D\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_ingot"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "subtitle": {
+      "text": "Humanity's first alloy - and yours too!"
+    },
+    "groups": {
+      "Introduction": {
+        "position": [
+          168,
+          -48
+        ]
+      }
+    }
+  }
+}

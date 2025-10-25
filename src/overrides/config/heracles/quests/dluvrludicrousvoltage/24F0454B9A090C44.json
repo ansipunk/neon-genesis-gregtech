@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "dependencies": [
+    "378F0AFCF95354B2"
+  ],
+  "tasks": {
+    "16895659E44B65B5": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadah_alloy_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Naquadah Alloy",
+    "description": [
+      "<subtitle id=\"24F0454B9A090C44\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"16895659E44B65B5\" quest=\"24F0454B9A090C44\"/>",
+      "<hr/>",
+      "This is the main material for &&cZPM&&r. Having this in stock will be a test of your Platinum processing, so this is a &&6pre-emptive warning&&r to stay on top of mining PGS-bearing ore.",
+      "<br/>",
+      "Prepare to make lots... after you make &&9Fusion&&r and &&9Crystal Circuits&&r. Tackle those before you try making this."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:naquadah_alloy_ingot"
+    },
+    "subtitle": {
+      "text": "Stargate's Strongest"
+    },
+    "groups": {
+      "§dLuV§r - Ludicrous Voltage": {
+        "position": [
+          0,
+          72
+        ]
+      }
+    }
+  }
+}

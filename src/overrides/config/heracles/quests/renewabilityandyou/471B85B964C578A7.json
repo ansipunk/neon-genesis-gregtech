@@ -1,0 +1,41 @@
+{
+  "settings": {},
+  "dependencies": [
+    "10FD7C65FC83ADD6"
+  ],
+  "tasks": {
+    "71A450692F1DC98D": {
+      "type": "heracles:item",
+      "item": "minecraft:glass"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:glass",
+    "description": [
+      "<subtitle id=\"471B85B964C578A7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"71A450692F1DC98D\" quest=\"471B85B964C578A7\"/>",
+      "<hr/>",
+      "Yup - &&brenewable&&r Glass.",
+      "<br/>",
+      "Glass'll always be useful throughout your playthrough in a variety of recipes."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:glass"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "subtitle": {
+      "text": "Glass Hurts, doesn't it..."
+    },
+    "groups": {
+      "Renewability and You": {
+        "position": [
+          0,
+          -116
+        ]
+      }
+    }
+  }
+}
