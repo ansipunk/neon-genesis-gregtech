@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "0.1.0",
+  "versionId": "0.1.1",
   "name": "Neon Genesis GregTech",
   "summary": "A modpack based on GregTech Modern Community Modpack, but with CurseForge mods replaced with Modrinth alternatives.",
   "files": [
@@ -87,8 +87,8 @@
         "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
       },
       "env": {
-        "server": "required",
-        "client": "unsupported"
+        "server": "unsupported",
+        "client": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar"
