@@ -2,7 +2,26 @@
   "dependencies": [
     "2001CB4968D3E0A2"
   ],
-  "tasks": {},
+  "tasks": {
+    "616556ECE4DB6103": {
+      "amount": 1,
+      "tasks": {
+        "80d4e5d2-088e-4848-98a9-182c4006618c": {
+          "type": "heracles:item",
+          "item": "minecraft:copper_ingot",
+          "amount": 32,
+          "collection": "AUTOMATIC"
+        },
+        "4b80df76-61b8-4409-8e0e-e7583e0872e1": {
+          "type": "heracles:item",
+          "item": "gtceu:tin_ingot",
+          "amount": 32,
+          "collection": "AUTOMATIC"
+        },
+      },
+      "type": "heracles:composite"
+    }
+  },
   "rewards": {
     "2C28FA1A5275D24E": {
       "amount": 1,
